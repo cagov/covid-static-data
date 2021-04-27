@@ -1,0 +1,19 @@
+name: Upload To Azure Blob Storage
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  changes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: StateOfCalifornia/azblob-upload-artifact@master     
+        with:
+          connection-string: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
+          container: '$web'
+          name: .
+          path: ${{ github.workspace }}/data/chart-sandbox/**
+          cleanup: false
+          sync: false       
