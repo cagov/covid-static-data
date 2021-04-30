@@ -2,7 +2,7 @@ name: Upload changed files To Azure Blob Storage
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   changes:
