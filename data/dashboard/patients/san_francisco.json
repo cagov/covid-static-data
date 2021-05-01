@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-04-30",
+    "PUBLISHED_DATE": "2021-05-01",
     "coverage": "San Francisco"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 23,
-        "CHANGE": -8,
-        "CHANGE_FACTOR": -0.258065,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 892280
       },
       "ICU_PATIENTS": {
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-29"
+          "MAXIMUM": "2021-04-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-04-30",
+            "VALUE": 23
+          },
           {
             "DATE": "2021-04-29",
             "VALUE": 23
@@ -1614,9 +1618,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-29"
+          "MAXIMUM": "2021-04-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-04-30",
+            "VALUE": 8
+          },
           {
             "DATE": "2021-04-29",
             "VALUE": 8
@@ -3206,9 +3214,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-29"
+          "MAXIMUM": "2021-04-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-04-30",
+            "VALUE": 29.571
+          },
           {
             "DATE": "2021-04-29",
             "VALUE": 29.928
@@ -4798,9 +4810,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-29"
+          "MAXIMUM": "2021-04-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-04-30",
+            "VALUE": 11.642
+          },
           {
             "DATE": "2021-04-29",
             "VALUE": 12
