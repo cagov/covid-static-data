@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-04-30",
+    "PUBLISHED_DATE": "2021-05-01",
     "coverage": "Kern"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 36,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.052632,
+        "TOTAL": 28,
+        "CHANGE": -8,
+        "CHANGE_FACTOR": -0.222222,
         "POPULATION": 927251
       },
       "ICU_PATIENTS": {
         "TOTAL": 6,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.25,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 927251
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-29"
+          "MAXIMUM": "2021-04-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-04-30",
+            "VALUE": 28
+          },
           {
             "DATE": "2021-04-29",
             "VALUE": 36
@@ -1614,9 +1618,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-29"
+          "MAXIMUM": "2021-04-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-04-30",
+            "VALUE": 6
+          },
           {
             "DATE": "2021-04-29",
             "VALUE": 6
@@ -3206,9 +3214,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-29"
+          "MAXIMUM": "2021-04-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-04-30",
+            "VALUE": 32.214
+          },
           {
             "DATE": "2021-04-29",
             "VALUE": 32.571
@@ -4798,9 +4810,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-29"
+          "MAXIMUM": "2021-04-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-04-30",
+            "VALUE": 6.857
+          },
           {
             "DATE": "2021-04-29",
             "VALUE": 6.928
