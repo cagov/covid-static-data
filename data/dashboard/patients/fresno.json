@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-01",
+    "PUBLISHED_DATE": "2021-05-02",
     "coverage": "Fresno"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 99,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.019802,
+        "TOTAL": 96,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.030303,
         "POPULATION": 1032227
       },
       "ICU_PATIENTS": {
         "TOTAL": 21,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.05,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 1032227
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-30"
+          "MAXIMUM": "2021-05-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-01",
+            "VALUE": 96
+          },
           {
             "DATE": "2021-04-30",
             "VALUE": 99
@@ -1618,9 +1622,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-30"
+          "MAXIMUM": "2021-05-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-01",
+            "VALUE": 21
+          },
           {
             "DATE": "2021-04-30",
             "VALUE": 21
@@ -3214,9 +3222,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-30"
+          "MAXIMUM": "2021-05-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-01",
+            "VALUE": 107.142
+          },
           {
             "DATE": "2021-04-30",
             "VALUE": 108.642
@@ -4810,9 +4822,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-30"
+          "MAXIMUM": "2021-05-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-01",
+            "VALUE": 21.857
+          },
           {
             "DATE": "2021-04-30",
             "VALUE": 21.571

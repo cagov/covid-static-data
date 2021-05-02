@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-01",
+    "PUBLISHED_DATE": "2021-05-02",
     "coverage": "Los Angeles"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 507,
-        "CHANGE": 11,
-        "CHANGE_FACTOR": 0.022177,
+        "TOTAL": 480,
+        "CHANGE": -27,
+        "CHANGE_FACTOR": -0.053254,
         "POPULATION": 10257557
       },
       "ICU_PATIENTS": {
-        "TOTAL": 101,
-        "CHANGE": 4,
-        "CHANGE_FACTOR": 0.041237,
+        "TOTAL": 100,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.009901,
         "POPULATION": 10257557
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-30"
+          "MAXIMUM": "2021-05-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-01",
+            "VALUE": 480
+          },
           {
             "DATE": "2021-04-30",
             "VALUE": 507
@@ -1618,9 +1622,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-30"
+          "MAXIMUM": "2021-05-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-01",
+            "VALUE": 100
+          },
           {
             "DATE": "2021-04-30",
             "VALUE": 101
@@ -3214,9 +3222,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-30"
+          "MAXIMUM": "2021-05-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-01",
+            "VALUE": 521.071
+          },
           {
             "DATE": "2021-04-30",
             "VALUE": 527
@@ -4810,9 +4822,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-04-30"
+          "MAXIMUM": "2021-05-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-01",
+            "VALUE": 111.785
+          },
           {
             "DATE": "2021-04-30",
             "VALUE": 113.357
