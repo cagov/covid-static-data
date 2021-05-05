@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-04",
+    "PUBLISHED_DATE": "2021-05-05",
     "coverage": "Shasta"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 197,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
+        "total_confirmed_deaths": 198,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.005076,
         "deaths_per_100k_7_days": 0.079808908,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-04-12",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-04-13",
         "POPULATION": 177925
       }
     },
@@ -18,9 +18,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-03"
+          "MAXIMUM": "2021-05-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-04",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-05-03",
             "VALUE": 0
@@ -39,7 +43,7 @@
           },
           {
             "DATE": "2021-04-29",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-04-28",
@@ -83,7 +87,7 @@
           },
           {
             "DATE": "2021-04-18",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-04-17",
@@ -1742,9 +1746,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-03"
+          "MAXIMUM": "2021-05-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-04",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-05-03",
             "VALUE": 0
@@ -3466,28 +3474,32 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-03"
+          "MAXIMUM": "2021-05-04"
         },
         "VALUES": [
           {
+            "DATE": "2021-05-04",
+            "VALUE": 0.079808908
+          },
+          {
             "DATE": "2021-05-03",
-            "VALUE": 0
+            "VALUE": 0.079808908
           },
           {
             "DATE": "2021-05-02",
-            "VALUE": 0
+            "VALUE": 0.079808908
           },
           {
             "DATE": "2021-05-01",
-            "VALUE": 0
+            "VALUE": 0.079808908
           },
           {
             "DATE": "2021-04-30",
-            "VALUE": 0
+            "VALUE": 0.079808908
           },
           {
             "DATE": "2021-04-29",
-            "VALUE": 0
+            "VALUE": 0.079808908
           },
           {
             "DATE": "2021-04-28",
@@ -3507,31 +3519,31 @@
           },
           {
             "DATE": "2021-04-24",
-            "VALUE": 0.079808908
+            "VALUE": 0.160179851
           },
           {
             "DATE": "2021-04-23",
-            "VALUE": 0.079808908
+            "VALUE": 0.160179851
           },
           {
             "DATE": "2021-04-22",
-            "VALUE": 0.079808908
+            "VALUE": 0.160179851
           },
           {
             "DATE": "2021-04-21",
-            "VALUE": 0.079808908
+            "VALUE": 0.160179851
           },
           {
             "DATE": "2021-04-20",
-            "VALUE": 0.079808908
+            "VALUE": 0.160179851
           },
           {
             "DATE": "2021-04-19",
-            "VALUE": 0
+            "VALUE": 0.079808908
           },
           {
             "DATE": "2021-04-18",
-            "VALUE": 0
+            "VALUE": 0.079808908
           },
           {
             "DATE": "2021-04-17",
@@ -5190,9 +5202,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-03"
+          "MAXIMUM": "2021-05-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-04",
+            "VALUE": 0.481663622
+          },
           {
             "DATE": "2021-05-03",
             "VALUE": 0.401292679
