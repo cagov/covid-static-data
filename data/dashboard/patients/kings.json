@@ -1,6 +1,6 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-04",
+    "PUBLISHED_DATE": "2021-05-05",
     "coverage": "Kings"
   },
   "data": {
@@ -12,9 +12,9 @@
         "POPULATION": 156444
       },
       "ICU_PATIENTS": {
-        "TOTAL": 1,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 0,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -1,
         "POPULATION": 156444
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-03"
+          "MAXIMUM": "2021-05-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-04",
+            "VALUE": 4
+          },
           {
             "DATE": "2021-05-03",
             "VALUE": 4
@@ -1630,9 +1634,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-03"
+          "MAXIMUM": "2021-05-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-04",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-05-03",
             "VALUE": 1
@@ -3238,9 +3246,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-03"
+          "MAXIMUM": "2021-05-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-04",
+            "VALUE": 7
+          },
           {
             "DATE": "2021-05-03",
             "VALUE": 7.357
@@ -4846,9 +4858,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-03"
+          "MAXIMUM": "2021-05-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-04",
+            "VALUE": 0.071
+          },
           {
             "DATE": "2021-05-03",
             "VALUE": 0.071
