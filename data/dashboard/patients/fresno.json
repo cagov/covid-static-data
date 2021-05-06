@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-05",
+    "PUBLISHED_DATE": "2021-05-06",
     "coverage": "Fresno"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 95,
-        "CHANGE": 10,
-        "CHANGE_FACTOR": 0.117647,
+        "TOTAL": 93,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.021053,
         "POPULATION": 1032227
       },
       "ICU_PATIENTS": {
-        "TOTAL": 23,
-        "CHANGE": 4,
-        "CHANGE_FACTOR": 0.210526,
+        "TOTAL": 22,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.043478,
         "POPULATION": 1032227
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-04"
+          "MAXIMUM": "2021-05-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-05",
+            "VALUE": 93
+          },
           {
             "DATE": "2021-05-04",
             "VALUE": 95
@@ -1634,9 +1638,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-04"
+          "MAXIMUM": "2021-05-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-05",
+            "VALUE": 22
+          },
           {
             "DATE": "2021-05-04",
             "VALUE": 23
@@ -3246,9 +3254,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-04"
+          "MAXIMUM": "2021-05-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-05",
+            "VALUE": 102.428
+          },
           {
             "DATE": "2021-05-04",
             "VALUE": 103.785
@@ -4858,9 +4870,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-04"
+          "MAXIMUM": "2021-05-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-05",
+            "VALUE": 22.928
+          },
           {
             "DATE": "2021-05-04",
             "VALUE": 22.642
