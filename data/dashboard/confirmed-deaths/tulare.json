@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-06",
+    "PUBLISHED_DATE": "2021-05-07",
     "coverage": "Tulare"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 835,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
+        "total_confirmed_deaths": 836,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.001198,
         "deaths_per_100k_7_days": 0.088352535,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-04-14",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-04-15",
         "POPULATION": 484423
       }
     },
@@ -18,9 +18,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-05"
+          "MAXIMUM": "2021-05-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-06",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-05-05",
             "VALUE": 0
@@ -59,7 +63,7 @@
           },
           {
             "DATE": "2021-04-26",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-04-25",
@@ -1750,9 +1754,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-05"
+          "MAXIMUM": "2021-05-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-06",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-05-05",
             "VALUE": 0
@@ -3482,9 +3490,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-05"
+          "MAXIMUM": "2021-05-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-06",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-05-05",
             "VALUE": 0
@@ -3499,31 +3511,31 @@
           },
           {
             "DATE": "2021-05-02",
-            "VALUE": 0
+            "VALUE": 0.029313224
           },
           {
             "DATE": "2021-05-01",
-            "VALUE": 0
+            "VALUE": 0.029313224
           },
           {
             "DATE": "2021-04-30",
-            "VALUE": 0
+            "VALUE": 0.029313224
           },
           {
             "DATE": "2021-04-29",
-            "VALUE": 0.029313224
+            "VALUE": 0.05883288
           },
           {
             "DATE": "2021-04-28",
-            "VALUE": 0.029313224
+            "VALUE": 0.05883288
           },
           {
             "DATE": "2021-04-27",
-            "VALUE": 0.029313224
+            "VALUE": 0.05883288
           },
           {
             "DATE": "2021-04-26",
-            "VALUE": 0.029313224
+            "VALUE": 0.05883288
           },
           {
             "DATE": "2021-04-25",
@@ -5214,9 +5226,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-05"
+          "MAXIMUM": "2021-05-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-06",
+            "VALUE": 0.11787219
+          },
           {
             "DATE": "2021-05-05",
             "VALUE": 0.088352535
