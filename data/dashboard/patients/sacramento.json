@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-07",
+    "PUBLISHED_DATE": "2021-05-08",
     "coverage": "Sacramento"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 106,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.009524,
+        "TOTAL": 101,
+        "CHANGE": -5,
+        "CHANGE_FACTOR": -0.04717,
         "POPULATION": 1567975
       },
       "ICU_PATIENTS": {
-        "TOTAL": 25,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 21,
+        "CHANGE": -4,
+        "CHANGE_FACTOR": -0.16,
         "POPULATION": 1567975
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-06"
+          "MAXIMUM": "2021-05-07"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-07",
+            "VALUE": 101
+          },
           {
             "DATE": "2021-05-06",
             "VALUE": 106
@@ -1642,9 +1646,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-06"
+          "MAXIMUM": "2021-05-07"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-07",
+            "VALUE": 21
+          },
           {
             "DATE": "2021-05-06",
             "VALUE": 25
@@ -3262,9 +3270,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-06"
+          "MAXIMUM": "2021-05-07"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-07",
+            "VALUE": 109.571
+          },
           {
             "DATE": "2021-05-06",
             "VALUE": 110.357
@@ -4882,9 +4894,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-06"
+          "MAXIMUM": "2021-05-07"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-07",
+            "VALUE": 23.5
+          },
           {
             "DATE": "2021-05-06",
             "VALUE": 23.785
