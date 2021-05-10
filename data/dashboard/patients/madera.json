@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-09",
+    "PUBLISHED_DATE": "2021-05-10",
     "coverage": "Madera"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 10,
-        "CHANGE": -6,
-        "CHANGE_FACTOR": -0.375,
+        "TOTAL": 20,
+        "CHANGE": 10,
+        "CHANGE_FACTOR": 1,
         "POPULATION": 160089
       },
       "ICU_PATIENTS": {
         "TOTAL": 3,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.5,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 160089
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-08"
+          "MAXIMUM": "2021-05-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-09",
+            "VALUE": 20
+          },
           {
             "DATE": "2021-05-08",
             "VALUE": 10
@@ -1650,9 +1654,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-08"
+          "MAXIMUM": "2021-05-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-09",
+            "VALUE": 3
+          },
           {
             "DATE": "2021-05-08",
             "VALUE": 3
@@ -3278,9 +3286,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-08"
+          "MAXIMUM": "2021-05-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-09",
+            "VALUE": 14
+          },
           {
             "DATE": "2021-05-08",
             "VALUE": 13.642
@@ -4906,9 +4918,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-08"
+          "MAXIMUM": "2021-05-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-09",
+            "VALUE": 2.142
+          },
           {
             "DATE": "2021-05-08",
             "VALUE": 2.071
