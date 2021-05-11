@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-10",
+    "PUBLISHED_DATE": "2021-05-11",
     "coverage": "Shasta"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 12034,
-        "new_cases": 4,
-        "new_cases_delta_1_day": 0.000333,
-        "cases_per_100k_7_days": 8.831811156,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-05-02",
+        "total_confirmed_cases": 12036,
+        "new_cases": 2,
+        "new_cases_delta_1_day": 0.000166,
+        "cases_per_100k_7_days": 10.116622172,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-05-03",
         "POPULATION": 177925
       }
     },
@@ -18,12 +18,16 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-09"
+          "MAXIMUM": "2021-05-10"
         },
         "VALUES": [
           {
-            "DATE": "2021-05-09",
+            "DATE": "2021-05-10",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-05-09",
+            "VALUE": 1
           },
           {
             "DATE": "2021-05-08",
@@ -31,11 +35,11 @@
           },
           {
             "DATE": "2021-05-07",
-            "VALUE": 8
+            "VALUE": 9
           },
           {
             "DATE": "2021-05-06",
-            "VALUE": 17
+            "VALUE": 18
           },
           {
             "DATE": "2021-05-05",
@@ -515,7 +519,7 @@
           },
           {
             "DATE": "2021-01-06",
-            "VALUE": 107
+            "VALUE": 106
           },
           {
             "DATE": "2021-01-05",
@@ -1766,9 +1770,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-09"
+          "MAXIMUM": "2021-05-10"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-10",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-05-09",
             "VALUE": 4
@@ -3514,24 +3522,28 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-09"
+          "MAXIMUM": "2021-05-10"
         },
         "VALUES": [
           {
+            "DATE": "2021-05-10",
+            "VALUE": 5.058311086
+          },
+          {
             "DATE": "2021-05-09",
-            "VALUE": 7.466629198
+            "VALUE": 7.707742026
           },
           {
             "DATE": "2021-05-08",
-            "VALUE": 8.510327385
+            "VALUE": 8.671069271
           },
           {
             "DATE": "2021-05-07",
-            "VALUE": 9.955880287
+            "VALUE": 10.116622172
           },
           {
             "DATE": "2021-05-06",
-            "VALUE": 10.357172966
+            "VALUE": 10.437543909
           },
           {
             "DATE": "2021-05-05",
@@ -3987,31 +3999,31 @@
           },
           {
             "DATE": "2021-01-12",
-            "VALUE": 44.721652382
+            "VALUE": 44.641281439
           },
           {
             "DATE": "2021-01-11",
-            "VALUE": 45.36405789
+            "VALUE": 45.283686947
           },
           {
             "DATE": "2021-01-10",
-            "VALUE": 46.809048756
+            "VALUE": 46.728677814
           },
           {
             "DATE": "2021-01-09",
-            "VALUE": 49.378670788
+            "VALUE": 49.298299845
           },
           {
             "DATE": "2021-01-08",
-            "VALUE": 51.867359843
+            "VALUE": 51.7869889
           },
           {
             "DATE": "2021-01-07",
-            "VALUE": 50.100885204
+            "VALUE": 50.021076296
           },
           {
             "DATE": "2021-01-06",
-            "VALUE": 53.473092595
+            "VALUE": 53.393283687
           },
           {
             "DATE": "2021-01-05",
@@ -5262,9 +5274,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-09"
+          "MAXIMUM": "2021-05-10"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-10",
+            "VALUE": 11.722354925
+          },
           {
             "DATE": "2021-05-09",
             "VALUE": 11.962905719
