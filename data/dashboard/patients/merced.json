@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-11",
+    "PUBLISHED_DATE": "2021-05-12",
     "coverage": "Merced"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 9,
-        "CHANGE": 6,
-        "CHANGE_FACTOR": 2,
+        "TOTAL": 5,
+        "CHANGE": -4,
+        "CHANGE_FACTOR": -0.444444,
         "POPULATION": 287420
       },
       "ICU_PATIENTS": {
-        "TOTAL": 2,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 3,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.5,
         "POPULATION": 287420
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-10"
+          "MAXIMUM": "2021-05-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-11",
+            "VALUE": 5
+          },
           {
             "DATE": "2021-05-10",
             "VALUE": 9
@@ -1658,9 +1662,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-10"
+          "MAXIMUM": "2021-05-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-11",
+            "VALUE": 3
+          },
           {
             "DATE": "2021-05-10",
             "VALUE": 2
@@ -3294,9 +3302,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-10"
+          "MAXIMUM": "2021-05-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-11",
+            "VALUE": 10.214
+          },
           {
             "DATE": "2021-05-10",
             "VALUE": 10.857
@@ -4930,9 +4942,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-10"
+          "MAXIMUM": "2021-05-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-11",
+            "VALUE": 2.428
+          },
           {
             "DATE": "2021-05-10",
             "VALUE": 2.357

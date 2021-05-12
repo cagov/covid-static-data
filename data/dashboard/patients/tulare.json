@@ -1,19 +1,19 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-11",
+    "PUBLISHED_DATE": "2021-05-12",
     "coverage": "Tulare"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 24,
-        "CHANGE": 9,
-        "CHANGE_FACTOR": 0.6,
+        "TOTAL": 21,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.125,
         "POPULATION": 484423
       },
       "ICU_PATIENTS": {
         "TOTAL": 1,
-        "CHANGE": 1,
+        "CHANGE": 0,
         "CHANGE_FACTOR": 0,
         "POPULATION": 484423
       }
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-10"
+          "MAXIMUM": "2021-05-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-11",
+            "VALUE": 21
+          },
           {
             "DATE": "2021-05-10",
             "VALUE": 24
@@ -1658,9 +1662,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-10"
+          "MAXIMUM": "2021-05-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-11",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-05-10",
             "VALUE": 1
@@ -3294,9 +3302,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-10"
+          "MAXIMUM": "2021-05-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-11",
+            "VALUE": 21.285
+          },
           {
             "DATE": "2021-05-10",
             "VALUE": 21.642
@@ -4930,9 +4942,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-10"
+          "MAXIMUM": "2021-05-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-11",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-05-10",
             "VALUE": 2.142
