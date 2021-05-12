@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-11",
+    "PUBLISHED_DATE": "2021-05-12",
     "coverage": "Santa Cruz"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 8,
-        "CHANGE": -5,
-        "CHANGE_FACTOR": -0.384615,
+        "TOTAL": 10,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.25,
         "POPULATION": 273999
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-10"
+          "MAXIMUM": "2021-05-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-11",
+            "VALUE": 10
+          },
           {
             "DATE": "2021-05-10",
             "VALUE": 8
