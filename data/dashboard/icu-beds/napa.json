@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-14",
+    "PUBLISHED_DATE": "2021-05-15",
     "coverage": "Napa"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 5,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 1,
+        "CHANGE": -4,
+        "CHANGE_FACTOR": -0.8,
         "POPULATION": 139652
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-13"
+          "MAXIMUM": "2021-05-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-14",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-05-13",
             "VALUE": 5
