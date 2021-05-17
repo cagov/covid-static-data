@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-16",
+    "PUBLISHED_DATE": "2021-05-17",
     "coverage": "Santa Clara"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 2016,
-        "new_deaths": 2,
-        "new_deaths_delta_1_day": 0.000993,
-        "deaths_per_100k_7_days": 0.087111866,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-04-24",
+        "total_confirmed_deaths": 2015,
+        "new_deaths": -1,
+        "new_deaths_delta_1_day": -0.000496,
+        "deaths_per_100k_7_days": 0.07257628,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-04-25",
         "POPULATION": 1967585
       }
     },
@@ -18,9 +18,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-15"
+          "MAXIMUM": "2021-05-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-16",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-05-15",
             "VALUE": 0
@@ -359,7 +363,7 @@
           },
           {
             "DATE": "2021-02-20",
-            "VALUE": 12
+            "VALUE": 11
           },
           {
             "DATE": "2021-02-19",
@@ -1790,9 +1794,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-15"
+          "MAXIMUM": "2021-05-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-16",
+            "VALUE": -1
+          },
           {
             "DATE": "2021-05-15",
             "VALUE": 2
@@ -3562,9 +3570,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-15"
+          "MAXIMUM": "2021-05-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-16",
+            "VALUE": 0.007216969
+          },
           {
             "DATE": "2021-05-15",
             "VALUE": 0.007216969
@@ -3879,31 +3891,31 @@
           },
           {
             "DATE": "2021-02-26",
-            "VALUE": 0.37025084
+            "VALUE": 0.362983048
           },
           {
             "DATE": "2021-02-25",
-            "VALUE": 0.348498286
+            "VALUE": 0.341230493
           },
           {
             "DATE": "2021-02-24",
-            "VALUE": 0.384786426
+            "VALUE": 0.377518633
           },
           {
             "DATE": "2021-02-23",
-            "VALUE": 0.413806773
+            "VALUE": 0.406589804
           },
           {
             "DATE": "2021-02-22",
-            "VALUE": 0.399322012
+            "VALUE": 0.392054219
           },
           {
             "DATE": "2021-02-21",
-            "VALUE": 0.435610152
+            "VALUE": 0.428342359
           },
           {
             "DATE": "2021-02-20",
-            "VALUE": 0.45741353
+            "VALUE": 0.450145737
           },
           {
             "DATE": "2021-02-19",
@@ -5334,9 +5346,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-15"
+          "MAXIMUM": "2021-05-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-16",
+            "VALUE": 0.087111866
+          },
           {
             "DATE": "2021-05-15",
             "VALUE": 0.094379658
