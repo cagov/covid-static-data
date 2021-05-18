@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-17",
+    "PUBLISHED_DATE": "2021-05-18",
     "coverage": "Yuba"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
         "total_confirmed_cases": 5987,
-        "new_cases": 8,
-        "new_cases_delta_1_day": 0.001338,
-        "cases_per_100k_7_days": 9.728843486,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-05-09",
+        "new_cases": 0,
+        "new_cases_delta_1_day": 0,
+        "cases_per_100k_7_days": 9.007441039,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-05-10",
         "POPULATION": 79290
       }
     },
@@ -18,9 +18,13 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-16"
+          "MAXIMUM": "2021-05-17"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-17",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-05-16",
             "VALUE": 0
@@ -1794,9 +1798,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-16"
+          "MAXIMUM": "2021-05-17"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-17",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-05-16",
             "VALUE": 8
@@ -3570,9 +3578,13 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-16"
+          "MAXIMUM": "2021-05-17"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-17",
+            "VALUE": 4.143019296
+          },
           {
             "DATE": "2021-05-16",
             "VALUE": 5.223861773
@@ -5346,9 +5358,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-16"
+          "MAXIMUM": "2021-05-17"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-17",
+            "VALUE": 8.106949174
+          },
           {
             "DATE": "2021-05-16",
             "VALUE": 9.548492874
