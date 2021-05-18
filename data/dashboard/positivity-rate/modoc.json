@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-17",
+    "PUBLISHED_DATE": "2021-05-18",
     "coverage": "Modoc"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
         "test_positivity_7_days": 0,
-        "test_positivity_7_days_delta_7_days": -0.045455,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-05-08",
+        "test_positivity_7_days_delta_7_days": -0.044444,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-05-09",
         "POPULATION": 9475
       }
     },
@@ -16,9 +16,13 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-15"
+          "MAXIMUM": "2021-05-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-16",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-05-15",
             "VALUE": 0
@@ -1788,16 +1792,20 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-15"
+          "MAXIMUM": "2021-05-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-16",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-05-15",
             "VALUE": 0
           },
           {
             "DATE": "2021-05-14",
-            "VALUE": 2
+            "VALUE": 5
           },
           {
             "DATE": "2021-05-13",
