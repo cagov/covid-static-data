@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-18",
+    "PUBLISHED_DATE": "2021-05-19",
     "coverage": "Stanislaus"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 94,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 82,
+        "CHANGE": -12,
+        "CHANGE_FACTOR": -0.12766,
         "POPULATION": 562303
       },
       "ICU_PATIENTS": {
-        "TOTAL": 18,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.058824,
+        "TOTAL": 15,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.166667,
         "POPULATION": 562303
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-17"
+          "MAXIMUM": "2021-05-18"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-18",
+            "VALUE": 82
+          },
           {
             "DATE": "2021-05-17",
             "VALUE": 94
@@ -1686,9 +1690,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-17"
+          "MAXIMUM": "2021-05-18"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-18",
+            "VALUE": 15
+          },
           {
             "DATE": "2021-05-17",
             "VALUE": 18
@@ -3350,9 +3358,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-17"
+          "MAXIMUM": "2021-05-18"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-18",
+            "VALUE": 103.5
+          },
           {
             "DATE": "2021-05-17",
             "VALUE": 106.928
@@ -5014,9 +5026,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-17"
+          "MAXIMUM": "2021-05-18"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-18",
+            "VALUE": 22.285
+          },
           {
             "DATE": "2021-05-17",
             "VALUE": 23.214
