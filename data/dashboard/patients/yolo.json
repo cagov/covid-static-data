@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-19",
+    "PUBLISHED_DATE": "2021-05-20",
     "coverage": "Yolo"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 1,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.5,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 223612
       },
       "ICU_PATIENTS": {
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-18"
+          "MAXIMUM": "2021-05-19"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-19",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-05-18",
             "VALUE": 1
@@ -1690,9 +1694,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-18"
+          "MAXIMUM": "2021-05-19"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-19",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-05-18",
             "VALUE": 0
@@ -3358,9 +3366,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-18"
+          "MAXIMUM": "2021-05-19"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-19",
+            "VALUE": 3.214
+          },
           {
             "DATE": "2021-05-18",
             "VALUE": 3.428
@@ -5026,9 +5038,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-18"
+          "MAXIMUM": "2021-05-19"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-19",
+            "VALUE": 0.571
+          },
           {
             "DATE": "2021-05-18",
             "VALUE": 0.571
