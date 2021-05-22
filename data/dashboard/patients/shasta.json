@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-21",
+    "PUBLISHED_DATE": "2021-05-22",
     "coverage": "Shasta"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 13,
+        "TOTAL": 14,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 0.083333,
+        "CHANGE_FACTOR": 0.076923,
         "POPULATION": 177925
       },
       "ICU_PATIENTS": {
-        "TOTAL": 1,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 2,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 1,
         "POPULATION": 177925
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-20"
+          "MAXIMUM": "2021-05-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-21",
+            "VALUE": 14
+          },
           {
             "DATE": "2021-05-20",
             "VALUE": 13
@@ -1698,9 +1702,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-20"
+          "MAXIMUM": "2021-05-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-21",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-05-20",
             "VALUE": 1
@@ -3374,9 +3382,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-20"
+          "MAXIMUM": "2021-05-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-21",
+            "VALUE": 10.571
+          },
           {
             "DATE": "2021-05-20",
             "VALUE": 10.357
@@ -5050,9 +5062,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-20"
+          "MAXIMUM": "2021-05-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-21",
+            "VALUE": 2.214
+          },
           {
             "DATE": "2021-05-20",
             "VALUE": 2.428
