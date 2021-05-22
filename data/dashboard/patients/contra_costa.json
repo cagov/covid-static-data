@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-21",
+    "PUBLISHED_DATE": "2021-05-22",
     "coverage": "Contra Costa"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 30,
+        "TOTAL": 25,
         "CHANGE": -5,
-        "CHANGE_FACTOR": -0.142857,
+        "CHANGE_FACTOR": -0.166667,
         "POPULATION": 1160099
       },
       "ICU_PATIENTS": {
-        "TOTAL": 10,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 9,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.1,
         "POPULATION": 1160099
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-20"
+          "MAXIMUM": "2021-05-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-21",
+            "VALUE": 25
+          },
           {
             "DATE": "2021-05-20",
             "VALUE": 30
@@ -1698,9 +1702,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-20"
+          "MAXIMUM": "2021-05-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-21",
+            "VALUE": 9
+          },
           {
             "DATE": "2021-05-20",
             "VALUE": 10
@@ -3374,9 +3382,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-20"
+          "MAXIMUM": "2021-05-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-21",
+            "VALUE": 39.785
+          },
           {
             "DATE": "2021-05-20",
             "VALUE": 40.928
@@ -5050,9 +5062,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-20"
+          "MAXIMUM": "2021-05-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-21",
+            "VALUE": 9.642
+          },
           {
             "DATE": "2021-05-20",
             "VALUE": 9.571
