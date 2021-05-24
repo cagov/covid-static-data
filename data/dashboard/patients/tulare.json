@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-23",
+    "PUBLISHED_DATE": "2021-05-24",
     "coverage": "Tulare"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 16,
-        "CHANGE": -5,
-        "CHANGE_FACTOR": -0.238095,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 484423
       },
       "ICU_PATIENTS": {
-        "TOTAL": 0,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -1,
+        "TOTAL": 1,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 484423
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-22"
+          "MAXIMUM": "2021-05-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-23",
+            "VALUE": 16
+          },
           {
             "DATE": "2021-05-22",
             "VALUE": 16
@@ -1706,9 +1710,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-22"
+          "MAXIMUM": "2021-05-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-23",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-05-22",
             "VALUE": 0
@@ -3390,9 +3398,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-22"
+          "MAXIMUM": "2021-05-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-23",
+            "VALUE": 19
+          },
           {
             "DATE": "2021-05-22",
             "VALUE": 18.928
@@ -5074,9 +5086,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-22"
+          "MAXIMUM": "2021-05-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-23",
+            "VALUE": 0.714
+          },
           {
             "DATE": "2021-05-22",
             "VALUE": 0.642

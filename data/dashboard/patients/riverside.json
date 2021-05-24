@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-23",
+    "PUBLISHED_DATE": "2021-05-24",
     "coverage": "Riverside"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 66,
-        "CHANGE": 17,
-        "CHANGE_FACTOR": 0.346939,
+        "TOTAL": 51,
+        "CHANGE": -15,
+        "CHANGE_FACTOR": -0.227273,
         "POPULATION": 2468145
       },
       "ICU_PATIENTS": {
-        "TOTAL": 8,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.142857,
+        "TOTAL": 7,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.125,
         "POPULATION": 2468145
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-22"
+          "MAXIMUM": "2021-05-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-23",
+            "VALUE": 51
+          },
           {
             "DATE": "2021-05-22",
             "VALUE": 66
@@ -1706,9 +1710,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-22"
+          "MAXIMUM": "2021-05-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-23",
+            "VALUE": 7
+          },
           {
             "DATE": "2021-05-22",
             "VALUE": 8
@@ -3390,9 +3398,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-22"
+          "MAXIMUM": "2021-05-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-23",
+            "VALUE": 77.071
+          },
           {
             "DATE": "2021-05-22",
             "VALUE": 80.785
@@ -5074,9 +5086,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-22"
+          "MAXIMUM": "2021-05-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-23",
+            "VALUE": 14.5
+          },
           {
             "DATE": "2021-05-22",
             "VALUE": 15.428
