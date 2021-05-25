@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-24",
+    "PUBLISHED_DATE": "2021-05-25",
     "coverage": "Santa Barbara"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 34319,
-        "new_cases": 6,
-        "new_cases_delta_1_day": 0.000175,
-        "cases_per_100k_7_days": 1.815400999,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-05-16",
+        "total_confirmed_cases": 34322,
+        "new_cases": 3,
+        "new_cases_delta_1_day": 0.000087,
+        "cases_per_100k_7_days": 1.533833071,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-05-17",
         "POPULATION": 456373
       }
     },
@@ -18,12 +18,16 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-23"
+          "MAXIMUM": "2021-05-24"
         },
         "VALUES": [
           {
-            "DATE": "2021-05-23",
+            "DATE": "2021-05-24",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-05-23",
+            "VALUE": 1
           },
           {
             "DATE": "2021-05-22",
@@ -31,7 +35,7 @@
           },
           {
             "DATE": "2021-05-21",
-            "VALUE": 3
+            "VALUE": 4
           },
           {
             "DATE": "2021-05-20",
@@ -39,7 +43,7 @@
           },
           {
             "DATE": "2021-05-19",
-            "VALUE": 5
+            "VALUE": 6
           },
           {
             "DATE": "2021-05-18",
@@ -1822,9 +1826,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-23"
+          "MAXIMUM": "2021-05-24"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-24",
+            "VALUE": 3
+          },
           {
             "DATE": "2021-05-23",
             "VALUE": 6
@@ -3626,28 +3634,32 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-23"
+          "MAXIMUM": "2021-05-24"
         },
         "VALUES": [
           {
+            "DATE": "2021-05-24",
+            "VALUE": 0.813808004
+          },
+          {
             "DATE": "2021-05-23",
-            "VALUE": 0.938924958
+            "VALUE": 1.032927014
           },
           {
             "DATE": "2021-05-22",
-            "VALUE": 1.095595051
+            "VALUE": 1.158043968
           },
           {
             "DATE": "2021-05-21",
-            "VALUE": 1.34582896
+            "VALUE": 1.408496997
           },
           {
             "DATE": "2021-05-20",
-            "VALUE": 1.471165034
+            "VALUE": 1.502499052
           },
           {
             "DATE": "2021-05-19",
-            "VALUE": 1.533833071
+            "VALUE": 1.56494797
           },
           {
             "DATE": "2021-05-18",
@@ -5430,9 +5442,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-23"
+          "MAXIMUM": "2021-05-24"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-24",
+            "VALUE": 1.471165034
+          },
           {
             "DATE": "2021-05-23",
             "VALUE": 1.533833071
