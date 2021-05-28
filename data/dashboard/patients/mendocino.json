@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-27",
+    "PUBLISHED_DATE": "2021-05-28",
     "coverage": "Mendocino"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 5,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 6,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.2,
         "POPULATION": 88439
       },
       "ICU_PATIENTS": {
-        "TOTAL": 4,
+        "TOTAL": 5,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 0.333333,
+        "CHANGE_FACTOR": 0.25,
         "POPULATION": 88439
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-26"
+          "MAXIMUM": "2021-05-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-27",
+            "VALUE": 6
+          },
           {
             "DATE": "2021-05-26",
             "VALUE": 5
@@ -1722,9 +1726,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-26"
+          "MAXIMUM": "2021-05-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-27",
+            "VALUE": 5
+          },
           {
             "DATE": "2021-05-26",
             "VALUE": 4
@@ -3422,9 +3430,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-26"
+          "MAXIMUM": "2021-05-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-27",
+            "VALUE": 4.071
+          },
           {
             "DATE": "2021-05-26",
             "VALUE": 3.785
@@ -5122,9 +5134,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-26"
+          "MAXIMUM": "2021-05-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-27",
+            "VALUE": 3.071
+          },
           {
             "DATE": "2021-05-26",
             "VALUE": 2.857
