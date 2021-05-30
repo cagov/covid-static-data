@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-05-29",
+    "PUBLISHED_DATE": "2021-05-30",
     "coverage": "Sacramento"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 85,
-        "CHANGE": 4,
-        "CHANGE_FACTOR": 0.049383,
+        "TOTAL": 74,
+        "CHANGE": -11,
+        "CHANGE_FACTOR": -0.129412,
         "POPULATION": 1567975
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-28"
+          "MAXIMUM": "2021-05-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-05-29",
+            "VALUE": 74
+          },
           {
             "DATE": "2021-05-28",
             "VALUE": 85
