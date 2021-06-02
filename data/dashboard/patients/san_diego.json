@@ -1,6 +1,6 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-01",
+    "PUBLISHED_DATE": "2021-06-02",
     "coverage": "San Diego"
   },
   "data": {
@@ -12,9 +12,9 @@
         "POPULATION": 3370418
       },
       "ICU_PATIENTS": {
-        "TOTAL": 44,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.073171,
+        "TOTAL": 45,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.022727,
         "POPULATION": 3370418
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-31"
+          "MAXIMUM": "2021-06-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-01",
+            "VALUE": 115
+          },
           {
             "DATE": "2021-05-31",
             "VALUE": 115
@@ -1742,9 +1746,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-31"
+          "MAXIMUM": "2021-06-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-01",
+            "VALUE": 45
+          },
           {
             "DATE": "2021-05-31",
             "VALUE": 44
@@ -3462,9 +3470,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-31"
+          "MAXIMUM": "2021-06-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-01",
+            "VALUE": 130.142
+          },
           {
             "DATE": "2021-05-31",
             "VALUE": 132.142
@@ -5182,9 +5194,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-05-31"
+          "MAXIMUM": "2021-06-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-01",
+            "VALUE": 42.857
+          },
           {
             "DATE": "2021-05-31",
             "VALUE": 43
