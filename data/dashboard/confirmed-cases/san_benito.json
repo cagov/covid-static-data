@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-01",
+    "PUBLISHED_DATE": "2021-06-02",
     "coverage": "San Benito"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 6072,
-        "new_cases": 0,
-        "new_cases_delta_1_day": 0,
+        "total_confirmed_cases": 6073,
+        "new_cases": 1,
+        "new_cases_delta_1_day": 0.000165,
         "cases_per_100k_7_days": 1.561963075,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-05-24",
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-05-25",
         "POPULATION": 64022
       }
     },
@@ -18,12 +18,16 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-31"
+          "MAXIMUM": "2021-06-01"
         },
         "VALUES": [
           {
-            "DATE": "2021-05-31",
+            "DATE": "2021-06-01",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-05-31",
+            "VALUE": 1
           },
           {
             "DATE": "2021-05-30",
@@ -1854,9 +1858,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-31"
+          "MAXIMUM": "2021-06-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-01",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-05-31",
             "VALUE": 0
@@ -3690,12 +3698,16 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-31"
+          "MAXIMUM": "2021-06-01"
         },
         "VALUES": [
           {
-            "DATE": "2021-05-31",
+            "DATE": "2021-06-01",
             "VALUE": 0.221798757
+          },
+          {
+            "DATE": "2021-05-31",
+            "VALUE": 0.445159476
           },
           {
             "DATE": "2021-05-30",
@@ -5526,9 +5538,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-31"
+          "MAXIMUM": "2021-06-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-01",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-05-31",
             "VALUE": 0

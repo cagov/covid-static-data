@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-01",
+    "PUBLISHED_DATE": "2021-06-02",
     "coverage": "Mendocino"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 3961,
-        "new_cases": 6,
-        "new_cases_delta_1_day": 0.001517,
-        "cases_per_100k_7_days": 6.460950486,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-05-24",
+        "total_confirmed_cases": 3966,
+        "new_cases": 5,
+        "new_cases_delta_1_day": 0.001262,
+        "cases_per_100k_7_days": 6.784337227,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-05-25",
         "POPULATION": 88439
       }
     },
@@ -18,20 +18,24 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-31"
+          "MAXIMUM": "2021-06-01"
         },
         "VALUES": [
           {
-            "DATE": "2021-05-31",
+            "DATE": "2021-06-01",
             "VALUE": 0
           },
           {
+            "DATE": "2021-05-31",
+            "VALUE": 2
+          },
+          {
             "DATE": "2021-05-30",
-            "VALUE": 6
+            "VALUE": 7
           },
           {
             "DATE": "2021-05-29",
-            "VALUE": 1
+            "VALUE": 3
           },
           {
             "DATE": "2021-05-28",
@@ -1854,9 +1858,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-31"
+          "MAXIMUM": "2021-06-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-01",
+            "VALUE": 5
+          },
           {
             "DATE": "2021-05-31",
             "VALUE": 6
@@ -3690,20 +3698,24 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-31"
+          "MAXIMUM": "2021-06-01"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-01",
+            "VALUE": 3.876118002
+          },
+          {
             "DATE": "2021-05-31",
-            "VALUE": 4.522891485
+            "VALUE": 5.330227615
           },
           {
             "DATE": "2021-05-30",
-            "VALUE": 5.653614356
+            "VALUE": 6.137563745
           },
           {
             "DATE": "2021-05-29",
-            "VALUE": 5.330227615
+            "VALUE": 5.653614356
           },
           {
             "DATE": "2021-05-28",
@@ -5526,9 +5538,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-05-31"
+          "MAXIMUM": "2021-06-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-01",
+            "VALUE": 6.137563745
+          },
           {
             "DATE": "2021-05-31",
             "VALUE": 6.784337227
