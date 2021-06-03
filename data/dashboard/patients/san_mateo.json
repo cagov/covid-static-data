@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-02",
+    "PUBLISHED_DATE": "2021-06-03",
     "coverage": "San Mateo"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 12,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.2,
+        "TOTAL": 17,
+        "CHANGE": 5,
+        "CHANGE_FACTOR": 0.416667,
         "POPULATION": 778001
       },
       "ICU_PATIENTS": {
-        "TOTAL": 3,
+        "TOTAL": 4,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 0.5,
+        "CHANGE_FACTOR": 0.333333,
         "POPULATION": 778001
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-01"
+          "MAXIMUM": "2021-06-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-02",
+            "VALUE": 17
+          },
           {
             "DATE": "2021-06-01",
             "VALUE": 12
@@ -1746,9 +1750,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-01"
+          "MAXIMUM": "2021-06-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-02",
+            "VALUE": 4
+          },
           {
             "DATE": "2021-06-01",
             "VALUE": 3
@@ -3470,9 +3478,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-01"
+          "MAXIMUM": "2021-06-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-02",
+            "VALUE": 15.642
+          },
           {
             "DATE": "2021-06-01",
             "VALUE": 15.928
@@ -5194,9 +5206,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-01"
+          "MAXIMUM": "2021-06-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-02",
+            "VALUE": 3.785
+          },
           {
             "DATE": "2021-06-01",
             "VALUE": 3.857
