@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-03",
+    "PUBLISHED_DATE": "2021-06-04",
     "coverage": "San Joaquin"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 26,
-        "CHANGE": -6,
-        "CHANGE_FACTOR": -0.1875,
+        "TOTAL": 39,
+        "CHANGE": 13,
+        "CHANGE_FACTOR": 0.5,
         "POPULATION": 782545
       },
       "ICU_PATIENTS": {
-        "TOTAL": 9,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 13,
+        "CHANGE": 4,
+        "CHANGE_FACTOR": 0.444444,
         "POPULATION": 782545
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-02"
+          "MAXIMUM": "2021-06-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-03",
+            "VALUE": 39
+          },
           {
             "DATE": "2021-06-02",
             "VALUE": 26
@@ -1750,9 +1754,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-02"
+          "MAXIMUM": "2021-06-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-03",
+            "VALUE": 13
+          },
           {
             "DATE": "2021-06-02",
             "VALUE": 9
@@ -3478,9 +3486,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-02"
+          "MAXIMUM": "2021-06-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-03",
+            "VALUE": 36.142
+          },
           {
             "DATE": "2021-06-02",
             "VALUE": 36.357
@@ -5206,9 +5218,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-02"
+          "MAXIMUM": "2021-06-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-03",
+            "VALUE": 9.785
+          },
           {
             "DATE": "2021-06-02",
             "VALUE": 9.857

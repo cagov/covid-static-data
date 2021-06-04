@@ -1,19 +1,19 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-03",
+    "PUBLISHED_DATE": "2021-06-04",
     "coverage": "El Dorado"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 3,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 2,
+        "TOTAL": 4,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.333333,
         "POPULATION": 193098
       },
       "ICU_PATIENTS": {
         "TOTAL": 3,
-        "CHANGE": 3,
+        "CHANGE": 0,
         "CHANGE_FACTOR": 0,
         "POPULATION": 193098
       }
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-02"
+          "MAXIMUM": "2021-06-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-03",
+            "VALUE": 4
+          },
           {
             "DATE": "2021-06-02",
             "VALUE": 3
@@ -1750,9 +1754,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-02"
+          "MAXIMUM": "2021-06-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-03",
+            "VALUE": 3
+          },
           {
             "DATE": "2021-06-02",
             "VALUE": 3
@@ -3478,9 +3486,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-02"
+          "MAXIMUM": "2021-06-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-03",
+            "VALUE": 3.571
+          },
           {
             "DATE": "2021-06-02",
             "VALUE": 3.714
@@ -5206,9 +5218,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-02"
+          "MAXIMUM": "2021-06-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-03",
+            "VALUE": 1.071
+          },
           {
             "DATE": "2021-06-02",
             "VALUE": 0.928
