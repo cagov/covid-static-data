@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-04",
+    "PUBLISHED_DATE": "2021-06-05",
     "coverage": "Tuolumne"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.010989,
-        "test_positivity_7_days_delta_7_days": 0.000236,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-05-26",
+        "test_positivity_7_days": 0.001577,
+        "test_positivity_7_days_delta_7_days": -0.011295,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-05-27",
         "POPULATION": 52351
       }
     },
@@ -16,32 +16,36 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-02"
+          "MAXIMUM": "2021-06-03"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-03",
+            "VALUE": 0.001577
+          },
+          {
             "DATE": "2021-06-02",
-            "VALUE": 0.010989
+            "VALUE": 0.007964
           },
           {
             "DATE": "2021-06-01",
-            "VALUE": 0.008578
+            "VALUE": 0.006849
           },
           {
             "DATE": "2021-05-31",
-            "VALUE": 0.009793
+            "VALUE": 0.009027
           },
           {
             "DATE": "2021-05-30",
-            "VALUE": 0.010471
+            "VALUE": 0.01
           },
           {
             "DATE": "2021-05-29",
-            "VALUE": 0.012027
+            "VALUE": 0.011986
           },
           {
             "DATE": "2021-05-28",
-            "VALUE": 0.012227
+            "VALUE": 0.012185
           },
           {
             "DATE": "2021-05-27",
@@ -1860,24 +1864,28 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-02"
+          "MAXIMUM": "2021-06-03"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-03",
+            "VALUE": 11
+          },
+          {
             "DATE": "2021-06-02",
-            "VALUE": 10
+            "VALUE": 46
           },
           {
             "DATE": "2021-06-01",
-            "VALUE": 106
+            "VALUE": 234
           },
           {
             "DATE": "2021-05-31",
-            "VALUE": 42
+            "VALUE": 66
           },
           {
             "DATE": "2021-05-30",
-            "VALUE": 50
+            "VALUE": 100
           },
           {
             "DATE": "2021-05-29",
@@ -1885,7 +1893,7 @@
           },
           {
             "DATE": "2021-05-28",
-            "VALUE": 110
+            "VALUE": 114
           },
           {
             "DATE": "2021-05-27",
