@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-05",
+    "PUBLISHED_DATE": "2021-06-06",
     "coverage": "Tulare"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 17,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.214286,
+        "TOTAL": 11,
+        "CHANGE": -6,
+        "CHANGE_FACTOR": -0.352941,
         "POPULATION": 484423
       },
       "ICU_PATIENTS": {
-        "TOTAL": 3,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 2,
+        "TOTAL": 2,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.333333,
         "POPULATION": 484423
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-04"
+          "MAXIMUM": "2021-06-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-05",
+            "VALUE": 11
+          },
           {
             "DATE": "2021-06-04",
             "VALUE": 17
@@ -1758,9 +1762,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-04"
+          "MAXIMUM": "2021-06-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-05",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-06-04",
             "VALUE": 3
@@ -3494,9 +3502,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-04"
+          "MAXIMUM": "2021-06-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-05",
+            "VALUE": 12.714
+          },
           {
             "DATE": "2021-06-04",
             "VALUE": 13.071
@@ -5230,9 +5242,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-04"
+          "MAXIMUM": "2021-06-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-05",
+            "VALUE": 1.642
+          },
           {
             "DATE": "2021-06-04",
             "VALUE": 1.5
