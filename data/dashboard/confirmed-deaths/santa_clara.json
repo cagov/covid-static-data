@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-05",
+    "PUBLISHED_DATE": "2021-06-06",
     "coverage": "Santa Clara"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 2065,
-        "new_deaths": 7,
-        "new_deaths_delta_1_day": 0.003401,
-        "deaths_per_100k_7_days": 0.094379658,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-05-14",
+        "total_confirmed_deaths": 2066,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.000484,
+        "deaths_per_100k_7_days": 0.101647451,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-05-15",
         "POPULATION": 1967585
       }
     },
@@ -18,16 +18,20 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-04"
+          "MAXIMUM": "2021-06-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-05",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-06-04",
             "VALUE": 0
           },
           {
             "DATE": "2021-06-03",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-06-02",
@@ -1870,9 +1874,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-04"
+          "MAXIMUM": "2021-06-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-05",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-06-04",
             "VALUE": 7
@@ -3722,16 +3730,20 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-04"
+          "MAXIMUM": "2021-06-05"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-05",
+            "VALUE": 0.007216969
+          },
+          {
             "DATE": "2021-06-04",
-            "VALUE": 0
+            "VALUE": 0.007216969
           },
           {
             "DATE": "2021-06-03",
-            "VALUE": 0
+            "VALUE": 0.007216969
           },
           {
             "DATE": "2021-06-02",
@@ -5574,9 +5586,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-04"
+          "MAXIMUM": "2021-06-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-05",
+            "VALUE": 0.07257628
+          },
           {
             "DATE": "2021-06-04",
             "VALUE": 0.065308487
