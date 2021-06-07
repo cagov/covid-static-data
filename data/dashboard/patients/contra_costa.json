@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-06",
+    "PUBLISHED_DATE": "2021-06-07",
     "coverage": "Contra Costa"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 39,
-        "CHANGE": 7,
-        "CHANGE_FACTOR": 0.21875,
+        "TOTAL": 37,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.051282,
         "POPULATION": 1160099
       },
       "ICU_PATIENTS": {
-        "TOTAL": 9,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.125,
+        "TOTAL": 11,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.222222,
         "POPULATION": 1160099
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-05"
+          "MAXIMUM": "2021-06-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-06",
+            "VALUE": 37
+          },
           {
             "DATE": "2021-06-05",
             "VALUE": 39
@@ -1762,9 +1766,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-05"
+          "MAXIMUM": "2021-06-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-06",
+            "VALUE": 11
+          },
           {
             "DATE": "2021-06-05",
             "VALUE": 9
@@ -3502,9 +3510,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-05"
+          "MAXIMUM": "2021-06-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-06",
+            "VALUE": 35.928
+          },
           {
             "DATE": "2021-06-05",
             "VALUE": 35.571
@@ -5242,9 +5254,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-05"
+          "MAXIMUM": "2021-06-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-06",
+            "VALUE": 8.5
+          },
           {
             "DATE": "2021-06-05",
             "VALUE": 8.214
