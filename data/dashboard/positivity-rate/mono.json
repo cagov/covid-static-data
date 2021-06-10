@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-09",
+    "PUBLISHED_DATE": "2021-06-10",
     "coverage": "Mono"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.008811,
-        "test_positivity_7_days_delta_7_days": -0.013535,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-05-31",
+        "test_positivity_7_days": 0.009709,
+        "test_positivity_7_days_delta_7_days": -0.012763,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-06-01",
         "POPULATION": 13961
       }
     },
@@ -16,12 +16,16 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-07"
+          "MAXIMUM": "2021-06-08"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-08",
+            "VALUE": 0.009709
+          },
+          {
             "DATE": "2021-06-07",
-            "VALUE": 0.008811
+            "VALUE": 0.008264
           },
           {
             "DATE": "2021-06-06",
@@ -1880,12 +1884,16 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-07"
+          "MAXIMUM": "2021-06-08"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-08",
+            "VALUE": 9
+          },
+          {
             "DATE": "2021-06-07",
-            "VALUE": 27
+            "VALUE": 42
           },
           {
             "DATE": "2021-06-06",
