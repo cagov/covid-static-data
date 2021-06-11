@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-10",
+    "PUBLISHED_DATE": "2021-06-11",
     "coverage": "Del Norte"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 1403,
-        "new_cases": 1,
-        "new_cases_delta_1_day": 0.000713,
+        "total_confirmed_cases": 1405,
+        "new_cases": 2,
+        "new_cases_delta_1_day": 0.001426,
         "cases_per_100k_7_days": 4.662892808,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-02",
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-03",
         "POPULATION": 27558
       }
     },
@@ -18,12 +18,16 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-09"
+          "MAXIMUM": "2021-06-10"
         },
         "VALUES": [
           {
-            "DATE": "2021-06-09",
+            "DATE": "2021-06-10",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-06-09",
+            "VALUE": 1
           },
           {
             "DATE": "2021-06-08",
@@ -31,7 +35,7 @@
           },
           {
             "DATE": "2021-06-07",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-06-06",
@@ -1890,9 +1894,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-09"
+          "MAXIMUM": "2021-06-10"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-10",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-06-09",
             "VALUE": 1
@@ -3762,20 +3770,24 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-09"
+          "MAXIMUM": "2021-06-10"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-10",
+            "VALUE": 2.071993613
+          },
+          {
             "DATE": "2021-06-09",
-            "VALUE": 1.553088033
+            "VALUE": 2.590899194
           },
           {
             "DATE": "2021-06-08",
-            "VALUE": 1.553088033
+            "VALUE": 2.071993613
           },
           {
             "DATE": "2021-06-07",
-            "VALUE": 4.143987227
+            "VALUE": 4.662892808
           },
           {
             "DATE": "2021-06-06",
@@ -5634,9 +5646,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-09"
+          "MAXIMUM": "2021-06-10"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-10",
+            "VALUE": 4.143987227
+          },
           {
             "DATE": "2021-06-09",
             "VALUE": 4.143987227
