@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-10",
+    "PUBLISHED_DATE": "2021-06-11",
     "coverage": "Monterey"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 5,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.25,
+        "TOTAL": 4,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.2,
         "POPULATION": 448732
       },
       "ICU_PATIENTS": {
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-09"
+          "MAXIMUM": "2021-06-10"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-10",
+            "VALUE": 4
+          },
           {
             "DATE": "2021-06-09",
             "VALUE": 5
@@ -1778,9 +1782,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-09"
+          "MAXIMUM": "2021-06-10"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-10",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-06-09",
             "VALUE": 0
@@ -3534,9 +3542,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-09"
+          "MAXIMUM": "2021-06-10"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-10",
+            "VALUE": 5.071
+          },
           {
             "DATE": "2021-06-09",
             "VALUE": 5.214
@@ -5290,9 +5302,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-09"
+          "MAXIMUM": "2021-06-10"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-10",
+            "VALUE": 0.642
+          },
           {
             "DATE": "2021-06-09",
             "VALUE": 0.785
