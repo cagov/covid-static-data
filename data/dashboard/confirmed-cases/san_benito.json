@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-12",
+    "PUBLISHED_DATE": "2021-06-13",
     "coverage": "San Benito"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 6082,
-        "new_cases": 3,
-        "new_cases_delta_1_day": 0.000494,
+        "total_confirmed_cases": 6083,
+        "new_cases": 1,
+        "new_cases_delta_1_day": 0.000164,
         "cases_per_100k_7_days": 0.668520196,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-04",
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-05",
         "POPULATION": 64022
       }
     },
@@ -18,16 +18,20 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-11"
+          "MAXIMUM": "2021-06-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-12",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-06-11",
             "VALUE": 0
           },
           {
             "DATE": "2021-06-10",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2021-06-09",
@@ -1898,9 +1902,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-11"
+          "MAXIMUM": "2021-06-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-12",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-06-11",
             "VALUE": 3
@@ -3778,16 +3786,20 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-11"
+          "MAXIMUM": "2021-06-12"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-12",
+            "VALUE": 1.561963075
+          },
+          {
             "DATE": "2021-06-11",
-            "VALUE": 1.338602355
+            "VALUE": 1.561963075
           },
           {
             "DATE": "2021-06-10",
-            "VALUE": 1.561963075
+            "VALUE": 1.783761832
           },
           {
             "DATE": "2021-06-09",
@@ -5658,9 +5670,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-11"
+          "MAXIMUM": "2021-06-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-12",
+            "VALUE": 2.007122552
+          },
           {
             "DATE": "2021-06-11",
             "VALUE": 2.007122552

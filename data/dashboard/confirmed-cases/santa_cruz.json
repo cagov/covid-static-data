@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-12",
+    "PUBLISHED_DATE": "2021-06-13",
     "coverage": "Santa Cruz"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 16164,
-        "new_cases": 5,
-        "new_cases_delta_1_day": 0.000309,
+        "total_confirmed_cases": 16170,
+        "new_cases": 6,
+        "new_cases_delta_1_day": 0.000371,
         "cases_per_100k_7_days": 0.781754678,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-04",
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-05",
         "POPULATION": 273999
       }
     },
@@ -18,20 +18,24 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-11"
+          "MAXIMUM": "2021-06-12"
         },
         "VALUES": [
           {
-            "DATE": "2021-06-11",
+            "DATE": "2021-06-12",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-06-11",
+            "VALUE": 1
           },
           {
             "DATE": "2021-06-10",
-            "VALUE": 0
+            "VALUE": 2
           },
           {
             "DATE": "2021-06-09",
-            "VALUE": 3
+            "VALUE": 4
           },
           {
             "DATE": "2021-06-08",
@@ -639,7 +643,7 @@
           },
           {
             "DATE": "2021-01-08",
-            "VALUE": 211
+            "VALUE": 212
           },
           {
             "DATE": "2021-01-07",
@@ -655,7 +659,7 @@
           },
           {
             "DATE": "2021-01-04",
-            "VALUE": 303
+            "VALUE": 304
           },
           {
             "DATE": "2021-01-03",
@@ -1898,9 +1902,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-11"
+          "MAXIMUM": "2021-06-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-12",
+            "VALUE": 6
+          },
           {
             "DATE": "2021-06-11",
             "VALUE": 5
@@ -3778,20 +3786,24 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-11"
+          "MAXIMUM": "2021-06-12"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-12",
+            "VALUE": 0.468979814
+          },
+          {
             "DATE": "2021-06-11",
-            "VALUE": 0.312774864
+            "VALUE": 0.521169785
           },
           {
             "DATE": "2021-06-10",
-            "VALUE": 0.416789842
+            "VALUE": 0.573359757
           },
           {
             "DATE": "2021-06-09",
-            "VALUE": 0.573359757
+            "VALUE": 0.625549728
           },
           {
             "DATE": "2021-06-08",
@@ -4375,47 +4387,47 @@
           },
           {
             "DATE": "2021-01-14",
-            "VALUE": 63.764466294
+            "VALUE": 63.816656265
           },
           {
             "DATE": "2021-01-13",
-            "VALUE": 66.371410115
+            "VALUE": 66.423600086
           },
           {
             "DATE": "2021-01-12",
-            "VALUE": 69.186748857
+            "VALUE": 69.238938828
           },
           {
             "DATE": "2021-01-11",
-            "VALUE": 74.817791306
+            "VALUE": 74.869616312
           },
           {
             "DATE": "2021-01-10",
-            "VALUE": 79.614159176
+            "VALUE": 79.718539119
           },
           {
             "DATE": "2021-01-09",
-            "VALUE": 82.690447775
+            "VALUE": 82.794827718
           },
           {
             "DATE": "2021-01-08",
-            "VALUE": 84.150307118
+            "VALUE": 84.254687061
           },
           {
             "DATE": "2021-01-07",
-            "VALUE": 79.301384312
+            "VALUE": 79.353574283
           },
           {
             "DATE": "2021-01-06",
-            "VALUE": 77.789334998
+            "VALUE": 77.841524969
           },
           {
             "DATE": "2021-01-05",
-            "VALUE": 78.050284855
+            "VALUE": 78.102474827
           },
           {
             "DATE": "2021-01-04",
-            "VALUE": 77.059405326
+            "VALUE": 77.111595298
           },
           {
             "DATE": "2021-01-03",
@@ -5658,9 +5670,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-11"
+          "MAXIMUM": "2021-06-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-12",
+            "VALUE": 0.833944649
+          },
           {
             "DATE": "2021-06-11",
             "VALUE": 0.729929671
