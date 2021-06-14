@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-13",
+    "PUBLISHED_DATE": "2021-06-14",
     "coverage": "Ventura"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 52,
-        "CHANGE": 5,
-        "CHANGE_FACTOR": 0.106383,
+        "TOTAL": 30,
+        "CHANGE": -22,
+        "CHANGE_FACTOR": -0.423077,
         "POPULATION": 852747
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-12"
+          "MAXIMUM": "2021-06-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-13",
+            "VALUE": 30
+          },
           {
             "DATE": "2021-06-12",
             "VALUE": 52

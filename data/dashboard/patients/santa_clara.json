@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-13",
+    "PUBLISHED_DATE": "2021-06-14",
     "coverage": "Santa Clara"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 56,
-        "CHANGE": 8,
-        "CHANGE_FACTOR": 0.166667,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 1967585
       },
       "ICU_PATIENTS": {
-        "TOTAL": 26,
-        "CHANGE": 6,
-        "CHANGE_FACTOR": 0.3,
+        "TOTAL": 21,
+        "CHANGE": -5,
+        "CHANGE_FACTOR": -0.192308,
         "POPULATION": 1967585
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-12"
+          "MAXIMUM": "2021-06-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-13",
+            "VALUE": 56
+          },
           {
             "DATE": "2021-06-12",
             "VALUE": 56
@@ -1790,9 +1794,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-12"
+          "MAXIMUM": "2021-06-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-13",
+            "VALUE": 21
+          },
           {
             "DATE": "2021-06-12",
             "VALUE": 26
@@ -3558,9 +3566,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-12"
+          "MAXIMUM": "2021-06-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-13",
+            "VALUE": 55.071
+          },
           {
             "DATE": "2021-06-12",
             "VALUE": 55.071
@@ -5326,9 +5338,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-12"
+          "MAXIMUM": "2021-06-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-13",
+            "VALUE": 16.428
+          },
           {
             "DATE": "2021-06-12",
             "VALUE": 16
