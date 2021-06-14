@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-13",
+    "PUBLISHED_DATE": "2021-06-14",
     "coverage": "Tulare"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 49533,
-        "new_cases": 17,
-        "new_cases_delta_1_day": 0.000343,
-        "cases_per_100k_7_days": 1.385978783,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-05",
+        "total_confirmed_cases": 49537,
+        "new_cases": 4,
+        "new_cases_delta_1_day": 0.000081,
+        "cases_per_100k_7_days": 1.326939472,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-06",
         "POPULATION": 484423
       }
     },
@@ -18,12 +18,16 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-12"
+          "MAXIMUM": "2021-06-13"
         },
         "VALUES": [
           {
-            "DATE": "2021-06-12",
+            "DATE": "2021-06-13",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-06-12",
+            "VALUE": 3
           },
           {
             "DATE": "2021-06-11",
@@ -31,7 +35,7 @@
           },
           {
             "DATE": "2021-06-10",
-            "VALUE": 4
+            "VALUE": 5
           },
           {
             "DATE": "2021-06-09",
@@ -67,11 +71,11 @@
           },
           {
             "DATE": "2021-06-01",
-            "VALUE": 13
+            "VALUE": 12
           },
           {
             "DATE": "2021-05-31",
-            "VALUE": 4
+            "VALUE": 5
           },
           {
             "DATE": "2021-05-30",
@@ -87,11 +91,11 @@
           },
           {
             "DATE": "2021-05-27",
-            "VALUE": 7
+            "VALUE": 6
           },
           {
             "DATE": "2021-05-26",
-            "VALUE": 8
+            "VALUE": 9
           },
           {
             "DATE": "2021-05-25",
@@ -1902,9 +1906,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-12"
+          "MAXIMUM": "2021-06-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-13",
+            "VALUE": 4
+          },
           {
             "DATE": "2021-06-12",
             "VALUE": 17
@@ -3786,20 +3794,24 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-12"
+          "MAXIMUM": "2021-06-13"
         },
         "VALUES": [
           {
-            "DATE": "2021-06-12",
+            "DATE": "2021-06-13",
             "VALUE": 0.973116471
           },
           {
+            "DATE": "2021-06-12",
+            "VALUE": 1.090988661
+          },
+          {
             "DATE": "2021-06-11",
-            "VALUE": 1.150027971
+            "VALUE": 1.179547627
           },
           {
             "DATE": "2021-06-10",
-            "VALUE": 1.297419817
+            "VALUE": 1.326939472
           },
           {
             "DATE": "2021-06-09",
@@ -3811,7 +3823,7 @@
           },
           {
             "DATE": "2021-06-07",
-            "VALUE": 1.415498438
+            "VALUE": 1.385978783
           },
           {
             "DATE": "2021-06-06",
@@ -3831,7 +3843,7 @@
           },
           {
             "DATE": "2021-06-02",
-            "VALUE": 1.680762474
+            "VALUE": 1.65144925
           },
           {
             "DATE": "2021-06-01",
@@ -3839,7 +3851,7 @@
           },
           {
             "DATE": "2021-05-31",
-            "VALUE": 1.533370629
+            "VALUE": 1.562890284
           },
           {
             "DATE": "2021-05-30",
@@ -3859,7 +3871,7 @@
           },
           {
             "DATE": "2021-05-26",
-            "VALUE": 1.857880406
+            "VALUE": 1.88719363
           },
           {
             "DATE": "2021-05-25",
@@ -5670,9 +5682,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-12"
+          "MAXIMUM": "2021-06-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-13",
+            "VALUE": 2.093624787
+          },
           {
             "DATE": "2021-06-12",
             "VALUE": 2.064311562
