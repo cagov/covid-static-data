@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-14",
+    "PUBLISHED_DATE": "2021-06-15",
     "coverage": "Tulare"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 49537,
-        "new_cases": 4,
-        "new_cases_delta_1_day": 0.000081,
-        "cases_per_100k_7_days": 1.326939472,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-06",
+        "total_confirmed_cases": 49538,
+        "new_cases": 1,
+        "new_cases_delta_1_day": 0.00002,
+        "cases_per_100k_7_days": 1.385978783,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-07",
         "POPULATION": 484423
       }
     },
@@ -18,12 +18,16 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-13"
+          "MAXIMUM": "2021-06-14"
         },
         "VALUES": [
           {
-            "DATE": "2021-06-13",
+            "DATE": "2021-06-14",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-06-13",
+            "VALUE": 1
           },
           {
             "DATE": "2021-06-12",
@@ -1906,9 +1910,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-13"
+          "MAXIMUM": "2021-06-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-14",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-06-13",
             "VALUE": 4
@@ -3794,12 +3802,16 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-13"
+          "MAXIMUM": "2021-06-14"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-14",
+            "VALUE": 0.79620497
+          },
+          {
             "DATE": "2021-06-13",
-            "VALUE": 0.973116471
+            "VALUE": 1.002636126
           },
           {
             "DATE": "2021-06-12",
@@ -5682,9 +5694,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-13"
+          "MAXIMUM": "2021-06-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-14",
+            "VALUE": 1.975752596
+          },
           {
             "DATE": "2021-06-13",
             "VALUE": 2.093624787
