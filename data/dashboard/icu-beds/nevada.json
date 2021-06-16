@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-15",
+    "PUBLISHED_DATE": "2021-06-16",
     "coverage": "Nevada"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 2,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 8,
+        "CHANGE": 6,
+        "CHANGE_FACTOR": 3,
         "POPULATION": 98710
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-14"
+          "MAXIMUM": "2021-06-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-15",
+            "VALUE": 8
+          },
           {
             "DATE": "2021-06-14",
             "VALUE": 2
