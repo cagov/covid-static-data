@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-16",
+    "PUBLISHED_DATE": "2021-06-17",
     "coverage": "Santa Barbara"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 34451,
-        "new_cases": 2,
-        "new_cases_delta_1_day": 0.000058,
-        "cases_per_100k_7_days": 0.938924958,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-08",
+        "total_confirmed_cases": 34459,
+        "new_cases": 8,
+        "new_cases_delta_1_day": 0.000232,
+        "cases_per_100k_7_days": 0.970258977,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-09",
         "POPULATION": 456373
       }
     },
@@ -18,24 +18,28 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-15"
+          "MAXIMUM": "2021-06-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-16",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-06-15",
             "VALUE": 0
           },
           {
             "DATE": "2021-06-14",
-            "VALUE": 0
+            "VALUE": 4
           },
           {
             "DATE": "2021-06-13",
-            "VALUE": 3
+            "VALUE": 5
           },
           {
             "DATE": "2021-06-12",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2021-06-11",
@@ -1335,7 +1339,7 @@
           },
           {
             "DATE": "2020-07-22",
-            "VALUE": 81
+            "VALUE": 82
           },
           {
             "DATE": "2020-07-21",
@@ -1914,9 +1918,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-15"
+          "MAXIMUM": "2021-06-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-16",
+            "VALUE": 8
+          },
           {
             "DATE": "2021-06-15",
             "VALUE": 2
@@ -3810,24 +3818,28 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-15"
+          "MAXIMUM": "2021-06-16"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-16",
+            "VALUE": 0.65735703
+          },
+          {
             "DATE": "2021-06-15",
-            "VALUE": 0.563354975
+            "VALUE": 0.782473985
           },
           {
             "DATE": "2021-06-14",
-            "VALUE": 0.719805948
+            "VALUE": 0.938924958
           },
           {
             "DATE": "2021-06-13",
-            "VALUE": 0.845142022
+            "VALUE": 0.938924958
           },
           {
             "DATE": "2021-06-12",
-            "VALUE": 0.813808004
+            "VALUE": 0.845142022
           },
           {
             "DATE": "2021-06-11",
@@ -5103,31 +5115,31 @@
           },
           {
             "DATE": "2020-07-28",
-            "VALUE": 16.026802637
+            "VALUE": 16.058136656
           },
           {
             "DATE": "2020-07-27",
-            "VALUE": 17.122397688
+            "VALUE": 17.153731706
           },
           {
             "DATE": "2020-07-26",
-            "VALUE": 17.185065725
+            "VALUE": 17.216399743
           },
           {
             "DATE": "2020-07-25",
-            "VALUE": 17.967758829
+            "VALUE": 17.998873728
           },
           {
             "DATE": "2020-07-24",
-            "VALUE": 18.531113804
+            "VALUE": 18.562447822
           },
           {
             "DATE": "2020-07-23",
-            "VALUE": 19.219804853
+            "VALUE": 19.251138871
           },
           {
             "DATE": "2020-07-22",
-            "VALUE": 20.190063829
+            "VALUE": 20.221397848
           },
           {
             "DATE": "2020-07-21",
@@ -5706,9 +5718,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-15"
+          "MAXIMUM": "2021-06-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-16",
+            "VALUE": 1.158043968
+          },
           {
             "DATE": "2021-06-15",
             "VALUE": 1.032927014
