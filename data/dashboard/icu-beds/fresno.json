@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-16",
+    "PUBLISHED_DATE": "2021-06-17",
     "coverage": "Fresno"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
         "TOTAL": 27,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.035714,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 1032227
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-15"
+          "MAXIMUM": "2021-06-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-16",
+            "VALUE": 27
+          },
           {
             "DATE": "2021-06-15",
             "VALUE": 27
