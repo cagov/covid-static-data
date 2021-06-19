@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-18",
+    "PUBLISHED_DATE": "2021-06-19",
     "coverage": "Tuolumne"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.01532,
-        "test_positivity_7_days_delta_7_days": 0.002139,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-06-09",
+        "test_positivity_7_days": 0.0131,
+        "test_positivity_7_days_delta_7_days": -0.000245,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-06-10",
         "POPULATION": 52351
       }
     },
@@ -16,20 +16,24 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-16"
+          "MAXIMUM": "2021-06-17"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-17",
+            "VALUE": 0.0131
+          },
+          {
             "DATE": "2021-06-16",
-            "VALUE": 0.01532
+            "VALUE": 0.012896
           },
           {
             "DATE": "2021-06-15",
-            "VALUE": 0.015957
+            "VALUE": 0.01472
           },
           {
             "DATE": "2021-06-14",
-            "VALUE": 0.015785
+            "VALUE": 0.015413
           },
           {
             "DATE": "2021-06-13",
@@ -1916,20 +1920,24 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-16"
+          "MAXIMUM": "2021-06-17"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-17",
+            "VALUE": 6
+          },
+          {
             "DATE": "2021-06-16",
-            "VALUE": 10
+            "VALUE": 66
           },
           {
             "DATE": "2021-06-15",
-            "VALUE": 86
+            "VALUE": 139
           },
           {
             "DATE": "2021-06-14",
-            "VALUE": 181
+            "VALUE": 207
           },
           {
             "DATE": "2021-06-13",
