@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-18",
+    "PUBLISHED_DATE": "2021-06-19",
     "coverage": "Sierra"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0,
-        "test_positivity_7_days_delta_7_days": 0,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-06-09",
+        "test_positivity_7_days": 0.038462,
+        "test_positivity_7_days_delta_7_days": 0.038462,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-06-10",
         "POPULATION": 3115
       }
     },
@@ -16,16 +16,20 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-16"
+          "MAXIMUM": "2021-06-17"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-17",
+            "VALUE": 0.038462
+          },
+          {
             "DATE": "2021-06-16",
-            "VALUE": 0
+            "VALUE": 0.030303
           },
           {
             "DATE": "2021-06-15",
-            "VALUE": 0
+            "VALUE": 0.027778
           },
           {
             "DATE": "2021-06-14",
@@ -1916,24 +1920,28 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-16"
+          "MAXIMUM": "2021-06-17"
         },
         "VALUES": [
           {
-            "DATE": "2021-06-16",
+            "DATE": "2021-06-17",
             "VALUE": 1
           },
           {
-            "DATE": "2021-06-15",
+            "DATE": "2021-06-16",
             "VALUE": 2
+          },
+          {
+            "DATE": "2021-06-15",
+            "VALUE": 3
           },
           {
             "DATE": "2021-06-14",
-            "VALUE": 2
+            "VALUE": 11
           },
           {
             "DATE": "2021-06-13",
-            "VALUE": 2
+            "VALUE": 3
           },
           {
             "DATE": "2021-06-12",
