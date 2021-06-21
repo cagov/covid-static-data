@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-20",
+    "PUBLISHED_DATE": "2021-06-21",
     "coverage": "Nevada"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 4910,
-        "new_cases": 7,
-        "new_cases_delta_1_day": 0.001428,
+        "total_confirmed_cases": 4919,
+        "new_cases": 9,
+        "new_cases_delta_1_day": 0.001833,
         "cases_per_100k_7_days": 4.196130078,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-12",
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-13",
         "POPULATION": 98710
       }
     },
@@ -18,20 +18,24 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-19"
+          "MAXIMUM": "2021-06-20"
         },
         "VALUES": [
           {
-            "DATE": "2021-06-19",
+            "DATE": "2021-06-20",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-06-19",
+            "VALUE": 5
           },
           {
             "DATE": "2021-06-18",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-06-17",
-            "VALUE": 3
+            "VALUE": 5
           },
           {
             "DATE": "2021-06-16",
@@ -423,7 +427,7 @@
           },
           {
             "DATE": "2021-03-11",
-            "VALUE": 4
+            "VALUE": 5
           },
           {
             "DATE": "2021-03-10",
@@ -1930,9 +1934,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-19"
+          "MAXIMUM": "2021-06-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-20",
+            "VALUE": 9
+          },
           {
             "DATE": "2021-06-19",
             "VALUE": 7
@@ -3842,20 +3850,24 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-19"
+          "MAXIMUM": "2021-06-20"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-20",
+            "VALUE": 3.183061493
+          },
+          {
             "DATE": "2021-06-19",
-            "VALUE": 2.314861716
+            "VALUE": 3.472799108
           },
           {
             "DATE": "2021-06-18",
-            "VALUE": 2.604599331
+            "VALUE": 3.039205754
           },
           {
             "DATE": "2021-06-17",
-            "VALUE": 3.183061493
+            "VALUE": 3.472799108
           },
           {
             "DATE": "2021-06-16",
@@ -4223,31 +4235,31 @@
           },
           {
             "DATE": "2021-03-17",
-            "VALUE": 7.669942255
+            "VALUE": 7.814811063
           },
           {
             "DATE": "2021-03-16",
-            "VALUE": 7.525073447
+            "VALUE": 7.669942255
           },
           {
             "DATE": "2021-03-15",
-            "VALUE": 7.95967987
-          },
-          {
-            "DATE": "2021-03-14",
-            "VALUE": 9.117617263
-          },
-          {
-            "DATE": "2021-03-13",
-            "VALUE": 8.972748455
-          },
-          {
-            "DATE": "2021-03-12",
             "VALUE": 8.104548678
           },
           {
+            "DATE": "2021-03-14",
+            "VALUE": 9.261473002
+          },
+          {
+            "DATE": "2021-03-13",
+            "VALUE": 9.117617263
+          },
+          {
+            "DATE": "2021-03-12",
+            "VALUE": 8.248404417
+          },
+          {
             "DATE": "2021-03-11",
-            "VALUE": 7.814811063
+            "VALUE": 7.95967987
           },
           {
             "DATE": "2021-03-10",
@@ -5754,9 +5766,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-19"
+          "MAXIMUM": "2021-06-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-20",
+            "VALUE": 5.209198663
+          },
           {
             "DATE": "2021-06-19",
             "VALUE": 4.630736501
