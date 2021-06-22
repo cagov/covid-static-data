@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-21",
+    "PUBLISHED_DATE": "2021-06-22",
     "coverage": "San Luis Obispo"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 21313,
-        "new_cases": 5,
-        "new_cases_delta_1_day": 0.000235,
+        "total_confirmed_cases": 21316,
+        "new_cases": 3,
+        "new_cases_delta_1_day": 0.000141,
         "cases_per_100k_7_days": 1.434401245,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-13",
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-14",
         "POPULATION": 278862
       }
     },
@@ -18,20 +18,24 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-20"
+          "MAXIMUM": "2021-06-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-21",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-06-20",
             "VALUE": 0
           },
           {
             "DATE": "2021-06-19",
-            "VALUE": 1
+            "VALUE": 3
           },
           {
             "DATE": "2021-06-18",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2021-06-17",
@@ -1934,9 +1938,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-20"
+          "MAXIMUM": "2021-06-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-21",
+            "VALUE": 3
+          },
           {
             "DATE": "2021-06-20",
             "VALUE": 5
@@ -3850,20 +3858,24 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-20"
+          "MAXIMUM": "2021-06-21"
         },
         "VALUES": [
           {
-            "DATE": "2021-06-20",
+            "DATE": "2021-06-21",
             "VALUE": 0.563361089
           },
           {
+            "DATE": "2021-06-20",
+            "VALUE": 0.717200623
+          },
+          {
             "DATE": "2021-06-19",
-            "VALUE": 0.665920778
+            "VALUE": 0.819401711
           },
           {
             "DATE": "2021-06-18",
-            "VALUE": 0.665920778
+            "VALUE": 0.717200623
           },
           {
             "DATE": "2021-06-17",
@@ -5766,9 +5778,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-20"
+          "MAXIMUM": "2021-06-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-21",
+            "VALUE": 0.717200623
+          },
           {
             "DATE": "2021-06-20",
             "VALUE": 0.768121867
