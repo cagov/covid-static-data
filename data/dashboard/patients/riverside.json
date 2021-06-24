@@ -1,6 +1,6 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-23",
+    "PUBLISHED_DATE": "2021-06-24",
     "coverage": "Riverside"
   },
   "data": {
@@ -12,9 +12,9 @@
         "POPULATION": 2468145
       },
       "ICU_PATIENTS": {
-        "TOTAL": 14,
-        "CHANGE": 5,
-        "CHANGE_FACTOR": 0.555556,
+        "TOTAL": 13,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.071429,
         "POPULATION": 2468145
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-22"
+          "MAXIMUM": "2021-06-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-23",
+            "VALUE": 55
+          },
           {
             "DATE": "2021-06-22",
             "VALUE": 55
@@ -1830,9 +1834,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-22"
+          "MAXIMUM": "2021-06-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-23",
+            "VALUE": 13
+          },
           {
             "DATE": "2021-06-22",
             "VALUE": 14
@@ -3638,9 +3646,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-22"
+          "MAXIMUM": "2021-06-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-23",
+            "VALUE": 50.5
+          },
           {
             "DATE": "2021-06-22",
             "VALUE": 50.071
@@ -5446,9 +5458,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-22"
+          "MAXIMUM": "2021-06-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-23",
+            "VALUE": 9.142
+          },
           {
             "DATE": "2021-06-22",
             "VALUE": 8.642
