@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-23",
+    "PUBLISHED_DATE": "2021-06-24",
     "coverage": "Del Norte"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 1417,
+        "total_confirmed_cases": 1418,
         "new_cases": 1,
         "new_cases_delta_1_day": 0.000706,
-        "cases_per_100k_7_days": 3.628710356,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-15",
+        "cases_per_100k_7_days": 2.071993613,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-16",
         "POPULATION": 27558
       }
     },
@@ -18,12 +18,16 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-22"
+          "MAXIMUM": "2021-06-23"
         },
         "VALUES": [
           {
-            "DATE": "2021-06-22",
+            "DATE": "2021-06-23",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-06-22",
+            "VALUE": 1
           },
           {
             "DATE": "2021-06-21",
@@ -35,7 +39,7 @@
           },
           {
             "DATE": "2021-06-19",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-06-18",
@@ -51,7 +55,7 @@
           },
           {
             "DATE": "2021-06-15",
-            "VALUE": 3
+            "VALUE": 2
           },
           {
             "DATE": "2021-06-14",
@@ -759,11 +763,11 @@
           },
           {
             "DATE": "2020-12-20",
-            "VALUE": 3
+            "VALUE": 2
           },
           {
             "DATE": "2020-12-19",
-            "VALUE": 4
+            "VALUE": 5
           },
           {
             "DATE": "2020-12-18",
@@ -1942,9 +1946,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-22"
+          "MAXIMUM": "2021-06-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-23",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-06-22",
             "VALUE": 1
@@ -3866,12 +3874,16 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-22"
+          "MAXIMUM": "2021-06-23"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-23",
+            "VALUE": 3.109804775
+          },
+          {
             "DATE": "2021-06-22",
-            "VALUE": 2.071993613
+            "VALUE": 3.109804775
           },
           {
             "DATE": "2021-06-21",
@@ -3887,19 +3899,19 @@
           },
           {
             "DATE": "2021-06-18",
-            "VALUE": 3.628710356
+            "VALUE": 3.109804775
           },
           {
             "DATE": "2021-06-17",
-            "VALUE": 2.071993613
+            "VALUE": 1.553088033
           },
           {
             "DATE": "2021-06-16",
-            "VALUE": 2.590899194
+            "VALUE": 2.071993613
           },
           {
             "DATE": "2021-06-15",
-            "VALUE": 3.628710356
+            "VALUE": 3.109804775
           },
           {
             "DATE": "2021-06-14",
@@ -4583,7 +4595,7 @@
           },
           {
             "DATE": "2020-12-26",
-            "VALUE": 25.916249365
+            "VALUE": 25.400972494
           },
           {
             "DATE": "2020-12-25",
@@ -4611,7 +4623,7 @@
           },
           {
             "DATE": "2020-12-19",
-            "VALUE": 46.654329051
+            "VALUE": 47.173234632
           },
           {
             "DATE": "2020-12-18",
@@ -5790,9 +5802,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-22"
+          "MAXIMUM": "2021-06-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-23",
+            "VALUE": 2.590899194
+          },
           {
             "DATE": "2021-06-22",
             "VALUE": 3.109804775
