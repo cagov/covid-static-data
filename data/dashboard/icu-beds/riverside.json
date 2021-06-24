@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-23",
+    "PUBLISHED_DATE": "2021-06-24",
     "coverage": "Riverside"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 105,
-        "CHANGE": 6,
-        "CHANGE_FACTOR": 0.060606,
+        "TOTAL": 95,
+        "CHANGE": -10,
+        "CHANGE_FACTOR": -0.095238,
         "POPULATION": 2468145
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-22"
+          "MAXIMUM": "2021-06-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-23",
+            "VALUE": 95
+          },
           {
             "DATE": "2021-06-22",
             "VALUE": 105
