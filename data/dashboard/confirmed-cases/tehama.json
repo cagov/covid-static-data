@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-25",
+    "PUBLISHED_DATE": "2021-06-26",
     "coverage": "Tehama"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 5115,
-        "new_cases": -4,
-        "new_cases_delta_1_day": -0.000781,
+        "total_confirmed_cases": 5119,
+        "new_cases": 4,
+        "new_cases_delta_1_day": 0.000782,
         "cases_per_100k_7_days": 1.950368066,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-17",
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-18",
         "POPULATION": 65885
       }
     },
@@ -18,16 +18,20 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-24"
+          "MAXIMUM": "2021-06-25"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-25",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-06-24",
             "VALUE": 0
           },
           {
             "DATE": "2021-06-23",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-06-22",
@@ -35,7 +39,7 @@
           },
           {
             "DATE": "2021-06-21",
-            "VALUE": 4
+            "VALUE": 6
           },
           {
             "DATE": "2021-06-20",
@@ -91,7 +95,7 @@
           },
           {
             "DATE": "2021-06-07",
-            "VALUE": 4
+            "VALUE": 5
           },
           {
             "DATE": "2021-06-06",
@@ -1950,9 +1954,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-24"
+          "MAXIMUM": "2021-06-25"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-25",
+            "VALUE": 4
+          },
           {
             "DATE": "2021-06-24",
             "VALUE": -4
@@ -3882,24 +3890,28 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-24"
+          "MAXIMUM": "2021-06-25"
         },
         "VALUES": [
           {
+            "DATE": "2021-06-25",
+            "VALUE": 1.733323215
+          },
+          {
             "DATE": "2021-06-24",
-            "VALUE": 1.083706458
+            "VALUE": 1.733323215
           },
           {
             "DATE": "2021-06-23",
-            "VALUE": 1.083706458
+            "VALUE": 1.733323215
           },
           {
             "DATE": "2021-06-22",
-            "VALUE": 1.083706458
+            "VALUE": 1.51779616
           },
           {
             "DATE": "2021-06-21",
-            "VALUE": 1.733323215
+            "VALUE": 2.167412916
           },
           {
             "DATE": "2021-06-20",
@@ -3931,31 +3943,31 @@
           },
           {
             "DATE": "2021-06-13",
-            "VALUE": 2.818547469
+            "VALUE": 3.03559232
           },
           {
             "DATE": "2021-06-12",
-            "VALUE": 3.03559232
+            "VALUE": 3.251119375
           },
           {
             "DATE": "2021-06-11",
-            "VALUE": 3.03559232
+            "VALUE": 3.251119375
           },
           {
             "DATE": "2021-06-10",
-            "VALUE": 3.03559232
+            "VALUE": 3.251119375
           },
           {
             "DATE": "2021-06-09",
-            "VALUE": 3.685209076
+            "VALUE": 3.902253927
           },
           {
             "DATE": "2021-06-08",
-            "VALUE": 3.468164226
+            "VALUE": 3.685209076
           },
           {
             "DATE": "2021-06-07",
-            "VALUE": 3.03559232
+            "VALUE": 3.251119375
           },
           {
             "DATE": "2021-06-06",
@@ -5814,9 +5826,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-24"
+          "MAXIMUM": "2021-06-25"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-25",
+            "VALUE": 1.083706458
+          },
           {
             "DATE": "2021-06-24",
             "VALUE": 0.649616756

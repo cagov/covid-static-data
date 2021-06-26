@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-25",
+    "PUBLISHED_DATE": "2021-06-26",
     "coverage": "Sutter"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 9660,
-        "new_cases": 7,
-        "new_cases_delta_1_day": 0.000725,
-        "cases_per_100k_7_days": 4.5930381,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-17",
+        "total_confirmed_cases": 9664,
+        "new_cases": 4,
+        "new_cases_delta_1_day": 0.000414,
+        "cases_per_100k_7_days": 4.05212441,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-18",
         "POPULATION": 105747
       }
     },
@@ -18,16 +18,20 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-24"
+          "MAXIMUM": "2021-06-25"
         },
         "VALUES": [
           {
-            "DATE": "2021-06-24",
+            "DATE": "2021-06-25",
             "VALUE": 0
           },
           {
+            "DATE": "2021-06-24",
+            "VALUE": 2
+          },
+          {
             "DATE": "2021-06-23",
-            "VALUE": 4
+            "VALUE": 5
           },
           {
             "DATE": "2021-06-22",
@@ -35,7 +39,7 @@
           },
           {
             "DATE": "2021-06-21",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2021-06-20",
@@ -1950,9 +1954,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-24"
+          "MAXIMUM": "2021-06-25"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-25",
+            "VALUE": 4
+          },
           {
             "DATE": "2021-06-24",
             "VALUE": 7
@@ -3882,24 +3890,28 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-24"
+          "MAXIMUM": "2021-06-25"
         },
         "VALUES": [
           {
-            "DATE": "2021-06-24",
-            "VALUE": 2.025589378
+            "DATE": "2021-06-25",
+            "VALUE": 2.160817801
           },
           {
-            "DATE": "2021-06-23",
+            "DATE": "2021-06-24",
             "VALUE": 2.566503069
           },
           {
+            "DATE": "2021-06-23",
+            "VALUE": 2.836959914
+          },
+          {
             "DATE": "2021-06-22",
-            "VALUE": 2.971242683
+            "VALUE": 3.106471106
           },
           {
             "DATE": "2021-06-21",
-            "VALUE": 3.376927951
+            "VALUE": 3.512156373
           },
           {
             "DATE": "2021-06-20",
@@ -5814,9 +5826,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-24"
+          "MAXIMUM": "2021-06-25"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-25",
+            "VALUE": 2.836959914
+          },
           {
             "DATE": "2021-06-24",
             "VALUE": 4.187352833
