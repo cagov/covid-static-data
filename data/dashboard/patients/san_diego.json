@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-27",
+    "PUBLISHED_DATE": "2021-06-28",
     "coverage": "San Diego"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 72,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 73,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.013889,
         "POPULATION": 3370418
       },
       "ICU_PATIENTS": {
-        "TOTAL": 29,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.035714,
+        "TOTAL": 26,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.103448,
         "POPULATION": 3370418
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-26"
+          "MAXIMUM": "2021-06-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-27",
+            "VALUE": 73
+          },
           {
             "DATE": "2021-06-26",
             "VALUE": 72
@@ -1846,9 +1850,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-26"
+          "MAXIMUM": "2021-06-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-27",
+            "VALUE": 26
+          },
           {
             "DATE": "2021-06-26",
             "VALUE": 29
@@ -3670,9 +3678,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-26"
+          "MAXIMUM": "2021-06-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-27",
+            "VALUE": 72.857
+          },
           {
             "DATE": "2021-06-26",
             "VALUE": 73.5
@@ -5494,9 +5506,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-26"
+          "MAXIMUM": "2021-06-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-27",
+            "VALUE": 26.285
+          },
           {
             "DATE": "2021-06-26",
             "VALUE": 26.071
