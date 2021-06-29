@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-28",
+    "PUBLISHED_DATE": "2021-06-29",
     "coverage": "Shasta"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 12640,
-        "new_cases": 5,
-        "new_cases_delta_1_day": 0.000396,
-        "cases_per_100k_7_days": 2.810172826,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-20",
+        "total_confirmed_cases": 12642,
+        "new_cases": 2,
+        "new_cases_delta_1_day": 0.000158,
+        "cases_per_100k_7_days": 2.488689054,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-06-21",
         "POPULATION": 177925
       }
     },
@@ -18,20 +18,24 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-27"
+          "MAXIMUM": "2021-06-28"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-28",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-06-27",
             "VALUE": 0
           },
           {
             "DATE": "2021-06-26",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2021-06-25",
-            "VALUE": 3
+            "VALUE": 4
           },
           {
             "DATE": "2021-06-24",
@@ -1962,9 +1966,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-27"
+          "MAXIMUM": "2021-06-28"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-28",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-06-27",
             "VALUE": 5
@@ -3906,20 +3914,24 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-27"
+          "MAXIMUM": "2021-06-28"
         },
         "VALUES": [
           {
-            "DATE": "2021-06-27",
+            "DATE": "2021-06-28",
             "VALUE": 1.765912604
           },
           {
+            "DATE": "2021-06-27",
+            "VALUE": 1.926654489
+          },
+          {
             "DATE": "2021-06-26",
-            "VALUE": 1.846283546
+            "VALUE": 2.007025432
           },
           {
             "DATE": "2021-06-25",
-            "VALUE": 2.007025432
+            "VALUE": 2.087396375
           },
           {
             "DATE": "2021-06-24",
@@ -5850,9 +5862,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-27"
+          "MAXIMUM": "2021-06-28"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-28",
+            "VALUE": 2.007025432
+          },
           {
             "DATE": "2021-06-27",
             "VALUE": 1.846283546
