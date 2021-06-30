@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-29",
+    "PUBLISHED_DATE": "2021-06-30",
     "coverage": "Sacramento"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 1675,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
-        "deaths_per_100k_7_days": 0.054656484,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-06-07",
+        "total_confirmed_deaths": 1677,
+        "new_deaths": 2,
+        "new_deaths_delta_1_day": 0.001194,
+        "deaths_per_100k_7_days": 0.04553644,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-06-08",
         "POPULATION": 1567975
       }
     },
@@ -18,9 +18,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-28"
+          "MAXIMUM": "2021-06-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-29",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-06-28",
             "VALUE": 0
@@ -47,7 +51,7 @@
           },
           {
             "DATE": "2021-06-22",
-            "VALUE": 0
+            "VALUE": 2
           },
           {
             "DATE": "2021-06-21",
@@ -67,7 +71,7 @@
           },
           {
             "DATE": "2021-06-17",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-06-16",
@@ -83,7 +87,7 @@
           },
           {
             "DATE": "2021-06-13",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2021-06-12",
@@ -1966,9 +1970,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-28"
+          "MAXIMUM": "2021-06-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-29",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-06-28",
             "VALUE": 0
@@ -3914,72 +3922,76 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-28"
+          "MAXIMUM": "2021-06-29"
         },
         "VALUES": [
           {
-            "DATE": "2021-06-28",
+            "DATE": "2021-06-29",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-06-28",
+            "VALUE": 0.01817631
           },
           {
             "DATE": "2021-06-27",
-            "VALUE": 0
+            "VALUE": 0.01817631
           },
           {
             "DATE": "2021-06-26",
-            "VALUE": 0.009056267
-          },
-          {
-            "DATE": "2021-06-25",
-            "VALUE": 0.009056267
-          },
-          {
-            "DATE": "2021-06-24",
-            "VALUE": 0.01817631
-          },
-          {
-            "DATE": "2021-06-23",
-            "VALUE": 0.01817631
-          },
-          {
-            "DATE": "2021-06-22",
             "VALUE": 0.027296354
           },
           {
-            "DATE": "2021-06-21",
+            "DATE": "2021-06-25",
+            "VALUE": 0.027296354
+          },
+          {
+            "DATE": "2021-06-24",
             "VALUE": 0.036416397
+          },
+          {
+            "DATE": "2021-06-23",
+            "VALUE": 0.04553644
+          },
+          {
+            "DATE": "2021-06-22",
+            "VALUE": 0.054656484
+          },
+          {
+            "DATE": "2021-06-21",
+            "VALUE": 0.04553644
           },
           {
             "DATE": "2021-06-20",
-            "VALUE": 0.04553644
+            "VALUE": 0.054656484
           },
           {
             "DATE": "2021-06-19",
-            "VALUE": 0.04553644
+            "VALUE": 0.063776527
           },
           {
             "DATE": "2021-06-18",
-            "VALUE": 0.04553644
+            "VALUE": 0.063776527
           },
           {
             "DATE": "2021-06-17",
-            "VALUE": 0.036416397
+            "VALUE": 0.054656484
           },
           {
             "DATE": "2021-06-16",
-            "VALUE": 0.036416397
-          },
-          {
-            "DATE": "2021-06-15",
-            "VALUE": 0.036416397
-          },
-          {
-            "DATE": "2021-06-14",
             "VALUE": 0.04553644
           },
           {
+            "DATE": "2021-06-15",
+            "VALUE": 0.04553644
+          },
+          {
+            "DATE": "2021-06-14",
+            "VALUE": 0.054656484
+          },
+          {
             "DATE": "2021-06-13",
-            "VALUE": 0.036416397
+            "VALUE": 0.04553644
           },
           {
             "DATE": "2021-06-12",
@@ -5862,9 +5874,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-28"
+          "MAXIMUM": "2021-06-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-29",
+            "VALUE": 0.063776527
+          },
           {
             "DATE": "2021-06-28",
             "VALUE": 0.054656484
