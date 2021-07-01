@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-30",
+    "PUBLISHED_DATE": "2021-07-01",
     "coverage": "Placer"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 19,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.05,
+        "TOTAL": 17,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.105263,
         "POPULATION": 400434
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-06-29"
+          "MAXIMUM": "2021-06-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-30",
+            "VALUE": 17
+          },
           {
             "DATE": "2021-06-29",
             "VALUE": 19
