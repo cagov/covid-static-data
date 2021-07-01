@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-06-30",
+    "PUBLISHED_DATE": "2021-07-01",
     "coverage": "Contra Costa"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 817,
+        "total_confirmed_deaths": 818,
         "new_deaths": 1,
-        "new_deaths_delta_1_day": 0.001225,
-        "deaths_per_100k_7_days": 0.012240335,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-06-08",
+        "new_deaths_delta_1_day": 0.001224,
+        "deaths_per_100k_7_days": 0,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-06-09",
         "POPULATION": 1160099
       }
     },
@@ -18,9 +18,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-29"
+          "MAXIMUM": "2021-06-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-30",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-06-29",
             "VALUE": 0
@@ -591,7 +595,7 @@
           },
           {
             "DATE": "2021-02-07",
-            "VALUE": 5
+            "VALUE": 6
           },
           {
             "DATE": "2021-02-06",
@@ -1970,9 +1974,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-29"
+          "MAXIMUM": "2021-06-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-30",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-06-29",
             "VALUE": 1
@@ -3922,9 +3930,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-29"
+          "MAXIMUM": "2021-06-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-30",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-06-29",
             "VALUE": 0
@@ -4471,31 +4483,31 @@
           },
           {
             "DATE": "2021-02-13",
-            "VALUE": 0.270838954
+            "VALUE": 0.283165488
           },
           {
             "DATE": "2021-02-12",
-            "VALUE": 0.307818557
-          },
-          {
-            "DATE": "2021-02-11",
             "VALUE": 0.320145091
           },
           {
-            "DATE": "2021-02-10",
+            "DATE": "2021-02-11",
             "VALUE": 0.332471625
           },
           {
+            "DATE": "2021-02-10",
+            "VALUE": 0.344798159
+          },
+          {
             "DATE": "2021-02-09",
-            "VALUE": 0.430997699
+            "VALUE": 0.443238034
           },
           {
             "DATE": "2021-02-08",
-            "VALUE": 0.443238034
+            "VALUE": 0.455564568
           },
           {
             "DATE": "2021-02-07",
-            "VALUE": 0.443238034
+            "VALUE": 0.455564568
           },
           {
             "DATE": "2021-02-06",
@@ -5874,9 +5886,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-06-29"
+          "MAXIMUM": "2021-06-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-06-30",
+            "VALUE": 0.061546471
+          },
           {
             "DATE": "2021-06-29",
             "VALUE": 0.049219937
