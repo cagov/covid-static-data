@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-05",
+    "PUBLISHED_DATE": "2021-07-06",
     "coverage": "Butte"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 9,
-        "CHANGE": 5,
-        "CHANGE_FACTOR": 1.25,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 217769
       },
       "ICU_PATIENTS": {
-        "TOTAL": 1,
+        "TOTAL": 2,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 0,
+        "CHANGE_FACTOR": 1,
         "POPULATION": 217769
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-04"
+          "MAXIMUM": "2021-07-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-05",
+            "VALUE": 9
+          },
           {
             "DATE": "2021-07-04",
             "VALUE": 9
@@ -1878,9 +1882,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-04"
+          "MAXIMUM": "2021-07-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-05",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-07-04",
             "VALUE": 1
@@ -3734,9 +3742,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-04"
+          "MAXIMUM": "2021-07-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-05",
+            "VALUE": 6.428
+          },
           {
             "DATE": "2021-07-04",
             "VALUE": 6.285
@@ -5590,9 +5602,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-04"
+          "MAXIMUM": "2021-07-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-05",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-07-04",
             "VALUE": 0.928
