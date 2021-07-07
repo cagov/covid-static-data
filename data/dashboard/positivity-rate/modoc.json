@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-06",
+    "PUBLISHED_DATE": "2021-07-07",
     "coverage": "Modoc"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0,
-        "test_positivity_7_days_delta_7_days": -0.060606,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-06-27",
+        "test_positivity_7_days": 0.055556,
+        "test_positivity_7_days_delta_7_days": -0.01341,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-06-28",
         "POPULATION": 9475
       }
     },
@@ -16,28 +16,32 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-04"
+          "MAXIMUM": "2021-07-05"
         },
         "VALUES": [
           {
+            "DATE": "2021-07-05",
+            "VALUE": 0.055556
+          },
+          {
             "DATE": "2021-07-04",
-            "VALUE": 0
+            "VALUE": 0.052632
           },
           {
             "DATE": "2021-07-03",
-            "VALUE": 0
+            "VALUE": 0.05
           },
           {
             "DATE": "2021-07-02",
-            "VALUE": 0
+            "VALUE": 0.047619
           },
           {
             "DATE": "2021-07-01",
-            "VALUE": 0
+            "VALUE": 0.041667
           },
           {
             "DATE": "2021-06-30",
-            "VALUE": 0.071429
+            "VALUE": 0.1
           },
           {
             "DATE": "2021-06-29",
@@ -1988,16 +1992,20 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-04"
+          "MAXIMUM": "2021-07-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-05",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-07-04",
             "VALUE": 0
           },
           {
             "DATE": "2021-07-03",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-07-02",
@@ -2009,7 +2017,7 @@
           },
           {
             "DATE": "2021-06-30",
-            "VALUE": 3
+            "VALUE": 5
           },
           {
             "DATE": "2021-06-29",
