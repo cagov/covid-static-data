@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-08",
+    "PUBLISHED_DATE": "2021-07-09",
     "coverage": "Yuba"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 17,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.214286,
+        "TOTAL": 16,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.058824,
         "POPULATION": 79290
       },
       "ICU_PATIENTS": {
-        "TOTAL": 4,
+        "TOTAL": 3,
         "CHANGE": -1,
-        "CHANGE_FACTOR": -0.2,
+        "CHANGE_FACTOR": -0.25,
         "POPULATION": 79290
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-07"
+          "MAXIMUM": "2021-07-08"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-08",
+            "VALUE": 16
+          },
           {
             "DATE": "2021-07-07",
             "VALUE": 17
@@ -1890,9 +1894,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-07"
+          "MAXIMUM": "2021-07-08"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-08",
+            "VALUE": 3
+          },
           {
             "DATE": "2021-07-07",
             "VALUE": 4
@@ -3758,9 +3766,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-07"
+          "MAXIMUM": "2021-07-08"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-08",
+            "VALUE": 11.714
+          },
           {
             "DATE": "2021-07-07",
             "VALUE": 11.571
@@ -5626,9 +5638,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-07"
+          "MAXIMUM": "2021-07-08"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-08",
+            "VALUE": 4.071
+          },
           {
             "DATE": "2021-07-07",
             "VALUE": 4.142
