@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-09",
+    "PUBLISHED_DATE": "2021-07-10",
     "coverage": "California"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 1623,
+        "TOTAL": 1676,
         "CHANGE": 54,
-        "CHANGE_FACTOR": 0.034417,
+        "CHANGE_FACTOR": 0.033292,
         "POPULATION": 40124928
       },
       "ICU_PATIENTS": {
-        "TOTAL": 348,
-        "CHANGE": 14,
-        "CHANGE_FACTOR": 0.041916,
+        "TOTAL": 349,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.002874,
         "POPULATION": 40124928
       }
     },
@@ -22,12 +22,16 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-08"
+          "MAXIMUM": "2021-07-09"
         },
         "VALUES": [
           {
+            "DATE": "2021-07-09",
+            "VALUE": 1676
+          },
+          {
             "DATE": "2021-07-08",
-            "VALUE": 1623
+            "VALUE": 1622
           },
           {
             "DATE": "2021-07-07",
@@ -1894,9 +1898,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-08"
+          "MAXIMUM": "2021-07-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-09",
+            "VALUE": 349
+          },
           {
             "DATE": "2021-07-08",
             "VALUE": 348
@@ -3766,12 +3774,16 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-08"
+          "MAXIMUM": "2021-07-09"
         },
         "VALUES": [
           {
+            "DATE": "2021-07-09",
+            "VALUE": 1411.142
+          },
+          {
             "DATE": "2021-07-08",
-            "VALUE": 1378.5
+            "VALUE": 1378.428
           },
           {
             "DATE": "2021-07-07",
@@ -5638,9 +5650,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-08"
+          "MAXIMUM": "2021-07-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-09",
+            "VALUE": 322.5
+          },
           {
             "DATE": "2021-07-08",
             "VALUE": 318.357
