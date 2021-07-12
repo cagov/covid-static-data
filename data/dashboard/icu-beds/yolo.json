@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-11",
+    "PUBLISHED_DATE": "2021-07-12",
     "coverage": "Yolo"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 1,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.75,
+        "TOTAL": 3,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 2,
         "POPULATION": 223612
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-10"
+          "MAXIMUM": "2021-07-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-11",
+            "VALUE": 3
+          },
           {
             "DATE": "2021-07-10",
             "VALUE": 1
