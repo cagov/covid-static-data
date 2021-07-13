@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-12",
+    "PUBLISHED_DATE": "2021-07-13",
     "coverage": "Nevada"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 5035,
-        "new_cases": 35,
-        "new_cases_delta_1_day": 0.007,
-        "cases_per_100k_7_days": 5.643805086,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-07-04",
+        "total_confirmed_cases": 5046,
+        "new_cases": 11,
+        "new_cases_delta_1_day": 0.002185,
+        "cases_per_100k_7_days": 5.498936278,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-07-05",
         "POPULATION": 98710
       }
     },
@@ -18,20 +18,24 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-11"
+          "MAXIMUM": "2021-07-12"
         },
         "VALUES": [
           {
-            "DATE": "2021-07-11",
+            "DATE": "2021-07-12",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-07-11",
+            "VALUE": 1
           },
           {
             "DATE": "2021-07-10",
-            "VALUE": 0
+            "VALUE": 7
           },
           {
             "DATE": "2021-07-09",
-            "VALUE": 3
+            "VALUE": 6
           },
           {
             "DATE": "2021-07-08",
@@ -2018,9 +2022,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-11"
+          "MAXIMUM": "2021-07-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-12",
+            "VALUE": 11
+          },
           {
             "DATE": "2021-07-11",
             "VALUE": 35
@@ -4018,20 +4026,24 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-11"
+          "MAXIMUM": "2021-07-12"
         },
         "VALUES": [
           {
+            "DATE": "2021-07-12",
+            "VALUE": 6.222267247
+          },
+          {
             "DATE": "2021-07-11",
-            "VALUE": 5.35406747
+            "VALUE": 6.946611286
           },
           {
             "DATE": "2021-07-10",
-            "VALUE": 6.512004863
+            "VALUE": 7.95967987
           },
           {
             "DATE": "2021-07-09",
-            "VALUE": 6.801742478
+            "VALUE": 7.235335832
           },
           {
             "DATE": "2021-07-08",
@@ -6018,9 +6030,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-11"
+          "MAXIMUM": "2021-07-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-12",
+            "VALUE": 9.551210617
+          },
           {
             "DATE": "2021-07-11",
             "VALUE": 9.98581704
