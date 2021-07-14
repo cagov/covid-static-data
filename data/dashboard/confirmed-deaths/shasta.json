@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-13",
+    "PUBLISHED_DATE": "2021-07-14",
     "coverage": "Shasta"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 208,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
+        "total_confirmed_deaths": 209,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.004808,
         "deaths_per_100k_7_days": 0.160179851,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-06-21",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-06-22",
         "POPULATION": 177925
       }
     },
@@ -18,9 +18,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-12"
+          "MAXIMUM": "2021-07-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-13",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-07-12",
             "VALUE": 0
@@ -39,7 +43,7 @@
           },
           {
             "DATE": "2021-07-08",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2021-07-07",
@@ -2022,9 +2026,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-12"
+          "MAXIMUM": "2021-07-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-13",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-07-12",
             "VALUE": 0
@@ -4026,28 +4034,32 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-12"
+          "MAXIMUM": "2021-07-13"
         },
         "VALUES": [
           {
-            "DATE": "2021-07-12",
+            "DATE": "2021-07-13",
             "VALUE": 0.160179851
+          },
+          {
+            "DATE": "2021-07-12",
+            "VALUE": 0.240550794
           },
           {
             "DATE": "2021-07-11",
-            "VALUE": 0.160179851
+            "VALUE": 0.240550794
           },
           {
             "DATE": "2021-07-10",
-            "VALUE": 0.160179851
+            "VALUE": 0.240550794
           },
           {
             "DATE": "2021-07-09",
-            "VALUE": 0.160179851
+            "VALUE": 0.240550794
           },
           {
             "DATE": "2021-07-08",
-            "VALUE": 0.160179851
+            "VALUE": 0.240550794
           },
           {
             "DATE": "2021-07-07",
@@ -6030,9 +6042,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-12"
+          "MAXIMUM": "2021-07-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-13",
+            "VALUE": 0.320921737
+          },
           {
             "DATE": "2021-07-12",
             "VALUE": 0.240550794
