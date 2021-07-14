@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-13",
+    "PUBLISHED_DATE": "2021-07-14",
     "coverage": "San Benito"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 6166,
-        "new_cases": 3,
-        "new_cases_delta_1_day": 0.000487,
-        "cases_per_100k_7_days": 7.363093936,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-07-05",
+        "total_confirmed_cases": 6173,
+        "new_cases": 7,
+        "new_cases_delta_1_day": 0.001135,
+        "cases_per_100k_7_days": 7.586454656,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-07-06",
         "POPULATION": 64022
       }
     },
@@ -18,16 +18,20 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-12"
+          "MAXIMUM": "2021-07-13"
         },
         "VALUES": [
           {
-            "DATE": "2021-07-12",
+            "DATE": "2021-07-13",
             "VALUE": 0
           },
           {
+            "DATE": "2021-07-12",
+            "VALUE": 2
+          },
+          {
             "DATE": "2021-07-11",
-            "VALUE": 1
+            "VALUE": 3
           },
           {
             "DATE": "2021-07-10",
@@ -35,11 +39,11 @@
           },
           {
             "DATE": "2021-07-09",
-            "VALUE": 5
+            "VALUE": 7
           },
           {
             "DATE": "2021-07-08",
-            "VALUE": 2
+            "VALUE": 3
           },
           {
             "DATE": "2021-07-07",
@@ -2022,9 +2026,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-12"
+          "MAXIMUM": "2021-07-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-13",
+            "VALUE": 7
+          },
           {
             "DATE": "2021-07-12",
             "VALUE": 3
@@ -4026,28 +4034,32 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-12"
+          "MAXIMUM": "2021-07-13"
         },
         "VALUES": [
           {
+            "DATE": "2021-07-13",
+            "VALUE": 4.907687982
+          },
+          {
             "DATE": "2021-07-12",
-            "VALUE": 3.792446347
-          },
-          {
-            "DATE": "2021-07-11",
-            "VALUE": 4.685889226
-          },
-          {
-            "DATE": "2021-07-10",
             "VALUE": 5.354409422
           },
           {
+            "DATE": "2021-07-11",
+            "VALUE": 5.801130861
+          },
+          {
+            "DATE": "2021-07-10",
+            "VALUE": 6.024491581
+          },
+          {
             "DATE": "2021-07-09",
-            "VALUE": 5.577770142
+            "VALUE": 6.247852301
           },
           {
             "DATE": "2021-07-08",
-            "VALUE": 5.577770142
+            "VALUE": 5.801130861
           },
           {
             "DATE": "2021-07-07",
@@ -6030,9 +6042,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-12"
+          "MAXIMUM": "2021-07-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-13",
+            "VALUE": 8.031614133
+          },
           {
             "DATE": "2021-07-12",
             "VALUE": 6.469651057
