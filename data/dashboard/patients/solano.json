@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-13",
+    "PUBLISHED_DATE": "2021-07-14",
     "coverage": "Solano"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 31,
-        "CHANGE": 4,
-        "CHANGE_FACTOR": 0.148148,
+        "TOTAL": 30,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.032258,
         "POPULATION": 444255
       },
       "ICU_PATIENTS": {
         "TOTAL": 6,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.25,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 444255
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-12"
+          "MAXIMUM": "2021-07-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-13",
+            "VALUE": 30
+          },
           {
             "DATE": "2021-07-12",
             "VALUE": 31
@@ -1910,9 +1914,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-12"
+          "MAXIMUM": "2021-07-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-13",
+            "VALUE": 6
+          },
           {
             "DATE": "2021-07-12",
             "VALUE": 6
@@ -3798,9 +3806,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-12"
+          "MAXIMUM": "2021-07-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-13",
+            "VALUE": 21.571
+          },
           {
             "DATE": "2021-07-12",
             "VALUE": 20.714
@@ -5686,9 +5698,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-12"
+          "MAXIMUM": "2021-07-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-13",
+            "VALUE": 4.357
+          },
           {
             "DATE": "2021-07-12",
             "VALUE": 4
