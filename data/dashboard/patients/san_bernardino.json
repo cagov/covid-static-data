@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-15",
+    "PUBLISHED_DATE": "2021-07-16",
     "coverage": "San Bernardino"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 140,
-        "CHANGE": 15,
-        "CHANGE_FACTOR": 0.12,
+        "TOTAL": 142,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.014286,
         "POPULATION": 2217398
       },
       "ICU_PATIENTS": {
-        "TOTAL": 25,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.086957,
+        "TOTAL": 24,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.04,
         "POPULATION": 2217398
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-14"
+          "MAXIMUM": "2021-07-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-15",
+            "VALUE": 142
+          },
           {
             "DATE": "2021-07-14",
             "VALUE": 140
@@ -1918,9 +1922,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-14"
+          "MAXIMUM": "2021-07-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-15",
+            "VALUE": 24
+          },
           {
             "DATE": "2021-07-14",
             "VALUE": 25
@@ -3814,9 +3822,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-14"
+          "MAXIMUM": "2021-07-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-15",
+            "VALUE": 110.857
+          },
           {
             "DATE": "2021-07-14",
             "VALUE": 107.571
@@ -5710,9 +5722,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-14"
+          "MAXIMUM": "2021-07-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-15",
+            "VALUE": 24.285
+          },
           {
             "DATE": "2021-07-14",
             "VALUE": 24.214
