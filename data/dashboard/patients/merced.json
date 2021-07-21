@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-20",
+    "PUBLISHED_DATE": "2021-07-21",
     "coverage": "Merced"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 10,
+        "TOTAL": 12,
         "CHANGE": 2,
-        "CHANGE_FACTOR": 0.25,
+        "CHANGE_FACTOR": 0.2,
         "POPULATION": 287420
       },
       "ICU_PATIENTS": {
         "TOTAL": 4,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.333333,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 287420
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-19"
+          "MAXIMUM": "2021-07-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-20",
+            "VALUE": 12
+          },
           {
             "DATE": "2021-07-19",
             "VALUE": 10
@@ -1938,9 +1942,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-19"
+          "MAXIMUM": "2021-07-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-20",
+            "VALUE": 4
+          },
           {
             "DATE": "2021-07-19",
             "VALUE": 4
@@ -3854,9 +3862,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-19"
+          "MAXIMUM": "2021-07-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-20",
+            "VALUE": 5.785
+          },
           {
             "DATE": "2021-07-19",
             "VALUE": 5.214
@@ -5770,9 +5782,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-19"
+          "MAXIMUM": "2021-07-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-20",
+            "VALUE": 1.928
+          },
           {
             "DATE": "2021-07-19",
             "VALUE": 1.714
