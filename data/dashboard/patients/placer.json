@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-20",
+    "PUBLISHED_DATE": "2021-07-21",
     "coverage": "Placer"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 74,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 75,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.013514,
         "POPULATION": 400434
       },
       "ICU_PATIENTS": {
-        "TOTAL": 17,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 15,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.117647,
         "POPULATION": 400434
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-19"
+          "MAXIMUM": "2021-07-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-20",
+            "VALUE": 75
+          },
           {
             "DATE": "2021-07-19",
             "VALUE": 74
@@ -1938,9 +1942,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-19"
+          "MAXIMUM": "2021-07-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-20",
+            "VALUE": 15
+          },
           {
             "DATE": "2021-07-19",
             "VALUE": 17
@@ -3854,9 +3862,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-19"
+          "MAXIMUM": "2021-07-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-20",
+            "VALUE": 57.428
+          },
           {
             "DATE": "2021-07-19",
             "VALUE": 55.142
@@ -5770,9 +5782,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-19"
+          "MAXIMUM": "2021-07-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-20",
+            "VALUE": 11.285
+          },
           {
             "DATE": "2021-07-19",
             "VALUE": 10.428
