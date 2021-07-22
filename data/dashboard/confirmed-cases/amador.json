@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-21",
+    "PUBLISHED_DATE": "2021-07-22",
     "coverage": "Amador"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 3807,
-        "new_cases": 5,
-        "new_cases_delta_1_day": 0.001315,
-        "cases_per_100k_7_days": 6.672549376,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-07-13",
+        "total_confirmed_cases": 3813,
+        "new_cases": 6,
+        "new_cases_delta_1_day": 0.001576,
+        "cases_per_100k_7_days": 7.785938595,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-07-14",
         "POPULATION": 38531
       }
     },
@@ -18,16 +18,20 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-20"
+          "MAXIMUM": "2021-07-21"
         },
         "VALUES": [
           {
-            "DATE": "2021-07-20",
+            "DATE": "2021-07-21",
             "VALUE": 0
           },
           {
+            "DATE": "2021-07-20",
+            "VALUE": 1
+          },
+          {
             "DATE": "2021-07-19",
-            "VALUE": 2
+            "VALUE": 7
           },
           {
             "DATE": "2021-07-18",
@@ -2054,9 +2058,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-20"
+          "MAXIMUM": "2021-07-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-21",
+            "VALUE": 6
+          },
           {
             "DATE": "2021-07-20",
             "VALUE": 5
@@ -4090,16 +4098,20 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-20"
+          "MAXIMUM": "2021-07-21"
         },
         "VALUES": [
           {
+            "DATE": "2021-07-21",
+            "VALUE": 4.81949599
+          },
+          {
             "DATE": "2021-07-20",
-            "VALUE": 4.077236511
+            "VALUE": 6.301419636
           },
           {
             "DATE": "2021-07-19",
-            "VALUE": 5.559160157
+            "VALUE": 7.414808855
           },
           {
             "DATE": "2021-07-18",
@@ -6126,9 +6138,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-20"
+          "MAXIMUM": "2021-07-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-21",
+            "VALUE": 10.749785887
+          },
           {
             "DATE": "2021-07-20",
             "VALUE": 8.896732501
