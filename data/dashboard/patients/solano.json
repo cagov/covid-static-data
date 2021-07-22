@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-21",
+    "PUBLISHED_DATE": "2021-07-22",
     "coverage": "Solano"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 46,
-        "CHANGE": 10,
-        "CHANGE_FACTOR": 0.277778,
+        "TOTAL": 41,
+        "CHANGE": -5,
+        "CHANGE_FACTOR": -0.108696,
         "POPULATION": 444255
       },
       "ICU_PATIENTS": {
-        "TOTAL": 8,
+        "TOTAL": 7,
         "CHANGE": -1,
-        "CHANGE_FACTOR": -0.111111,
+        "CHANGE_FACTOR": -0.125,
         "POPULATION": 444255
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-20"
+          "MAXIMUM": "2021-07-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-21",
+            "VALUE": 41
+          },
           {
             "DATE": "2021-07-20",
             "VALUE": 46
@@ -1942,9 +1946,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-20"
+          "MAXIMUM": "2021-07-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-21",
+            "VALUE": 7
+          },
           {
             "DATE": "2021-07-20",
             "VALUE": 8
@@ -3862,9 +3870,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-20"
+          "MAXIMUM": "2021-07-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-21",
+            "VALUE": 31.428
+          },
           {
             "DATE": "2021-07-20",
             "VALUE": 29.928
@@ -5782,9 +5794,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-20"
+          "MAXIMUM": "2021-07-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-21",
+            "VALUE": 7.428
+          },
           {
             "DATE": "2021-07-20",
             "VALUE": 7.142
