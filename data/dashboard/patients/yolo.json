@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-23",
+    "PUBLISHED_DATE": "2021-07-24",
     "coverage": "Yolo"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 11,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.1,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 223612
       },
       "ICU_PATIENTS": {
         "TOTAL": 8,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.142857,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 223612
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-22"
+          "MAXIMUM": "2021-07-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-23",
+            "VALUE": 11
+          },
           {
             "DATE": "2021-07-22",
             "VALUE": 11
@@ -1950,9 +1954,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-22"
+          "MAXIMUM": "2021-07-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-23",
+            "VALUE": 8
+          },
           {
             "DATE": "2021-07-22",
             "VALUE": 8
@@ -3878,9 +3886,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-22"
+          "MAXIMUM": "2021-07-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-23",
+            "VALUE": 8.214
+          },
           {
             "DATE": "2021-07-22",
             "VALUE": 7.785
@@ -5806,9 +5818,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-22"
+          "MAXIMUM": "2021-07-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-23",
+            "VALUE": 6.071
+          },
           {
             "DATE": "2021-07-22",
             "VALUE": 5.714
