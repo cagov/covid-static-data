@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-23",
+    "PUBLISHED_DATE": "2021-07-24",
     "coverage": "Tulare"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 25,
-        "CHANGE": 4,
-        "CHANGE_FACTOR": 0.190476,
+        "TOTAL": 22,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.12,
         "POPULATION": 484423
       },
       "ICU_PATIENTS": {
-        "TOTAL": 3,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.5,
+        "TOTAL": 2,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.333333,
         "POPULATION": 484423
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-22"
+          "MAXIMUM": "2021-07-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-23",
+            "VALUE": 22
+          },
           {
             "DATE": "2021-07-22",
             "VALUE": 25
@@ -1950,9 +1954,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-22"
+          "MAXIMUM": "2021-07-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-23",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-07-22",
             "VALUE": 3
@@ -3878,9 +3886,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-22"
+          "MAXIMUM": "2021-07-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-23",
+            "VALUE": 20.428
+          },
           {
             "DATE": "2021-07-22",
             "VALUE": 19.714
@@ -5806,9 +5818,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-22"
+          "MAXIMUM": "2021-07-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-23",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-07-22",
             "VALUE": 2
