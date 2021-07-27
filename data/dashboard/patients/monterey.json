@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-26",
+    "PUBLISHED_DATE": "2021-07-27",
     "coverage": "Monterey"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 20,
-        "CHANGE": 4,
-        "CHANGE_FACTOR": 0.25,
+        "TOTAL": 22,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.1,
         "POPULATION": 448732
       },
       "ICU_PATIENTS": {
         "TOTAL": 3,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.5,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 448732
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-25"
+          "MAXIMUM": "2021-07-26"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-26",
+            "VALUE": 22
+          },
           {
             "DATE": "2021-07-25",
             "VALUE": 20
@@ -1962,9 +1966,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-25"
+          "MAXIMUM": "2021-07-26"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-26",
+            "VALUE": 3
+          },
           {
             "DATE": "2021-07-25",
             "VALUE": 3
@@ -3902,9 +3910,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-25"
+          "MAXIMUM": "2021-07-26"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-26",
+            "VALUE": 12.642
+          },
           {
             "DATE": "2021-07-25",
             "VALUE": 11.714
@@ -5842,9 +5854,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-25"
+          "MAXIMUM": "2021-07-26"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-26",
+            "VALUE": 2.714
+          },
           {
             "DATE": "2021-07-25",
             "VALUE": 2.714
