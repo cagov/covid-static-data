@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-28",
+    "PUBLISHED_DATE": "2021-07-29",
     "coverage": "San Joaquin"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 1442,
-        "new_deaths": 2,
-        "new_deaths_delta_1_day": 0.001389,
-        "deaths_per_100k_7_days": 0.018145921,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-07-06",
+        "total_confirmed_deaths": 1443,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.000693,
+        "deaths_per_100k_7_days": 0.05469334,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-07-07",
         "POPULATION": 782545
       }
     },
@@ -18,9 +18,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-27"
+          "MAXIMUM": "2021-07-28"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-28",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-07-27",
             "VALUE": 0
@@ -43,7 +47,7 @@
           },
           {
             "DATE": "2021-07-22",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-07-21",
@@ -2082,9 +2086,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-27"
+          "MAXIMUM": "2021-07-28"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-28",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-07-27",
             "VALUE": 2
@@ -4146,32 +4154,36 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-27"
+          "MAXIMUM": "2021-07-28"
         },
         "VALUES": [
           {
+            "DATE": "2021-07-28",
+            "VALUE": 0.018145921
+          },
+          {
             "DATE": "2021-07-27",
-            "VALUE": 0
+            "VALUE": 0.018145921
           },
           {
             "DATE": "2021-07-26",
-            "VALUE": 0
+            "VALUE": 0.018145921
           },
           {
             "DATE": "2021-07-25",
-            "VALUE": 0
+            "VALUE": 0.018145921
           },
           {
             "DATE": "2021-07-24",
-            "VALUE": 0
+            "VALUE": 0.018145921
           },
           {
             "DATE": "2021-07-23",
-            "VALUE": 0
+            "VALUE": 0.018145921
           },
           {
             "DATE": "2021-07-22",
-            "VALUE": 0
+            "VALUE": 0.018145921
           },
           {
             "DATE": "2021-07-21",
@@ -6210,9 +6222,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-27"
+          "MAXIMUM": "2021-07-28"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-28",
+            "VALUE": 0.164207809
+          },
           {
             "DATE": "2021-07-27",
             "VALUE": 0.164207809

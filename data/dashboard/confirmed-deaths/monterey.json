@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-07-28",
+    "PUBLISHED_DATE": "2021-07-29",
     "coverage": "Monterey"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 523,
-        "new_deaths": 2,
-        "new_deaths_delta_1_day": 0.003839,
+        "total_confirmed_deaths": 524,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.001912,
         "deaths_per_100k_7_days": 0,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-07-06",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-07-07",
         "POPULATION": 448732
       }
     },
@@ -18,12 +18,16 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-27"
+          "MAXIMUM": "2021-07-28"
         },
         "VALUES": [
           {
-            "DATE": "2021-07-27",
+            "DATE": "2021-07-28",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-07-27",
+            "VALUE": 1
           },
           {
             "DATE": "2021-07-26",
@@ -2082,9 +2086,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-27"
+          "MAXIMUM": "2021-07-28"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-28",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-07-27",
             "VALUE": 2
@@ -4146,12 +4154,16 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-27"
+          "MAXIMUM": "2021-07-28"
         },
         "VALUES": [
           {
+            "DATE": "2021-07-28",
+            "VALUE": 0.063512297
+          },
+          {
             "DATE": "2021-07-27",
-            "VALUE": 0.031644723
+            "VALUE": 0.063512297
           },
           {
             "DATE": "2021-07-26",
@@ -6210,9 +6222,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-07-27"
+          "MAXIMUM": "2021-07-28"
         },
         "VALUES": [
+          {
+            "DATE": "2021-07-28",
+            "VALUE": 0.286362461
+          },
           {
             "DATE": "2021-07-27",
             "VALUE": 0.254494888
