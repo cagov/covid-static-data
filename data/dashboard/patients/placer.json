@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-01",
+    "PUBLISHED_DATE": "2021-08-02",
     "coverage": "Placer"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 123,
+        "TOTAL": 125,
         "CHANGE": 2,
-        "CHANGE_FACTOR": 0.016529,
+        "CHANGE_FACTOR": 0.01626,
         "POPULATION": 400434
       },
       "ICU_PATIENTS": {
         "TOTAL": 26,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.130435,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 400434
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-31"
+          "MAXIMUM": "2021-08-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-01",
+            "VALUE": 125
+          },
           {
             "DATE": "2021-07-31",
             "VALUE": 123
@@ -1986,9 +1990,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-31"
+          "MAXIMUM": "2021-08-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-01",
+            "VALUE": 26
+          },
           {
             "DATE": "2021-07-31",
             "VALUE": 26
@@ -3950,9 +3958,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-31"
+          "MAXIMUM": "2021-08-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-01",
+            "VALUE": 91.071
+          },
           {
             "DATE": "2021-07-31",
             "VALUE": 87.428
@@ -5914,9 +5926,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-07-31"
+          "MAXIMUM": "2021-08-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-01",
+            "VALUE": 20.285
+          },
           {
             "DATE": "2021-07-31",
             "VALUE": 19.642
