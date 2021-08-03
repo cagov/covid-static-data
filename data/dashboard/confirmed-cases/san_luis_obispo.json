@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-02",
+    "PUBLISHED_DATE": "2021-08-03",
     "coverage": "San Luis Obispo"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 22083,
-        "new_cases": 161,
-        "new_cases_delta_1_day": 0.007344,
-        "cases_per_100k_7_days": 10.143009804,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-07-25",
+        "total_confirmed_cases": 22093,
+        "new_cases": 10,
+        "new_cases_delta_1_day": 0.000453,
+        "cases_per_100k_7_days": 11.93601136,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-07-26",
         "POPULATION": 278862
       }
     },
@@ -18,20 +18,24 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-01"
+          "MAXIMUM": "2021-08-02"
         },
         "VALUES": [
           {
-            "DATE": "2021-08-01",
+            "DATE": "2021-08-02",
             "VALUE": 0
           },
           {
+            "DATE": "2021-08-01",
+            "VALUE": 1
+          },
+          {
             "DATE": "2021-07-31",
-            "VALUE": 9
+            "VALUE": 11
           },
           {
             "DATE": "2021-07-30",
-            "VALUE": 21
+            "VALUE": 27
           },
           {
             "DATE": "2021-07-29",
@@ -75,7 +79,7 @@
           },
           {
             "DATE": "2021-07-19",
-            "VALUE": 33
+            "VALUE": 34
           },
           {
             "DATE": "2021-07-18",
@@ -2102,9 +2106,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-01"
+          "MAXIMUM": "2021-08-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-02",
+            "VALUE": 10
+          },
           {
             "DATE": "2021-08-01",
             "VALUE": 161
@@ -4186,20 +4194,24 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-01"
+          "MAXIMUM": "2021-08-02"
         },
         "VALUES": [
           {
+            "DATE": "2021-08-02",
+            "VALUE": 9.733129648
+          },
+          {
             "DATE": "2021-08-01",
-            "VALUE": 12.755771672
+            "VALUE": 13.216931672
           },
           {
             "DATE": "2021-07-31",
-            "VALUE": 13.42169245
+            "VALUE": 13.831572606
           },
           {
             "DATE": "2021-07-30",
-            "VALUE": 14.292732606
+            "VALUE": 14.600053073
           },
           {
             "DATE": "2021-07-29",
@@ -4219,31 +4231,31 @@
           },
           {
             "DATE": "2021-07-25",
-            "VALUE": 10.143009804
+            "VALUE": 10.194289649
           },
           {
             "DATE": "2021-07-24",
-            "VALUE": 10.706729493
+            "VALUE": 10.758009338
           },
           {
             "DATE": "2021-07-23",
-            "VALUE": 10.09172996
-          },
-          {
-            "DATE": "2021-07-22",
-            "VALUE": 10.501610115
-          },
-          {
-            "DATE": "2021-07-21",
             "VALUE": 10.143009804
           },
           {
+            "DATE": "2021-07-22",
+            "VALUE": 10.55288996
+          },
+          {
+            "DATE": "2021-07-21",
+            "VALUE": 10.194289649
+          },
+          {
             "DATE": "2021-07-20",
-            "VALUE": 9.528368871
+            "VALUE": 9.579648715
           },
           {
             "DATE": "2021-07-19",
-            "VALUE": 8.503847781
+            "VALUE": 8.555127626
           },
           {
             "DATE": "2021-07-18",
@@ -6270,9 +6282,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-01"
+          "MAXIMUM": "2021-08-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-02",
+            "VALUE": 17.468855563
+          },
           {
             "DATE": "2021-08-01",
             "VALUE": 17.520135407
