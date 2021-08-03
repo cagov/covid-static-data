@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-02",
+    "PUBLISHED_DATE": "2021-08-03",
     "coverage": "California"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 4772,
-        "CHANGE": 211,
-        "CHANGE_FACTOR": 0.046262,
+        "TOTAL": 5120,
+        "CHANGE": 348,
+        "CHANGE_FACTOR": 0.072925,
         "POPULATION": 40124928
       },
       "ICU_PATIENTS": {
-        "TOTAL": 1024,
-        "CHANGE": 51,
-        "CHANGE_FACTOR": 0.052415,
+        "TOTAL": 1091,
+        "CHANGE": 67,
+        "CHANGE_FACTOR": 0.06543,
         "POPULATION": 40124928
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-01"
+          "MAXIMUM": "2021-08-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-02",
+            "VALUE": 5120
+          },
           {
             "DATE": "2021-08-01",
             "VALUE": 4772
@@ -39,7 +43,7 @@
           },
           {
             "DATE": "2021-07-29",
-            "VALUE": 4099
+            "VALUE": 4103
           },
           {
             "DATE": "2021-07-28",
@@ -1990,9 +1994,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-01"
+          "MAXIMUM": "2021-08-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-02",
+            "VALUE": 1091
+          },
           {
             "DATE": "2021-08-01",
             "VALUE": 1024
@@ -2007,7 +2015,7 @@
           },
           {
             "DATE": "2021-07-29",
-            "VALUE": 876
+            "VALUE": 875
           },
           {
             "DATE": "2021-07-28",
@@ -3958,24 +3966,28 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-01"
+          "MAXIMUM": "2021-08-02"
         },
         "VALUES": [
           {
+            "DATE": "2021-08-02",
+            "VALUE": 3720.928
+          },
+          {
             "DATE": "2021-08-01",
-            "VALUE": 3529.714
+            "VALUE": 3530
           },
           {
             "DATE": "2021-07-31",
-            "VALUE": 3351.214
+            "VALUE": 3351.5
           },
           {
             "DATE": "2021-07-30",
-            "VALUE": 3183.071
+            "VALUE": 3183.357
           },
           {
             "DATE": "2021-07-29",
-            "VALUE": 3025.214
+            "VALUE": 3025.5
           },
           {
             "DATE": "2021-07-28",
@@ -5926,24 +5938,28 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-01"
+          "MAXIMUM": "2021-08-02"
         },
         "VALUES": [
           {
+            "DATE": "2021-08-02",
+            "VALUE": 796
+          },
+          {
             "DATE": "2021-08-01",
-            "VALUE": 760.214
+            "VALUE": 760.142
           },
           {
             "DATE": "2021-07-31",
-            "VALUE": 725.857
+            "VALUE": 725.785
           },
           {
             "DATE": "2021-07-30",
-            "VALUE": 693.142
+            "VALUE": 693.071
           },
           {
             "DATE": "2021-07-29",
-            "VALUE": 662.857
+            "VALUE": 662.785
           },
           {
             "DATE": "2021-07-28",
