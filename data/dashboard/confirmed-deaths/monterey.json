@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-04",
+    "PUBLISHED_DATE": "2021-08-05",
     "coverage": "Monterey"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 525,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
+        "total_confirmed_deaths": 526,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.001905,
         "deaths_per_100k_7_days": 0,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-07-13",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-07-14",
         "POPULATION": 448732
       }
     },
@@ -18,9 +18,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-03"
+          "MAXIMUM": "2021-08-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-04",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-08-03",
             "VALUE": 0
@@ -39,7 +43,7 @@
           },
           {
             "DATE": "2021-07-30",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-07-29",
@@ -2110,9 +2114,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-03"
+          "MAXIMUM": "2021-08-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-04",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-08-03",
             "VALUE": 0
@@ -4202,28 +4210,32 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-03"
+          "MAXIMUM": "2021-08-04"
         },
         "VALUES": [
           {
+            "DATE": "2021-08-04",
+            "VALUE": 0.031644723
+          },
+          {
             "DATE": "2021-08-03",
-            "VALUE": 0
+            "VALUE": 0.031644723
           },
           {
             "DATE": "2021-08-02",
-            "VALUE": 0.031644723
+            "VALUE": 0.063512297
           },
           {
             "DATE": "2021-08-01",
-            "VALUE": 0.031644723
+            "VALUE": 0.063512297
           },
           {
             "DATE": "2021-07-31",
-            "VALUE": 0.063512297
+            "VALUE": 0.09537987
           },
           {
             "DATE": "2021-07-30",
-            "VALUE": 0.063512297
+            "VALUE": 0.09537987
           },
           {
             "DATE": "2021-07-29",
@@ -6294,9 +6306,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-03"
+          "MAXIMUM": "2021-08-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-04",
+            "VALUE": 0.063512297
+          },
           {
             "DATE": "2021-08-03",
             "VALUE": 0.063512297
