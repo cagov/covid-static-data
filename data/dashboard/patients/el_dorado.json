@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-04",
+    "PUBLISHED_DATE": "2021-08-05",
     "coverage": "El Dorado"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 20,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.111111,
+        "TOTAL": 19,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.05,
         "POPULATION": 193098
       },
       "ICU_PATIENTS": {
-        "TOTAL": 4,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.333333,
+        "TOTAL": 5,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.25,
         "POPULATION": 193098
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-03"
+          "MAXIMUM": "2021-08-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-04",
+            "VALUE": 19
+          },
           {
             "DATE": "2021-08-03",
             "VALUE": 20
@@ -1998,9 +2002,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-03"
+          "MAXIMUM": "2021-08-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-04",
+            "VALUE": 5
+          },
           {
             "DATE": "2021-08-03",
             "VALUE": 4
@@ -3974,9 +3982,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-03"
+          "MAXIMUM": "2021-08-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-04",
+            "VALUE": 13.071
+          },
           {
             "DATE": "2021-08-03",
             "VALUE": 12.785
@@ -5950,9 +5962,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-03"
+          "MAXIMUM": "2021-08-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-04",
+            "VALUE": 4.285
+          },
           {
             "DATE": "2021-08-03",
             "VALUE": 4.214
