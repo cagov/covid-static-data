@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-05",
+    "PUBLISHED_DATE": "2021-08-06",
     "coverage": "San Bernardino"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 5285,
-        "new_deaths": 20,
-        "new_deaths_delta_1_day": 0.003799,
+        "total_confirmed_deaths": 5284,
+        "new_deaths": -1,
+        "new_deaths_delta_1_day": -0.000189,
         "deaths_per_100k_7_days": 0.057950805,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-07-14",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-07-15",
         "POPULATION": 2217398
       }
     },
@@ -18,9 +18,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-04"
+          "MAXIMUM": "2021-08-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-05",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-08-04",
             "VALUE": 0
@@ -35,7 +39,7 @@
           },
           {
             "DATE": "2021-08-01",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-07-31",
@@ -211,7 +215,7 @@
           },
           {
             "DATE": "2021-06-18",
-            "VALUE": 3
+            "VALUE": 2
           },
           {
             "DATE": "2021-06-17",
@@ -815,7 +819,7 @@
           },
           {
             "DATE": "2021-01-18",
-            "VALUE": 36
+            "VALUE": 35
           },
           {
             "DATE": "2021-01-17",
@@ -2114,9 +2118,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-04"
+          "MAXIMUM": "2021-08-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-05",
+            "VALUE": -1
+          },
           {
             "DATE": "2021-08-04",
             "VALUE": 20
@@ -4210,24 +4218,28 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-04"
+          "MAXIMUM": "2021-08-05"
         },
         "VALUES": [
           {
+            "DATE": "2021-08-05",
+            "VALUE": 0.012852902
+          },
+          {
             "DATE": "2021-08-04",
-            "VALUE": 0.006403902
+            "VALUE": 0.012852902
           },
           {
             "DATE": "2021-08-03",
-            "VALUE": 0.006403902
+            "VALUE": 0.012852902
           },
           {
             "DATE": "2021-08-02",
-            "VALUE": 0.006403902
+            "VALUE": 0.012852902
           },
           {
             "DATE": "2021-08-01",
-            "VALUE": 0.006403902
+            "VALUE": 0.012852902
           },
           {
             "DATE": "2021-07-31",
@@ -4379,31 +4391,31 @@
           },
           {
             "DATE": "2021-06-24",
-            "VALUE": 0.057950805
+            "VALUE": 0.051501805
           },
           {
             "DATE": "2021-06-23",
-            "VALUE": 0.064399806
+            "VALUE": 0.057950805
           },
           {
             "DATE": "2021-06-22",
-            "VALUE": 0.064399806
+            "VALUE": 0.057950805
           },
           {
             "DATE": "2021-06-21",
-            "VALUE": 0.064399806
+            "VALUE": 0.057950805
           },
           {
             "DATE": "2021-06-20",
-            "VALUE": 0.064399806
+            "VALUE": 0.057950805
           },
           {
             "DATE": "2021-06-19",
-            "VALUE": 0.070848806
+            "VALUE": 0.064399806
           },
           {
             "DATE": "2021-06-18",
-            "VALUE": 0.070848806
+            "VALUE": 0.064399806
           },
           {
             "DATE": "2021-06-17",
@@ -4983,31 +4995,31 @@
           },
           {
             "DATE": "2021-01-24",
-            "VALUE": 1.791018121
+            "VALUE": 1.784569121
           },
           {
             "DATE": "2021-01-23",
-            "VALUE": 1.90051583
+            "VALUE": 1.894111928
           },
           {
             "DATE": "2021-01-22",
-            "VALUE": 2.126005345
+            "VALUE": 2.119601443
           },
           {
             "DATE": "2021-01-21",
-            "VALUE": 2.203348249
+            "VALUE": 2.196899249
           },
           {
             "DATE": "2021-01-20",
-            "VALUE": 2.332192958
+            "VALUE": 2.325743958
           },
           {
             "DATE": "2021-01-19",
-            "VALUE": 2.35794386
+            "VALUE": 2.35149486
           },
           {
             "DATE": "2021-01-18",
-            "VALUE": 2.448139666
+            "VALUE": 2.441690666
           },
           {
             "DATE": "2021-01-17",
@@ -6306,9 +6318,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-04"
+          "MAXIMUM": "2021-08-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-05",
+            "VALUE": 0.283440321
+          },
           {
             "DATE": "2021-08-04",
             "VALUE": 0.315685321
