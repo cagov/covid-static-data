@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-05",
+    "PUBLISHED_DATE": "2021-08-06",
     "coverage": "Santa Cruz"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 16,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.142857,
+        "TOTAL": 17,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.0625,
         "POPULATION": 273999
       },
       "ICU_PATIENTS": {
         "TOTAL": 4,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.333333,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 273999
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-04"
+          "MAXIMUM": "2021-08-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-05",
+            "VALUE": 17
+          },
           {
             "DATE": "2021-08-04",
             "VALUE": 16
@@ -2002,9 +2006,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-04"
+          "MAXIMUM": "2021-08-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-05",
+            "VALUE": 4
+          },
           {
             "DATE": "2021-08-04",
             "VALUE": 4
@@ -3982,9 +3990,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-04"
+          "MAXIMUM": "2021-08-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-05",
+            "VALUE": 8.714
+          },
           {
             "DATE": "2021-08-04",
             "VALUE": 7.785
@@ -5962,9 +5974,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-04"
+          "MAXIMUM": "2021-08-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-05",
+            "VALUE": 2.428
+          },
           {
             "DATE": "2021-08-04",
             "VALUE": 2.285
