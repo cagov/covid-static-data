@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-07",
+    "PUBLISHED_DATE": "2021-08-08",
     "coverage": "Calaveras"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 2,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 1,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 44289
       },
       "ICU_PATIENTS": {
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-06"
+          "MAXIMUM": "2021-08-07"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-07",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-08-06",
             "VALUE": 2
@@ -2010,9 +2014,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-06"
+          "MAXIMUM": "2021-08-07"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-07",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-08-06",
             "VALUE": 0
@@ -3998,9 +4006,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-06"
+          "MAXIMUM": "2021-08-07"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-07",
+            "VALUE": 1.642
+          },
           {
             "DATE": "2021-08-06",
             "VALUE": 1.5
@@ -5986,9 +5998,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-06"
+          "MAXIMUM": "2021-08-07"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-07",
+            "VALUE": 0.714
+          },
           {
             "DATE": "2021-08-06",
             "VALUE": 0.714
