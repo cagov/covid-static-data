@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-09",
+    "PUBLISHED_DATE": "2021-08-10",
     "coverage": "Merced"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 26,
+        "TOTAL": 27,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 0.04,
+        "CHANGE_FACTOR": 0.038462,
         "POPULATION": 287420
       },
       "ICU_PATIENTS": {
-        "TOTAL": 10,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 9,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.1,
         "POPULATION": 287420
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-08"
+          "MAXIMUM": "2021-08-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-09",
+            "VALUE": 27
+          },
           {
             "DATE": "2021-08-08",
             "VALUE": 26
@@ -2018,9 +2022,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-08"
+          "MAXIMUM": "2021-08-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-09",
+            "VALUE": 9
+          },
           {
             "DATE": "2021-08-08",
             "VALUE": 10
@@ -4014,9 +4022,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-08"
+          "MAXIMUM": "2021-08-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-09",
+            "VALUE": 21
+          },
           {
             "DATE": "2021-08-08",
             "VALUE": 20.5
@@ -6010,9 +6022,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-08"
+          "MAXIMUM": "2021-08-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-09",
+            "VALUE": 6.357
+          },
           {
             "DATE": "2021-08-08",
             "VALUE": 6
