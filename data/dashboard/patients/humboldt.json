@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-11",
+    "PUBLISHED_DATE": "2021-08-12",
     "coverage": "Humboldt"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 29,
-        "CHANGE": 8,
-        "CHANGE_FACTOR": 0.380952,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 134098
       },
       "ICU_PATIENTS": {
-        "TOTAL": 6,
+        "TOTAL": 7,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 0.2,
+        "CHANGE_FACTOR": 0.166667,
         "POPULATION": 134098
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-10"
+          "MAXIMUM": "2021-08-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-11",
+            "VALUE": 29
+          },
           {
             "DATE": "2021-08-10",
             "VALUE": 29
@@ -2026,9 +2030,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-10"
+          "MAXIMUM": "2021-08-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-11",
+            "VALUE": 7
+          },
           {
             "DATE": "2021-08-10",
             "VALUE": 6
@@ -4030,9 +4038,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-10"
+          "MAXIMUM": "2021-08-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-11",
+            "VALUE": 19.785
+          },
           {
             "DATE": "2021-08-10",
             "VALUE": 18.642
@@ -6034,9 +6046,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-10"
+          "MAXIMUM": "2021-08-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-11",
+            "VALUE": 4.857
+          },
           {
             "DATE": "2021-08-10",
             "VALUE": 4.642
