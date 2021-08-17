@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-16",
+    "PUBLISHED_DATE": "2021-08-17",
     "coverage": "Butte"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 64,
+        "TOTAL": 65,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 0.015873,
+        "CHANGE_FACTOR": 0.015625,
         "POPULATION": 217769
       },
       "ICU_PATIENTS": {
-        "TOTAL": 8,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.333333,
+        "TOTAL": 9,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.125,
         "POPULATION": 217769
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-15"
+          "MAXIMUM": "2021-08-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-16",
+            "VALUE": 65
+          },
           {
             "DATE": "2021-08-15",
             "VALUE": 64
@@ -2046,9 +2050,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-15"
+          "MAXIMUM": "2021-08-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-16",
+            "VALUE": 9
+          },
           {
             "DATE": "2021-08-15",
             "VALUE": 8
@@ -4070,9 +4078,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-15"
+          "MAXIMUM": "2021-08-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-16",
+            "VALUE": 47
+          },
           {
             "DATE": "2021-08-15",
             "VALUE": 44.285
@@ -6094,9 +6106,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-15"
+          "MAXIMUM": "2021-08-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-16",
+            "VALUE": 3.357
+          },
           {
             "DATE": "2021-08-15",
             "VALUE": 2.785
