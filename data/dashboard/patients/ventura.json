@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-18",
+    "PUBLISHED_DATE": "2021-08-19",
     "coverage": "Ventura"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 150,
-        "CHANGE": 10,
-        "CHANGE_FACTOR": 0.071429,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 852747
       },
       "ICU_PATIENTS": {
-        "TOTAL": 36,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.058824,
+        "TOTAL": 37,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.027778,
         "POPULATION": 852747
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-17"
+          "MAXIMUM": "2021-08-18"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-18",
+            "VALUE": 150
+          },
           {
             "DATE": "2021-08-17",
             "VALUE": 150
@@ -2054,9 +2058,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-17"
+          "MAXIMUM": "2021-08-18"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-18",
+            "VALUE": 37
+          },
           {
             "DATE": "2021-08-17",
             "VALUE": 36
@@ -4086,9 +4094,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-17"
+          "MAXIMUM": "2021-08-18"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-18",
+            "VALUE": 125.5
+          },
           {
             "DATE": "2021-08-17",
             "VALUE": 120.571
@@ -6118,9 +6130,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-17"
+          "MAXIMUM": "2021-08-18"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-18",
+            "VALUE": 31
+          },
           {
             "DATE": "2021-08-17",
             "VALUE": 29.642
