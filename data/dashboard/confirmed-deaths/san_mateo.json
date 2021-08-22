@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-21",
+    "PUBLISHED_DATE": "2021-08-22",
     "coverage": "San Mateo"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 551,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
+        "total_confirmed_deaths": 553,
+        "new_deaths": 2,
+        "new_deaths_delta_1_day": 0.00363,
         "deaths_per_100k_7_days": 0.018251905,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-07-30",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-07-31",
         "POPULATION": 778001
       }
     },
@@ -18,9 +18,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-20"
+          "MAXIMUM": "2021-08-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-21",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-08-20",
             "VALUE": 0
@@ -47,7 +51,7 @@
           },
           {
             "DATE": "2021-08-14",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-08-13",
@@ -915,7 +919,7 @@
           },
           {
             "DATE": "2021-01-09",
-            "VALUE": 11
+            "VALUE": 12
           },
           {
             "DATE": "2021-01-08",
@@ -2178,9 +2182,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-20"
+          "MAXIMUM": "2021-08-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-21",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-08-20",
             "VALUE": 0
@@ -4338,36 +4346,40 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-20"
+          "MAXIMUM": "2021-08-21"
         },
         "VALUES": [
           {
-            "DATE": "2021-08-20",
+            "DATE": "2021-08-21",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-08-20",
+            "VALUE": 0.018251905
           },
           {
             "DATE": "2021-08-19",
-            "VALUE": 0
+            "VALUE": 0.018251905
           },
           {
             "DATE": "2021-08-18",
-            "VALUE": 0
+            "VALUE": 0.018251905
           },
           {
             "DATE": "2021-08-17",
-            "VALUE": 0
+            "VALUE": 0.018251905
           },
           {
             "DATE": "2021-08-16",
-            "VALUE": 0
+            "VALUE": 0.018251905
           },
           {
             "DATE": "2021-08-15",
-            "VALUE": 0
+            "VALUE": 0.018251905
           },
           {
             "DATE": "2021-08-14",
-            "VALUE": 0
+            "VALUE": 0.018251905
           },
           {
             "DATE": "2021-08-13",
@@ -5211,31 +5223,31 @@
           },
           {
             "DATE": "2021-01-15",
-            "VALUE": 0.881361335
+            "VALUE": 0.899741774
           },
           {
             "DATE": "2021-01-14",
-            "VALUE": 0.991515435
+            "VALUE": 1.009895874
           },
           {
             "DATE": "2021-01-13",
-            "VALUE": 0.936374118
+            "VALUE": 0.954754557
           },
           {
             "DATE": "2021-01-12",
-            "VALUE": 1.046528218
-          },
-          {
-            "DATE": "2021-01-11",
-            "VALUE": 0.973134996
-          },
-          {
-            "DATE": "2021-01-10",
             "VALUE": 1.064908657
           },
           {
+            "DATE": "2021-01-11",
+            "VALUE": 0.991515435
+          },
+          {
+            "DATE": "2021-01-10",
+            "VALUE": 1.083289096
+          },
+          {
             "DATE": "2021-01-09",
-            "VALUE": 1.028276313
+            "VALUE": 1.046528218
           },
           {
             "DATE": "2021-01-08",
@@ -6498,9 +6510,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-20"
+          "MAXIMUM": "2021-08-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-21",
+            "VALUE": 0.091773661
+          },
           {
             "DATE": "2021-08-20",
             "VALUE": 0.055012783
