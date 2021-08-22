@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-21",
+    "PUBLISHED_DATE": "2021-08-22",
     "coverage": "Santa Barbara"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 70,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.027778,
+        "TOTAL": 75,
+        "CHANGE": 5,
+        "CHANGE_FACTOR": 0.071429,
         "POPULATION": 456373
       },
       "ICU_PATIENTS": {
-        "TOTAL": 14,
-        "CHANGE": 4,
-        "CHANGE_FACTOR": 0.4,
+        "TOTAL": 15,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.071429,
         "POPULATION": 456373
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-20"
+          "MAXIMUM": "2021-08-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-21",
+            "VALUE": 75
+          },
           {
             "DATE": "2021-08-20",
             "VALUE": 70
@@ -2066,9 +2070,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-20"
+          "MAXIMUM": "2021-08-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-21",
+            "VALUE": 15
+          },
           {
             "DATE": "2021-08-20",
             "VALUE": 14
@@ -4110,9 +4118,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-20"
+          "MAXIMUM": "2021-08-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-21",
+            "VALUE": 53.714
+          },
           {
             "DATE": "2021-08-20",
             "VALUE": 50.5
@@ -6154,9 +6166,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-20"
+          "MAXIMUM": "2021-08-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-21",
+            "VALUE": 10.642
+          },
           {
             "DATE": "2021-08-20",
             "VALUE": 9.857
