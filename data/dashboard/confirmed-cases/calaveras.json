@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-22",
+    "PUBLISHED_DATE": "2021-08-23",
     "coverage": "Calaveras"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 2744,
+        "total_confirmed_cases": 2771,
         "new_cases": 27,
-        "new_cases_delta_1_day": 0.009937,
-        "cases_per_100k_7_days": 43.543543544,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-08-14",
+        "new_cases_delta_1_day": 0.00984,
+        "cases_per_100k_7_days": 41.608525819,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-08-15",
         "POPULATION": 44289
       }
     },
@@ -18,32 +18,36 @@
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-21"
+          "MAXIMUM": "2021-08-22"
         },
         "VALUES": [
           {
-            "DATE": "2021-08-21",
+            "DATE": "2021-08-22",
             "VALUE": 0
           },
           {
+            "DATE": "2021-08-21",
+            "VALUE": 1
+          },
+          {
             "DATE": "2021-08-20",
-            "VALUE": 6
+            "VALUE": 10
           },
           {
             "DATE": "2021-08-19",
-            "VALUE": 9
+            "VALUE": 16
           },
           {
             "DATE": "2021-08-18",
-            "VALUE": 25
+            "VALUE": 36
           },
           {
             "DATE": "2021-08-17",
-            "VALUE": 53
+            "VALUE": 54
           },
           {
             "DATE": "2021-08-16",
-            "VALUE": 32
+            "VALUE": 34
           },
           {
             "DATE": "2021-08-15",
@@ -55,7 +59,7 @@
           },
           {
             "DATE": "2021-08-13",
-            "VALUE": 19
+            "VALUE": 20
           },
           {
             "DATE": "2021-08-12",
@@ -2182,9 +2186,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-21"
+          "MAXIMUM": "2021-08-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-22",
+            "VALUE": 27
+          },
           {
             "DATE": "2021-08-21",
             "VALUE": 27
@@ -4346,44 +4354,48 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-21"
+          "MAXIMUM": "2021-08-22"
         },
         "VALUES": [
           {
+            "DATE": "2021-08-22",
+            "VALUE": 48.705096074
+          },
+          {
             "DATE": "2021-08-21",
-            "VALUE": 41.285646549
+            "VALUE": 49.673733884
           },
           {
             "DATE": "2021-08-20",
-            "VALUE": 44.189302084
-          },
-          {
-            "DATE": "2021-08-19",
-            "VALUE": 48.382216803
-          },
-          {
-            "DATE": "2021-08-18",
             "VALUE": 52.252252252
           },
           {
+            "DATE": "2021-08-19",
+            "VALUE": 55.478787058
+          },
+          {
+            "DATE": "2021-08-18",
+            "VALUE": 57.090925512
+          },
+          {
             "DATE": "2021-08-17",
-            "VALUE": 50.317234528
+            "VALUE": 51.608751609
           },
           {
             "DATE": "2021-08-16",
-            "VALUE": 41.608525819
+            "VALUE": 42.57716363
           },
           {
             "DATE": "2021-08-15",
-            "VALUE": 41.285646549
+            "VALUE": 41.608525819
           },
           {
             "DATE": "2021-08-14",
-            "VALUE": 43.543543544
+            "VALUE": 43.866422814
           },
           {
             "DATE": "2021-08-13",
-            "VALUE": 43.866422814
+            "VALUE": 44.189302084
           },
           {
             "DATE": "2021-08-12",
@@ -6510,9 +6522,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-08-21"
+          "MAXIMUM": "2021-08-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-22",
+            "VALUE": 55.478787058
+          },
           {
             "DATE": "2021-08-21",
             "VALUE": 53.220890063
