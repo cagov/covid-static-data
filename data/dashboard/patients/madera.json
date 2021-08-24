@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-23",
+    "PUBLISHED_DATE": "2021-08-24",
     "coverage": "Madera"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 32,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.103448,
+        "TOTAL": 30,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.0625,
         "POPULATION": 160089
       },
       "ICU_PATIENTS": {
-        "TOTAL": 7,
+        "TOTAL": 6,
         "CHANGE": -1,
-        "CHANGE_FACTOR": -0.125,
+        "CHANGE_FACTOR": -0.142857,
         "POPULATION": 160089
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-22"
+          "MAXIMUM": "2021-08-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-23",
+            "VALUE": 30
+          },
           {
             "DATE": "2021-08-22",
             "VALUE": 32
@@ -2074,9 +2078,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-22"
+          "MAXIMUM": "2021-08-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-23",
+            "VALUE": 6
+          },
           {
             "DATE": "2021-08-22",
             "VALUE": 7
@@ -4126,9 +4134,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-22"
+          "MAXIMUM": "2021-08-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-23",
+            "VALUE": 29.571
+          },
           {
             "DATE": "2021-08-22",
             "VALUE": 29.214
@@ -6178,9 +6190,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-22"
+          "MAXIMUM": "2021-08-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-23",
+            "VALUE": 6.071
+          },
           {
             "DATE": "2021-08-22",
             "VALUE": 6
