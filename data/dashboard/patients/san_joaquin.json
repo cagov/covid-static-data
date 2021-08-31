@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-08-30",
+    "PUBLISHED_DATE": "2021-08-31",
     "coverage": "San Joaquin"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 275,
-        "CHANGE": 4,
-        "CHANGE_FACTOR": 0.01476,
+        "TOTAL": 294,
+        "CHANGE": 19,
+        "CHANGE_FACTOR": 0.069091,
         "POPULATION": 782545
       },
       "ICU_PATIENTS": {
-        "TOTAL": 80,
-        "CHANGE": 4,
-        "CHANGE_FACTOR": 0.052632,
+        "TOTAL": 79,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.0125,
         "POPULATION": 782545
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-29"
+          "MAXIMUM": "2021-08-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-30",
+            "VALUE": 294
+          },
           {
             "DATE": "2021-08-29",
             "VALUE": 275
@@ -2102,9 +2106,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-29"
+          "MAXIMUM": "2021-08-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-30",
+            "VALUE": 79
+          },
           {
             "DATE": "2021-08-29",
             "VALUE": 80
@@ -4182,9 +4190,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-29"
+          "MAXIMUM": "2021-08-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-30",
+            "VALUE": 258.642
+          },
           {
             "DATE": "2021-08-29",
             "VALUE": 252.142
@@ -6262,9 +6274,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-08-29"
+          "MAXIMUM": "2021-08-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-08-30",
+            "VALUE": 65.571
+          },
           {
             "DATE": "2021-08-29",
             "VALUE": 62.928
