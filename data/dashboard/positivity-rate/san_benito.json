@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-03",
+    "PUBLISHED_DATE": "2021-09-04",
     "coverage": "San Benito"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.049014,
-        "test_positivity_7_days_delta_7_days": -0.00238,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-08-25",
+        "test_positivity_7_days": 0.04404,
+        "test_positivity_7_days_delta_7_days": -0.01245,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-08-26",
         "POPULATION": 64022
       }
     },
@@ -16,20 +16,24 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-01"
+          "MAXIMUM": "2021-09-02"
         },
         "VALUES": [
           {
+            "DATE": "2021-09-02",
+            "VALUE": 0.04404
+          },
+          {
             "DATE": "2021-09-01",
-            "VALUE": 0.049014
+            "VALUE": 0.049244
           },
           {
             "DATE": "2021-08-31",
-            "VALUE": 0.049377
+            "VALUE": 0.05
           },
           {
             "DATE": "2021-08-30",
-            "VALUE": 0.052114
+            "VALUE": 0.052229
           },
           {
             "DATE": "2021-08-29",
@@ -2224,20 +2228,24 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-01"
+          "MAXIMUM": "2021-09-02"
         },
         "VALUES": [
           {
+            "DATE": "2021-09-02",
+            "VALUE": 45
+          },
+          {
             "DATE": "2021-09-01",
-            "VALUE": 63
+            "VALUE": 166
           },
           {
             "DATE": "2021-08-31",
-            "VALUE": 264
+            "VALUE": 423
           },
           {
             "DATE": "2021-08-30",
-            "VALUE": 440
+            "VALUE": 454
           },
           {
             "DATE": "2021-08-29",
