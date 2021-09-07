@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-06",
+    "PUBLISHED_DATE": "2021-09-07",
     "coverage": "Alpine"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.153846,
-        "test_positivity_7_days_delta_7_days": 0.153846,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-08-28",
+        "test_positivity_7_days": 0.133333,
+        "test_positivity_7_days_delta_7_days": 0.133333,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-08-29",
         "POPULATION": 1117
       }
     },
@@ -16,20 +16,24 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-04"
+          "MAXIMUM": "2021-09-05"
         },
         "VALUES": [
           {
+            "DATE": "2021-09-05",
+            "VALUE": 0.133333
+          },
+          {
             "DATE": "2021-09-04",
-            "VALUE": 0.153846
+            "VALUE": 0.133333
           },
           {
             "DATE": "2021-09-03",
-            "VALUE": 0.125
+            "VALUE": 0.111111
           },
           {
             "DATE": "2021-09-02",
-            "VALUE": 0.142857
+            "VALUE": 0.133333
           },
           {
             "DATE": "2021-09-01",
@@ -2236,20 +2240,24 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-04"
+          "MAXIMUM": "2021-09-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-05",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-04",
             "VALUE": 0
           },
           {
             "DATE": "2021-09-03",
-            "VALUE": 2
+            "VALUE": 3
           },
           {
             "DATE": "2021-09-02",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-09-01",
