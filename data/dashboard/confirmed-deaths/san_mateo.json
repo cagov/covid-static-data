@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-06",
+    "PUBLISHED_DATE": "2021-09-07",
     "coverage": "San Mateo"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
         "total_confirmed_deaths": 561,
-        "new_deaths": 1,
-        "new_deaths_delta_1_day": 0.001786,
+        "new_deaths": 0,
+        "new_deaths_delta_1_day": 0,
         "deaths_per_100k_7_days": 0.036632344,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-08-15",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-08-16",
         "POPULATION": 778001
       }
     },
@@ -18,9 +18,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-05"
+          "MAXIMUM": "2021-09-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-06",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-05",
             "VALUE": 0
@@ -2242,9 +2246,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-05"
+          "MAXIMUM": "2021-09-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-06",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-05",
             "VALUE": 1
@@ -4466,9 +4474,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-05"
+          "MAXIMUM": "2021-09-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-06",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-05",
             "VALUE": 0
@@ -6690,9 +6702,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-05"
+          "MAXIMUM": "2021-09-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-06",
+            "VALUE": 0.128534539
+          },
           {
             "DATE": "2021-09-05",
             "VALUE": 0.128534539
