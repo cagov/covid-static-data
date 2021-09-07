@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-06",
+    "PUBLISHED_DATE": "2021-09-07",
     "coverage": "Los Angeles"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 533,
-        "CHANGE": 55,
-        "CHANGE_FACTOR": 0.115063,
+        "TOTAL": 508,
+        "CHANGE": -25,
+        "CHANGE_FACTOR": -0.046904,
         "POPULATION": 10257557
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-05"
+          "MAXIMUM": "2021-09-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-06",
+            "VALUE": 508
+          },
           {
             "DATE": "2021-09-05",
             "VALUE": 533
