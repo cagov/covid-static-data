@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-09",
+    "PUBLISHED_DATE": "2021-09-10",
     "coverage": "Shasta"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 234,
-        "new_deaths": 8,
-        "new_deaths_delta_1_day": 0.035398,
-        "deaths_per_100k_7_days": 0.240550794,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-08-18",
+        "total_confirmed_deaths": 238,
+        "new_deaths": 4,
+        "new_deaths_delta_1_day": 0.017094,
+        "deaths_per_100k_7_days": 0.320921737,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-08-19",
         "POPULATION": 177925
       }
     },
@@ -18,9 +18,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-08"
+          "MAXIMUM": "2021-09-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-09",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-08",
             "VALUE": 0
@@ -31,11 +35,11 @@
           },
           {
             "DATE": "2021-09-06",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2021-09-05",
-            "VALUE": 2
+            "VALUE": 4
           },
           {
             "DATE": "2021-09-04",
@@ -99,7 +103,7 @@
           },
           {
             "DATE": "2021-08-20",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-08-19",
@@ -2254,9 +2258,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-08"
+          "MAXIMUM": "2021-09-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-09",
+            "VALUE": 4
+          },
           {
             "DATE": "2021-09-08",
             "VALUE": 8
@@ -4490,24 +4498,28 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-08"
+          "MAXIMUM": "2021-09-09"
         },
         "VALUES": [
           {
+            "DATE": "2021-09-09",
+            "VALUE": 0.802585359
+          },
+          {
             "DATE": "2021-09-08",
-            "VALUE": 0.562034565
+            "VALUE": 0.802585359
           },
           {
             "DATE": "2021-09-07",
-            "VALUE": 0.722214416
+            "VALUE": 0.963327245
           },
           {
             "DATE": "2021-09-06",
-            "VALUE": 0.722214416
+            "VALUE": 0.963327245
           },
           {
             "DATE": "2021-09-05",
-            "VALUE": 0.802585359
+            "VALUE": 0.963327245
           },
           {
             "DATE": "2021-09-04",
@@ -4547,31 +4559,31 @@
           },
           {
             "DATE": "2021-08-26",
-            "VALUE": 0.079808908
-          },
-          {
-            "DATE": "2021-08-25",
             "VALUE": 0.160179851
           },
           {
-            "DATE": "2021-08-24",
+            "DATE": "2021-08-25",
             "VALUE": 0.240550794
+          },
+          {
+            "DATE": "2021-08-24",
+            "VALUE": 0.320921737
           },
           {
             "DATE": "2021-08-23",
-            "VALUE": 0.240550794
+            "VALUE": 0.320921737
           },
           {
             "DATE": "2021-08-22",
-            "VALUE": 0.320921737
+            "VALUE": 0.401292679
           },
           {
             "DATE": "2021-08-21",
-            "VALUE": 0.320921737
+            "VALUE": 0.401292679
           },
           {
             "DATE": "2021-08-20",
-            "VALUE": 0.320921737
+            "VALUE": 0.401292679
           },
           {
             "DATE": "2021-08-19",
@@ -6726,9 +6738,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-08"
+          "MAXIMUM": "2021-09-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-09",
+            "VALUE": 1.12406913
+          },
           {
             "DATE": "2021-09-08",
             "VALUE": 1.043698187
