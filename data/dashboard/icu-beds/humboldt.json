@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-10",
+    "PUBLISHED_DATE": "2021-09-11",
     "coverage": "Humboldt"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 7,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.166667,
+        "TOTAL": 6,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.142857,
         "POPULATION": 134098
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-09"
+          "MAXIMUM": "2021-09-10"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-10",
+            "VALUE": 6
+          },
           {
             "DATE": "2021-09-09",
             "VALUE": 7
