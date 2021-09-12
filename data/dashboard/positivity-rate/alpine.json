@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-11",
+    "PUBLISHED_DATE": "2021-09-12",
     "coverage": "Alpine"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.25,
-        "test_positivity_7_days_delta_7_days": 0.116667,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-09-02",
+        "test_positivity_7_days": 0.2,
+        "test_positivity_7_days_delta_7_days": 0.05,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-09-03",
         "POPULATION": 1117
       }
     },
@@ -16,36 +16,40 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-09"
+          "MAXIMUM": "2021-09-10"
         },
         "VALUES": [
           {
+            "DATE": "2021-09-10",
+            "VALUE": 0.2
+          },
+          {
             "DATE": "2021-09-09",
-            "VALUE": 0.25
+            "VALUE": 0.2
           },
           {
             "DATE": "2021-09-08",
-            "VALUE": 0.230769
+            "VALUE": 0.222222
           },
           {
             "DATE": "2021-09-07",
-            "VALUE": 0.285714
+            "VALUE": 0.333333
           },
           {
             "DATE": "2021-09-06",
-            "VALUE": 0.133333
+            "VALUE": 0.1875
           },
           {
             "DATE": "2021-09-05",
-            "VALUE": 0.117647
+            "VALUE": 0.166667
           },
           {
             "DATE": "2021-09-04",
-            "VALUE": 0.125
+            "VALUE": 0.176471
           },
           {
             "DATE": "2021-09-03",
-            "VALUE": 0.105263
+            "VALUE": 0.15
           },
           {
             "DATE": "2021-09-02",
@@ -2256,16 +2260,20 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-09"
+          "MAXIMUM": "2021-09-10"
         },
         "VALUES": [
           {
-            "DATE": "2021-09-09",
+            "DATE": "2021-09-10",
             "VALUE": 0
           },
           {
+            "DATE": "2021-09-09",
+            "VALUE": 3
+          },
+          {
             "DATE": "2021-09-08",
-            "VALUE": 1
+            "VALUE": 5
           },
           {
             "DATE": "2021-09-07",
@@ -2285,7 +2293,7 @@
           },
           {
             "DATE": "2021-09-03",
-            "VALUE": 4
+            "VALUE": 5
           },
           {
             "DATE": "2021-09-02",
