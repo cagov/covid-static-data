@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-12",
+    "PUBLISHED_DATE": "2021-09-13",
     "coverage": "San Francisco"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
         "total_confirmed_deaths": 603,
-        "new_deaths": 1,
-        "new_deaths_delta_1_day": 0.001661,
+        "new_deaths": 0,
+        "new_deaths_delta_1_day": 0,
         "deaths_per_100k_7_days": 0.14401309,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-08-21",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-08-22",
         "POPULATION": 892280,
-        "DEATHS_DAILY_AVERAGE": 1.5714285714285714
+        "DEATHS_DAILY_AVERAGE": 1.2857142857142858
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-11"
+          "MAXIMUM": "2021-09-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-12",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-11",
             "VALUE": 0
@@ -2267,9 +2271,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-11"
+          "MAXIMUM": "2021-09-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-12",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-11",
             "VALUE": 1
@@ -4515,9 +4523,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-11"
+          "MAXIMUM": "2021-09-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-12",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-11",
             "VALUE": 0.015914287
@@ -6763,9 +6775,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-11"
+          "MAXIMUM": "2021-09-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-12",
+            "VALUE": 0.224144887
+          },
           {
             "DATE": "2021-09-11",
             "VALUE": 0.224144887
