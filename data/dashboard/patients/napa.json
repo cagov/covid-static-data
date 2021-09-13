@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-12",
+    "PUBLISHED_DATE": "2021-09-13",
     "coverage": "Napa"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 26,
-        "CHANGE": 4,
-        "CHANGE_FACTOR": 0.181818,
+        "TOTAL": 22,
+        "CHANGE": -4,
+        "CHANGE_FACTOR": -0.153846,
         "POPULATION": 139652
       },
       "ICU_PATIENTS": {
         "TOTAL": 6,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.2,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 139652
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-11"
+          "MAXIMUM": "2021-09-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-12",
+            "VALUE": 22
+          },
           {
             "DATE": "2021-09-11",
             "VALUE": 26
@@ -2154,9 +2158,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-11"
+          "MAXIMUM": "2021-09-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-12",
+            "VALUE": 6
+          },
           {
             "DATE": "2021-09-11",
             "VALUE": 6
@@ -4286,9 +4294,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-11"
+          "MAXIMUM": "2021-09-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-12",
+            "VALUE": 20.642
+          },
           {
             "DATE": "2021-09-11",
             "VALUE": 20.5
@@ -6418,9 +6430,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-11"
+          "MAXIMUM": "2021-09-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-12",
+            "VALUE": 5.428
+          },
           {
             "DATE": "2021-09-11",
             "VALUE": 5.142
