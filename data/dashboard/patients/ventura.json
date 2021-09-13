@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-12",
+    "PUBLISHED_DATE": "2021-09-13",
     "coverage": "Ventura"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 150,
-        "CHANGE": 4,
-        "CHANGE_FACTOR": 0.027397,
+        "TOTAL": 130,
+        "CHANGE": -20,
+        "CHANGE_FACTOR": -0.133333,
         "POPULATION": 852747
       },
       "ICU_PATIENTS": {
-        "TOTAL": 38,
+        "TOTAL": 36,
         "CHANGE": -2,
-        "CHANGE_FACTOR": -0.05,
+        "CHANGE_FACTOR": -0.052632,
         "POPULATION": 852747
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-11"
+          "MAXIMUM": "2021-09-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-12",
+            "VALUE": 130
+          },
           {
             "DATE": "2021-09-11",
             "VALUE": 150
@@ -2154,9 +2158,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-11"
+          "MAXIMUM": "2021-09-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-12",
+            "VALUE": 36
+          },
           {
             "DATE": "2021-09-11",
             "VALUE": 38
@@ -4286,9 +4294,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-11"
+          "MAXIMUM": "2021-09-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-12",
+            "VALUE": 139.785
+          },
           {
             "DATE": "2021-09-11",
             "VALUE": 140.5
@@ -6418,9 +6430,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-11"
+          "MAXIMUM": "2021-09-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-12",
+            "VALUE": 34.714
+          },
           {
             "DATE": "2021-09-11",
             "VALUE": 34.285
