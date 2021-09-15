@@ -6,15 +6,15 @@
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 336,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 335,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.002976,
         "POPULATION": 927251
       },
       "ICU_PATIENTS": {
-        "TOTAL": 72,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.027027,
+        "TOTAL": 73,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.013889,
         "POPULATION": 927251
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 335
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 336
@@ -2166,9 +2170,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 73
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 72
@@ -4310,9 +4318,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 323.785
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 323.428
@@ -6454,9 +6466,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 64.714
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 63.642

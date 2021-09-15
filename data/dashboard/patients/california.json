@@ -6,15 +6,15 @@
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 7056,
-        "CHANGE": -167,
-        "CHANGE_FACTOR": -0.023121,
+        "TOTAL": 6975,
+        "CHANGE": -81,
+        "CHANGE_FACTOR": -0.01148,
         "POPULATION": 40124928
       },
       "ICU_PATIENTS": {
-        "TOTAL": 1941,
-        "CHANGE": 46,
-        "CHANGE_FACTOR": 0.024274,
+        "TOTAL": 1868,
+        "CHANGE": -73,
+        "CHANGE_FACTOR": -0.037609,
         "POPULATION": 40124928
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 6975
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 7056
@@ -2166,9 +2170,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 1868
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 1941
@@ -4310,9 +4318,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 7736.214
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 7859.428
@@ -6454,9 +6466,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 2002.785
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 2021.357

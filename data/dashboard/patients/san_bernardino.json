@@ -6,15 +6,15 @@
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 476,
-        "CHANGE": -10,
-        "CHANGE_FACTOR": -0.020576,
+        "TOTAL": 483,
+        "CHANGE": 7,
+        "CHANGE_FACTOR": 0.014706,
         "POPULATION": 2217398
       },
       "ICU_PATIENTS": {
-        "TOTAL": 133,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.007576,
+        "TOTAL": 143,
+        "CHANGE": 10,
+        "CHANGE_FACTOR": 0.075188,
         "POPULATION": 2217398
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 483
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 476
@@ -2166,9 +2170,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 143
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 133
@@ -4310,9 +4318,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 532.428
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 541.071
@@ -6454,9 +6466,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 148.857
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 150.214

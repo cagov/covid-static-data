@@ -6,9 +6,9 @@
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 5,
-        "CHANGE": 5,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 2,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.6,
         "POPULATION": 139652
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 5

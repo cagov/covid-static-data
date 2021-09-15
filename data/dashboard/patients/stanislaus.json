@@ -6,15 +6,15 @@
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 295,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 291,
+        "CHANGE": -4,
+        "CHANGE_FACTOR": -0.013559,
         "POPULATION": 562303
       },
       "ICU_PATIENTS": {
-        "TOTAL": 68,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.014925,
+        "TOTAL": 65,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.044118,
         "POPULATION": 562303
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 291
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 295
@@ -2166,9 +2170,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 65
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 68
@@ -4310,9 +4318,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 327.357
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 330.142
@@ -6454,9 +6466,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 69.642
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 70.142
