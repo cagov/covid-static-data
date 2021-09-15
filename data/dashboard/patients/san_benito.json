@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-14",
+    "PUBLISHED_DATE": "2021-09-15",
     "coverage": "San Benito"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 7,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 6,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.142857,
         "POPULATION": 64022
       },
       "ICU_PATIENTS": {
-        "TOTAL": 3,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 2,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.333333,
         "POPULATION": 64022
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-13"
+          "MAXIMUM": "2021-09-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-14",
+            "VALUE": 6
+          },
           {
             "DATE": "2021-09-13",
             "VALUE": 7
@@ -2162,9 +2166,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-13"
+          "MAXIMUM": "2021-09-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-14",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-09-13",
             "VALUE": 3
@@ -4302,9 +4310,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-13"
+          "MAXIMUM": "2021-09-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-14",
+            "VALUE": 6.714
+          },
           {
             "DATE": "2021-09-13",
             "VALUE": 6.857
@@ -6442,9 +6454,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-13"
+          "MAXIMUM": "2021-09-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-14",
+            "VALUE": 2.928
+          },
           {
             "DATE": "2021-09-13",
             "VALUE": 3
