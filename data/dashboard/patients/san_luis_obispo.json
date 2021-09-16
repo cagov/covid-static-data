@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-15",
+    "PUBLISHED_DATE": "2021-09-16",
     "coverage": "San Luis Obispo"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 40,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 36,
+        "CHANGE": -4,
+        "CHANGE_FACTOR": -0.1,
         "POPULATION": 278862
       },
       "ICU_PATIENTS": {
-        "TOTAL": 9,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.1,
+        "TOTAL": 11,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.222222,
         "POPULATION": 278862
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 36
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 40
@@ -2166,9 +2170,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 11
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 9
@@ -4310,9 +4318,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 47.071
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 48.857
@@ -6454,9 +6466,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 11.071
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 11.357
