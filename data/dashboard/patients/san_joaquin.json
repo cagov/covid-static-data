@@ -6,15 +6,15 @@
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 243,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.008163,
+        "TOTAL": 246,
+        "CHANGE": 3,
+        "CHANGE_FACTOR": 0.012346,
         "POPULATION": 782545
       },
       "ICU_PATIENTS": {
-        "TOTAL": 76,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.012987,
+        "TOTAL": 79,
+        "CHANGE": 3,
+        "CHANGE_FACTOR": 0.039474,
         "POPULATION": 782545
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 246
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 243
@@ -2166,9 +2170,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 79
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 76
@@ -4310,9 +4318,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 264.285
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 268.714
@@ -6454,9 +6466,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-14"
+          "MAXIMUM": "2021-09-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-15",
+            "VALUE": 75.357
+          },
           {
             "DATE": "2021-09-14",
             "VALUE": 75.5
