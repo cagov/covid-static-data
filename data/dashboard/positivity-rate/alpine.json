@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-18",
+    "PUBLISHED_DATE": "2021-09-19",
     "coverage": "Alpine"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.0625,
-        "test_positivity_7_days_delta_7_days": -0.104167,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-09-09",
+        "test_positivity_7_days": 0.08,
+        "test_positivity_7_days_delta_7_days": -0.045,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-09-10",
         "POPULATION": 1117
       }
     },
@@ -16,24 +16,28 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-16"
+          "MAXIMUM": "2021-09-17"
         },
         "VALUES": [
           {
+            "DATE": "2021-09-17",
+            "VALUE": 0.08
+          },
+          {
             "DATE": "2021-09-16",
-            "VALUE": 0.0625
+            "VALUE": 0.068966
           },
           {
             "DATE": "2021-09-15",
-            "VALUE": 0.043478
+            "VALUE": 0.057143
           },
           {
             "DATE": "2021-09-14",
-            "VALUE": 0.071429
+            "VALUE": 0.078947
           },
           {
             "DATE": "2021-09-13",
-            "VALUE": 0.137931
+            "VALUE": 0.133333
           },
           {
             "DATE": "2021-09-12",
@@ -2284,9 +2288,13 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-16"
+          "MAXIMUM": "2021-09-17"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-17",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-16",
             "VALUE": 0
@@ -2297,7 +2305,7 @@
           },
           {
             "DATE": "2021-09-14",
-            "VALUE": 0
+            "VALUE": 0.076923
           },
           {
             "DATE": "2021-09-13",
@@ -4552,24 +4560,28 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-16"
+          "MAXIMUM": "2021-09-17"
         },
         "VALUES": [
           {
+            "DATE": "2021-09-17",
+            "VALUE": 1
+          },
+          {
             "DATE": "2021-09-16",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-09-15",
-            "VALUE": 0
+            "VALUE": 2
           },
           {
             "DATE": "2021-09-14",
-            "VALUE": 4
+            "VALUE": 13
           },
           {
             "DATE": "2021-09-13",
-            "VALUE": 2
+            "VALUE": 3
           },
           {
             "DATE": "2021-09-12",

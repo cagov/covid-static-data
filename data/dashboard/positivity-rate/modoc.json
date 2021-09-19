@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-18",
+    "PUBLISHED_DATE": "2021-09-19",
     "coverage": "Modoc"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.057143,
-        "test_positivity_7_days_delta_7_days": -0.017857,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-09-09",
+        "test_positivity_7_days": 0.045455,
+        "test_positivity_7_days_delta_7_days": -0.031468,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-09-10",
         "POPULATION": 9475
       }
     },
@@ -16,24 +16,28 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-16"
+          "MAXIMUM": "2021-09-17"
         },
         "VALUES": [
           {
+            "DATE": "2021-09-17",
+            "VALUE": 0.045455
+          },
+          {
             "DATE": "2021-09-16",
-            "VALUE": 0.057143
+            "VALUE": 0.038462
           },
           {
             "DATE": "2021-09-15",
-            "VALUE": 0.056604
+            "VALUE": 0.042857
           },
           {
             "DATE": "2021-09-14",
-            "VALUE": 0.072464
+            "VALUE": 0.060241
           },
           {
             "DATE": "2021-09-13",
-            "VALUE": 0.076923
+            "VALUE": 0.072289
           },
           {
             "DATE": "2021-09-12",
@@ -2284,9 +2288,13 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-16"
+          "MAXIMUM": "2021-09-17"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-17",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-16",
             "VALUE": 0
@@ -2297,7 +2305,7 @@
           },
           {
             "DATE": "2021-09-14",
-            "VALUE": 0.166667
+            "VALUE": 0.095238
           },
           {
             "DATE": "2021-09-13",
@@ -4552,24 +4560,28 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-16"
+          "MAXIMUM": "2021-09-17"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-17",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-16",
             "VALUE": 0
           },
           {
             "DATE": "2021-09-15",
-            "VALUE": 2
+            "VALUE": 5
           },
           {
             "DATE": "2021-09-14",
-            "VALUE": 12
+            "VALUE": 21
           },
           {
             "DATE": "2021-09-13",
-            "VALUE": 8
+            "VALUE": 13
           },
           {
             "DATE": "2021-09-12",
