@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-19",
+    "PUBLISHED_DATE": "2021-09-20",
     "coverage": "Del Norte"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 13,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.181818,
+        "TOTAL": 12,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.076923,
         "POPULATION": 27558
       },
       "ICU_PATIENTS": {
         "TOTAL": 6,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.2,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 27558
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-18"
+          "MAXIMUM": "2021-09-19"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-19",
+            "VALUE": 12
+          },
           {
             "DATE": "2021-09-18",
             "VALUE": 13
@@ -2182,9 +2186,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-18"
+          "MAXIMUM": "2021-09-19"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-19",
+            "VALUE": 6
+          },
           {
             "DATE": "2021-09-18",
             "VALUE": 6
@@ -4342,9 +4350,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-18"
+          "MAXIMUM": "2021-09-19"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-19",
+            "VALUE": 12.285
+          },
           {
             "DATE": "2021-09-18",
             "VALUE": 12.714
@@ -6502,9 +6514,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-18"
+          "MAXIMUM": "2021-09-19"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-19",
+            "VALUE": 4.428
+          },
           {
             "DATE": "2021-09-18",
             "VALUE": 4.357
