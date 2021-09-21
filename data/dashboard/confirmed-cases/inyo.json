@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-20",
+    "PUBLISHED_DATE": "2021-09-21",
     "coverage": "Inyo"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 1639,
-        "new_cases": 3,
-        "new_cases_delta_1_day": 0.001834,
-        "cases_per_100k_7_days": 27.865387742,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-09-12",
+        "total_confirmed_cases": 1641,
+        "new_cases": 2,
+        "new_cases_delta_1_day": 0.00122,
+        "cases_per_100k_7_days": 31.740096461,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-09-13",
         "POPULATION": 18453,
-        "CASES_DAILY_AVERAGE": 5.142857142857143
+        "CASES_DAILY_AVERAGE": 5.428571428571429
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-19"
+          "MAXIMUM": "2021-09-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-20",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-19",
             "VALUE": 0
@@ -36,11 +40,11 @@
           },
           {
             "DATE": "2021-09-16",
-            "VALUE": 1
+            "VALUE": 3
           },
           {
             "DATE": "2021-09-15",
-            "VALUE": 7
+            "VALUE": 5
           },
           {
             "DATE": "2021-09-14",
@@ -52,7 +56,7 @@
           },
           {
             "DATE": "2021-09-12",
-            "VALUE": 2
+            "VALUE": 3
           },
           {
             "DATE": "2021-09-11",
@@ -60,7 +64,7 @@
           },
           {
             "DATE": "2021-09-10",
-            "VALUE": 6
+            "VALUE": 7
           },
           {
             "DATE": "2021-09-09",
@@ -2299,9 +2303,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-19"
+          "MAXIMUM": "2021-09-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-20",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-09-19",
             "VALUE": 3
@@ -4579,24 +4587,28 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-19"
+          "MAXIMUM": "2021-09-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-20",
+            "VALUE": 10.063404325
+          },
           {
             "DATE": "2021-09-19",
             "VALUE": 14.707635615
           },
           {
             "DATE": "2021-09-18",
-            "VALUE": 16.257519103
-          },
-          {
-            "DATE": "2021-09-17",
             "VALUE": 17.027041673
           },
           {
+            "DATE": "2021-09-17",
+            "VALUE": 17.801983417
+          },
+          {
             "DATE": "2021-09-16",
-            "VALUE": 21.676692137
+            "VALUE": 23.221156452
           },
           {
             "DATE": "2021-09-15",
@@ -4604,23 +4616,23 @@
           },
           {
             "DATE": "2021-09-14",
-            "VALUE": 29.41527123
+            "VALUE": 30.965154717
           },
           {
             "DATE": "2021-09-13",
-            "VALUE": 30.190212974
+            "VALUE": 31.740096461
           },
           {
             "DATE": "2021-09-12",
-            "VALUE": 27.865387742
+            "VALUE": 29.41527123
           },
           {
             "DATE": "2021-09-11",
-            "VALUE": 27.865387742
+            "VALUE": 28.640329486
           },
           {
             "DATE": "2021-09-10",
-            "VALUE": 30.965154717
+            "VALUE": 31.740096461
           },
           {
             "DATE": "2021-09-09",
@@ -6859,9 +6871,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-19"
+          "MAXIMUM": "2021-09-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-20",
+            "VALUE": 30.190212974
+          },
           {
             "DATE": "2021-09-19",
             "VALUE": 33.284560776

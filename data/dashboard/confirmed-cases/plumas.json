@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-20",
+    "PUBLISHED_DATE": "2021-09-21",
     "coverage": "Plumas"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
         "total_confirmed_cases": 1211,
-        "new_cases": 7,
-        "new_cases_delta_1_day": 0.005814,
-        "cases_per_100k_7_days": 54.140127389,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-09-12",
+        "new_cases": 0,
+        "new_cases_delta_1_day": 0,
+        "cases_per_100k_7_days": 66.926356793,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-09-13",
         "POPULATION": 18997,
-        "CASES_DAILY_AVERAGE": 10.571428571428571
+        "CASES_DAILY_AVERAGE": 10.285714285714286
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-19"
+          "MAXIMUM": "2021-09-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-20",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-19",
             "VALUE": 0
@@ -2299,9 +2303,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-19"
+          "MAXIMUM": "2021-09-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-20",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-19",
             "VALUE": 7
@@ -4579,9 +4587,13 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-19"
+          "MAXIMUM": "2021-09-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-20",
+            "VALUE": 27.820182134
+          },
           {
             "DATE": "2021-09-19",
             "VALUE": 43.612149287
@@ -6859,9 +6871,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-19"
+          "MAXIMUM": "2021-09-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-20",
+            "VALUE": 51.887140075
+          },
           {
             "DATE": "2021-09-19",
             "VALUE": 54.892877823
