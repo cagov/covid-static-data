@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-20",
+    "PUBLISHED_DATE": "2021-09-21",
     "coverage": "San Mateo"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 20,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.111111,
+        "TOTAL": 25,
+        "CHANGE": 5,
+        "CHANGE_FACTOR": 0.25,
         "POPULATION": 778001
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-19"
+          "MAXIMUM": "2021-09-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-20",
+            "VALUE": 25
+          },
           {
             "DATE": "2021-09-19",
             "VALUE": 20
