@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-21",
+    "PUBLISHED_DATE": "2021-09-22",
     "coverage": "Ventura"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 102,
-        "CHANGE": -7,
-        "CHANGE_FACTOR": -0.06422,
+        "TOTAL": 94,
+        "CHANGE": -30,
+        "CHANGE_FACTOR": -0.241935,
         "POPULATION": 852747
       },
       "ICU_PATIENTS": {
-        "TOTAL": 25,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.074074,
+        "TOTAL": 21,
+        "CHANGE": -4,
+        "CHANGE_FACTOR": -0.16,
         "POPULATION": 852747
       }
     },
@@ -22,12 +22,16 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-20"
+          "MAXIMUM": "2021-09-21"
         },
         "VALUES": [
           {
+            "DATE": "2021-09-21",
+            "VALUE": 94
+          },
+          {
             "DATE": "2021-09-20",
-            "VALUE": 102
+            "VALUE": 124
           },
           {
             "DATE": "2021-09-19",
@@ -2190,9 +2194,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-20"
+          "MAXIMUM": "2021-09-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-21",
+            "VALUE": 21
+          },
           {
             "DATE": "2021-09-20",
             "VALUE": 25
@@ -4358,12 +4366,16 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-20"
+          "MAXIMUM": "2021-09-21"
         },
         "VALUES": [
           {
+            "DATE": "2021-09-21",
+            "VALUE": 125.642
+          },
+          {
             "DATE": "2021-09-20",
-            "VALUE": 127.571
+            "VALUE": 129.142
           },
           {
             "DATE": "2021-09-19",
@@ -6526,9 +6538,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-20"
+          "MAXIMUM": "2021-09-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-21",
+            "VALUE": 33.357
+          },
           {
             "DATE": "2021-09-20",
             "VALUE": 34.571
