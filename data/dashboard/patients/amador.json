@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-22",
+    "PUBLISHED_DATE": "2021-09-23",
     "coverage": "Amador"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 12,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.090909,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 38531
       },
       "ICU_PATIENTS": {
         "TOTAL": 6,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.2,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 38531
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-21"
+          "MAXIMUM": "2021-09-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-22",
+            "VALUE": 12
+          },
           {
             "DATE": "2021-09-21",
             "VALUE": 12
@@ -2194,9 +2198,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-21"
+          "MAXIMUM": "2021-09-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-22",
+            "VALUE": 6
+          },
           {
             "DATE": "2021-09-21",
             "VALUE": 6
@@ -4366,9 +4374,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-21"
+          "MAXIMUM": "2021-09-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-22",
+            "VALUE": 11.5
+          },
           {
             "DATE": "2021-09-21",
             "VALUE": 11.357
@@ -6538,9 +6550,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-21"
+          "MAXIMUM": "2021-09-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-22",
+            "VALUE": 5.214
+          },
           {
             "DATE": "2021-09-21",
             "VALUE": 5.142

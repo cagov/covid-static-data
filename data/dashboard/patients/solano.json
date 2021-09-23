@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-22",
+    "PUBLISHED_DATE": "2021-09-23",
     "coverage": "Solano"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 102,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 96,
+        "CHANGE": -6,
+        "CHANGE_FACTOR": -0.058824,
         "POPULATION": 444255
       },
       "ICU_PATIENTS": {
-        "TOTAL": 26,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.130435,
+        "TOTAL": 23,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.115385,
         "POPULATION": 444255
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-21"
+          "MAXIMUM": "2021-09-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-22",
+            "VALUE": 96
+          },
           {
             "DATE": "2021-09-21",
             "VALUE": 102
@@ -2194,9 +2198,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-21"
+          "MAXIMUM": "2021-09-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-22",
+            "VALUE": 23
+          },
           {
             "DATE": "2021-09-21",
             "VALUE": 26
@@ -4366,9 +4374,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-21"
+          "MAXIMUM": "2021-09-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-22",
+            "VALUE": 114.214
+          },
           {
             "DATE": "2021-09-21",
             "VALUE": 116.785
@@ -6538,9 +6550,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-21"
+          "MAXIMUM": "2021-09-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-22",
+            "VALUE": 28
+          },
           {
             "DATE": "2021-09-21",
             "VALUE": 28.714
