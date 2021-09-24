@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-23",
+    "PUBLISHED_DATE": "2021-09-24",
     "coverage": "Marin"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 10,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.111111,
+        "TOTAL": 9,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.1,
         "POPULATION": 260800
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-22"
+          "MAXIMUM": "2021-09-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-23",
+            "VALUE": 9
+          },
           {
             "DATE": "2021-09-22",
             "VALUE": 10

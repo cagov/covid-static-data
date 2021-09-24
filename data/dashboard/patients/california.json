@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-23",
+    "PUBLISHED_DATE": "2021-09-24",
     "coverage": "California"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 6196,
-        "CHANGE": -176,
-        "CHANGE_FACTOR": -0.027621,
+        "TOTAL": 6134,
+        "CHANGE": -62,
+        "CHANGE_FACTOR": -0.010006,
         "POPULATION": 40124928
       },
       "ICU_PATIENTS": {
-        "TOTAL": 1718,
-        "CHANGE": -25,
-        "CHANGE_FACTOR": -0.014343,
+        "TOTAL": 1659,
+        "CHANGE": -49,
+        "CHANGE_FACTOR": -0.028689,
         "POPULATION": 40124928
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-22"
+          "MAXIMUM": "2021-09-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-23",
+            "VALUE": 6134
+          },
           {
             "DATE": "2021-09-22",
             "VALUE": 6196
@@ -2198,12 +2202,16 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-22"
+          "MAXIMUM": "2021-09-23"
         },
         "VALUES": [
           {
+            "DATE": "2021-09-23",
+            "VALUE": 1659
+          },
+          {
             "DATE": "2021-09-22",
-            "VALUE": 1718
+            "VALUE": 1708
           },
           {
             "DATE": "2021-09-21",
@@ -4374,9 +4382,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-22"
+          "MAXIMUM": "2021-09-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-23",
+            "VALUE": 6754.642
+          },
           {
             "DATE": "2021-09-22",
             "VALUE": 6867.785
@@ -6550,12 +6562,16 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-22"
+          "MAXIMUM": "2021-09-23"
         },
         "VALUES": [
           {
+            "DATE": "2021-09-23",
+            "VALUE": 1829.428
+          },
+          {
             "DATE": "2021-09-22",
-            "VALUE": 1854.142
+            "VALUE": 1853.428
           },
           {
             "DATE": "2021-09-21",
