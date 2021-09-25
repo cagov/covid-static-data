@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-24",
+    "PUBLISHED_DATE": "2021-09-25",
     "coverage": "Orange"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 320,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 323,
+        "CHANGE": 3,
+        "CHANGE_FACTOR": 0.009375,
         "POPULATION": 3228519
       },
       "ICU_PATIENTS": {
-        "TOTAL": 78,
-        "CHANGE": -10,
-        "CHANGE_FACTOR": -0.113636,
+        "TOTAL": 86,
+        "CHANGE": 8,
+        "CHANGE_FACTOR": 0.102564,
         "POPULATION": 3228519
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-23"
+          "MAXIMUM": "2021-09-24"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-24",
+            "VALUE": 323
+          },
           {
             "DATE": "2021-09-23",
             "VALUE": 320
@@ -2202,9 +2206,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-23"
+          "MAXIMUM": "2021-09-24"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-24",
+            "VALUE": 86
+          },
           {
             "DATE": "2021-09-23",
             "VALUE": 78
@@ -4382,9 +4390,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-23"
+          "MAXIMUM": "2021-09-24"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-24",
+            "VALUE": 355.714
+          },
           {
             "DATE": "2021-09-23",
             "VALUE": 362.214
@@ -6562,9 +6574,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-23"
+          "MAXIMUM": "2021-09-24"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-24",
+            "VALUE": 101
+          },
           {
             "DATE": "2021-09-23",
             "VALUE": 103.857
