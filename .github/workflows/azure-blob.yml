@@ -12,6 +12,6 @@ jobs:
       - run: mkdir -p path/to/artifact/data
       - uses: actions/checkout@v2
         with:
-          path: '/path/to/artifact'
+          path: 'path/to/artifact'
       - name: List all
         run: ls -gRC
