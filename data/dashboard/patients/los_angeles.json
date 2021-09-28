@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-27",
+    "PUBLISHED_DATE": "2021-09-28",
     "coverage": "Los Angeles"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 1084,
-        "CHANGE": 67,
-        "CHANGE_FACTOR": 0.06588,
+        "TOTAL": 973,
+        "CHANGE": -12,
+        "CHANGE_FACTOR": -0.012183,
         "POPULATION": 10257557
       },
       "ICU_PATIENTS": {
-        "TOTAL": 287,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.003472,
+        "TOTAL": 272,
+        "CHANGE": -15,
+        "CHANGE_FACTOR": -0.052265,
         "POPULATION": 10257557
       }
     },
@@ -22,12 +22,16 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-26"
+          "MAXIMUM": "2021-09-27"
         },
         "VALUES": [
           {
+            "DATE": "2021-09-27",
+            "VALUE": 973
+          },
+          {
             "DATE": "2021-09-26",
-            "VALUE": 1084
+            "VALUE": 985
           },
           {
             "DATE": "2021-09-25",
@@ -2214,9 +2218,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-26"
+          "MAXIMUM": "2021-09-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-27",
+            "VALUE": 272
+          },
           {
             "DATE": "2021-09-26",
             "VALUE": 287
@@ -4406,12 +4414,16 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-26"
+          "MAXIMUM": "2021-09-27"
         },
         "VALUES": [
           {
+            "DATE": "2021-09-27",
+            "VALUE": 1126.142
+          },
+          {
             "DATE": "2021-09-26",
-            "VALUE": 1160.142
+            "VALUE": 1153.071
           },
           {
             "DATE": "2021-09-25",
@@ -6598,9 +6610,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-26"
+          "MAXIMUM": "2021-09-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-27",
+            "VALUE": 323.785
+          },
           {
             "DATE": "2021-09-26",
             "VALUE": 331.357
