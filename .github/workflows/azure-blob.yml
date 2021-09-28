@@ -11,4 +11,4 @@ jobs:
         # Checkout the repo
       - uses: actions/checkout@v2
       - name: List all
-        run: ls -R
+        run: ls -gRC
