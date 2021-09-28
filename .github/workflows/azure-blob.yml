@@ -2,7 +2,7 @@ name: Upload changed files To Azure Blob Storage
 on:
   push:
     branches:
-      - main
+      - full-deploy-experiment
 
 jobs:
   everything:
