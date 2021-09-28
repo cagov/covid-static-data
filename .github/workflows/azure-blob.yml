@@ -10,11 +10,9 @@ jobs:
     steps:
       - name: Download Repo
         uses: actions/checkout@v2
-      - name: List Contents Now
-        run: ls -gRC
       - name: Create the artifact folder
         run: mkdir -p path/to/artifact
       - name: Promote the data folder
         run: mv -v data path/to/artifact
       - name: List Content to Upload
-        run: ls -gRC
+        run: ls -gRC path/to/artifact
