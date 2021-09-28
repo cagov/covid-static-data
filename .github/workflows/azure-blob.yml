@@ -5,11 +5,11 @@ on:
       - main
 
 jobs:
-  changes:
+  everything:
     runs-on: ubuntu-latest
     steps:
       # Checkout the repo
       - uses: actions/checkout@v2
 
-      
+      - name: thing
       - run: ls -R 
