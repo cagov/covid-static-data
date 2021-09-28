@@ -10,6 +10,8 @@ jobs:
     steps:
         # Checkout the repo
       - uses: actions/checkout@v2
+        with:
+          path: '/path/to/artifact/data'
       - run: mkdir -p path/to/artifact/data
       - name: List all
         run: ls -gRC
