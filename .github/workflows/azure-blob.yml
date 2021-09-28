@@ -10,5 +10,5 @@ jobs:
     steps:
         # Checkout the repo
       - uses: actions/checkout@v2
-      - name: step 2
-        run: that command
+      - name: List all
+        run: ls -R
