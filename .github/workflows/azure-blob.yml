@@ -8,8 +8,7 @@ jobs:
   everything:
     runs-on: ubuntu-latest
     steps:
-      # Checkout the repo
+        # Checkout the repo
       - uses: actions/checkout@v2
-
-      - name: thing
-      - run: ls -R 
+      - name: step 2
+        run: that command
