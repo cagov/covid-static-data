@@ -17,6 +17,7 @@ jobs:
       - name: List Contents Now
         run: ls -gRC
       - name: Promote the data folder
+        run: mkdir -p path/to/artifact/data
         run: mv -v gittarget/data path/to/artifact/data
       - name: Remove files we don't need
         run: rm -rv gittarget
