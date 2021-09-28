@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-09-27",
+    "PUBLISHED_DATE": "2021-09-28",
     "coverage": "Alameda"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 1326,
-        "new_deaths": 2,
-        "new_deaths_delta_1_day": 0.001511,
-        "deaths_per_100k_7_days": 0.076221049,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-09-05",
+        "total_confirmed_deaths": 1327,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.000754,
+        "deaths_per_100k_7_days": 0.067738863,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-09-06",
         "POPULATION": 1685886,
-        "DEATHS_DAILY_AVERAGE": 1.1428571428571428
+        "DEATHS_DAILY_AVERAGE": 1.2857142857142858
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-26"
+          "MAXIMUM": "2021-09-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-27",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-26",
             "VALUE": 0
@@ -2327,9 +2331,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-26"
+          "MAXIMUM": "2021-09-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-27",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-09-26",
             "VALUE": 2
@@ -4635,9 +4643,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-26"
+          "MAXIMUM": "2021-09-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-27",
+            "VALUE": 0.008422871
+          },
           {
             "DATE": "2021-09-26",
             "VALUE": 0.016905058
@@ -6943,9 +6955,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-26"
+          "MAXIMUM": "2021-09-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-09-27",
+            "VALUE": 0.059315992
+          },
           {
             "DATE": "2021-09-26",
             "VALUE": 0.050833805
