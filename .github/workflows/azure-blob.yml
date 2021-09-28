@@ -5,7 +5,7 @@ on:
       - full-deploy-experiment
 
 jobs:
-  Upload_Data_Folder:
+  Covid_Static_Data:
     runs-on: ubuntu-latest
     steps:
       - name: Download Repo
