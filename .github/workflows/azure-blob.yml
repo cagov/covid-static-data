@@ -8,16 +8,15 @@ jobs:
   Upload_Data_Folder:
     runs-on: ubuntu-latest
     steps:
-        # Checkout the repo
-      - name: Create Artifact Folder
-        run: mkdir -p path/to/artifact/all
-      - name: Download Repo to Artifact Folder
+      - name: Create repo target
+        run: mkdir -p gittarget
+      - name: Download Repo
         uses: actions/checkout@v2
         with:
-          path: 'path/to/artifact/all'
+          path: 'gittarget'
       - name: Promote the data folder
-        run: mv -v path/to/artifact/all/data path/to/artifact/data
-      - name: Remove the rest
-        run: rm -rv path/to/artifact/all
-      - name: List all
+        run: mv -v gittarget/data path/to/artifact/data
+      - name: Remove files we don't need
+        run: rm -rv gittarget
+      - name: List Content to Upload
         run: ls -gRC
