@@ -5,12 +5,14 @@ on:
       - full-deploy-experiment
 
 jobs:
-  everything:
+  Upload Data Folder:
     runs-on: ubuntu-latest
     steps:
         # Checkout the repo
-      - run: mkdir -p path/to/artifact/data
-      - uses: actions/checkout@v2
+      - name: Create Artifact Folder
+        run: mkdir -p path/to/artifact
+      - name: Download Repo to Artifact Folder
+        uses: actions/checkout@v2
         with:
           path: 'path/to/artifact'
       - name: List all
