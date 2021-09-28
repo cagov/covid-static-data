@@ -10,12 +10,14 @@ jobs:
     steps:
         # Checkout the repo
       - name: Create Artifact Folder
-        run: mkdir -p path/to/artifact
+        run: mkdir -p path/to/artifact/all
       - name: Download Repo to Artifact Folder
         uses: actions/checkout@v2
         with:
-          path: 'path/to/artifact'
-      - name: Delete files not in the Data folder
-        run: rm -f !(path/to/artifact/data)
+          path: 'path/to/artifact/all'
+      - name: Promote the data folder
+        run: mv -v path/to/artifact/all/data path/to/artifact/data
+      - name: Remove the rest
+        run: rm -rv path/to/artifact/all
       - name: List all
         run: ls -gRC
