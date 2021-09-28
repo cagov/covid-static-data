@@ -8,6 +8,8 @@ jobs:
   changes:
     runs-on: ubuntu-latest
     steps:
-      - id: checkout
+      # Checkout the repo
       - uses: actions/checkout@v2
-      - run: dir
+
+      - name: list stuff
+        run: ls -R 
