@@ -15,5 +15,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: 'path/to/artifact'
+      - name: Delete files not in the Data folder
+        run: rm -f !(path/to/artifact/data)
       - name: List all
         run: ls -gRC
