@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-01",
+    "PUBLISHED_DATE": "2021-10-02",
     "coverage": "Contra Costa"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 88,
-        "CHANGE": -10,
-        "CHANGE_FACTOR": -0.102041,
+        "TOTAL": 83,
+        "CHANGE": -5,
+        "CHANGE_FACTOR": -0.056818,
         "POPULATION": 1160099
       },
       "ICU_PATIENTS": {
-        "TOTAL": 38,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 34,
+        "CHANGE": -4,
+        "CHANGE_FACTOR": -0.105263,
         "POPULATION": 1160099
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-30"
+          "MAXIMUM": "2021-10-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-01",
+            "VALUE": 83
+          },
           {
             "DATE": "2021-09-30",
             "VALUE": 88
@@ -2230,9 +2234,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-30"
+          "MAXIMUM": "2021-10-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-01",
+            "VALUE": 34
+          },
           {
             "DATE": "2021-09-30",
             "VALUE": 38
@@ -4438,9 +4446,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-30"
+          "MAXIMUM": "2021-10-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-01",
+            "VALUE": 120.642
+          },
           {
             "DATE": "2021-09-30",
             "VALUE": 124.928
@@ -6646,9 +6658,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-30"
+          "MAXIMUM": "2021-10-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-01",
+            "VALUE": 43.642
+          },
           {
             "DATE": "2021-09-30",
             "VALUE": 45
