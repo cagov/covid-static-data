@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-01",
+    "PUBLISHED_DATE": "2021-10-02",
     "coverage": "Solano"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 75,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.013514,
+        "TOTAL": 70,
+        "CHANGE": -5,
+        "CHANGE_FACTOR": -0.066667,
         "POPULATION": 444255
       },
       "ICU_PATIENTS": {
-        "TOTAL": 14,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.066667,
+        "TOTAL": 16,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.142857,
         "POPULATION": 444255
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-30"
+          "MAXIMUM": "2021-10-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-01",
+            "VALUE": 70
+          },
           {
             "DATE": "2021-09-30",
             "VALUE": 75
@@ -2230,9 +2234,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-30"
+          "MAXIMUM": "2021-10-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-01",
+            "VALUE": 16
+          },
           {
             "DATE": "2021-09-30",
             "VALUE": 14
@@ -4438,9 +4446,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-30"
+          "MAXIMUM": "2021-10-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-01",
+            "VALUE": 85.571
+          },
           {
             "DATE": "2021-09-30",
             "VALUE": 88.214
@@ -6646,9 +6658,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-09-30"
+          "MAXIMUM": "2021-10-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-01",
+            "VALUE": 19.571
+          },
           {
             "DATE": "2021-09-30",
             "VALUE": 20.142
