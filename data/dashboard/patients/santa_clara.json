@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-02",
+    "PUBLISHED_DATE": "2021-10-03",
     "coverage": "Santa Clara"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 124,
-        "CHANGE": -15,
-        "CHANGE_FACTOR": -0.107914,
+        "TOTAL": 133,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.015267,
         "POPULATION": 1967585
       },
       "ICU_PATIENTS": {
         "TOTAL": 32,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.085714,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 1967585
       }
     },
@@ -22,12 +22,16 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-01"
+          "MAXIMUM": "2021-10-02"
         },
         "VALUES": [
           {
+            "DATE": "2021-10-02",
+            "VALUE": 133
+          },
+          {
             "DATE": "2021-10-01",
-            "VALUE": 124
+            "VALUE": 131
           },
           {
             "DATE": "2021-09-30",
@@ -2234,9 +2238,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-01"
+          "MAXIMUM": "2021-10-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-02",
+            "VALUE": 32
+          },
           {
             "DATE": "2021-10-01",
             "VALUE": 32
@@ -4446,12 +4454,16 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-01"
+          "MAXIMUM": "2021-10-02"
         },
         "VALUES": [
           {
+            "DATE": "2021-10-02",
+            "VALUE": 162.857
+          },
+          {
             "DATE": "2021-10-01",
-            "VALUE": 165.071
+            "VALUE": 165.571
           },
           {
             "DATE": "2021-09-30",
@@ -6658,9 +6670,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-01"
+          "MAXIMUM": "2021-10-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-02",
+            "VALUE": 40.428
+          },
           {
             "DATE": "2021-10-01",
             "VALUE": 41.285
