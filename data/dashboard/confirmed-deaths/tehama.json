@@ -1,27 +1,39 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-03",
+    "PUBLISHED_DATE": "2021-10-04",
     "coverage": "Tehama"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 93,
-        "new_deaths": 5,
-        "new_deaths_delta_1_day": 0.056818,
-        "deaths_per_100k_7_days": 1.51779616,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-09-09",
+        "total_confirmed_deaths": 94,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.010753,
+        "deaths_per_100k_7_days": 1.083706458,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-09-12",
         "POPULATION": 65885,
-        "DEATHS_DAILY_AVERAGE": 1
+        "DEATHS_DAILY_AVERAGE": 0.8571428571428571
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-30"
+          "MAXIMUM": "2021-10-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-03",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-02",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-01",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-30",
             "VALUE": 0
@@ -40,7 +52,7 @@
           },
           {
             "DATE": "2021-09-26",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-09-25",
@@ -2343,9 +2355,21 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-30"
+          "MAXIMUM": "2021-10-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-03",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2021-10-02",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-01",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-09-30",
             "VALUE": 5
@@ -4667,28 +4691,40 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-30"
+          "MAXIMUM": "2021-10-03"
         },
         "VALUES": [
           {
-            "DATE": "2021-09-30",
+            "DATE": "2021-10-03",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-02",
             "VALUE": 0.215527055
           },
           {
+            "DATE": "2021-10-01",
+            "VALUE": 0.432571906
+          },
+          {
+            "DATE": "2021-09-30",
+            "VALUE": 0.432571906
+          },
+          {
             "DATE": "2021-09-29",
-            "VALUE": 0.432571906
-          },
-          {
-            "DATE": "2021-09-28",
-            "VALUE": 0.432571906
-          },
-          {
-            "DATE": "2021-09-27",
             "VALUE": 0.649616756
           },
           {
-            "DATE": "2021-09-26",
+            "DATE": "2021-09-28",
+            "VALUE": 0.649616756
+          },
+          {
+            "DATE": "2021-09-27",
             "VALUE": 0.866661607
+          },
+          {
+            "DATE": "2021-09-26",
+            "VALUE": 1.083706458
           },
           {
             "DATE": "2021-09-25",
@@ -6991,9 +7027,21 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-30"
+          "MAXIMUM": "2021-10-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-03",
+            "VALUE": 1.300751309
+          },
+          {
+            "DATE": "2021-10-02",
+            "VALUE": 1.51779616
+          },
+          {
+            "DATE": "2021-10-01",
+            "VALUE": 1.51779616
+          },
           {
             "DATE": "2021-09-30",
             "VALUE": 1.51779616
