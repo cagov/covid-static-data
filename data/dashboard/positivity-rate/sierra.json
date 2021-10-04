@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-03",
+    "PUBLISHED_DATE": "2021-10-04",
     "coverage": "Sierra"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.057143,
-        "test_positivity_7_days_delta_7_days": 0.005195,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-09-22",
+        "test_positivity_7_days": 0.109375,
+        "test_positivity_7_days_delta_7_days": 0.051404,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-09-25",
         "POPULATION": 3115
       }
     },
@@ -16,20 +16,32 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-29"
+          "MAXIMUM": "2021-10-02"
         },
         "VALUES": [
           {
+            "DATE": "2021-10-02",
+            "VALUE": 0.109375
+          },
+          {
+            "DATE": "2021-10-01",
+            "VALUE": 0.109375
+          },
+          {
+            "DATE": "2021-09-30",
+            "VALUE": 0.101449
+          },
+          {
             "DATE": "2021-09-29",
-            "VALUE": 0.057143
+            "VALUE": 0.042254
           },
           {
             "DATE": "2021-09-28",
-            "VALUE": 0.084746
+            "VALUE": 0.082192
           },
           {
             "DATE": "2021-09-27",
-            "VALUE": 0.070423
+            "VALUE": 0.064103
           },
           {
             "DATE": "2021-09-26",
@@ -2336,20 +2348,32 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-29"
+          "MAXIMUM": "2021-10-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-02",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-01",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-09-30",
+            "VALUE": 0.571429
+          },
           {
             "DATE": "2021-09-29",
             "VALUE": 0
           },
           {
             "DATE": "2021-09-28",
-            "VALUE": 0.5
+            "VALUE": 0.222222
           },
           {
             "DATE": "2021-09-27",
-            "VALUE": 0.055556
+            "VALUE": 0.04
           },
           {
             "DATE": "2021-09-26",
@@ -4656,20 +4680,32 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-09-29"
+          "MAXIMUM": "2021-10-02"
         },
         "VALUES": [
           {
-            "DATE": "2021-09-29",
+            "DATE": "2021-10-02",
             "VALUE": 0
           },
           {
+            "DATE": "2021-10-01",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-09-30",
+            "VALUE": 7
+          },
+          {
+            "DATE": "2021-09-29",
+            "VALUE": 22
+          },
+          {
             "DATE": "2021-09-28",
-            "VALUE": 2
+            "VALUE": 9
           },
           {
             "DATE": "2021-09-27",
-            "VALUE": 18
+            "VALUE": 25
           },
           {
             "DATE": "2021-09-26",
