@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-04",
+    "PUBLISHED_DATE": "2021-10-05",
     "coverage": "Glenn"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 3266,
-        "new_cases": 32,
-        "new_cases_delta_1_day": 0.009895,
-        "cases_per_100k_7_days": 25.797328608,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-09-26",
+        "total_confirmed_cases": 3270,
+        "new_cases": 4,
+        "new_cases_delta_1_day": 0.001225,
+        "cases_per_100k_7_days": 30.179228568,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-09-27",
         "POPULATION": 29348,
-        "CASES_DAILY_AVERAGE": 8.142857142857142
+        "CASES_DAILY_AVERAGE": 7.571428571428571
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-03"
+          "MAXIMUM": "2021-10-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-04",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-10-03",
             "VALUE": 0
@@ -32,7 +36,7 @@
           },
           {
             "DATE": "2021-10-01",
-            "VALUE": 4
+            "VALUE": 8
           },
           {
             "DATE": "2021-09-30",
@@ -2355,9 +2359,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-03"
+          "MAXIMUM": "2021-10-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-04",
+            "VALUE": 4
+          },
           {
             "DATE": "2021-10-03",
             "VALUE": 32
@@ -4691,20 +4699,24 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-03"
+          "MAXIMUM": "2021-10-04"
         },
         "VALUES": [
           {
+            "DATE": "2021-10-04",
+            "VALUE": 18.008041434
+          },
+          {
             "DATE": "2021-10-03",
-            "VALUE": 25.310072237
+            "VALUE": 27.259097724
           },
           {
             "DATE": "2021-10-02",
-            "VALUE": 25.797328608
+            "VALUE": 27.742946708
           },
           {
             "DATE": "2021-10-01",
-            "VALUE": 29.204715824
+            "VALUE": 31.150333924
           },
           {
             "DATE": "2021-09-30",
@@ -7027,9 +7039,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-03"
+          "MAXIMUM": "2021-10-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-04",
+            "VALUE": 39.42687747
+          },
           {
             "DATE": "2021-10-03",
             "VALUE": 40.888646586
