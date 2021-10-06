@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-05",
+    "PUBLISHED_DATE": "2021-10-06",
     "coverage": "Santa Cruz"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 8,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.111111,
+        "TOTAL": 5,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.375,
         "POPULATION": 273999
       },
       "ICU_PATIENTS": {
-        "TOTAL": 1,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.5,
+        "TOTAL": 2,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 1,
         "POPULATION": 273999
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-04"
+          "MAXIMUM": "2021-10-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-05",
+            "VALUE": 5
+          },
           {
             "DATE": "2021-10-04",
             "VALUE": 8
@@ -2246,9 +2250,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-04"
+          "MAXIMUM": "2021-10-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-05",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-10-04",
             "VALUE": 1
@@ -4470,9 +4478,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-04"
+          "MAXIMUM": "2021-10-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-05",
+            "VALUE": 10.714
+          },
           {
             "DATE": "2021-10-04",
             "VALUE": 11.285
@@ -6694,9 +6706,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-04"
+          "MAXIMUM": "2021-10-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-05",
+            "VALUE": 2.428
+          },
           {
             "DATE": "2021-10-04",
             "VALUE": 2.5
