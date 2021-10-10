@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-09",
+    "PUBLISHED_DATE": "2021-10-10",
     "coverage": "Sonoma"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 28,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.037037,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 496668
       },
       "ICU_PATIENTS": {
-        "TOTAL": 12,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 13,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.083333,
         "POPULATION": 496668
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-08"
+          "MAXIMUM": "2021-10-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-09",
+            "VALUE": 28
+          },
           {
             "DATE": "2021-10-08",
             "VALUE": 28
@@ -2262,9 +2266,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-08"
+          "MAXIMUM": "2021-10-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-09",
+            "VALUE": 13
+          },
           {
             "DATE": "2021-10-08",
             "VALUE": 12
@@ -4502,9 +4510,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-08"
+          "MAXIMUM": "2021-10-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-09",
+            "VALUE": 34.357
+          },
           {
             "DATE": "2021-10-08",
             "VALUE": 35.357
@@ -6742,9 +6754,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-08"
+          "MAXIMUM": "2021-10-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-09",
+            "VALUE": 14.571
+          },
           {
             "DATE": "2021-10-08",
             "VALUE": 14.785
