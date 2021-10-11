@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-10",
+    "PUBLISHED_DATE": "2021-10-11",
     "coverage": "Modoc"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.2,
-        "test_positivity_7_days_delta_7_days": 0.154023,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-09-29",
+        "test_positivity_7_days": 0.066667,
+        "test_positivity_7_days_delta_7_days": -0.022619,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-10-02",
         "POPULATION": 9475
       }
     },
@@ -16,24 +16,36 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-06"
+          "MAXIMUM": "2021-10-09"
         },
         "VALUES": [
           {
+            "DATE": "2021-10-09",
+            "VALUE": 0.066667
+          },
+          {
+            "DATE": "2021-10-08",
+            "VALUE": 0.085106
+          },
+          {
+            "DATE": "2021-10-07",
+            "VALUE": 0.102041
+          },
+          {
             "DATE": "2021-10-06",
-            "VALUE": 0.2
+            "VALUE": 0.125
           },
           {
             "DATE": "2021-10-05",
-            "VALUE": 0.162162
+            "VALUE": 0.12766
           },
           {
             "DATE": "2021-10-04",
-            "VALUE": 0.134615
+            "VALUE": 0.12963
           },
           {
             "DATE": "2021-10-03",
-            "VALUE": 0.087719
+            "VALUE": 0.086207
           },
           {
             "DATE": "2021-10-02",
@@ -2364,12 +2376,24 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-06"
+          "MAXIMUM": "2021-10-09"
         },
         "VALUES": [
           {
-            "DATE": "2021-10-06",
+            "DATE": "2021-10-09",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-08",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-07",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-06",
+            "VALUE": 0.0625
           },
           {
             "DATE": "2021-10-05",
@@ -2377,7 +2401,7 @@
           },
           {
             "DATE": "2021-10-04",
-            "VALUE": 0.25
+            "VALUE": 0.222222
           },
           {
             "DATE": "2021-10-03",
@@ -4712,24 +4736,36 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-06"
+          "MAXIMUM": "2021-10-09"
         },
         "VALUES": [
           {
-            "DATE": "2021-10-06",
+            "DATE": "2021-10-09",
             "VALUE": 0
           },
           {
+            "DATE": "2021-10-08",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2021-10-07",
+            "VALUE": 4
+          },
+          {
+            "DATE": "2021-10-06",
+            "VALUE": 16
+          },
+          {
             "DATE": "2021-10-05",
-            "VALUE": 5
+            "VALUE": 13
           },
           {
             "DATE": "2021-10-04",
-            "VALUE": 8
+            "VALUE": 9
           },
           {
             "DATE": "2021-10-03",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2021-10-02",
