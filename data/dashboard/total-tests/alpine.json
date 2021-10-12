@@ -1,15 +1,15 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-11",
+    "PUBLISHED_DATE": "2021-10-12",
     "coverage": "Alpine"
   },
   "data": {
     "latest": {
       "TOTAL_TESTS": {
-        "total_tests_performed": 2300,
-        "new_tests_reported": 18,
-        "new_tests_reported_delta_1_day": 0.007887817704,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-10-02",
+        "total_tests_performed": 2301,
+        "new_tests_reported": 1,
+        "new_tests_reported_delta_1_day": 0.0004347826087,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-10-03",
         "POPULATION": 1117
       }
     },
@@ -17,16 +17,20 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-09"
+          "MAXIMUM": "2021-10-10"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-10",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-10-09",
             "VALUE": 0
           },
           {
             "DATE": "2021-10-08",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-10-07",
@@ -2377,9 +2381,13 @@
       "REPORTED_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-05-05",
-          "MAXIMUM": "2021-10-10"
+          "MAXIMUM": "2021-10-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-11",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-10-10",
             "VALUE": 18
@@ -4481,16 +4489,20 @@
       "AVG_TEST_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-09"
+          "MAXIMUM": "2021-10-10"
         },
         "VALUES": [
           {
-            "DATE": "2021-10-09",
+            "DATE": "2021-10-10",
             "VALUE": 473.142345568
           },
           {
+            "DATE": "2021-10-09",
+            "VALUE": 485.944494181
+          },
+          {
             "DATE": "2021-10-08",
-            "VALUE": 473.142345568
+            "VALUE": 485.944494181
           },
           {
             "DATE": "2021-10-07",
@@ -6841,9 +6853,13 @@
       "AVG_TEST_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-05-05",
-          "MAXIMUM": "2021-10-10"
+          "MAXIMUM": "2021-10-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-11",
+            "VALUE": 698.299015219
+          },
           {
             "DATE": "2021-10-10",
             "VALUE": 680.393912265
