@@ -1,30 +1,34 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-11",
+    "PUBLISHED_DATE": "2021-10-12",
     "coverage": "Colusa"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 2425,
-        "new_cases": 6,
-        "new_cases_delta_1_day": 0.00248,
-        "cases_per_100k_7_days": 8.852299385,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-10-03",
+        "total_confirmed_cases": 2427,
+        "new_cases": 2,
+        "new_cases_delta_1_day": 0.000825,
+        "cases_per_100k_7_days": 5.687602355,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-10-04",
         "POPULATION": 22593,
-        "CASES_DAILY_AVERAGE": 2.2857142857142856
+        "CASES_DAILY_AVERAGE": 2
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-10"
+          "MAXIMUM": "2021-10-11"
         },
         "VALUES": [
           {
-            "DATE": "2021-10-10",
+            "DATE": "2021-10-11",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-10",
+            "VALUE": 2
           },
           {
             "DATE": "2021-10-09",
@@ -2383,9 +2387,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-10"
+          "MAXIMUM": "2021-10-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-11",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-10-10",
             "VALUE": 6
@@ -4747,12 +4755,16 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-10"
+          "MAXIMUM": "2021-10-11"
         },
         "VALUES": [
           {
+            "DATE": "2021-10-11",
+            "VALUE": 5.054662949
+          },
+          {
             "DATE": "2021-10-10",
-            "VALUE": 4.426149692
+            "VALUE": 5.687602355
           },
           {
             "DATE": "2021-10-09",
@@ -7111,9 +7123,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-10"
+          "MAXIMUM": "2021-10-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-11",
+            "VALUE": 8.219359979
+          },
           {
             "DATE": "2021-10-10",
             "VALUE": 7.586420573
