@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-12",
+    "PUBLISHED_DATE": "2021-10-13",
     "coverage": "Sacramento"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 2169,
-        "new_deaths": -9,
-        "new_deaths_delta_1_day": -0.004132,
-        "deaths_per_100k_7_days": 0.446435689,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-09-20",
+        "total_confirmed_deaths": 2170,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.000461,
+        "deaths_per_100k_7_days": 0.455491956,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-09-21",
         "POPULATION": 1567975,
-        "DEATHS_DAILY_AVERAGE": 8.285714285714286
+        "DEATHS_DAILY_AVERAGE": 7
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-11"
+          "MAXIMUM": "2021-10-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-12",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-10-11",
             "VALUE": 0
@@ -2387,9 +2391,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-11"
+          "MAXIMUM": "2021-10-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-12",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-10-11",
             "VALUE": -9
@@ -4755,9 +4763,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-11"
+          "MAXIMUM": "2021-10-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-12",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-10-11",
             "VALUE": 0
@@ -7123,9 +7135,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-11"
+          "MAXIMUM": "2021-10-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-12",
+            "VALUE": 0.400835473
+          },
           {
             "DATE": "2021-10-11",
             "VALUE": 0.49197213
