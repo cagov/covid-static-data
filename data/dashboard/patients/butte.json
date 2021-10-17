@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-16",
+    "PUBLISHED_DATE": "2021-10-17",
     "coverage": "Butte"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 63,
-        "CHANGE": 8,
-        "CHANGE_FACTOR": 0.145455,
+        "TOTAL": 58,
+        "CHANGE": -5,
+        "CHANGE_FACTOR": -0.079365,
         "POPULATION": 217769
       },
       "ICU_PATIENTS": {
-        "TOTAL": 9,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 11,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.222222,
         "POPULATION": 217769
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-15"
+          "MAXIMUM": "2021-10-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-16",
+            "VALUE": 58
+          },
           {
             "DATE": "2021-10-15",
             "VALUE": 63
@@ -2290,9 +2294,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-15"
+          "MAXIMUM": "2021-10-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-16",
+            "VALUE": 11
+          },
           {
             "DATE": "2021-10-15",
             "VALUE": 9
@@ -4558,9 +4566,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-15"
+          "MAXIMUM": "2021-10-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-16",
+            "VALUE": 71.714
+          },
           {
             "DATE": "2021-10-15",
             "VALUE": 74.285
@@ -6826,9 +6838,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-15"
+          "MAXIMUM": "2021-10-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-16",
+            "VALUE": 12.714
+          },
           {
             "DATE": "2021-10-15",
             "VALUE": 13.5
