@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-19",
+    "PUBLISHED_DATE": "2021-10-20",
     "coverage": "Sonoma"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 23,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.045455,
+        "TOTAL": 20,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.130435,
         "POPULATION": 496668
       },
       "ICU_PATIENTS": {
-        "TOTAL": 7,
+        "TOTAL": 6,
         "CHANGE": -1,
-        "CHANGE_FACTOR": -0.125,
+        "CHANGE_FACTOR": -0.142857,
         "POPULATION": 496668
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-18"
+          "MAXIMUM": "2021-10-19"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-19",
+            "VALUE": 20
+          },
           {
             "DATE": "2021-10-18",
             "VALUE": 23
@@ -2302,9 +2306,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-18"
+          "MAXIMUM": "2021-10-19"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-19",
+            "VALUE": 6
+          },
           {
             "DATE": "2021-10-18",
             "VALUE": 7
@@ -4582,9 +4590,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-18"
+          "MAXIMUM": "2021-10-19"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-19",
+            "VALUE": 26.142
+          },
           {
             "DATE": "2021-10-18",
             "VALUE": 27.214
@@ -6862,9 +6874,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-18"
+          "MAXIMUM": "2021-10-19"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-19",
+            "VALUE": 10.285
+          },
           {
             "DATE": "2021-10-18",
             "VALUE": 10.928
