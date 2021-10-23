@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-22",
+    "PUBLISHED_DATE": "2021-10-23",
     "coverage": "Santa Clara"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 122,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.02521,
+        "TOTAL": 126,
+        "CHANGE": 4,
+        "CHANGE_FACTOR": 0.032787,
         "POPULATION": 1967585
       },
       "ICU_PATIENTS": {
-        "TOTAL": 40,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 39,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.025,
         "POPULATION": 1967585
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-21"
+          "MAXIMUM": "2021-10-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-22",
+            "VALUE": 126
+          },
           {
             "DATE": "2021-10-21",
             "VALUE": 122
@@ -2314,9 +2318,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-21"
+          "MAXIMUM": "2021-10-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-22",
+            "VALUE": 39
+          },
           {
             "DATE": "2021-10-21",
             "VALUE": 40
@@ -4606,9 +4614,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-21"
+          "MAXIMUM": "2021-10-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-22",
+            "VALUE": 113.785
+          },
           {
             "DATE": "2021-10-21",
             "VALUE": 113.214
@@ -6898,9 +6910,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-21"
+          "MAXIMUM": "2021-10-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-22",
+            "VALUE": 32.142
+          },
           {
             "DATE": "2021-10-21",
             "VALUE": 31.285
