@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-23",
+    "PUBLISHED_DATE": "2021-10-24",
     "coverage": "Riverside"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 271,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.011194,
+        "TOTAL": 241,
+        "CHANGE": -30,
+        "CHANGE_FACTOR": -0.110701,
         "POPULATION": 2468145
       },
       "ICU_PATIENTS": {
-        "TOTAL": 57,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.017857,
+        "TOTAL": 56,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.017544,
         "POPULATION": 2468145
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-22"
+          "MAXIMUM": "2021-10-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-23",
+            "VALUE": 241
+          },
           {
             "DATE": "2021-10-22",
             "VALUE": 271
@@ -2318,9 +2322,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-22"
+          "MAXIMUM": "2021-10-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-23",
+            "VALUE": 56
+          },
           {
             "DATE": "2021-10-22",
             "VALUE": 57
@@ -4614,9 +4622,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-22"
+          "MAXIMUM": "2021-10-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-23",
+            "VALUE": 285.785
+          },
           {
             "DATE": "2021-10-22",
             "VALUE": 290.642
@@ -6910,9 +6922,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-22"
+          "MAXIMUM": "2021-10-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-23",
+            "VALUE": 68.214
+          },
           {
             "DATE": "2021-10-22",
             "VALUE": 70.285

@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-23",
+    "PUBLISHED_DATE": "2021-10-24",
     "coverage": "Tehama"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 19,
+        "TOTAL": 20,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 0.055556,
+        "CHANGE_FACTOR": 0.052632,
         "POPULATION": 65885
       },
       "ICU_PATIENTS": {
-        "TOTAL": 3,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 4,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.333333,
         "POPULATION": 65885
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-22"
+          "MAXIMUM": "2021-10-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-23",
+            "VALUE": 20
+          },
           {
             "DATE": "2021-10-22",
             "VALUE": 19
@@ -2318,9 +2322,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-22"
+          "MAXIMUM": "2021-10-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-23",
+            "VALUE": 4
+          },
           {
             "DATE": "2021-10-22",
             "VALUE": 3
@@ -4614,9 +4622,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-22"
+          "MAXIMUM": "2021-10-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-23",
+            "VALUE": 19.5
+          },
           {
             "DATE": "2021-10-22",
             "VALUE": 19.785
@@ -6910,9 +6922,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-22"
+          "MAXIMUM": "2021-10-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-23",
+            "VALUE": 4.214
+          },
           {
             "DATE": "2021-10-22",
             "VALUE": 4.285
