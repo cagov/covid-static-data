@@ -1,34 +1,50 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-24",
+    "PUBLISHED_DATE": "2021-10-26",
     "coverage": "San Luis Obispo"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 333,
-        "new_deaths": 1,
-        "new_deaths_delta_1_day": 0.003012,
+        "total_confirmed_deaths": 336,
+        "new_deaths": 3,
+        "new_deaths_delta_1_day": 0.009009,
         "deaths_per_100k_7_days": 0.204760778,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-09-30",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-10-04",
         "POPULATION": 278862,
-        "DEATHS_DAILY_AVERAGE": 0.42857142857142855
+        "DEATHS_DAILY_AVERAGE": 0.7142857142857143
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-21"
+          "MAXIMUM": "2021-10-25"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-25",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-24",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-23",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-22",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-10-21",
             "VALUE": 0
           },
           {
             "DATE": "2021-10-20",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-10-19",
@@ -40,7 +56,7 @@
           },
           {
             "DATE": "2021-10-17",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-10-16",
@@ -2427,9 +2443,25 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-21"
+          "MAXIMUM": "2021-10-25"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-25",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2021-10-24",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-23",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-22",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-10-21",
             "VALUE": 1
@@ -4835,28 +4867,44 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-21"
+          "MAXIMUM": "2021-10-25"
         },
         "VALUES": [
           {
-            "DATE": "2021-10-21",
+            "DATE": "2021-10-25",
+            "VALUE": 0.050921244
+          },
+          {
+            "DATE": "2021-10-24",
             "VALUE": 0.102201089
+          },
+          {
+            "DATE": "2021-10-23",
+            "VALUE": 0.153480933
+          },
+          {
+            "DATE": "2021-10-22",
+            "VALUE": 0.204760778
+          },
+          {
+            "DATE": "2021-10-21",
+            "VALUE": 0.204760778
           },
           {
             "DATE": "2021-10-20",
-            "VALUE": 0.153480933
+            "VALUE": 0.256040622
           },
           {
             "DATE": "2021-10-19",
-            "VALUE": 0.153480933
+            "VALUE": 0.204760778
           },
           {
             "DATE": "2021-10-18",
-            "VALUE": 0.153480933
+            "VALUE": 0.204760778
           },
           {
             "DATE": "2021-10-17",
-            "VALUE": 0.102201089
+            "VALUE": 0.153480933
           },
           {
             "DATE": "2021-10-16",
@@ -7243,9 +7291,25 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-21"
+          "MAXIMUM": "2021-10-25"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-25",
+            "VALUE": 0.256040622
+          },
+          {
+            "DATE": "2021-10-24",
+            "VALUE": 0.102201089
+          },
+          {
+            "DATE": "2021-10-23",
+            "VALUE": 0.204760778
+          },
+          {
+            "DATE": "2021-10-22",
+            "VALUE": 0.204760778
+          },
           {
             "DATE": "2021-10-21",
             "VALUE": 0.204760778
