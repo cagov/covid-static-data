@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-27",
+    "PUBLISHED_DATE": "2021-10-28",
     "coverage": "Alpine"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
         "test_positivity_7_days": 0,
-        "test_positivity_7_days_delta_7_days": -0.085714,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-10-18",
+        "test_positivity_7_days_delta_7_days": -0.064516,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-10-19",
         "POPULATION": 1117
       }
     },
@@ -16,32 +16,36 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-25"
+          "MAXIMUM": "2021-10-26"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-26",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-10-25",
             "VALUE": 0
           },
           {
             "DATE": "2021-10-24",
-            "VALUE": 0.060606
+            "VALUE": 0.057143
           },
           {
             "DATE": "2021-10-23",
-            "VALUE": 0.058824
+            "VALUE": 0.055556
           },
           {
             "DATE": "2021-10-22",
-            "VALUE": 0.0625
-          },
-          {
-            "DATE": "2021-10-21",
             "VALUE": 0.058824
           },
           {
+            "DATE": "2021-10-21",
+            "VALUE": 0.057143
+          },
+          {
             "DATE": "2021-10-20",
-            "VALUE": 0.060606
+            "VALUE": 0.058824
           },
           {
             "DATE": "2021-10-19",
@@ -2440,9 +2444,13 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-25"
+          "MAXIMUM": "2021-10-26"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-26",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-10-25",
             "VALUE": 0
@@ -4864,12 +4872,16 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-10-25"
+          "MAXIMUM": "2021-10-26"
         },
         "VALUES": [
           {
-            "DATE": "2021-10-25",
+            "DATE": "2021-10-26",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-10-25",
+            "VALUE": 2
           },
           {
             "DATE": "2021-10-24",
@@ -4881,7 +4893,7 @@
           },
           {
             "DATE": "2021-10-22",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-10-21",
@@ -4889,7 +4901,7 @@
           },
           {
             "DATE": "2021-10-20",
-            "VALUE": 5
+            "VALUE": 6
           },
           {
             "DATE": "2021-10-19",
