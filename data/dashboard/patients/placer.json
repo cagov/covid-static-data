@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-29",
+    "PUBLISHED_DATE": "2021-10-30",
     "coverage": "Placer"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 118,
-        "CHANGE": 13,
-        "CHANGE_FACTOR": 0.12381,
+        "TOTAL": 123,
+        "CHANGE": 5,
+        "CHANGE_FACTOR": 0.042373,
         "POPULATION": 400434
       },
       "ICU_PATIENTS": {
-        "TOTAL": 28,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.076923,
+        "TOTAL": 25,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.107143,
         "POPULATION": 400434
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-28"
+          "MAXIMUM": "2021-10-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-29",
+            "VALUE": 123
+          },
           {
             "DATE": "2021-10-28",
             "VALUE": 118
@@ -2342,9 +2346,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-28"
+          "MAXIMUM": "2021-10-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-29",
+            "VALUE": 25
+          },
           {
             "DATE": "2021-10-28",
             "VALUE": 28
@@ -4662,9 +4670,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-28"
+          "MAXIMUM": "2021-10-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-29",
+            "VALUE": 107
+          },
           {
             "DATE": "2021-10-28",
             "VALUE": 105.428
@@ -6982,9 +6994,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-28"
+          "MAXIMUM": "2021-10-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-29",
+            "VALUE": 24.785
+          },
           {
             "DATE": "2021-10-28",
             "VALUE": 25.071
