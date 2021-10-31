@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-10-30",
+    "PUBLISHED_DATE": "2021-10-31",
     "coverage": "San Joaquin"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 9,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.25,
+        "TOTAL": 14,
+        "CHANGE": 5,
+        "CHANGE_FACTOR": 0.555556,
         "POPULATION": 782545
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-29"
+          "MAXIMUM": "2021-10-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-10-30",
+            "VALUE": 14
+          },
           {
             "DATE": "2021-10-29",
             "VALUE": 9
