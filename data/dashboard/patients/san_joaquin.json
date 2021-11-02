@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-01",
+    "PUBLISHED_DATE": "2021-11-02",
     "coverage": "San Joaquin"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 110,
-        "CHANGE": 7,
-        "CHANGE_FACTOR": 0.067961,
+        "TOTAL": 107,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.027273,
         "POPULATION": 782545
       },
       "ICU_PATIENTS": {
-        "TOTAL": 31,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.088235,
+        "TOTAL": 26,
+        "CHANGE": -5,
+        "CHANGE_FACTOR": -0.16129,
         "POPULATION": 782545
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-31"
+          "MAXIMUM": "2021-11-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-01",
+            "VALUE": 107
+          },
           {
             "DATE": "2021-10-31",
             "VALUE": 110
@@ -2354,9 +2358,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-31"
+          "MAXIMUM": "2021-11-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-01",
+            "VALUE": 26
+          },
           {
             "DATE": "2021-10-31",
             "VALUE": 31
@@ -4686,9 +4694,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-31"
+          "MAXIMUM": "2021-11-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-01",
+            "VALUE": 98.214
+          },
           {
             "DATE": "2021-10-31",
             "VALUE": 98.142
@@ -7018,9 +7030,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-10-31"
+          "MAXIMUM": "2021-11-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-01",
+            "VALUE": 30
+          },
           {
             "DATE": "2021-10-31",
             "VALUE": 30.5
