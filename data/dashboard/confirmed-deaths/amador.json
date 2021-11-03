@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-02",
+    "PUBLISHED_DATE": "2021-11-03",
     "coverage": "Amador"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 64,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
+        "total_confirmed_deaths": 66,
+        "new_deaths": 2,
+        "new_deaths_delta_1_day": 0.03125,
         "deaths_per_100k_7_days": 0.368534427,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-10-11",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-10-12",
         "POPULATION": 38531,
         "DEATHS_DAILY_AVERAGE": 0.14285714285714285
       }
@@ -19,9 +19,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-01"
+          "MAXIMUM": "2021-11-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-02",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-11-01",
             "VALUE": 0
@@ -36,7 +40,7 @@
           },
           {
             "DATE": "2021-10-29",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-10-28",
@@ -44,7 +48,7 @@
           },
           {
             "DATE": "2021-10-27",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-10-26",
@@ -2471,9 +2475,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-01"
+          "MAXIMUM": "2021-11-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-02",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-11-01",
             "VALUE": 0
@@ -4923,32 +4931,36 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-01"
+          "MAXIMUM": "2021-11-02"
         },
         "VALUES": [
           {
+            "DATE": "2021-11-02",
+            "VALUE": 0.739664167
+          },
+          {
             "DATE": "2021-11-01",
-            "VALUE": 0
+            "VALUE": 0.739664167
           },
           {
             "DATE": "2021-10-31",
-            "VALUE": 0
+            "VALUE": 0.739664167
           },
           {
             "DATE": "2021-10-30",
-            "VALUE": 0
+            "VALUE": 0.739664167
           },
           {
             "DATE": "2021-10-29",
-            "VALUE": 0
+            "VALUE": 0.739664167
           },
           {
             "DATE": "2021-10-28",
-            "VALUE": 0
+            "VALUE": 0.368534427
           },
           {
             "DATE": "2021-10-27",
-            "VALUE": 0
+            "VALUE": 0.368534427
           },
           {
             "DATE": "2021-10-26",
@@ -7375,9 +7387,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-01"
+          "MAXIMUM": "2021-11-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-02",
+            "VALUE": 0.739664167
+          },
           {
             "DATE": "2021-11-01",
             "VALUE": 0
