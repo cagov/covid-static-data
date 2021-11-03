@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-02",
+    "PUBLISHED_DATE": "2021-11-03",
     "coverage": "Santa Barbara"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 43,
-        "CHANGE": 7,
-        "CHANGE_FACTOR": 0.194444,
+        "TOTAL": 42,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.023256,
         "POPULATION": 456373
       },
       "ICU_PATIENTS": {
         "TOTAL": 11,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.1,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 456373
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-01"
+          "MAXIMUM": "2021-11-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-02",
+            "VALUE": 42
+          },
           {
             "DATE": "2021-11-01",
             "VALUE": 43
@@ -2358,9 +2362,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-01"
+          "MAXIMUM": "2021-11-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-02",
+            "VALUE": 11
+          },
           {
             "DATE": "2021-11-01",
             "VALUE": 11
@@ -4694,9 +4702,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-01"
+          "MAXIMUM": "2021-11-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-02",
+            "VALUE": 39.214
+          },
           {
             "DATE": "2021-11-01",
             "VALUE": 38.857
@@ -7030,9 +7042,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-01"
+          "MAXIMUM": "2021-11-02"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-02",
+            "VALUE": 12.785
+          },
           {
             "DATE": "2021-11-01",
             "VALUE": 12.928
