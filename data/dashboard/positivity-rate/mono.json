@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-03",
+    "PUBLISHED_DATE": "2021-11-04",
     "coverage": "Mono"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.066445,
-        "test_positivity_7_days_delta_7_days": 0.02179,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-10-25",
+        "test_positivity_7_days": 0.074194,
+        "test_positivity_7_days_delta_7_days": 0.025322,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-10-26",
         "POPULATION": 13961
       }
     },
@@ -16,20 +16,24 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-01"
+          "MAXIMUM": "2021-11-02"
         },
         "VALUES": [
           {
+            "DATE": "2021-11-02",
+            "VALUE": 0.074194
+          },
+          {
             "DATE": "2021-11-01",
-            "VALUE": 0.066445
+            "VALUE": 0.0656
           },
           {
             "DATE": "2021-10-31",
-            "VALUE": 0.063348
+            "VALUE": 0.063253
           },
           {
             "DATE": "2021-10-30",
-            "VALUE": 0.064371
+            "VALUE": 0.064275
           },
           {
             "DATE": "2021-10-29",
@@ -2468,12 +2472,16 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-01"
+          "MAXIMUM": "2021-11-02"
         },
         "VALUES": [
           {
-            "DATE": "2021-11-01",
+            "DATE": "2021-11-02",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-11-01",
+            "VALUE": 0.02381
           },
           {
             "DATE": "2021-10-31",
@@ -2481,7 +2489,7 @@
           },
           {
             "DATE": "2021-10-30",
-            "VALUE": 0.145833
+            "VALUE": 0.142857
           },
           {
             "DATE": "2021-10-29",
@@ -4920,12 +4928,16 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-01"
+          "MAXIMUM": "2021-11-02"
         },
         "VALUES": [
           {
+            "DATE": "2021-11-02",
+            "VALUE": 18
+          },
+          {
             "DATE": "2021-11-01",
-            "VALUE": 20
+            "VALUE": 42
           },
           {
             "DATE": "2021-10-31",
@@ -4933,7 +4945,7 @@
           },
           {
             "DATE": "2021-10-30",
-            "VALUE": 48
+            "VALUE": 49
           },
           {
             "DATE": "2021-10-29",
