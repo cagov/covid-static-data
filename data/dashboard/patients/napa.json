@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-06",
+    "PUBLISHED_DATE": "2021-11-07",
     "coverage": "Napa"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 5,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.166667,
+        "TOTAL": 8,
+        "CHANGE": 3,
+        "CHANGE_FACTOR": 0.6,
         "POPULATION": 139652
       },
       "ICU_PATIENTS": {
-        "TOTAL": 4,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 5,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.25,
         "POPULATION": 139652
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-05"
+          "MAXIMUM": "2021-11-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-06",
+            "VALUE": 8
+          },
           {
             "DATE": "2021-11-05",
             "VALUE": 5
@@ -2374,9 +2378,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-05"
+          "MAXIMUM": "2021-11-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-06",
+            "VALUE": 5
+          },
           {
             "DATE": "2021-11-05",
             "VALUE": 4
@@ -4726,9 +4734,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-05"
+          "MAXIMUM": "2021-11-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-06",
+            "VALUE": 9.714
+          },
           {
             "DATE": "2021-11-05",
             "VALUE": 9.785
@@ -7078,9 +7090,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-05"
+          "MAXIMUM": "2021-11-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-06",
+            "VALUE": 4.071
+          },
           {
             "DATE": "2021-11-05",
             "VALUE": 4
