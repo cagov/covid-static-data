@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-08",
+    "PUBLISHED_DATE": "2021-11-09",
     "coverage": "San Bernardino"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 316,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.006369,
+        "TOTAL": 334,
+        "CHANGE": 19,
+        "CHANGE_FACTOR": 0.060317,
         "POPULATION": 2217398
       },
       "ICU_PATIENTS": {
-        "TOTAL": 90,
-        "CHANGE": 4,
-        "CHANGE_FACTOR": 0.046512,
+        "TOTAL": 92,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.022222,
         "POPULATION": 2217398
       }
     },
@@ -22,12 +22,16 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-07"
+          "MAXIMUM": "2021-11-08"
         },
         "VALUES": [
           {
+            "DATE": "2021-11-08",
+            "VALUE": 334
+          },
+          {
             "DATE": "2021-11-07",
-            "VALUE": 316
+            "VALUE": 315
           },
           {
             "DATE": "2021-11-06",
@@ -2382,9 +2386,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-07"
+          "MAXIMUM": "2021-11-08"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-08",
+            "VALUE": 92
+          },
           {
             "DATE": "2021-11-07",
             "VALUE": 90
@@ -4742,12 +4750,16 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-07"
+          "MAXIMUM": "2021-11-08"
         },
         "VALUES": [
           {
+            "DATE": "2021-11-08",
+            "VALUE": 313.142
+          },
+          {
             "DATE": "2021-11-07",
-            "VALUE": 310.285
+            "VALUE": 310.214
           },
           {
             "DATE": "2021-11-06",
@@ -7102,9 +7114,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-07"
+          "MAXIMUM": "2021-11-08"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-08",
+            "VALUE": 81.714
+          },
           {
             "DATE": "2021-11-07",
             "VALUE": 80.214
