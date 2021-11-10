@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-09",
+    "PUBLISHED_DATE": "2021-11-10",
     "coverage": "Santa Barbara"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 37,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.057143,
+        "TOTAL": 32,
+        "CHANGE": -5,
+        "CHANGE_FACTOR": -0.135135,
         "POPULATION": 456373
       },
       "ICU_PATIENTS": {
-        "TOTAL": 13,
-        "CHANGE": 5,
-        "CHANGE_FACTOR": 0.625,
+        "TOTAL": 12,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.076923,
         "POPULATION": 456373
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-08"
+          "MAXIMUM": "2021-11-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-09",
+            "VALUE": 32
+          },
           {
             "DATE": "2021-11-08",
             "VALUE": 37
@@ -2386,9 +2390,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-08"
+          "MAXIMUM": "2021-11-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-09",
+            "VALUE": 12
+          },
           {
             "DATE": "2021-11-08",
             "VALUE": 13
@@ -4750,9 +4758,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-08"
+          "MAXIMUM": "2021-11-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-09",
+            "VALUE": 38.428
+          },
           {
             "DATE": "2021-11-08",
             "VALUE": 39.142
@@ -7114,9 +7126,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-08"
+          "MAXIMUM": "2021-11-09"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-09",
+            "VALUE": 11.142
+          },
           {
             "DATE": "2021-11-08",
             "VALUE": 11.285
