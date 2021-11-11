@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-10",
+    "PUBLISHED_DATE": "2021-11-11",
     "coverage": "Sutter"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 180,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
-        "deaths_per_100k_7_days": 0.404739614,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-10-19",
+        "total_confirmed_deaths": 181,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.005556,
+        "deaths_per_100k_7_days": 0.539968037,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-10-20",
         "POPULATION": 105747,
         "DEATHS_DAILY_AVERAGE": 0.42857142857142855
       }
@@ -19,16 +19,20 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-09"
+          "MAXIMUM": "2021-11-10"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-10",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-11-09",
             "VALUE": 0
           },
           {
             "DATE": "2021-11-08",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-11-07",
@@ -2503,9 +2507,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-09"
+          "MAXIMUM": "2021-11-10"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-10",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-11-09",
             "VALUE": 0
@@ -4987,16 +4995,20 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-09"
+          "MAXIMUM": "2021-11-10"
         },
         "VALUES": [
           {
+            "DATE": "2021-11-10",
+            "VALUE": 0.134282769
+          },
+          {
             "DATE": "2021-11-09",
-            "VALUE": 0
+            "VALUE": 0.134282769
           },
           {
             "DATE": "2021-11-08",
-            "VALUE": 0
+            "VALUE": 0.134282769
           },
           {
             "DATE": "2021-11-07",
@@ -7471,9 +7483,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-09"
+          "MAXIMUM": "2021-11-10"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-10",
+            "VALUE": 0.269511192
+          },
           {
             "DATE": "2021-11-09",
             "VALUE": 0.134282769
