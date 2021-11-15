@@ -1,27 +1,35 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-14",
+    "PUBLISHED_DATE": "2021-11-15",
     "coverage": "Del Norte"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
         "total_confirmed_cases": 3629,
-        "new_cases": 7,
-        "new_cases_delta_1_day": 0.001933,
-        "cases_per_100k_7_days": 11.40140794,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-11-05",
+        "new_cases": 0,
+        "new_cases_delta_1_day": 0,
+        "cases_per_100k_7_days": 8.810508745,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-11-07",
         "POPULATION": 27558,
-        "CASES_DAILY_AVERAGE": 2.857142857142857
+        "CASES_DAILY_AVERAGE": 2.4285714285714284
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-12"
+          "MAXIMUM": "2021-11-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-14",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-11-13",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-11-12",
             "VALUE": 0
@@ -32,11 +40,11 @@
           },
           {
             "DATE": "2021-11-10",
-            "VALUE": 3
+            "VALUE": 1
           },
           {
             "DATE": "2021-11-09",
-            "VALUE": 2
+            "VALUE": 4
           },
           {
             "DATE": "2021-11-08",
@@ -2515,9 +2523,17 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-12"
+          "MAXIMUM": "2021-11-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-14",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-11-13",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-11-12",
             "VALUE": 7
@@ -5011,9 +5027,17 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-12"
+          "MAXIMUM": "2021-11-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-14",
+            "VALUE": 3.109804775
+          },
+          {
+            "DATE": "2021-11-13",
+            "VALUE": 4.662892808
+          },
           {
             "DATE": "2021-11-12",
             "VALUE": 5.70070397
@@ -5028,7 +5052,7 @@
           },
           {
             "DATE": "2021-11-09",
-            "VALUE": 7.772697583
+            "VALUE": 8.810508745
           },
           {
             "DATE": "2021-11-08",
@@ -7507,9 +7531,17 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-12"
+          "MAXIMUM": "2021-11-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-14",
+            "VALUE": 6.219609551
+          },
+          {
+            "DATE": "2021-11-13",
+            "VALUE": 11.40140794
+          },
           {
             "DATE": "2021-11-12",
             "VALUE": 11.40140794
