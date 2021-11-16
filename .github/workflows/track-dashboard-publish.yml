@@ -22,7 +22,7 @@ jobs:
           git pull
           git config user.name github-actions
           git config user.email github-actions@github.com
-          echo '{"PUBLISH_DATE":"`date --iso-8601=seconds`"}' >status/last_dashboard_update.json
+          npm run updateDashStatus
           git add status/last_dashboard_update.json
           git commit -m "updated last dashboard status"
           git push origin main
