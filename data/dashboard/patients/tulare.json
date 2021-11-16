@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-15",
+    "PUBLISHED_DATE": "2021-11-16",
     "coverage": "Tulare"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 126,
-        "CHANGE": -12,
-        "CHANGE_FACTOR": -0.086957,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 484423
       },
       "ICU_PATIENTS": {
-        "TOTAL": 28,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.096774,
+        "TOTAL": 21,
+        "CHANGE": -7,
+        "CHANGE_FACTOR": -0.25,
         "POPULATION": 484423
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-14"
+          "MAXIMUM": "2021-11-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-15",
+            "VALUE": 126
+          },
           {
             "DATE": "2021-11-14",
             "VALUE": 126
@@ -2410,9 +2414,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-14"
+          "MAXIMUM": "2021-11-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-15",
+            "VALUE": 21
+          },
           {
             "DATE": "2021-11-14",
             "VALUE": 28
@@ -4798,9 +4806,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-14"
+          "MAXIMUM": "2021-11-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-15",
+            "VALUE": 147.357
+          },
           {
             "DATE": "2021-11-14",
             "VALUE": 150.714
@@ -7186,9 +7198,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-14"
+          "MAXIMUM": "2021-11-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-15",
+            "VALUE": 33.5
+          },
           {
             "DATE": "2021-11-14",
             "VALUE": 34.785
