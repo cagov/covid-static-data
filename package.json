@@ -6,7 +6,8 @@
   "scripts": {
     "move": "node src/move.js",
     "updateSitemap": "node src/updateSitemap.js",
-    "updateDashStatus": "node src/updateDashStatus.js"
+    "updateDashStatus": "node src/logUpdateTime.js ./status/last_dashboard_update.json",
+    "updateEquityStatus": "node src/logUpdateTime.js ./status/last_equity_update.json"
   },
   "repository": {
     "type": "git",

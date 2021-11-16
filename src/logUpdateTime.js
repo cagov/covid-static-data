@@ -7,11 +7,9 @@ function writeFile(file, filecontent) {
   fs.createReadStream(file).pipe(fs.createWriteStream('path/to/artifact/'+file));
 }
 
-(async () => {
-
+let filename = process.argv[2];
+if (filename.startsWith("./status/")) {
   let jsonData = {'PUBLISH_DATE':(new Date()).toISOString()};
-
   // write a new date file to make sure script runs even if there is no svg change  
-  writeFile('./status/last_dashboard_update.json',JSON.stringify(jsonData));
-
-})();
+  writeFile(filename, JSON.stringify(jsonData));
+}
