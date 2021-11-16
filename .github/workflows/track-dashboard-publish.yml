@@ -25,5 +25,5 @@ jobs:
           echo '{"PUBLISH_DATE":"`date --iso-8601=seconds`"}' >status/last_dashboard_update.json
           git add status/last_dashboard_update.json
           git commit -m "updated last dashboard status"
-          git push origin master
+          git push origin main
 
