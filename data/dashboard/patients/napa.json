@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-16",
+    "PUBLISHED_DATE": "2021-11-17",
     "coverage": "Napa"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 11,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.375,
+        "TOTAL": 10,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.090909,
         "POPULATION": 139652
       },
       "ICU_PATIENTS": {
         "TOTAL": 5,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.25,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 139652
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-15"
+          "MAXIMUM": "2021-11-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-16",
+            "VALUE": 10
+          },
           {
             "DATE": "2021-11-15",
             "VALUE": 11
@@ -2414,9 +2418,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-15"
+          "MAXIMUM": "2021-11-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-16",
+            "VALUE": 5
+          },
           {
             "DATE": "2021-11-15",
             "VALUE": 5
@@ -4806,9 +4814,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-15"
+          "MAXIMUM": "2021-11-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-16",
+            "VALUE": 8.642
+          },
           {
             "DATE": "2021-11-15",
             "VALUE": 8.428
@@ -7198,9 +7210,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-15"
+          "MAXIMUM": "2021-11-16"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-16",
+            "VALUE": 4.071
+          },
           {
             "DATE": "2021-11-15",
             "VALUE": 4
