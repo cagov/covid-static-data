@@ -1,70 +1,74 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-17",
+    "PUBLISHED_DATE": "2021-11-18",
     "coverage": "Santa Cruz"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 20684,
-        "new_cases": 54,
-        "new_cases_delta_1_day": 0.002618,
-        "cases_per_100k_7_days": 10.375220348,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-11-09",
+        "total_confirmed_cases": 20700,
+        "new_cases": 16,
+        "new_cases_delta_1_day": 0.000774,
+        "cases_per_100k_7_days": 10.948945069,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-11-10",
         "POPULATION": 273999,
-        "CASES_DAILY_AVERAGE": 29.714285714285715
+        "CASES_DAILY_AVERAGE": 30.142857142857142
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-16"
+          "MAXIMUM": "2021-11-17"
         },
         "VALUES": [
           {
-            "DATE": "2021-11-16",
+            "DATE": "2021-11-17",
             "VALUE": 0
           },
           {
+            "DATE": "2021-11-16",
+            "VALUE": 6
+          },
+          {
             "DATE": "2021-11-15",
-            "VALUE": 3
+            "VALUE": 11
           },
           {
             "DATE": "2021-11-14",
-            "VALUE": 8
+            "VALUE": 9
           },
           {
             "DATE": "2021-11-13",
-            "VALUE": 23
+            "VALUE": 19
           },
           {
             "DATE": "2021-11-12",
-            "VALUE": 43
+            "VALUE": 34
           },
           {
             "DATE": "2021-11-11",
-            "VALUE": 13
+            "VALUE": 14
           },
           {
             "DATE": "2021-11-10",
-            "VALUE": 26
+            "VALUE": 28
           },
           {
             "DATE": "2021-11-09",
-            "VALUE": 25
+            "VALUE": 26
           },
           {
             "DATE": "2021-11-08",
-            "VALUE": 47
+            "VALUE": 51
           },
           {
             "DATE": "2021-11-07",
-            "VALUE": 15
+            "VALUE": 17
           },
           {
             "DATE": "2021-11-06",
-            "VALUE": 20
+            "VALUE": 22
           },
           {
             "DATE": "2021-11-05",
@@ -72,11 +76,11 @@
           },
           {
             "DATE": "2021-11-04",
-            "VALUE": 30
+            "VALUE": 32
           },
           {
             "DATE": "2021-11-03",
-            "VALUE": 28
+            "VALUE": 29
           },
           {
             "DATE": "2021-11-02",
@@ -100,7 +104,7 @@
           },
           {
             "DATE": "2021-10-28",
-            "VALUE": 28
+            "VALUE": 27
           },
           {
             "DATE": "2021-10-27",
@@ -2531,9 +2535,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-16"
+          "MAXIMUM": "2021-11-17"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-17",
+            "VALUE": 16
+          },
           {
             "DATE": "2021-11-16",
             "VALUE": 54
@@ -5043,12 +5051,16 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-16"
+          "MAXIMUM": "2021-11-17"
         },
         "VALUES": [
           {
+            "DATE": "2021-11-17",
+            "VALUE": 4.848557841
+          },
+          {
             "DATE": "2021-11-16",
-            "VALUE": 6.047832291
+            "VALUE": 6.308417184
           },
           {
             "DATE": "2021-11-15",
@@ -5056,47 +5068,47 @@
           },
           {
             "DATE": "2021-11-14",
-            "VALUE": 9.645290676
+            "VALUE": 9.436895755
           },
           {
             "DATE": "2021-11-13",
-            "VALUE": 10.010255512
-          },
-          {
-            "DATE": "2021-11-12",
             "VALUE": 9.854050562
           },
           {
+            "DATE": "2021-11-12",
+            "VALUE": 10.010255512
+          },
+          {
             "DATE": "2021-11-11",
-            "VALUE": 9.384705784
+            "VALUE": 10.010255512
           },
           {
             "DATE": "2021-11-10",
-            "VALUE": 10.270840405
+            "VALUE": 10.948945069
           },
           {
             "DATE": "2021-11-09",
-            "VALUE": 10.375220348
+            "VALUE": 11.000770076
           },
           {
             "DATE": "2021-11-08",
-            "VALUE": 10.844565126
+            "VALUE": 11.417924883
           },
           {
             "DATE": "2021-11-07",
-            "VALUE": 10.062445483
+            "VALUE": 10.427410319
           },
           {
             "DATE": "2021-11-06",
-            "VALUE": 10.219015398
+            "VALUE": 10.479600291
           },
           {
             "DATE": "2021-11-05",
-            "VALUE": 9.489085727
+            "VALUE": 9.645290676
           },
           {
             "DATE": "2021-11-04",
-            "VALUE": 8.915361005
+            "VALUE": 9.071930919
           },
           {
             "DATE": "2021-11-03",
@@ -5104,27 +5116,27 @@
           },
           {
             "DATE": "2021-11-02",
-            "VALUE": 9.019740948
+            "VALUE": 8.967550976
           },
           {
             "DATE": "2021-11-01",
-            "VALUE": 8.810981062
-          },
-          {
-            "DATE": "2021-10-31",
-            "VALUE": 9.071930919
-          },
-          {
-            "DATE": "2021-10-30",
             "VALUE": 8.759156055
           },
           {
+            "DATE": "2021-10-31",
+            "VALUE": 9.019740948
+          },
+          {
+            "DATE": "2021-10-30",
+            "VALUE": 8.706966084
+          },
+          {
             "DATE": "2021-10-29",
-            "VALUE": 9.593100705
+            "VALUE": 9.540910733
           },
           {
             "DATE": "2021-10-28",
-            "VALUE": 9.645290676
+            "VALUE": 9.593100705
           },
           {
             "DATE": "2021-10-27",
@@ -7555,9 +7567,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-16"
+          "MAXIMUM": "2021-11-17"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-17",
+            "VALUE": 11.522304826
+          },
           {
             "DATE": "2021-11-16",
             "VALUE": 11.522304826
