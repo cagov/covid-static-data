@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-18",
+    "PUBLISHED_DATE": "2021-11-19",
     "coverage": "Sierra"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.047619,
-        "test_positivity_7_days_delta_7_days": -0.05383,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-11-09",
+        "test_positivity_7_days": 0.166667,
+        "test_positivity_7_days_delta_7_days": 0.058975,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-11-10",
         "POPULATION": 3115
       }
     },
@@ -16,24 +16,28 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-16"
+          "MAXIMUM": "2021-11-17"
         },
         "VALUES": [
           {
+            "DATE": "2021-11-17",
+            "VALUE": 0.166667
+          },
+          {
             "DATE": "2021-11-16",
-            "VALUE": 0.047619
+            "VALUE": 0.1
           },
           {
             "DATE": "2021-11-15",
-            "VALUE": 0.085714
+            "VALUE": 0.095238
           },
           {
             "DATE": "2021-11-14",
-            "VALUE": 0.068182
+            "VALUE": 0.088889
           },
           {
             "DATE": "2021-11-13",
-            "VALUE": 0.068182
+            "VALUE": 0.088889
           },
           {
             "DATE": "2021-11-12",
@@ -2528,12 +2532,16 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-16"
+          "MAXIMUM": "2021-11-17"
         },
         "VALUES": [
           {
-            "DATE": "2021-11-16",
+            "DATE": "2021-11-17",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-11-16",
+            "VALUE": 0.5
           },
           {
             "DATE": "2021-11-15",
@@ -2545,7 +2553,7 @@
           },
           {
             "DATE": "2021-11-13",
-            "VALUE": 0
+            "VALUE": 0.333333
           },
           {
             "DATE": "2021-11-12",
@@ -5040,16 +5048,20 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-16"
+          "MAXIMUM": "2021-11-17"
         },
         "VALUES": [
           {
-            "DATE": "2021-11-16",
+            "DATE": "2021-11-17",
             "VALUE": 0
           },
           {
+            "DATE": "2021-11-16",
+            "VALUE": 2
+          },
+          {
             "DATE": "2021-11-15",
-            "VALUE": 3
+            "VALUE": 9
           },
           {
             "DATE": "2021-11-14",
@@ -5057,7 +5069,7 @@
           },
           {
             "DATE": "2021-11-13",
-            "VALUE": 2
+            "VALUE": 3
           },
           {
             "DATE": "2021-11-12",
