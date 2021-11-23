@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-22",
+    "PUBLISHED_DATE": "2021-11-23",
     "coverage": "San Bernardino"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 321,
-        "CHANGE": -4,
-        "CHANGE_FACTOR": -0.012308,
+        "TOTAL": 333,
+        "CHANGE": 12,
+        "CHANGE_FACTOR": 0.037383,
         "POPULATION": 2217398
       },
       "ICU_PATIENTS": {
-        "TOTAL": 96,
-        "CHANGE": -4,
-        "CHANGE_FACTOR": -0.04,
+        "TOTAL": 90,
+        "CHANGE": -6,
+        "CHANGE_FACTOR": -0.0625,
         "POPULATION": 2217398
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-21"
+          "MAXIMUM": "2021-11-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-22",
+            "VALUE": 333
+          },
           {
             "DATE": "2021-11-21",
             "VALUE": 321
@@ -2438,9 +2442,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-21"
+          "MAXIMUM": "2021-11-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-22",
+            "VALUE": 90
+          },
           {
             "DATE": "2021-11-21",
             "VALUE": 96
@@ -4854,9 +4862,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-21"
+          "MAXIMUM": "2021-11-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-22",
+            "VALUE": 331.5
+          },
           {
             "DATE": "2021-11-21",
             "VALUE": 331.571
@@ -7270,9 +7282,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-21"
+          "MAXIMUM": "2021-11-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-22",
+            "VALUE": 98.571
+          },
           {
             "DATE": "2021-11-21",
             "VALUE": 98.714

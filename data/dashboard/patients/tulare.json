@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-22",
+    "PUBLISHED_DATE": "2021-11-23",
     "coverage": "Tulare"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 104,
-        "CHANGE": 5,
-        "CHANGE_FACTOR": 0.050505,
+        "TOTAL": 98,
+        "CHANGE": -6,
+        "CHANGE_FACTOR": -0.057692,
         "POPULATION": 484423
       },
       "ICU_PATIENTS": {
         "TOTAL": 20,
-        "CHANGE": -4,
-        "CHANGE_FACTOR": -0.166667,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 484423
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-21"
+          "MAXIMUM": "2021-11-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-22",
+            "VALUE": 98
+          },
           {
             "DATE": "2021-11-21",
             "VALUE": 104
@@ -2438,9 +2442,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-21"
+          "MAXIMUM": "2021-11-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-22",
+            "VALUE": 20
+          },
           {
             "DATE": "2021-11-21",
             "VALUE": 20
@@ -4854,9 +4862,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-21"
+          "MAXIMUM": "2021-11-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-22",
+            "VALUE": 120.785
+          },
           {
             "DATE": "2021-11-21",
             "VALUE": 125
@@ -7270,9 +7282,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-21"
+          "MAXIMUM": "2021-11-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-22",
+            "VALUE": 28.857
+          },
           {
             "DATE": "2021-11-21",
             "VALUE": 30
