@@ -29,7 +29,7 @@ if (filename.startsWith("./status/")) {
   }
 
   let jsonData = {'PUBLISH_DATE':pubDate.toISOString(),
-                  'ROUNDED_DATE':roundedDate.toISOString()
+                  'ROUNDED_PUBLISH_DATE':roundedDate.toISOString()
                  };
   // write a new date file to make sure script runs even if there is no svg change  
   writeFile(filename, JSON.stringify(jsonData));
