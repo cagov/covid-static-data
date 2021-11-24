@@ -9,25 +9,28 @@ function writeFile(file, filecontent) {
 
 let filename = process.argv[2];
 if (filename.startsWith("./status/")) {
-  let uDate = new Date();
+  let pubDate = new Date();
 
-  // add 15 minutes to account for publishing delay
+  // add 15 minutes to account for normal publishing delay
   let addMS = 15 * 60 * 1000;
-  uDate = new Date(uDate.getTime() + addMS);
+  pubDate = new Date(pubDate.getTime() + addMS);
 
+  let roundedDate = pubDate;
   // set seconds/milliseconds to zero for prettiness
-  let trimMS = uDate.getMilliseconds() + uDate.getSeconds()*1000;
-  uDate = new Date(uDate.getTime() - trimMS);
+  let trimMS = roundedDate.getMilliseconds() + roundedDate.getSeconds()*1000;
+  roundedDate = new Date(roundedDate.getTime() - trimMS);
 
   // round to next half hour for prettiness
-  let minutes = uDate.getMinutes();
+  let minutes = roundedDate.getMinutes();
   if (minutes % 30 != 0) {
     let extraMinutes = 30 - (minutes % 30);
     let addMS = extraMinutes * 60 * 1000;
-    uDate = new Date(uDate.getTime() + addMS);
+    roundedDate = new Date(roundedDate.getTime() + addMS);
   }
 
-  let jsonData = {'PUBLISH_DATE':uDate.toISOString()};
+  let jsonData = {'PUBLISH_DATE':pubDate.toISOString(),
+                  'ROUNDED_PUBLISH_DATE':roundedDate.toISOString()
+                 };
   // write a new date file to make sure script runs even if there is no svg change  
   writeFile(filename, JSON.stringify(jsonData));
 }
