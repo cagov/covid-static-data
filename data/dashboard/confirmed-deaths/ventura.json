@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-23",
+    "PUBLISHED_DATE": "2021-11-24",
     "coverage": "Ventura"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 1186,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
+        "total_confirmed_deaths": 1188,
+        "new_deaths": 2,
+        "new_deaths_delta_1_day": 0.001686,
         "deaths_per_100k_7_days": 0.050190737,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-11-01",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-11-02",
         "POPULATION": 852747,
         "DEATHS_DAILY_AVERAGE": 0.42857142857142855
       }
@@ -19,9 +19,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-22"
+          "MAXIMUM": "2021-11-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-23",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-11-22",
             "VALUE": 0
@@ -48,7 +52,7 @@
           },
           {
             "DATE": "2021-11-16",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-11-15",
@@ -64,7 +68,7 @@
           },
           {
             "DATE": "2021-11-12",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-11-11",
@@ -2555,9 +2559,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-22"
+          "MAXIMUM": "2021-11-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-23",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-11-22",
             "VALUE": 0
@@ -5091,52 +5099,56 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-22"
+          "MAXIMUM": "2021-11-23"
         },
         "VALUES": [
           {
-            "DATE": "2021-11-22",
+            "DATE": "2021-11-23",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-11-22",
+            "VALUE": 0.016652067
           },
           {
             "DATE": "2021-11-21",
-            "VALUE": 0
+            "VALUE": 0.016652067
           },
           {
             "DATE": "2021-11-20",
-            "VALUE": 0
+            "VALUE": 0.016652067
           },
           {
             "DATE": "2021-11-19",
-            "VALUE": 0
+            "VALUE": 0.016652067
           },
           {
             "DATE": "2021-11-18",
-            "VALUE": 0
+            "VALUE": 0.033421402
           },
           {
             "DATE": "2021-11-17",
-            "VALUE": 0.016652067
+            "VALUE": 0.050190737
           },
           {
             "DATE": "2021-11-16",
-            "VALUE": 0.016652067
+            "VALUE": 0.050190737
           },
           {
             "DATE": "2021-11-15",
-            "VALUE": 0.033421402
+            "VALUE": 0.050190737
           },
           {
             "DATE": "2021-11-14",
-            "VALUE": 0.033421402
+            "VALUE": 0.050190737
           },
           {
             "DATE": "2021-11-13",
-            "VALUE": 0.033421402
+            "VALUE": 0.050190737
           },
           {
             "DATE": "2021-11-12",
-            "VALUE": 0.033421402
+            "VALUE": 0.050190737
           },
           {
             "DATE": "2021-11-11",
@@ -7627,9 +7639,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-22"
+          "MAXIMUM": "2021-11-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-23",
+            "VALUE": 0.083729406
+          },
           {
             "DATE": "2021-11-22",
             "VALUE": 0.050190737
