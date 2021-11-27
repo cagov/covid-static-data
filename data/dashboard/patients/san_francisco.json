@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-26",
+    "PUBLISHED_DATE": "2021-11-27",
     "coverage": "San Francisco"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 31,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.033333,
+        "TOTAL": 28,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.096774,
         "POPULATION": 892280
       },
       "ICU_PATIENTS": {
-        "TOTAL": 11,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 10,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.090909,
         "POPULATION": 892280
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-25"
+          "MAXIMUM": "2021-11-26"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-26",
+            "VALUE": 28
+          },
           {
             "DATE": "2021-11-25",
             "VALUE": 31
@@ -2454,9 +2458,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-25"
+          "MAXIMUM": "2021-11-26"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-26",
+            "VALUE": 10
+          },
           {
             "DATE": "2021-11-25",
             "VALUE": 11
@@ -4886,9 +4894,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-25"
+          "MAXIMUM": "2021-11-26"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-26",
+            "VALUE": 31.928
+          },
           {
             "DATE": "2021-11-25",
             "VALUE": 32.714
@@ -7318,9 +7330,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-25"
+          "MAXIMUM": "2021-11-26"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-26",
+            "VALUE": 12.142
+          },
           {
             "DATE": "2021-11-25",
             "VALUE": 12.571
