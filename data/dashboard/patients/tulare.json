@@ -6,15 +6,15 @@
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 97,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.010204,
+        "TOTAL": 93,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.01087,
         "POPULATION": 484423
       },
       "ICU_PATIENTS": {
-        "TOTAL": 20,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.111111,
+        "TOTAL": 21,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 484423
       }
     },
@@ -22,9 +22,17 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-27"
+          "MAXIMUM": "2021-11-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-29",
+            "VALUE": 93
+          },
+          {
+            "DATE": "2021-11-28",
+            "VALUE": 92
+          },
           {
             "DATE": "2021-11-27",
             "VALUE": 97
@@ -2462,9 +2470,17 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-27"
+          "MAXIMUM": "2021-11-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-29",
+            "VALUE": 21
+          },
+          {
+            "DATE": "2021-11-28",
+            "VALUE": 21
+          },
           {
             "DATE": "2021-11-27",
             "VALUE": 20
@@ -4902,9 +4918,17 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-27"
+          "MAXIMUM": "2021-11-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-29",
+            "VALUE": 101.5
+          },
+          {
+            "DATE": "2021-11-28",
+            "VALUE": 103.857
+          },
           {
             "DATE": "2021-11-27",
             "VALUE": 106.285
@@ -7342,9 +7366,17 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-27"
+          "MAXIMUM": "2021-11-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-29",
+            "VALUE": 22.785
+          },
+          {
+            "DATE": "2021-11-28",
+            "VALUE": 22.785
+          },
           {
             "DATE": "2021-11-27",
             "VALUE": 23.285
