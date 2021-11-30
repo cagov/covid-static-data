@@ -23,7 +23,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           npm run updateDashStatus
-          git add status/last_dashboard_update.json
+          git add data/status/last_dashboard_update.json
           git commit -m "updated last dashboard status"
           git push origin main
 

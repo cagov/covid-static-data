@@ -8,7 +8,7 @@ function writeFile(file, filecontent) {
 }
 
 let filename = process.argv[2];
-if (filename.startsWith("./status/")) {
+if (filename.startsWith("./data/status/")) {
   let pubDate = new Date();
 
   // add 15 minutes to account for normal publishing delay

@@ -23,7 +23,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           npm run updateEquityStatus
-          git add status/last_equity_update.json
+          git add data/status/last_equity_update.json
           git commit -m "updated last equity status"
           git push origin main
 
