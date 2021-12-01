@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-30",
+    "PUBLISHED_DATE": "2021-12-01",
     "coverage": "Fresno"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 222,
-        "CHANGE": 6,
-        "CHANGE_FACTOR": 0.027778,
+        "TOTAL": 221,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.004505,
         "POPULATION": 1032227
       },
       "ICU_PATIENTS": {
-        "TOTAL": 55,
-        "CHANGE": 5,
-        "CHANGE_FACTOR": 0.1,
+        "TOTAL": 54,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.018182,
         "POPULATION": 1032227
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 221
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 222
@@ -2470,9 +2474,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 54
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 55
@@ -4918,9 +4926,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 227.285
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 231.071
@@ -7366,9 +7378,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 56.071
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 56.785
