@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-30",
+    "PUBLISHED_DATE": "2021-12-01",
     "coverage": "Shasta"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 58,
-        "CHANGE": -6,
-        "CHANGE_FACTOR": -0.09375,
+        "TOTAL": 43,
+        "CHANGE": -15,
+        "CHANGE_FACTOR": -0.258621,
         "POPULATION": 177925
       },
       "ICU_PATIENTS": {
-        "TOTAL": 17,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.0625,
+        "TOTAL": 16,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.058824,
         "POPULATION": 177925
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 43
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 58
@@ -2470,9 +2474,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 16
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 17
@@ -4918,9 +4926,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 58.285
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 59.785
@@ -7366,9 +7378,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 14.357
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 13.928
