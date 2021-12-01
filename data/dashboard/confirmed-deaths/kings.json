@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-30",
+    "PUBLISHED_DATE": "2021-12-01",
     "coverage": "Kings"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 363,
+        "total_confirmed_deaths": 362,
         "new_deaths": -1,
-        "new_deaths_delta_1_day": -0.002747,
-        "deaths_per_100k_7_days": 0.364986832,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-11-08",
+        "new_deaths_delta_1_day": -0.002755,
+        "deaths_per_100k_7_days": 0.273580323,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-11-09",
         "POPULATION": 156444,
-        "DEATHS_DAILY_AVERAGE": 0.7142857142857143
+        "DEATHS_DAILY_AVERAGE": 0.5714285714285714
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 0
@@ -2583,9 +2587,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": -1
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": -1
@@ -5147,9 +5155,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 0
@@ -7711,9 +7723,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 0.364986832
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 0.456393342

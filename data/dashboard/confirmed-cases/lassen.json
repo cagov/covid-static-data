@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-11-30",
+    "PUBLISHED_DATE": "2021-12-01",
     "coverage": "Lassen"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
         "total_confirmed_cases": 7003,
-        "new_cases": 1,
-        "new_cases_delta_1_day": 0.000143,
-        "cases_per_100k_7_days": 15.679361384,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-11-22",
+        "new_cases": 0,
+        "new_cases_delta_1_day": 0,
+        "cases_per_100k_7_days": 11.877598537,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-11-23",
         "POPULATION": 30065,
-        "CASES_DAILY_AVERAGE": 5.285714285714286
+        "CASES_DAILY_AVERAGE": 4.714285714285714
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 0
@@ -36,7 +40,7 @@
           },
           {
             "DATE": "2021-11-26",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-11-25",
@@ -44,7 +48,7 @@
           },
           {
             "DATE": "2021-11-24",
-            "VALUE": 5
+            "VALUE": 4
           },
           {
             "DATE": "2021-11-23",
@@ -2583,9 +2587,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 1
@@ -5147,9 +5155,13 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 2.374854482
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 2.850490604
@@ -5168,11 +5180,11 @@
           },
           {
             "DATE": "2021-11-25",
-            "VALUE": 8.551471811
+            "VALUE": 8.075835689
           },
           {
             "DATE": "2021-11-24",
-            "VALUE": 9.502744055
+            "VALUE": 9.027107933
           },
           {
             "DATE": "2021-11-23",
@@ -7711,9 +7723,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-11-29"
+          "MAXIMUM": "2021-11-30"
         },
         "VALUES": [
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 20.904706469
+          },
           {
             "DATE": "2021-11-29",
             "VALUE": 23.282887078
