@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-01",
+    "PUBLISHED_DATE": "2021-12-02",
     "coverage": "Imperial"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 57,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.033898,
+        "TOTAL": 61,
+        "CHANGE": 4,
+        "CHANGE_FACTOR": 0.070175,
         "POPULATION": 191649
       },
       "ICU_PATIENTS": {
-        "TOTAL": 12,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.142857,
+        "TOTAL": 15,
+        "CHANGE": 3,
+        "CHANGE_FACTOR": 0.25,
         "POPULATION": 191649
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-30"
+          "MAXIMUM": "2021-12-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-01",
+            "VALUE": 61
+          },
           {
             "DATE": "2021-11-30",
             "VALUE": 57
@@ -2474,9 +2478,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-30"
+          "MAXIMUM": "2021-12-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-01",
+            "VALUE": 15
+          },
           {
             "DATE": "2021-11-30",
             "VALUE": 12
@@ -4926,9 +4934,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-30"
+          "MAXIMUM": "2021-12-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-01",
+            "VALUE": 49.214
+          },
           {
             "DATE": "2021-11-30",
             "VALUE": 47.928
@@ -7378,9 +7390,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-11-30"
+          "MAXIMUM": "2021-12-01"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-01",
+            "VALUE": 19.285
+          },
           {
             "DATE": "2021-11-30",
             "VALUE": 19.5
