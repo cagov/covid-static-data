@@ -1,6 +1,6 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-03",
+    "PUBLISHED_DATE": "2021-12-04",
     "coverage": "Nevada"
   },
   "data": {
@@ -13,8 +13,8 @@
       },
       "ICU_PATIENTS": {
         "TOTAL": 5,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.25,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 98710
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-02"
+          "MAXIMUM": "2021-12-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-03",
+            "VALUE": 13
+          },
           {
             "DATE": "2021-12-02",
             "VALUE": 13
@@ -2482,9 +2486,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-02"
+          "MAXIMUM": "2021-12-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-03",
+            "VALUE": 5
+          },
           {
             "DATE": "2021-12-02",
             "VALUE": 5
@@ -4942,9 +4950,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-02"
+          "MAXIMUM": "2021-12-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-03",
+            "VALUE": 11.571
+          },
           {
             "DATE": "2021-12-02",
             "VALUE": 11.357
@@ -7402,9 +7414,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-02"
+          "MAXIMUM": "2021-12-03"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-03",
+            "VALUE": 3
+          },
           {
             "DATE": "2021-12-02",
             "VALUE": 2.857
