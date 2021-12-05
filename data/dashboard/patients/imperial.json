@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-04",
+    "PUBLISHED_DATE": "2021-12-05",
     "coverage": "Imperial"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 66,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.03125,
+        "TOTAL": 65,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.015152,
         "POPULATION": 191649
       },
       "ICU_PATIENTS": {
-        "TOTAL": 17,
+        "TOTAL": 18,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 0.0625,
+        "CHANGE_FACTOR": 0.058824,
         "POPULATION": 191649
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-03"
+          "MAXIMUM": "2021-12-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-04",
+            "VALUE": 65
+          },
           {
             "DATE": "2021-12-03",
             "VALUE": 66
@@ -2486,9 +2490,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-03"
+          "MAXIMUM": "2021-12-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-04",
+            "VALUE": 18
+          },
           {
             "DATE": "2021-12-03",
             "VALUE": 17
@@ -4950,9 +4958,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-03"
+          "MAXIMUM": "2021-12-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-04",
+            "VALUE": 54.285
+          },
           {
             "DATE": "2021-12-03",
             "VALUE": 52.5
@@ -7414,9 +7426,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-03"
+          "MAXIMUM": "2021-12-04"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-04",
+            "VALUE": 18.928
+          },
           {
             "DATE": "2021-12-03",
             "VALUE": 19
