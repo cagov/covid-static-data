@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-05",
+    "PUBLISHED_DATE": "2021-12-06",
     "coverage": "California"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 3478,
-        "CHANGE": -75,
-        "CHANGE_FACTOR": -0.021109,
+        "TOTAL": 3542,
+        "CHANGE": 63,
+        "CHANGE_FACTOR": 0.018109,
         "POPULATION": 40124928
       },
       "ICU_PATIENTS": {
-        "TOTAL": 887,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.00225,
+        "TOTAL": 886,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.001127,
         "POPULATION": 40124928
       }
     },
@@ -22,12 +22,16 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-04"
+          "MAXIMUM": "2021-12-05"
         },
         "VALUES": [
           {
+            "DATE": "2021-12-05",
+            "VALUE": 3542
+          },
+          {
             "DATE": "2021-12-04",
-            "VALUE": 3478
+            "VALUE": 3479
           },
           {
             "DATE": "2021-12-03",
@@ -2490,9 +2494,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-04"
+          "MAXIMUM": "2021-12-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-05",
+            "VALUE": 886
+          },
           {
             "DATE": "2021-12-04",
             "VALUE": 887
@@ -4958,12 +4966,16 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-04"
+          "MAXIMUM": "2021-12-05"
         },
         "VALUES": [
           {
+            "DATE": "2021-12-05",
+            "VALUE": 3475.285
+          },
+          {
             "DATE": "2021-12-04",
-            "VALUE": 3469.714
+            "VALUE": 3469.785
           },
           {
             "DATE": "2021-12-03",
@@ -7426,9 +7438,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-04"
+          "MAXIMUM": "2021-12-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-05",
+            "VALUE": 891.357
+          },
           {
             "DATE": "2021-12-04",
             "VALUE": 892.5
