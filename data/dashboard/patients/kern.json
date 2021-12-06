@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-05",
+    "PUBLISHED_DATE": "2021-12-06",
     "coverage": "Kern"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 132,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 129,
+        "CHANGE": -4,
+        "CHANGE_FACTOR": -0.030075,
         "POPULATION": 927251
       },
       "ICU_PATIENTS": {
-        "TOTAL": 40,
-        "CHANGE": 4,
-        "CHANGE_FACTOR": 0.111111,
+        "TOTAL": 39,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.025,
         "POPULATION": 927251
       }
     },
@@ -22,12 +22,16 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-04"
+          "MAXIMUM": "2021-12-05"
         },
         "VALUES": [
           {
+            "DATE": "2021-12-05",
+            "VALUE": 129
+          },
+          {
             "DATE": "2021-12-04",
-            "VALUE": 132
+            "VALUE": 133
           },
           {
             "DATE": "2021-12-03",
@@ -2490,9 +2494,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-04"
+          "MAXIMUM": "2021-12-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-05",
+            "VALUE": 39
+          },
           {
             "DATE": "2021-12-04",
             "VALUE": 40
@@ -4958,12 +4966,16 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-04"
+          "MAXIMUM": "2021-12-05"
         },
         "VALUES": [
           {
+            "DATE": "2021-12-05",
+            "VALUE": 141.428
+          },
+          {
             "DATE": "2021-12-04",
-            "VALUE": 143.357
+            "VALUE": 143.428
           },
           {
             "DATE": "2021-12-03",
@@ -7426,9 +7438,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-04"
+          "MAXIMUM": "2021-12-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-05",
+            "VALUE": 33.5
+          },
           {
             "DATE": "2021-12-04",
             "VALUE": 33.214

@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-05",
+    "PUBLISHED_DATE": "2021-12-06",
     "coverage": "Santa Barbara"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 36,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.090909,
+        "TOTAL": 35,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.027778,
         "POPULATION": 456373
       },
       "ICU_PATIENTS": {
-        "TOTAL": 9,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.125,
+        "TOTAL": 8,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.111111,
         "POPULATION": 456373
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-04"
+          "MAXIMUM": "2021-12-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-05",
+            "VALUE": 35
+          },
           {
             "DATE": "2021-12-04",
             "VALUE": 36
@@ -2490,9 +2494,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-04"
+          "MAXIMUM": "2021-12-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-05",
+            "VALUE": 8
+          },
           {
             "DATE": "2021-12-04",
             "VALUE": 9
@@ -4958,9 +4966,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-04"
+          "MAXIMUM": "2021-12-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-05",
+            "VALUE": 30.714
+          },
           {
             "DATE": "2021-12-04",
             "VALUE": 30.214
@@ -7426,9 +7438,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-04"
+          "MAXIMUM": "2021-12-05"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-05",
+            "VALUE": 6.928
+          },
           {
             "DATE": "2021-12-04",
             "VALUE": 7
