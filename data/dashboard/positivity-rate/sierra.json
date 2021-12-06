@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-05",
+    "PUBLISHED_DATE": "2021-12-06",
     "coverage": "Sierra"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.045455,
-        "test_positivity_7_days_delta_7_days": -0.031468,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-11-24",
+        "test_positivity_7_days": 0.051724,
+        "test_positivity_7_days_delta_7_days": 0.000442,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-11-27",
         "POPULATION": 3115
       }
     },
@@ -16,16 +16,28 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-01"
+          "MAXIMUM": "2021-12-04"
         },
         "VALUES": [
           {
+            "DATE": "2021-12-04",
+            "VALUE": 0.051724
+          },
+          {
+            "DATE": "2021-12-03",
+            "VALUE": 0.04918
+          },
+          {
+            "DATE": "2021-12-02",
+            "VALUE": 0.050847
+          },
+          {
             "DATE": "2021-12-01",
-            "VALUE": 0.045455
+            "VALUE": 0.054545
           },
           {
             "DATE": "2021-11-30",
-            "VALUE": 0.03125
+            "VALUE": 0.021739
           },
           {
             "DATE": "2021-11-29",
@@ -69,31 +81,31 @@
           },
           {
             "DATE": "2021-11-19",
-            "VALUE": 0.089286
+            "VALUE": 0.105263
           },
           {
             "DATE": "2021-11-18",
-            "VALUE": 0.109091
+            "VALUE": 0.125
           },
           {
             "DATE": "2021-11-17",
-            "VALUE": 0.08
+            "VALUE": 0.098039
           },
           {
             "DATE": "2021-11-16",
-            "VALUE": 0.085106
+            "VALUE": 0.104167
           },
           {
             "DATE": "2021-11-15",
-            "VALUE": 0.089286
+            "VALUE": 0.105263
           },
           {
             "DATE": "2021-11-14",
-            "VALUE": 0.09434
+            "VALUE": 0.111111
           },
           {
             "DATE": "2021-11-13",
-            "VALUE": 0.096154
+            "VALUE": 0.113208
           },
           {
             "DATE": "2021-11-12",
@@ -2588,16 +2600,28 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-01"
+          "MAXIMUM": "2021-12-04"
         },
         "VALUES": [
           {
-            "DATE": "2021-12-01",
+            "DATE": "2021-12-04",
             "VALUE": 0
           },
           {
+            "DATE": "2021-12-03",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-12-02",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-12-01",
+            "VALUE": 0.1
+          },
+          {
             "DATE": "2021-11-30",
-            "VALUE": 0.2
+            "VALUE": 0.076923
           },
           {
             "DATE": "2021-11-29",
@@ -2665,7 +2689,7 @@
           },
           {
             "DATE": "2021-11-13",
-            "VALUE": 0.333333
+            "VALUE": 0.428571
           },
           {
             "DATE": "2021-11-12",
@@ -5160,20 +5184,32 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-01"
+          "MAXIMUM": "2021-12-04"
         },
         "VALUES": [
           {
-            "DATE": "2021-12-01",
-            "VALUE": 1
+            "DATE": "2021-12-04",
+            "VALUE": 0
           },
           {
-            "DATE": "2021-11-30",
+            "DATE": "2021-12-03",
             "VALUE": 5
           },
           {
+            "DATE": "2021-12-02",
+            "VALUE": 5
+          },
+          {
+            "DATE": "2021-12-01",
+            "VALUE": 20
+          },
+          {
+            "DATE": "2021-11-30",
+            "VALUE": 13
+          },
+          {
             "DATE": "2021-11-29",
-            "VALUE": 6
+            "VALUE": 12
           },
           {
             "DATE": "2021-11-28",
@@ -5237,7 +5273,7 @@
           },
           {
             "DATE": "2021-11-13",
-            "VALUE": 6
+            "VALUE": 7
           },
           {
             "DATE": "2021-11-12",
