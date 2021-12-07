@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-06",
+    "PUBLISHED_DATE": "2021-12-07",
     "coverage": "San Mateo"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 31,
-        "CHANGE": 6,
-        "CHANGE_FACTOR": 0.24,
+        "TOTAL": 30,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.032258,
         "POPULATION": 778001
       },
       "ICU_PATIENTS": {
-        "TOTAL": 2,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.333333,
+        "TOTAL": 3,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.5,
         "POPULATION": 778001
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-05"
+          "MAXIMUM": "2021-12-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-06",
+            "VALUE": 30
+          },
           {
             "DATE": "2021-12-05",
             "VALUE": 31
@@ -2494,9 +2498,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-05"
+          "MAXIMUM": "2021-12-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-06",
+            "VALUE": 3
+          },
           {
             "DATE": "2021-12-05",
             "VALUE": 2
@@ -4966,9 +4974,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-05"
+          "MAXIMUM": "2021-12-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-06",
+            "VALUE": 26.857
+          },
           {
             "DATE": "2021-12-05",
             "VALUE": 26.571
@@ -7438,9 +7450,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-05"
+          "MAXIMUM": "2021-12-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-06",
+            "VALUE": 3.428
+          },
           {
             "DATE": "2021-12-05",
             "VALUE": 3.5
