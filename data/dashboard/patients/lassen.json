@@ -1,6 +1,6 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-06",
+    "PUBLISHED_DATE": "2021-12-07",
     "coverage": "Lassen"
   },
   "data": {
@@ -22,16 +22,20 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-05"
+          "MAXIMUM": "2021-12-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-06",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-12-05",
             "VALUE": 1
           },
           {
             "DATE": "2021-12-04",
-            "VALUE": 1
+            "VALUE": 0
           },
           {
             "DATE": "2021-12-03",
@@ -2494,9 +2498,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-05"
+          "MAXIMUM": "2021-12-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-06",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-05",
             "VALUE": 0
@@ -4966,16 +4974,20 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-05"
+          "MAXIMUM": "2021-12-06"
         },
         "VALUES": [
           {
+            "DATE": "2021-12-06",
+            "VALUE": 1.571
+          },
+          {
             "DATE": "2021-12-05",
-            "VALUE": 1.857
+            "VALUE": 1.785
           },
           {
             "DATE": "2021-12-04",
-            "VALUE": 2.071
+            "VALUE": 2
           },
           {
             "DATE": "2021-12-03",
@@ -7438,9 +7450,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-05"
+          "MAXIMUM": "2021-12-06"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-06",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-05",
             "VALUE": 0
