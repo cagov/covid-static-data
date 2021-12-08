@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-07",
+    "PUBLISHED_DATE": "2021-12-08",
     "coverage": "San Diego"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 206,
-        "CHANGE": 25,
-        "CHANGE_FACTOR": 0.138122,
+        "TOTAL": 205,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.004854,
         "POPULATION": 3370418
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-06"
+          "MAXIMUM": "2021-12-07"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-07",
+            "VALUE": 205
+          },
           {
             "DATE": "2021-12-06",
             "VALUE": 206
