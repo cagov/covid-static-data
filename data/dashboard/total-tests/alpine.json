@@ -1,15 +1,15 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-08",
+    "PUBLISHED_DATE": "2021-12-09",
     "coverage": "Alpine"
   },
   "data": {
     "latest": {
       "TOTAL_TESTS": {
-        "total_tests_performed": 2599,
-        "new_tests_reported": 3,
-        "new_tests_reported_delta_1_day": 0.001155624037,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-11-29",
+        "total_tests_performed": 2609,
+        "new_tests_reported": 10,
+        "new_tests_reported_delta_1_day": 0.003847633705,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-11-30",
         "POPULATION": 1117
       }
     },
@@ -17,12 +17,16 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-06"
+          "MAXIMUM": "2021-12-07"
         },
         "VALUES": [
           {
-            "DATE": "2021-12-06",
+            "DATE": "2021-12-07",
             "VALUE": 0
+          },
+          {
+            "DATE": "2021-12-06",
+            "VALUE": 10
           },
           {
             "DATE": "2021-12-05",
@@ -2609,9 +2613,13 @@
       "REPORTED_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-05-05",
-          "MAXIMUM": "2021-12-07"
+          "MAXIMUM": "2021-12-08"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-08",
+            "VALUE": 10
+          },
           {
             "DATE": "2021-12-07",
             "VALUE": 3
@@ -4945,12 +4953,16 @@
       "AVG_TEST_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-06"
+          "MAXIMUM": "2021-12-07"
         },
         "VALUES": [
           {
+            "DATE": "2021-12-07",
+            "VALUE": 294.091316025
+          },
+          {
             "DATE": "2021-12-06",
-            "VALUE": 204.565801253
+            "VALUE": 332.497761862
           },
           {
             "DATE": "2021-12-05",
@@ -7537,9 +7549,13 @@
       "AVG_TEST_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-05-05",
-          "MAXIMUM": "2021-12-07"
+          "MAXIMUM": "2021-12-08"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-08",
+            "VALUE": 769.919427037
+          },
           {
             "DATE": "2021-12-07",
             "VALUE": 644.583706356
