@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-11",
+    "PUBLISHED_DATE": "2021-12-12",
     "coverage": "Del Norte"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 1,
+        "TOTAL": 0,
         "CHANGE": -1,
-        "CHANGE_FACTOR": -0.5,
+        "CHANGE_FACTOR": -1,
         "POPULATION": 27558
       },
       "ICU_PATIENTS": {
         "TOTAL": 0,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -1,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 27558
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-10"
+          "MAXIMUM": "2021-12-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-11",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-10",
             "VALUE": 1
@@ -2514,9 +2518,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-10"
+          "MAXIMUM": "2021-12-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-11",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-10",
             "VALUE": 0
@@ -5006,9 +5014,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-10"
+          "MAXIMUM": "2021-12-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-11",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-12-10",
             "VALUE": 1
@@ -7498,9 +7510,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-10"
+          "MAXIMUM": "2021-12-11"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-11",
+            "VALUE": 0.5
+          },
           {
             "DATE": "2021-12-10",
             "VALUE": 0.5
