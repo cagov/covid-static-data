@@ -1,34 +1,46 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-12",
+    "PUBLISHED_DATE": "2021-12-13",
     "coverage": "San Luis Obispo"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 362,
+        "total_confirmed_deaths": 363,
         "new_deaths": 1,
-        "new_deaths_delta_1_day": 0.00277,
-        "deaths_per_100k_7_days": 0.204760778,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-11-18",
+        "new_deaths_delta_1_day": 0.002762,
+        "deaths_per_100k_7_days": 0.102201089,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-11-21",
         "POPULATION": 278862,
-        "DEATHS_DAILY_AVERAGE": 0.7142857142857143
+        "DEATHS_DAILY_AVERAGE": 0.2857142857142857
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-09"
+          "MAXIMUM": "2021-12-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-12",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-12-11",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-12-10",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-09",
             "VALUE": 0
           },
           {
             "DATE": "2021-12-08",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-12-07",
@@ -2623,9 +2635,21 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-09"
+          "MAXIMUM": "2021-12-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-12",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2021-12-11",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-12-10",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-09",
             "VALUE": 1
@@ -5227,16 +5251,28 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-09"
+          "MAXIMUM": "2021-12-12"
         },
         "VALUES": [
           {
+            "DATE": "2021-12-12",
+            "VALUE": 0.102201089
+          },
+          {
+            "DATE": "2021-12-11",
+            "VALUE": 0.102201089
+          },
+          {
+            "DATE": "2021-12-10",
+            "VALUE": 0.102201089
+          },
+          {
             "DATE": "2021-12-09",
-            "VALUE": 0.050921244
+            "VALUE": 0.102201089
           },
           {
             "DATE": "2021-12-08",
-            "VALUE": 0.050921244
+            "VALUE": 0.102201089
           },
           {
             "DATE": "2021-12-07",
@@ -7831,9 +7867,21 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-09"
+          "MAXIMUM": "2021-12-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-12",
+            "VALUE": 0.153480933
+          },
+          {
+            "DATE": "2021-12-11",
+            "VALUE": 0.102201089
+          },
+          {
+            "DATE": "2021-12-10",
+            "VALUE": 0.102201089
+          },
           {
             "DATE": "2021-12-09",
             "VALUE": 0.102201089
