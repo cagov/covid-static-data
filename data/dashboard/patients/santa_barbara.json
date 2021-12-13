@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-12",
+    "PUBLISHED_DATE": "2021-12-13",
     "coverage": "Santa Barbara"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 41,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.078947,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 456373
       },
       "ICU_PATIENTS": {
         "TOTAL": 11,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.222222,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 456373
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-11"
+          "MAXIMUM": "2021-12-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-12",
+            "VALUE": 41
+          },
           {
             "DATE": "2021-12-11",
             "VALUE": 41
@@ -2518,9 +2522,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-11"
+          "MAXIMUM": "2021-12-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-12",
+            "VALUE": 11
+          },
           {
             "DATE": "2021-12-11",
             "VALUE": 11
@@ -5014,9 +5022,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-11"
+          "MAXIMUM": "2021-12-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-12",
+            "VALUE": 35.428
+          },
           {
             "DATE": "2021-12-11",
             "VALUE": 34.571
@@ -7510,9 +7522,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-11"
+          "MAXIMUM": "2021-12-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-12",
+            "VALUE": 9
+          },
           {
             "DATE": "2021-12-11",
             "VALUE": 8.571
