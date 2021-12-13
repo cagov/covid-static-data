@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-12",
+    "PUBLISHED_DATE": "2021-12-13",
     "coverage": "Kern"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 28,
-        "CHANGE": 6,
-        "CHANGE_FACTOR": 0.272727,
+        "TOTAL": 23,
+        "CHANGE": -5,
+        "CHANGE_FACTOR": -0.178571,
         "POPULATION": 927251
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-11"
+          "MAXIMUM": "2021-12-12"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-12",
+            "VALUE": 23
+          },
           {
             "DATE": "2021-12-11",
             "VALUE": 28
