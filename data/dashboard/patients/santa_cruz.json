@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-13",
+    "PUBLISHED_DATE": "2021-12-14",
     "coverage": "Santa Cruz"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 12,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 11,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.083333,
         "POPULATION": 273999
       },
       "ICU_PATIENTS": {
-        "TOTAL": 3,
+        "TOTAL": 4,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 0.5,
+        "CHANGE_FACTOR": 0.333333,
         "POPULATION": 273999
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-12"
+          "MAXIMUM": "2021-12-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-13",
+            "VALUE": 11
+          },
           {
             "DATE": "2021-12-12",
             "VALUE": 12
@@ -2522,9 +2526,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-12"
+          "MAXIMUM": "2021-12-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-13",
+            "VALUE": 4
+          },
           {
             "DATE": "2021-12-12",
             "VALUE": 3
@@ -5022,9 +5030,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-12"
+          "MAXIMUM": "2021-12-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-13",
+            "VALUE": 12.714
+          },
           {
             "DATE": "2021-12-12",
             "VALUE": 12.571
@@ -7522,9 +7534,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-12"
+          "MAXIMUM": "2021-12-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-13",
+            "VALUE": 2.785
+          },
           {
             "DATE": "2021-12-12",
             "VALUE": 2.642
