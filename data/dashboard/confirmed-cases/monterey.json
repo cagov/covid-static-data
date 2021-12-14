@@ -1,42 +1,46 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-13",
+    "PUBLISHED_DATE": "2021-12-14",
     "coverage": "Monterey"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 49192,
-        "new_cases": 184,
-        "new_cases_delta_1_day": 0.003754,
-        "cases_per_100k_7_days": 9.773539663,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-12-05",
+        "total_confirmed_cases": 49222,
+        "new_cases": 30,
+        "new_cases_delta_1_day": 0.00061,
+        "cases_per_100k_7_days": 9.518821925,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-12-06",
         "POPULATION": 448732,
-        "CASES_DAILY_AVERAGE": 44
+        "CASES_DAILY_AVERAGE": 43.857142857142854
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-12"
+          "MAXIMUM": "2021-12-13"
         },
         "VALUES": [
           {
-            "DATE": "2021-12-12",
+            "DATE": "2021-12-13",
             "VALUE": 0
           },
           {
+            "DATE": "2021-12-12",
+            "VALUE": 8
+          },
+          {
             "DATE": "2021-12-11",
-            "VALUE": 11
+            "VALUE": 24
           },
           {
             "DATE": "2021-12-10",
-            "VALUE": 23
+            "VALUE": 29
           },
           {
             "DATE": "2021-12-09",
-            "VALUE": 45
+            "VALUE": 47
           },
           {
             "DATE": "2021-12-08",
@@ -44,7 +48,7 @@
           },
           {
             "DATE": "2021-12-07",
-            "VALUE": 64
+            "VALUE": 65
           },
           {
             "DATE": "2021-12-06",
@@ -2635,9 +2639,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-12"
+          "MAXIMUM": "2021-12-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-13",
+            "VALUE": 30
+          },
           {
             "DATE": "2021-12-12",
             "VALUE": 184
@@ -5251,32 +5259,36 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-12"
+          "MAXIMUM": "2021-12-13"
         },
         "VALUES": [
           {
+            "DATE": "2021-12-13",
+            "VALUE": 6.717149657
+          },
+          {
             "DATE": "2021-12-12",
-            "VALUE": 7.29032028
+            "VALUE": 8.245456085
           },
           {
             "DATE": "2021-12-11",
-            "VALUE": 8.054250644
+            "VALUE": 8.754668711
           },
           {
             "DATE": "2021-12-10",
-            "VALUE": 8.531818546
+            "VALUE": 8.818403858
           },
           {
             "DATE": "2021-12-09",
-            "VALUE": 9.614201795
+            "VALUE": 9.709804516
           },
           {
             "DATE": "2021-12-08",
-            "VALUE": 9.518821925
+            "VALUE": 9.550689498
           },
           {
             "DATE": "2021-12-07",
-            "VALUE": 10.091769698
+            "VALUE": 10.123637271
           },
           {
             "DATE": "2021-12-06",
@@ -7867,9 +7879,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-12"
+          "MAXIMUM": "2021-12-13"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-13",
+            "VALUE": 12.447741636
+          },
           {
             "DATE": "2021-12-12",
             "VALUE": 12.065553604
