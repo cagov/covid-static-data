@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-14",
+    "PUBLISHED_DATE": "2021-01-01",
     "coverage": "Merced"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 25,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.038462,
+        "TOTAL": 23,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.08,
         "POPULATION": 287420
       },
       "ICU_PATIENTS": {
-        "TOTAL": 14,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.125,
+        "TOTAL": 16,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.142857,
         "POPULATION": 287420
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-13"
+          "MAXIMUM": "2021-12-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-14",
+            "VALUE": 23
+          },
           {
             "DATE": "2021-12-13",
             "VALUE": 25
@@ -2526,9 +2530,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-13"
+          "MAXIMUM": "2021-12-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-14",
+            "VALUE": 16
+          },
           {
             "DATE": "2021-12-13",
             "VALUE": 14
@@ -5030,9 +5038,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-13"
+          "MAXIMUM": "2021-12-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-14",
+            "VALUE": 26.357
+          },
           {
             "DATE": "2021-12-13",
             "VALUE": 26.928
@@ -7534,9 +7546,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-13"
+          "MAXIMUM": "2021-12-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-14",
+            "VALUE": 13.071
+          },
           {
             "DATE": "2021-12-13",
             "VALUE": 12.571

@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-14",
+    "PUBLISHED_DATE": "2021-01-01",
     "coverage": "Monterey"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 25,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 24,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.04,
         "POPULATION": 448732
       },
       "ICU_PATIENTS": {
         "TOTAL": 3,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.5,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 448732
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-13"
+          "MAXIMUM": "2021-12-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-14",
+            "VALUE": 24
+          },
           {
             "DATE": "2021-12-13",
             "VALUE": 25
@@ -2526,9 +2530,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-13"
+          "MAXIMUM": "2021-12-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-14",
+            "VALUE": 3
+          },
           {
             "DATE": "2021-12-13",
             "VALUE": 3
@@ -5030,9 +5038,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-13"
+          "MAXIMUM": "2021-12-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-14",
+            "VALUE": 23.857
+          },
           {
             "DATE": "2021-12-13",
             "VALUE": 23.428
@@ -7534,9 +7546,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-13"
+          "MAXIMUM": "2021-12-14"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-14",
+            "VALUE": 1.785
+          },
           {
             "DATE": "2021-12-13",
             "VALUE": 1.642
