@@ -1,34 +1,38 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-15",
+    "PUBLISHED_DATE": "2021-12-16",
     "coverage": "Trinity"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 821,
+        "total_confirmed_cases": 822,
         "new_cases": 1,
-        "new_cases_delta_1_day": 0.00122,
-        "cases_per_100k_7_days": 5.346712595,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-12-07",
+        "new_cases_delta_1_day": 0.001218,
+        "cases_per_100k_7_days": 6.417552793,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-12-08",
         "POPULATION": 13354,
-        "CASES_DAILY_AVERAGE": 1.4285714285714286
+        "CASES_DAILY_AVERAGE": 0.7142857142857143
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-14"
+          "MAXIMUM": "2021-12-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-15",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-14",
             "VALUE": 0
           },
           {
             "DATE": "2021-12-13",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-12-12",
@@ -2643,9 +2647,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-14"
+          "MAXIMUM": "2021-12-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-15",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-12-14",
             "VALUE": 1
@@ -5267,16 +5275,20 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-14"
+          "MAXIMUM": "2021-12-15"
         },
         "VALUES": [
           {
-            "DATE": "2021-12-14",
+            "DATE": "2021-12-15",
             "VALUE": 2.134192002
           },
           {
+            "DATE": "2021-12-14",
+            "VALUE": 3.2050322
+          },
+          {
             "DATE": "2021-12-13",
-            "VALUE": 2.134192002
+            "VALUE": 3.2050322
           },
           {
             "DATE": "2021-12-12",
@@ -7891,9 +7903,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-14"
+          "MAXIMUM": "2021-12-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-15",
+            "VALUE": 4.275872398
+          },
           {
             "DATE": "2021-12-14",
             "VALUE": 3.2050322

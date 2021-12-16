@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-15",
+    "PUBLISHED_DATE": "2021-12-16",
     "coverage": "Mariposa"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
         "total_confirmed_cases": 1463,
-        "new_cases": 1,
-        "new_cases_delta_1_day": 0.000684,
-        "cases_per_100k_7_days": 18.460241641,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-12-07",
+        "new_cases": 0,
+        "new_cases_delta_1_day": 0,
+        "cases_per_100k_7_days": 14.447878618,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-12-08",
         "POPULATION": 17795,
-        "CASES_DAILY_AVERAGE": 4.142857142857143
+        "CASES_DAILY_AVERAGE": 3.2857142857142856
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-14"
+          "MAXIMUM": "2021-12-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-15",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-14",
             "VALUE": 0
@@ -2643,9 +2647,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-14"
+          "MAXIMUM": "2021-12-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-15",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-14",
             "VALUE": 1
@@ -5267,9 +5275,13 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-14"
+          "MAXIMUM": "2021-12-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-15",
+            "VALUE": 4.012363023
+          },
           {
             "DATE": "2021-12-14",
             "VALUE": 4.815959539
@@ -7891,9 +7903,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-14"
+          "MAXIMUM": "2021-12-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-15",
+            "VALUE": 12.840685586
+          },
           {
             "DATE": "2021-12-14",
             "VALUE": 13.644282102
