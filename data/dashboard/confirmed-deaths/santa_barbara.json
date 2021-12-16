@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-15",
+    "PUBLISHED_DATE": "2021-12-16",
     "coverage": "Santa Barbara"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 560,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
-        "deaths_per_100k_7_days": 0.125116955,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-11-23",
+        "total_confirmed_deaths": 562,
+        "new_deaths": 2,
+        "new_deaths_delta_1_day": 0.003571,
+        "deaths_per_100k_7_days": 0.187784992,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-11-24",
         "POPULATION": 456373,
-        "DEATHS_DAILY_AVERAGE": 0.7142857142857143
+        "DEATHS_DAILY_AVERAGE": 0.5714285714285714
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-14"
+          "MAXIMUM": "2021-12-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-15",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-14",
             "VALUE": 0
@@ -56,7 +60,7 @@
           },
           {
             "DATE": "2021-12-06",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-12-05",
@@ -72,7 +76,7 @@
           },
           {
             "DATE": "2021-12-02",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2021-12-01",
@@ -2643,9 +2647,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-14"
+          "MAXIMUM": "2021-12-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-15",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-12-14",
             "VALUE": 0
@@ -5267,9 +5275,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-14"
+          "MAXIMUM": "2021-12-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-15",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-14",
             "VALUE": 0
@@ -5280,47 +5292,47 @@
           },
           {
             "DATE": "2021-12-12",
-            "VALUE": 0
-          },
-          {
-            "DATE": "2021-12-11",
-            "VALUE": 0
-          },
-          {
-            "DATE": "2021-12-10",
-            "VALUE": 0
-          },
-          {
-            "DATE": "2021-12-09",
-            "VALUE": 0
-          },
-          {
-            "DATE": "2021-12-08",
             "VALUE": 0.031114899
           },
           {
+            "DATE": "2021-12-11",
+            "VALUE": 0.031114899
+          },
+          {
+            "DATE": "2021-12-10",
+            "VALUE": 0.031114899
+          },
+          {
+            "DATE": "2021-12-09",
+            "VALUE": 0.031114899
+          },
+          {
+            "DATE": "2021-12-08",
+            "VALUE": 0.093782936
+          },
+          {
             "DATE": "2021-12-07",
-            "VALUE": 0.062448918
+            "VALUE": 0.125116955
           },
           {
             "DATE": "2021-12-06",
-            "VALUE": 0.062448918
+            "VALUE": 0.125116955
           },
           {
             "DATE": "2021-12-05",
-            "VALUE": 0.093782936
+            "VALUE": 0.125116955
           },
           {
             "DATE": "2021-12-04",
-            "VALUE": 0.093782936
+            "VALUE": 0.125116955
           },
           {
             "DATE": "2021-12-03",
-            "VALUE": 0.093782936
+            "VALUE": 0.125116955
           },
           {
             "DATE": "2021-12-02",
-            "VALUE": 0.093782936
+            "VALUE": 0.125116955
           },
           {
             "DATE": "2021-12-01",
@@ -7891,9 +7903,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-14"
+          "MAXIMUM": "2021-12-15"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-15",
+            "VALUE": 0.125116955
+          },
           {
             "DATE": "2021-12-14",
             "VALUE": 0.125116955
