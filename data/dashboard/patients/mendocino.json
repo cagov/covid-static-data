@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-17",
+    "PUBLISHED_DATE": "2021-12-18",
     "coverage": "Mendocino"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 5,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.666667,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 88439
       },
       "ICU_PATIENTS": {
-        "TOTAL": 1,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 2,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 1,
         "POPULATION": 88439
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-16"
+          "MAXIMUM": "2021-12-17"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-17",
+            "VALUE": 5
+          },
           {
             "DATE": "2021-12-16",
             "VALUE": 5
@@ -2538,9 +2542,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-16"
+          "MAXIMUM": "2021-12-17"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-17",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-12-16",
             "VALUE": 1
@@ -5054,9 +5062,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-16"
+          "MAXIMUM": "2021-12-17"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-17",
+            "VALUE": 5
+          },
           {
             "DATE": "2021-12-16",
             "VALUE": 5.142
@@ -7570,9 +7582,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-16"
+          "MAXIMUM": "2021-12-17"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-17",
+            "VALUE": 1.142
+          },
           {
             "DATE": "2021-12-16",
             "VALUE": 1.071
