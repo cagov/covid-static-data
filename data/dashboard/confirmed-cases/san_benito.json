@@ -1,42 +1,54 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-19",
+    "PUBLISHED_DATE": "2021-12-20",
     "coverage": "San Benito"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 7894,
-        "new_cases": 17,
-        "new_cases_delta_1_day": 0.002158,
-        "cases_per_100k_7_days": 24.768048483,
-        "EPISODE_UNCERTAINTY_PERIOD": "2021-12-09",
+        "total_confirmed_cases": 7929,
+        "new_cases": 35,
+        "new_cases_delta_1_day": 0.004434,
+        "cases_per_100k_7_days": 19.412077098,
+        "EPISODE_UNCERTAINTY_PERIOD": "2021-12-12",
         "POPULATION": 64022,
-        "CASES_DAILY_AVERAGE": 16.571428571428573
+        "CASES_DAILY_AVERAGE": 14.142857142857142
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-16"
+          "MAXIMUM": "2021-12-19"
         },
         "VALUES": [
           {
-            "DATE": "2021-12-16",
+            "DATE": "2021-12-19",
             "VALUE": 0
           },
           {
+            "DATE": "2021-12-18",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-12-17",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2021-12-16",
+            "VALUE": 12
+          },
+          {
             "DATE": "2021-12-15",
-            "VALUE": 1
+            "VALUE": 16
           },
           {
             "DATE": "2021-12-14",
-            "VALUE": 6
+            "VALUE": 9
           },
           {
             "DATE": "2021-12-13",
-            "VALUE": 14
+            "VALUE": 18
           },
           {
             "DATE": "2021-12-12",
@@ -2651,9 +2663,21 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-16"
+          "MAXIMUM": "2021-12-19"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-19",
+            "VALUE": 35
+          },
+          {
+            "DATE": "2021-12-18",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2021-12-17",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-16",
             "VALUE": 17
@@ -5283,24 +5307,36 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-16"
+          "MAXIMUM": "2021-12-19"
         },
         "VALUES": [
           {
-            "DATE": "2021-12-16",
-            "VALUE": 11.155540283
+            "DATE": "2021-12-19",
+            "VALUE": 12.717503358
           },
           {
-            "DATE": "2021-12-15",
-            "VALUE": 13.164224798
+            "DATE": "2021-12-18",
+            "VALUE": 15.619630752
           },
           {
-            "DATE": "2021-12-14",
+            "DATE": "2021-12-17",
             "VALUE": 16.511511668
           },
           {
-            "DATE": "2021-12-13",
+            "DATE": "2021-12-16",
             "VALUE": 18.743556902
+          },
+          {
+            "DATE": "2021-12-15",
+            "VALUE": 18.073474743
+          },
+          {
+            "DATE": "2021-12-14",
+            "VALUE": 18.073474743
+          },
+          {
+            "DATE": "2021-12-13",
+            "VALUE": 19.635437818
           },
           {
             "DATE": "2021-12-12",
@@ -7915,9 +7951,21 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-16"
+          "MAXIMUM": "2021-12-19"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-19",
+            "VALUE": 16.958233107
+          },
+          {
+            "DATE": "2021-12-18",
+            "VALUE": 19.188716379
+          },
+          {
+            "DATE": "2021-12-17",
+            "VALUE": 19.188716379
+          },
           {
             "DATE": "2021-12-16",
             "VALUE": 19.188716379
