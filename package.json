@@ -7,6 +7,8 @@
     "move": "node src/move.js",
     "updateSitemap": "node src/updateSitemap.js",
     "updateDashStatus": "node src/logUpdateTime.js ./data/status/last_dashboard_update.json",
+    "updateCasesStatus": "node src/logUpdateTime.js ./data/status/last_cases_update.json",
+    "updateVaxStatus": "node src/logUpdateTime.js ./data/status/last_vax_update.json",
     "updateEquityStatus": "node src/logUpdateTime.js ./data/status/last_equity_update.json"
   },
   "repository": {

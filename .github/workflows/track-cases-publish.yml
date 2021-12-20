@@ -1,0 +1,29 @@
+name: Track dashboard data updates
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/dashboard/confirmed-cases/california.json'
+
+# Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "UTC"
+
+      - uses: actions/checkout@v2
+      - run: |
+          git pull
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          npm run updateCasesStatus
+          git add data/status/last_cases_update.json
+          git commit -m "updated last cases status"
+          git push origin main
+
