@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-20",
+    "PUBLISHED_DATE": "2021-12-21",
     "coverage": "Los Angeles"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 27189,
-        "new_deaths": 54,
-        "new_deaths_delta_1_day": 0.00199,
-        "deaths_per_100k_7_days": 0.12673583,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-11-28",
+        "total_confirmed_deaths": 27188,
+        "new_deaths": -1,
+        "new_deaths_delta_1_day": -0.000037,
+        "deaths_per_100k_7_days": 0.133696552,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-11-29",
         "POPULATION": 10257557,
-        "DEATHS_DAILY_AVERAGE": 12.571428571428571
+        "DEATHS_DAILY_AVERAGE": 13
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-19"
+          "MAXIMUM": "2021-12-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-20",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-19",
             "VALUE": 0
@@ -32,7 +36,7 @@
           },
           {
             "DATE": "2021-12-17",
-            "VALUE": 6
+            "VALUE": 5
           },
           {
             "DATE": "2021-12-16",
@@ -2663,9 +2667,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-19"
+          "MAXIMUM": "2021-12-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-20",
+            "VALUE": -1
+          },
           {
             "DATE": "2021-12-19",
             "VALUE": 54
@@ -5307,20 +5315,24 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-19"
+          "MAXIMUM": "2021-12-20"
         },
         "VALUES": [
           {
+            "DATE": "2021-12-20",
+            "VALUE": 0.03899564
+          },
+          {
             "DATE": "2021-12-19",
-            "VALUE": 0.05849346
+            "VALUE": 0.057099366
           },
           {
             "DATE": "2021-12-18",
-            "VALUE": 0.06824237
+            "VALUE": 0.066848276
           },
           {
             "DATE": "2021-12-17",
-            "VALUE": 0.086346096
+            "VALUE": 0.084952002
           },
           {
             "DATE": "2021-12-16",
@@ -7951,9 +7963,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-19"
+          "MAXIMUM": "2021-12-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-20",
+            "VALUE": 0.143445462
+          },
           {
             "DATE": "2021-12-19",
             "VALUE": 0.160155093
