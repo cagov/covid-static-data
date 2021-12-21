@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-20",
+    "PUBLISHED_DATE": "2021-12-21",
     "coverage": "Tulare"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 58,
-        "CHANGE": 7,
-        "CHANGE_FACTOR": 0.137255,
+        "TOTAL": 50,
+        "CHANGE": -8,
+        "CHANGE_FACTOR": -0.137931,
         "POPULATION": 484423
       },
       "ICU_PATIENTS": {
-        "TOTAL": 15,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.0625,
+        "TOTAL": 13,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.133333,
         "POPULATION": 484423
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-19"
+          "MAXIMUM": "2021-12-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-20",
+            "VALUE": 50
+          },
           {
             "DATE": "2021-12-19",
             "VALUE": 58
@@ -2550,9 +2554,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-19"
+          "MAXIMUM": "2021-12-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-20",
+            "VALUE": 13
+          },
           {
             "DATE": "2021-12-19",
             "VALUE": 15
@@ -5078,9 +5086,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-19"
+          "MAXIMUM": "2021-12-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-20",
+            "VALUE": 70.142
+          },
           {
             "DATE": "2021-12-19",
             "VALUE": 72.214
@@ -7606,9 +7618,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-19"
+          "MAXIMUM": "2021-12-20"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-20",
+            "VALUE": 16.071
+          },
           {
             "DATE": "2021-12-19",
             "VALUE": 16.642
