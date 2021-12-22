@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-21",
+    "PUBLISHED_DATE": "2021-12-22",
     "coverage": "Solano"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 38,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.027027,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 444255
       },
       "ICU_PATIENTS": {
-        "TOTAL": 7,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.125,
+        "TOTAL": 8,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.142857,
         "POPULATION": 444255
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-20"
+          "MAXIMUM": "2021-12-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-21",
+            "VALUE": 38
+          },
           {
             "DATE": "2021-12-20",
             "VALUE": 38
@@ -2554,9 +2558,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-20"
+          "MAXIMUM": "2021-12-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-21",
+            "VALUE": 8
+          },
           {
             "DATE": "2021-12-20",
             "VALUE": 7
@@ -5086,9 +5094,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-20"
+          "MAXIMUM": "2021-12-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-21",
+            "VALUE": 36.071
+          },
           {
             "DATE": "2021-12-20",
             "VALUE": 35.571
@@ -7618,9 +7630,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-20"
+          "MAXIMUM": "2021-12-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-21",
+            "VALUE": 6.5
+          },
           {
             "DATE": "2021-12-20",
             "VALUE": 6.357
