@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-21",
+    "PUBLISHED_DATE": "2021-12-22",
     "coverage": "Monterey"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 636,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
-        "deaths_per_100k_7_days": 0.063512297,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-11-29",
+        "total_confirmed_deaths": 638,
+        "new_deaths": 2,
+        "new_deaths_delta_1_day": 0.003145,
+        "deaths_per_100k_7_days": 0.031644723,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-11-30",
         "POPULATION": 448732,
         "DEATHS_DAILY_AVERAGE": 0.2857142857142857
       }
@@ -19,16 +19,20 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-20"
+          "MAXIMUM": "2021-12-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-21",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-20",
             "VALUE": 0
           },
           {
             "DATE": "2021-12-19",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-12-18",
@@ -64,7 +68,7 @@
           },
           {
             "DATE": "2021-12-10",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-12-09",
@@ -2667,9 +2671,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-20"
+          "MAXIMUM": "2021-12-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-21",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-12-20",
             "VALUE": 0
@@ -5315,16 +5323,20 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-20"
+          "MAXIMUM": "2021-12-21"
         },
         "VALUES": [
           {
+            "DATE": "2021-12-21",
+            "VALUE": 0.031644723
+          },
+          {
             "DATE": "2021-12-20",
-            "VALUE": 0
+            "VALUE": 0.031644723
           },
           {
             "DATE": "2021-12-19",
-            "VALUE": 0
+            "VALUE": 0.031644723
           },
           {
             "DATE": "2021-12-18",
@@ -5336,31 +5348,31 @@
           },
           {
             "DATE": "2021-12-16",
-            "VALUE": 0.063512297
-          },
-          {
-            "DATE": "2021-12-15",
-            "VALUE": 0.063512297
-          },
-          {
-            "DATE": "2021-12-14",
             "VALUE": 0.09537987
           },
           {
-            "DATE": "2021-12-13",
+            "DATE": "2021-12-15",
+            "VALUE": 0.09537987
+          },
+          {
+            "DATE": "2021-12-14",
             "VALUE": 0.127247444
+          },
+          {
+            "DATE": "2021-12-13",
+            "VALUE": 0.159115017
           },
           {
             "DATE": "2021-12-12",
-            "VALUE": 0.127247444
+            "VALUE": 0.159115017
           },
           {
             "DATE": "2021-12-11",
-            "VALUE": 0.063512297
+            "VALUE": 0.09537987
           },
           {
             "DATE": "2021-12-10",
-            "VALUE": 0.063512297
+            "VALUE": 0.09537987
           },
           {
             "DATE": "2021-12-09",
@@ -7963,9 +7975,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-20"
+          "MAXIMUM": "2021-12-21"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-21",
+            "VALUE": 0.09537987
+          },
           {
             "DATE": "2021-12-20",
             "VALUE": 0.159115017
