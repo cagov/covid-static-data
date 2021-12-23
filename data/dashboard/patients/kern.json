@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-22",
+    "PUBLISHED_DATE": "2021-12-23",
     "coverage": "Kern"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 111,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.008929,
+        "TOTAL": 106,
+        "CHANGE": -5,
+        "CHANGE_FACTOR": -0.045045,
         "POPULATION": 927251
       },
       "ICU_PATIENTS": {
         "TOTAL": 28,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.037037,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 927251
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-21"
+          "MAXIMUM": "2021-12-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-22",
+            "VALUE": 106
+          },
           {
             "DATE": "2021-12-21",
             "VALUE": 111
@@ -2558,9 +2562,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-21"
+          "MAXIMUM": "2021-12-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-22",
+            "VALUE": 28
+          },
           {
             "DATE": "2021-12-21",
             "VALUE": 28
@@ -5094,9 +5102,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-21"
+          "MAXIMUM": "2021-12-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-22",
+            "VALUE": 120.285
+          },
           {
             "DATE": "2021-12-21",
             "VALUE": 122
@@ -7630,9 +7642,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-21"
+          "MAXIMUM": "2021-12-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-22",
+            "VALUE": 30.428
+          },
           {
             "DATE": "2021-12-21",
             "VALUE": 30.785
