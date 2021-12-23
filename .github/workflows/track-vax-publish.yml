@@ -25,5 +25,6 @@ jobs:
           npm run updateVaxStatus
           git add data/status/last_vax_update.json
           git commit -m "updated last vax status"
+          git pull
           git push origin main
 
