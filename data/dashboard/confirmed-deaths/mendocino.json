@@ -1,34 +1,38 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-22",
+    "PUBLISHED_DATE": "2021-12-23",
     "coverage": "Mendocino"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 97,
-        "new_deaths": 1,
-        "new_deaths_delta_1_day": 0.010417,
+        "total_confirmed_deaths": 99,
+        "new_deaths": 2,
+        "new_deaths_delta_1_day": 0.020619,
         "deaths_per_100k_7_days": 0.322256018,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-11-30",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-12-01",
         "POPULATION": 88439,
-        "DEATHS_DAILY_AVERAGE": 0.5714285714285714
+        "DEATHS_DAILY_AVERAGE": 0.2857142857142857
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-21"
+          "MAXIMUM": "2021-12-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-22",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-21",
             "VALUE": 0
           },
           {
             "DATE": "2021-12-20",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-12-19",
@@ -48,7 +52,7 @@
           },
           {
             "DATE": "2021-12-15",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-12-14",
@@ -2671,9 +2675,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-21"
+          "MAXIMUM": "2021-12-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-22",
+            "VALUE": 2
+          },
           {
             "DATE": "2021-12-21",
             "VALUE": 1
@@ -5323,36 +5331,40 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-21"
+          "MAXIMUM": "2021-12-22"
         },
         "VALUES": [
           {
+            "DATE": "2021-12-22",
+            "VALUE": 0.160562648
+          },
+          {
             "DATE": "2021-12-21",
-            "VALUE": 0
+            "VALUE": 0.322256018
           },
           {
             "DATE": "2021-12-20",
-            "VALUE": 0
+            "VALUE": 0.322256018
           },
           {
             "DATE": "2021-12-19",
-            "VALUE": 0.160562648
+            "VALUE": 0.322256018
           },
           {
             "DATE": "2021-12-18",
-            "VALUE": 0.160562648
+            "VALUE": 0.322256018
           },
           {
             "DATE": "2021-12-17",
-            "VALUE": 0.160562648
+            "VALUE": 0.322256018
           },
           {
             "DATE": "2021-12-16",
-            "VALUE": 0.160562648
+            "VALUE": 0.322256018
           },
           {
             "DATE": "2021-12-15",
-            "VALUE": 0.160562648
+            "VALUE": 0.322256018
           },
           {
             "DATE": "2021-12-14",
@@ -7975,9 +7987,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-21"
+          "MAXIMUM": "2021-12-22"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-22",
+            "VALUE": 0.645642759
+          },
           {
             "DATE": "2021-12-21",
             "VALUE": 0.322256018
