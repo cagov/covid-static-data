@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-23",
+    "PUBLISHED_DATE": "2021-12-24",
     "coverage": "Ventura"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 80,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.02439,
+        "TOTAL": 77,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.0375,
         "POPULATION": 852747
       },
       "ICU_PATIENTS": {
         "TOTAL": 15,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.071429,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 852747
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-22"
+          "MAXIMUM": "2021-12-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-23",
+            "VALUE": 77
+          },
           {
             "DATE": "2021-12-22",
             "VALUE": 80
@@ -2562,9 +2566,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-22"
+          "MAXIMUM": "2021-12-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-23",
+            "VALUE": 15
+          },
           {
             "DATE": "2021-12-22",
             "VALUE": 15
@@ -5102,9 +5110,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-22"
+          "MAXIMUM": "2021-12-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-23",
+            "VALUE": 70.714
+          },
           {
             "DATE": "2021-12-22",
             "VALUE": 68.928
@@ -7642,9 +7654,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-22"
+          "MAXIMUM": "2021-12-23"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-23",
+            "VALUE": 12.5
+          },
           {
             "DATE": "2021-12-22",
             "VALUE": 12
