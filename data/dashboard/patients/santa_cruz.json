@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-24",
+    "PUBLISHED_DATE": "2021-12-27",
     "coverage": "Santa Cruz"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 15,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.0625,
+        "TOTAL": 14,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 273999
       },
       "ICU_PATIENTS": {
-        "TOTAL": 4,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.333333,
+        "TOTAL": 2,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.333333,
         "POPULATION": 273999
       }
     },
@@ -22,9 +22,21 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-23"
+          "MAXIMUM": "2021-12-26"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-26",
+            "VALUE": 14
+          },
+          {
+            "DATE": "2021-12-25",
+            "VALUE": 14
+          },
+          {
+            "DATE": "2021-12-24",
+            "VALUE": 14
+          },
           {
             "DATE": "2021-12-23",
             "VALUE": 15
@@ -2566,9 +2578,21 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-23"
+          "MAXIMUM": "2021-12-26"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-26",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2021-12-25",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2021-12-24",
+            "VALUE": 3
+          },
           {
             "DATE": "2021-12-23",
             "VALUE": 4
@@ -5110,9 +5134,21 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-23"
+          "MAXIMUM": "2021-12-26"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-26",
+            "VALUE": 14.142
+          },
+          {
+            "DATE": "2021-12-25",
+            "VALUE": 14
+          },
+          {
+            "DATE": "2021-12-24",
+            "VALUE": 13.857
+          },
           {
             "DATE": "2021-12-23",
             "VALUE": 13.714
@@ -7654,9 +7690,21 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-23"
+          "MAXIMUM": "2021-12-26"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-26",
+            "VALUE": 4.357
+          },
+          {
+            "DATE": "2021-12-25",
+            "VALUE": 4.428
+          },
+          {
+            "DATE": "2021-12-24",
+            "VALUE": 4.357
+          },
           {
             "DATE": "2021-12-23",
             "VALUE": 4.285
