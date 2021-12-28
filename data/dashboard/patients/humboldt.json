@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-27",
+    "PUBLISHED_DATE": "2021-12-28",
     "coverage": "Humboldt"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 11,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 10,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.090909,
         "POPULATION": 134098
       },
       "ICU_PATIENTS": {
         "TOTAL": 0,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -1,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 134098
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-26"
+          "MAXIMUM": "2021-12-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-27",
+            "VALUE": 10
+          },
           {
             "DATE": "2021-12-26",
             "VALUE": 11
@@ -2578,9 +2582,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-26"
+          "MAXIMUM": "2021-12-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-27",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-26",
             "VALUE": 0
@@ -5134,9 +5142,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-26"
+          "MAXIMUM": "2021-12-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-27",
+            "VALUE": 12.142
+          },
           {
             "DATE": "2021-12-26",
             "VALUE": 12.428
@@ -7690,9 +7702,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-26"
+          "MAXIMUM": "2021-12-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-27",
+            "VALUE": 1.5
+          },
           {
             "DATE": "2021-12-26",
             "VALUE": 1.714
