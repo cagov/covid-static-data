@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-28",
+    "PUBLISHED_DATE": "2021-12-29",
     "coverage": "Sierra"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.148148,
-        "test_positivity_7_days_delta_7_days": 0.095516,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-12-19",
+        "test_positivity_7_days": 0.15,
+        "test_positivity_7_days_delta_7_days": 0.071053,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-12-20",
         "POPULATION": 3115
       }
     },
@@ -16,9 +16,13 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-26"
+          "MAXIMUM": "2021-12-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-27",
+            "VALUE": 0.15
+          },
           {
             "DATE": "2021-12-26",
             "VALUE": 0.148148
@@ -2688,9 +2692,13 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-26"
+          "MAXIMUM": "2021-12-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-27",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-26",
             "VALUE": 0
@@ -5360,9 +5368,13 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-26"
+          "MAXIMUM": "2021-12-27"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-27",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-26",
             "VALUE": 0
