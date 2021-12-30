@@ -33,7 +33,7 @@ jobs:
       #       echo "$file was changed"
       #     done
 
-      -name: git config
+      - name: git config
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
