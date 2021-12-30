@@ -90,28 +90,18 @@ jobs:
           git pull
           git push origin main
 
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-west-1
 
       # Push built site files to S3 production bucket    
       - name: Deploy to S3 (data/status)
-        uses: jakejarvis/s3-sync-action@v0.5.1
-        with:
-          args: --acl public-read --follow-symlinks --delete
-        env:
-          AWS_S3_BUCKET: 'data.covid19.ca.gov'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: 'us-west-1'
-          SOURCE_DIR: ./data/status
-          DEST_DIR: data/status
+        run: aws s3 sync --delete ./data/status s3://data.covid19.ca.gov/data/status
 
       #
       # Invalidate Cloudfront production distribution
-      - name: invalidate
-        uses: chetan/invalidate-cloudfront-action@v2.2
-        env:
-          DEBUG: "1"
-          DISTRIBUTION: 'EHNPIZWYYWA31'
-          PATHS: '/data/status/* /data/status'
-          AWS_REGION: 'us-west-1'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      - name: invalidate Cloudfront
+        run: aws cloudfront create-invalidation --distribution-id EHNPIZWYYWA31 --paths "/data/status*"
