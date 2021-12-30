@@ -1,13 +1,12 @@
 name: invalidate-cloudfront
 
 # additional invalidation to catch missed invalidations from prior jobs
-# runs once every morning and can be run manually
+# runs twice every morning and can be run manually
 
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    # intended to run around 9:25am Daily
-    - cron:  '24 17 * * *'
+    - cron:  '24,45 17 * * *'
 
 # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
