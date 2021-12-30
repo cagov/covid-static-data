@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-29",
+    "PUBLISHED_DATE": "2021-12-30",
     "coverage": "Butte"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 36,
-        "CHANGE": -4,
-        "CHANGE_FACTOR": -0.1,
+        "TOTAL": 40,
+        "CHANGE": 4,
+        "CHANGE_FACTOR": 0.111111,
         "POPULATION": 217769
       },
       "ICU_PATIENTS": {
-        "TOTAL": 4,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.333333,
+        "TOTAL": 3,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.25,
         "POPULATION": 217769
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-28"
+          "MAXIMUM": "2021-12-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-29",
+            "VALUE": 40
+          },
           {
             "DATE": "2021-12-28",
             "VALUE": 36
@@ -2586,9 +2590,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-28"
+          "MAXIMUM": "2021-12-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-29",
+            "VALUE": 3
+          },
           {
             "DATE": "2021-12-28",
             "VALUE": 4
@@ -5150,9 +5158,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-28"
+          "MAXIMUM": "2021-12-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-29",
+            "VALUE": 30.857
+          },
           {
             "DATE": "2021-12-28",
             "VALUE": 29.928
@@ -7714,9 +7726,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-28"
+          "MAXIMUM": "2021-12-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-29",
+            "VALUE": 2.642
+          },
           {
             "DATE": "2021-12-28",
             "VALUE": 2.428
