@@ -31,7 +31,7 @@ jobs:
       #
       # Invalidate Cloudfront production distribution
       - name: invalidate
-        uses: chetan/invalidate-cloudfront-action@v1.3
+        uses: chetan/invalidate-cloudfront-action@v2.2
         env:
           DISTRIBUTION: 'EHNPIZWYYWA31'
           PATHS: '/data/* /data'
