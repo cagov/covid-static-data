@@ -1,0 +1,28 @@
+name: invalidate-cloudfront
+
+# additional invalidation to catch missed invalidations from prior jobs
+# runs once every morning and can be run manually
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # intended to run around 9:25am Daily
+    - cron:  '24 17 * * *'
+
+# Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  my_job:
+    runs-on: ubuntu-latest
+    steps:
+      #
+      # Invalidate Cloudfront production distribution
+      - name: invalidate
+        uses: chetan/invalidate-cloudfront-action@v1.3
+        env:
+          DISTRIBUTION: 'EHNPIZWYYWA31'
+          PATHS: '/data/status/* /data/status'
+          AWS_REGION: 'us-west-1'
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
