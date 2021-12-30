@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-29",
+    "PUBLISHED_DATE": "2021-12-30",
     "coverage": "Kern"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 1909,
-        "new_deaths": 2,
-        "new_deaths_delta_1_day": 0.001049,
-        "deaths_per_100k_7_days": 0.184847468,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-12-07",
+        "total_confirmed_deaths": 1913,
+        "new_deaths": 4,
+        "new_deaths_delta_1_day": 0.002095,
+        "deaths_per_100k_7_days": 0.169425539,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-12-08",
         "POPULATION": 927251,
-        "DEATHS_DAILY_AVERAGE": 1.8571428571428572
+        "DEATHS_DAILY_AVERAGE": 1.7142857142857142
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-28"
+          "MAXIMUM": "2021-12-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-29",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-28",
             "VALUE": 0
@@ -36,7 +40,7 @@
           },
           {
             "DATE": "2021-12-25",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-12-24",
@@ -44,7 +48,7 @@
           },
           {
             "DATE": "2021-12-23",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-12-22",
@@ -52,7 +56,7 @@
           },
           {
             "DATE": "2021-12-21",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2021-12-20",
@@ -2699,9 +2703,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-28"
+          "MAXIMUM": "2021-12-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-29",
+            "VALUE": 4
+          },
           {
             "DATE": "2021-12-28",
             "VALUE": 2
@@ -5379,40 +5387,44 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-28"
+          "MAXIMUM": "2021-12-29"
         },
         "VALUES": [
           {
-            "DATE": "2021-12-28",
-            "VALUE": 0
-          },
-          {
-            "DATE": "2021-12-27",
-            "VALUE": 0.015314084
-          },
-          {
-            "DATE": "2021-12-26",
+            "DATE": "2021-12-29",
             "VALUE": 0.030736014
           },
           {
-            "DATE": "2021-12-25",
-            "VALUE": 0.046157944
+            "DATE": "2021-12-28",
+            "VALUE": 0.030736014
           },
           {
-            "DATE": "2021-12-24",
+            "DATE": "2021-12-27",
             "VALUE": 0.061579874
           },
           {
-            "DATE": "2021-12-23",
-            "VALUE": 0.123159749
+            "DATE": "2021-12-26",
+            "VALUE": 0.077001804
           },
           {
-            "DATE": "2021-12-22",
+            "DATE": "2021-12-25",
+            "VALUE": 0.092423734
+          },
+          {
+            "DATE": "2021-12-24",
+            "VALUE": 0.092423734
+          },
+          {
+            "DATE": "2021-12-23",
             "VALUE": 0.154003609
           },
           {
+            "DATE": "2021-12-22",
+            "VALUE": 0.169425539
+          },
+          {
             "DATE": "2021-12-21",
-            "VALUE": 0.215691328
+            "VALUE": 0.231005413
           },
           {
             "DATE": "2021-12-20",
@@ -8059,9 +8071,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-28"
+          "MAXIMUM": "2021-12-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-29",
+            "VALUE": 0.200269398
+          },
           {
             "DATE": "2021-12-28",
             "VALUE": 0.261849273
