@@ -1,9 +1,13 @@
-name: Track dashboard data updates (multiple files)
+name: Track data updates
 on:
   push:
     branches:
       - main
     paths:
+      - 'data/dashboard/confirmed-cases/california.json'
+      - 'data/daily-stats-v2.json'
+      - 'data/reviewed/equitydash/equitytopboxdatav2.json'
+      - 'data/dashboard/vaccines/sparkline.json'
       - 'data/dashboard/confirmed-deaths/california.json'
       - 'data/dashboard/positivity-rate/california.json'
 
@@ -39,6 +43,34 @@ jobs:
           git config user.email github-actions@github.com
           git config pull.rebase true
 
+      - name: Update time stamp (cases)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/confirmed-cases/california.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_cases_update.json
+          git add data/status/last_cases_update.json
+          git commit -m "updated last deaths status"
+
+      - name: Update time stamp (dashboard)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/daily-stats-v2.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_dashbboard_update.json
+          git add data/status/last_dashbboard_update.json
+          git commit -m "updated last deaths status"
+
+      - name: Update time stamp (equity)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/reviewed/equitydash/equitytopboxdatav2.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_equity_update.json
+          git add data/status/last_equity_update.json
+          git commit -m "updated last deaths status"
+
+      - name: Update time stamp (vax)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/vaccines/sparkline.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_vax_update.json
+          git add data/status/last_vax_update.json
+          git commit -m "updated last deaths status"
+
       - name: Update time stamp (deaths)
         if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/confirmed-deaths/california.json')
         run: |
@@ -46,14 +78,14 @@ jobs:
           git add data/status/last_deaths_update.json
           git commit -m "updated last deaths status"
 
-      - name: Update time stamp (dashboard)
+      - name: Update time stamp (posrate)
         if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/positivity-rate/california.json')
         run: |
           node src/logUpdateTime.js ./data/status/last_posrate_update.json
           git add data/status/last_posrate_update.json
           git commit -m "updated last posrate status"
 
-      - name: update changed timestamps to git
+      - name: update all changed timestamps to git
         run: |
           git pull
           git push origin main
