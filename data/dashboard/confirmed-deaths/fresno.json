@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-29",
+    "PUBLISHED_DATE": "2021-12-30",
     "coverage": "Fresno"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 2365,
-        "new_deaths": 1,
-        "new_deaths_delta_1_day": 0.000423,
-        "deaths_per_100k_7_days": 0.332097494,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-12-07",
+        "total_confirmed_deaths": 2364,
+        "new_deaths": -1,
+        "new_deaths_delta_1_day": -0.000423,
+        "deaths_per_100k_7_days": 0.318243952,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-12-08",
         "POPULATION": 1032227,
-        "DEATHS_DAILY_AVERAGE": 3.7142857142857144
+        "DEATHS_DAILY_AVERAGE": 3.4285714285714284
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-28"
+          "MAXIMUM": "2021-12-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-29",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-28",
             "VALUE": 0
@@ -60,7 +64,7 @@
           },
           {
             "DATE": "2021-12-19",
-            "VALUE": 1
+            "VALUE": 0
           },
           {
             "DATE": "2021-12-18",
@@ -2699,9 +2703,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-28"
+          "MAXIMUM": "2021-12-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-29",
+            "VALUE": -1
+          },
           {
             "DATE": "2021-12-28",
             "VALUE": 1
@@ -5379,9 +5387,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-28"
+          "MAXIMUM": "2021-12-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-29",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-28",
             "VALUE": 0
@@ -5396,31 +5408,31 @@
           },
           {
             "DATE": "2021-12-25",
-            "VALUE": 0.013756664
+            "VALUE": 0
           },
           {
             "DATE": "2021-12-24",
-            "VALUE": 0.027610206
+            "VALUE": 0.013756664
           },
           {
             "DATE": "2021-12-23",
-            "VALUE": 0.027610206
+            "VALUE": 0.013756664
           },
           {
             "DATE": "2021-12-22",
-            "VALUE": 0.041463748
+            "VALUE": 0.027610206
           },
           {
             "DATE": "2021-12-21",
-            "VALUE": 0.041463748
+            "VALUE": 0.027610206
           },
           {
             "DATE": "2021-12-20",
-            "VALUE": 0.041463748
+            "VALUE": 0.027610206
           },
           {
             "DATE": "2021-12-19",
-            "VALUE": 0.05531729
+            "VALUE": 0.041463748
           },
           {
             "DATE": "2021-12-18",
@@ -8059,9 +8071,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2021-12-28"
+          "MAXIMUM": "2021-12-29"
         },
         "VALUES": [
+          {
+            "DATE": "2021-12-29",
+            "VALUE": 0.207512495
+          },
           {
             "DATE": "2021-12-28",
             "VALUE": 0.332097494
