@@ -53,8 +53,8 @@ jobs:
       - name: Update time stamp (dashboard)
         if: contains(steps.changed-files.outputs.all_changed_files, 'data/daily-stats-v2.json')
         run: |
-          node src/logUpdateTime.js ./data/status/last_dashbboard_update.json
-          git add data/status/last_dashbboard_update.json
+          node src/logUpdateTime.js ./data/status/last_dashboard_update.json
+          git add data/status/last_dashboard_update.json
           git commit -m "updated last deaths status"
 
       - name: Update time stamp (equity)
