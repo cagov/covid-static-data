@@ -48,42 +48,42 @@ jobs:
         run: |
           node src/logUpdateTime.js ./data/status/last_cases_update.json
           git add data/status/last_cases_update.json
-          git commit -m "updated last deaths status"
+          git commit -a -m "updated last cases status"
 
       - name: Update time stamp (dashboard)
         if: contains(steps.changed-files.outputs.all_changed_files, 'data/daily-stats-v2.json')
         run: |
           node src/logUpdateTime.js ./data/status/last_dashboard_update.json
           git add data/status/last_dashboard_update.json
-          git commit -m "updated last deaths status"
+          git commit -a -m "updated last dashboard status"
 
       - name: Update time stamp (equity)
         if: contains(steps.changed-files.outputs.all_changed_files, 'data/reviewed/equitydash/equitytopboxdatav2.json')
         run: |
           node src/logUpdateTime.js ./data/status/last_equity_update.json
           git add data/status/last_equity_update.json
-          git commit -m "updated last deaths status"
+          git commit -a -m "updated last equity status"
 
       - name: Update time stamp (vax)
         if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/vaccines/sparkline.json')
         run: |
           node src/logUpdateTime.js ./data/status/last_vax_update.json
           git add data/status/last_vax_update.json
-          git commit -m "updated last deaths status"
+          git commit -a -m "updated last vax status"
 
       - name: Update time stamp (deaths)
         if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/confirmed-deaths/california.json')
         run: |
           node src/logUpdateTime.js ./data/status/last_deaths_update.json
           git add data/status/last_deaths_update.json
-          git commit -m "updated last deaths status"
+          git commit -a -m "updated last deaths status"
 
       - name: Update time stamp (posrate)
         if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/positivity-rate/california.json')
         run: |
           node src/logUpdateTime.js ./data/status/last_posrate_update.json
           git add data/status/last_posrate_update.json
-          git commit -m "updated last posrate status"
+          git commit -a -m "updated last posrate status"
 
       - name: update all changed timestamps to git
         run: |
@@ -99,7 +99,7 @@ jobs:
 
       # Push built site files to S3 production bucket    
       - name: Deploy to S3 (data/status)
-        run: aws s3 sync --delete ./data/status s3://data.covid19.ca.gov/data/status
+        run: aws s3 sync --follow-symlinks --delete ./data/status s3://data.covid19.ca.gov/data/status
 
       #
       # Invalidate Cloudfront production distribution
