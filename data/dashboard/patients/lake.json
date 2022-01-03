@@ -1,18 +1,18 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-31",
+    "PUBLISHED_DATE": "2022-01-03",
     "coverage": "Lake"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 1,
+        "TOTAL": 3,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 0,
+        "CHANGE_FACTOR": 0.5,
         "POPULATION": 64871
       },
       "ICU_PATIENTS": {
-        "TOTAL": 0,
+        "TOTAL": 1,
         "CHANGE": 0,
         "CHANGE_FACTOR": 0,
         "POPULATION": 64871
@@ -22,9 +22,21 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-30"
+          "MAXIMUM": "2022-01-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-02",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2022-01-01",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2021-12-31",
+            "VALUE": 1
+          },
           {
             "DATE": "2021-12-30",
             "VALUE": 1
@@ -2594,9 +2606,21 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-30"
+          "MAXIMUM": "2022-01-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-02",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-01-01",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2021-12-31",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-30",
             "VALUE": 0
@@ -5166,9 +5190,21 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-30"
+          "MAXIMUM": "2022-01-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-02",
+            "VALUE": 0.5
+          },
+          {
+            "DATE": "2022-01-01",
+            "VALUE": 0.285
+          },
+          {
+            "DATE": "2021-12-31",
+            "VALUE": 0.142
+          },
           {
             "DATE": "2021-12-30",
             "VALUE": 0.071
@@ -7738,9 +7774,21 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-30"
+          "MAXIMUM": "2022-01-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-02",
+            "VALUE": 0.142
+          },
+          {
+            "DATE": "2022-01-01",
+            "VALUE": 0.071
+          },
+          {
+            "DATE": "2021-12-31",
+            "VALUE": 0
+          },
           {
             "DATE": "2021-12-30",
             "VALUE": 0
