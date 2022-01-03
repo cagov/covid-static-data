@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2021-12-31",
+    "PUBLISHED_DATE": "2022-01-03",
     "coverage": "San Joaquin"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 98,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.031579,
+        "TOTAL": 97,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.010204,
         "POPULATION": 782545
       },
       "ICU_PATIENTS": {
-        "TOTAL": 27,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.08,
+        "TOTAL": 26,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.037037,
         "POPULATION": 782545
       }
     },
@@ -22,16 +22,28 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-30"
+          "MAXIMUM": "2022-01-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-02",
+            "VALUE": 97
+          },
+          {
+            "DATE": "2022-01-01",
+            "VALUE": 98
+          },
+          {
+            "DATE": "2021-12-31",
+            "VALUE": 100
+          },
           {
             "DATE": "2021-12-30",
             "VALUE": 98
           },
           {
             "DATE": "2021-12-29",
-            "VALUE": 95
+            "VALUE": 98
           },
           {
             "DATE": "2021-12-28",
@@ -2594,9 +2606,21 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-30"
+          "MAXIMUM": "2022-01-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-02",
+            "VALUE": 26
+          },
+          {
+            "DATE": "2022-01-01",
+            "VALUE": 27
+          },
+          {
+            "DATE": "2021-12-31",
+            "VALUE": 27
+          },
           {
             "DATE": "2021-12-30",
             "VALUE": 27
@@ -5166,16 +5190,28 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-30"
+          "MAXIMUM": "2022-01-02"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-02",
+            "VALUE": 84.571
+          },
+          {
+            "DATE": "2022-01-01",
+            "VALUE": 83.357
+          },
+          {
+            "DATE": "2021-12-31",
+            "VALUE": 82.285
+          },
+          {
             "DATE": "2021-12-30",
-            "VALUE": 80.857
+            "VALUE": 81.071
           },
           {
             "DATE": "2021-12-29",
-            "VALUE": 79.928
+            "VALUE": 80.142
           },
           {
             "DATE": "2021-12-28",
@@ -7738,9 +7774,21 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2021-12-30"
+          "MAXIMUM": "2022-01-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-02",
+            "VALUE": 24.571
+          },
+          {
+            "DATE": "2022-01-01",
+            "VALUE": 24.642
+          },
+          {
+            "DATE": "2021-12-31",
+            "VALUE": 24.928
+          },
           {
             "DATE": "2021-12-30",
             "VALUE": 25.071
