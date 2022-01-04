@@ -124,6 +124,7 @@ jobs:
       - name: update all changed timestamps to git
         run: |
           git commit -m "freshened update status times"
+          sleep 60
           git pull origin main
           git push origin main
 
