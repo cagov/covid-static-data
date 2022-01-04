@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-03",
+    "PUBLISHED_DATE": "2022-01-04",
     "coverage": "Riverside"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 625,
-        "CHANGE": 47,
-        "CHANGE_FACTOR": 0.081315,
+        "TOTAL": 707,
+        "CHANGE": 82,
+        "CHANGE_FACTOR": 0.1312,
         "POPULATION": 2468145
       },
       "ICU_PATIENTS": {
-        "TOTAL": 104,
-        "CHANGE": 11,
-        "CHANGE_FACTOR": 0.11828,
+        "TOTAL": 97,
+        "CHANGE": -7,
+        "CHANGE_FACTOR": -0.067308,
         "POPULATION": 2468145
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-03",
+            "VALUE": 707
+          },
           {
             "DATE": "2022-01-02",
             "VALUE": 625
@@ -2606,9 +2610,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-03",
+            "VALUE": 97
+          },
           {
             "DATE": "2022-01-02",
             "VALUE": 104
@@ -5190,9 +5198,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-03",
+            "VALUE": 471
+          },
           {
             "DATE": "2022-01-02",
             "VALUE": 445.428
@@ -7774,9 +7786,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-03",
+            "VALUE": 88.571
+          },
           {
             "DATE": "2022-01-02",
             "VALUE": 87.714
