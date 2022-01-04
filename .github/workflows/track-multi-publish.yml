@@ -23,6 +23,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # wait for initial s3 upload to finish
+      - name: sleep 60
+        run: sleep 60
+
       - uses: szenius/set-timezone@v1.0
         with:
           timezoneLinux: "UTC"
@@ -34,13 +38,6 @@ jobs:
       - name: Verify Changed files
         id: changed-files
         uses: tj-actions/changed-files@v2.0.0
-
-      - name: Turnstyle
-        uses: softprops/turnstyle@v1
-        with:
-          continue-after-seconds: 180
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # - name: debugging
       #   run: |
@@ -124,7 +121,6 @@ jobs:
       - name: update all changed timestamps to git
         run: |
           git commit -m "freshened update status times"
-          sleep 60
           git pull origin main
           git push origin main
 
