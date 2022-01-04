@@ -89,7 +89,7 @@ jobs:
       - name: update all changed timestamps to git
         run: |
           git commit -m "freshened update status times"
-          git pull
+          git pull origin main
           git push origin main
 
       - name: Configure AWS Credentials
