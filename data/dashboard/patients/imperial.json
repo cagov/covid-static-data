@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-03",
+    "PUBLISHED_DATE": "2022-01-04",
     "coverage": "Imperial"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 58,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.017544,
+        "TOTAL": 66,
+        "CHANGE": 8,
+        "CHANGE_FACTOR": 0.137931,
         "POPULATION": 191649
       },
       "ICU_PATIENTS": {
-        "TOTAL": 30,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.071429,
+        "TOTAL": 29,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.033333,
         "POPULATION": 191649
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-03",
+            "VALUE": 66
+          },
           {
             "DATE": "2022-01-02",
             "VALUE": 58
@@ -2606,9 +2610,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-03",
+            "VALUE": 29
+          },
           {
             "DATE": "2022-01-02",
             "VALUE": 30
@@ -5190,9 +5198,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-03",
+            "VALUE": 60.142
+          },
           {
             "DATE": "2022-01-02",
             "VALUE": 60.214
@@ -7774,9 +7786,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-03",
+            "VALUE": 27.571
+          },
           {
             "DATE": "2022-01-02",
             "VALUE": 27.428
