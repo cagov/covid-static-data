@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-03",
+    "PUBLISHED_DATE": "2022-01-04",
     "coverage": "Sacramento"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 291,
-        "CHANGE": 20,
-        "CHANGE_FACTOR": 0.073801,
+        "TOTAL": 295,
+        "CHANGE": 4,
+        "CHANGE_FACTOR": 0.013746,
         "POPULATION": 1567975
       },
       "ICU_PATIENTS": {
-        "TOTAL": 62,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.033333,
+        "TOTAL": 58,
+        "CHANGE": -4,
+        "CHANGE_FACTOR": -0.064516,
         "POPULATION": 1567975
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-03",
+            "VALUE": 295
+          },
           {
             "DATE": "2022-01-02",
             "VALUE": 291
@@ -39,7 +43,7 @@
           },
           {
             "DATE": "2021-12-30",
-            "VALUE": 227
+            "VALUE": 237
           },
           {
             "DATE": "2021-12-29",
@@ -2606,9 +2610,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-03",
+            "VALUE": 58
+          },
           {
             "DATE": "2022-01-02",
             "VALUE": 62
@@ -2623,7 +2631,7 @@
           },
           {
             "DATE": "2021-12-30",
-            "VALUE": 52
+            "VALUE": 53
           },
           {
             "DATE": "2021-12-29",
@@ -5190,24 +5198,28 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-03",
+            "VALUE": 217.785
+          },
+          {
             "DATE": "2022-01-02",
-            "VALUE": 207.214
+            "VALUE": 207.928
           },
           {
             "DATE": "2022-01-01",
-            "VALUE": 197.071
+            "VALUE": 197.785
           },
           {
             "DATE": "2021-12-31",
-            "VALUE": 189.642
+            "VALUE": 190.357
           },
           {
             "DATE": "2021-12-30",
-            "VALUE": 183.142
+            "VALUE": 183.857
           },
           {
             "DATE": "2021-12-29",
@@ -7774,24 +7786,28 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-03",
+            "VALUE": 48.785
+          },
+          {
             "DATE": "2022-01-02",
-            "VALUE": 47.714
+            "VALUE": 47.785
           },
           {
             "DATE": "2022-01-01",
-            "VALUE": 46.714
+            "VALUE": 46.785
           },
           {
             "DATE": "2021-12-31",
-            "VALUE": 45.928
+            "VALUE": 46
           },
           {
             "DATE": "2021-12-30",
-            "VALUE": 45.214
+            "VALUE": 45.285
           },
           {
             "DATE": "2021-12-29",
