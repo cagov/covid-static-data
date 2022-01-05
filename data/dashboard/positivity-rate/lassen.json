@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-04",
+    "PUBLISHED_DATE": "2022-01-05",
     "coverage": "Lassen"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.014388,
-        "test_positivity_7_days_delta_7_days": 0.006636,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-12-26",
+        "test_positivity_7_days": 0.014168,
+        "test_positivity_7_days_delta_7_days": 0.004776,
+        "TESTING_UNCERTAINTY_PERIOD": "2021-12-27",
         "POPULATION": 30065
       }
     },
@@ -16,76 +16,80 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-03",
+            "VALUE": 0.014168
+          },
+          {
             "DATE": "2022-01-02",
-            "VALUE": 0.014388
+            "VALUE": 0.014856
           },
           {
             "DATE": "2022-01-01",
-            "VALUE": 0.013028
+            "VALUE": 0.013948
           },
           {
             "DATE": "2021-12-31",
-            "VALUE": 0.011688
+            "VALUE": 0.012437
           },
           {
             "DATE": "2021-12-30",
-            "VALUE": 0.011116
+            "VALUE": 0.011563
           },
           {
             "DATE": "2021-12-29",
-            "VALUE": 0.01092
+            "VALUE": 0.011623
           },
           {
             "DATE": "2021-12-28",
-            "VALUE": 0.010584
+            "VALUE": 0.01097
           },
           {
             "DATE": "2021-12-27",
-            "VALUE": 0.008953
+            "VALUE": 0.009392
           },
           {
             "DATE": "2021-12-26",
-            "VALUE": 0.007752
+            "VALUE": 0.008179
           },
           {
             "DATE": "2021-12-25",
-            "VALUE": 0.008193
+            "VALUE": 0.008621
           },
           {
             "DATE": "2021-12-24",
-            "VALUE": 0.008257
+            "VALUE": 0.008688
           },
           {
             "DATE": "2021-12-23",
-            "VALUE": 0.008123
+            "VALUE": 0.008523
           },
           {
             "DATE": "2021-12-22",
-            "VALUE": 0.006667
+            "VALUE": 0.007077
           },
           {
             "DATE": "2021-12-21",
-            "VALUE": 0.005804
+            "VALUE": 0.005802
           },
           {
             "DATE": "2021-12-20",
-            "VALUE": 0.006717
+            "VALUE": 0.006714
           },
           {
             "DATE": "2021-12-19",
-            "VALUE": 0.004856
+            "VALUE": 0.004854
           },
           {
             "DATE": "2021-12-18",
-            "VALUE": 0.004593
+            "VALUE": 0.004591
           },
           {
             "DATE": "2021-12-17",
-            "VALUE": 0.005448
+            "VALUE": 0.005446
           },
           {
             "DATE": "2021-12-16",
@@ -2716,36 +2720,40 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-03",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-01-02",
             "VALUE": 0
           },
           {
             "DATE": "2022-01-01",
-            "VALUE": 0
+            "VALUE": 0.052632
           },
           {
             "DATE": "2021-12-31",
-            "VALUE": 0
+            "VALUE": 0.013841
           },
           {
             "DATE": "2021-12-30",
-            "VALUE": 0.011494
+            "VALUE": 0.009685
           },
           {
             "DATE": "2021-12-29",
-            "VALUE": 0.015521
+            "VALUE": 0.019523
           },
           {
             "DATE": "2021-12-28",
-            "VALUE": 0.013015
+            "VALUE": 0.012848
           },
           {
             "DATE": "2021-12-27",
-            "VALUE": 0.017279
+            "VALUE": 0.017241
           },
           {
             "DATE": "2021-12-26",
@@ -2765,7 +2773,7 @@
           },
           {
             "DATE": "2021-12-22",
-            "VALUE": 0.016064
+            "VALUE": 0.02
           },
           {
             "DATE": "2021-12-21",
@@ -2785,7 +2793,7 @@
           },
           {
             "DATE": "2021-12-17",
-            "VALUE": 0.005195
+            "VALUE": 0.005181
           },
           {
             "DATE": "2021-12-16",
@@ -5416,36 +5424,40 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-02"
+          "MAXIMUM": "2022-01-03"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-03",
+            "VALUE": 4
+          },
+          {
             "DATE": "2022-01-02",
-            "VALUE": 2
+            "VALUE": 41
           },
           {
             "DATE": "2022-01-01",
-            "VALUE": 6
+            "VALUE": 19
           },
           {
             "DATE": "2021-12-31",
-            "VALUE": 24
+            "VALUE": 289
           },
           {
             "DATE": "2021-12-30",
-            "VALUE": 261
+            "VALUE": 413
           },
           {
             "DATE": "2021-12-29",
-            "VALUE": 451
-          },
-          {
-            "DATE": "2021-12-28",
             "VALUE": 461
           },
           {
+            "DATE": "2021-12-28",
+            "VALUE": 467
+          },
+          {
             "DATE": "2021-12-27",
-            "VALUE": 463
+            "VALUE": 464
           },
           {
             "DATE": "2021-12-26",
@@ -5465,7 +5477,7 @@
           },
           {
             "DATE": "2021-12-22",
-            "VALUE": 249
+            "VALUE": 250
           },
           {
             "DATE": "2021-12-21",
@@ -5485,7 +5497,7 @@
           },
           {
             "DATE": "2021-12-17",
-            "VALUE": 385
+            "VALUE": 386
           },
           {
             "DATE": "2021-12-16",
