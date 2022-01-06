@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-05",
+    "PUBLISHED_DATE": "2022-01-06",
     "coverage": "El Dorado"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 15,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.153846,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 193098
       },
       "ICU_PATIENTS": {
-        "TOTAL": 6,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 5,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.166667,
         "POPULATION": 193098
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-04"
+          "MAXIMUM": "2022-01-05"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-05",
+            "VALUE": 15
+          },
           {
             "DATE": "2022-01-04",
             "VALUE": 15
@@ -2614,9 +2618,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-04"
+          "MAXIMUM": "2022-01-05"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-05",
+            "VALUE": 5
+          },
           {
             "DATE": "2022-01-04",
             "VALUE": 6
@@ -5206,9 +5214,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-04"
+          "MAXIMUM": "2022-01-05"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-05",
+            "VALUE": 13.285
+          },
           {
             "DATE": "2022-01-04",
             "VALUE": 12.928
@@ -7798,9 +7810,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-04"
+          "MAXIMUM": "2022-01-05"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-05",
+            "VALUE": 4.714
+          },
           {
             "DATE": "2022-01-04",
             "VALUE": 4.5
