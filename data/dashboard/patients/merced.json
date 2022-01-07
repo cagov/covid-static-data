@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-06",
+    "PUBLISHED_DATE": "2022-01-07",
     "coverage": "Merced"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 33,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 42,
+        "CHANGE": 9,
+        "CHANGE_FACTOR": 0.272727,
         "POPULATION": 287420
       },
       "ICU_PATIENTS": {
-        "TOTAL": 9,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.25,
+        "TOTAL": 11,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.222222,
         "POPULATION": 287420
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-05"
+          "MAXIMUM": "2022-01-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-06",
+            "VALUE": 42
+          },
           {
             "DATE": "2022-01-05",
             "VALUE": 33
@@ -2618,9 +2622,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-05"
+          "MAXIMUM": "2022-01-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-06",
+            "VALUE": 11
+          },
           {
             "DATE": "2022-01-05",
             "VALUE": 9
@@ -5214,9 +5222,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-05"
+          "MAXIMUM": "2022-01-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-06",
+            "VALUE": 19.428
+          },
           {
             "DATE": "2022-01-05",
             "VALUE": 18
@@ -7810,9 +7822,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-05"
+          "MAXIMUM": "2022-01-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-06",
+            "VALUE": 8.5
+          },
           {
             "DATE": "2022-01-05",
             "VALUE": 8.5
