@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-06",
+    "PUBLISHED_DATE": "2022-01-07",
     "coverage": "Butte"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 48,
-        "CHANGE": 8,
-        "CHANGE_FACTOR": 0.2,
+        "TOTAL": 47,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.020833,
         "POPULATION": 217769
       },
       "ICU_PATIENTS": {
         "TOTAL": 4,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.2,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 217769
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-05"
+          "MAXIMUM": "2022-01-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-06",
+            "VALUE": 47
+          },
           {
             "DATE": "2022-01-05",
             "VALUE": 48
@@ -2618,9 +2622,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-05"
+          "MAXIMUM": "2022-01-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-06",
+            "VALUE": 4
+          },
           {
             "DATE": "2022-01-05",
             "VALUE": 4
@@ -5214,9 +5222,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-05"
+          "MAXIMUM": "2022-01-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-06",
+            "VALUE": 36.642
+          },
           {
             "DATE": "2022-01-05",
             "VALUE": 35.357
@@ -7810,9 +7822,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-05"
+          "MAXIMUM": "2022-01-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-06",
+            "VALUE": 3.642
+          },
           {
             "DATE": "2022-01-05",
             "VALUE": 3.571
