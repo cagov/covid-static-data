@@ -1,34 +1,38 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-06",
+    "PUBLISHED_DATE": "2022-01-07",
     "coverage": "Merced"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 700,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
+        "total_confirmed_deaths": 703,
+        "new_deaths": 3,
+        "new_deaths_delta_1_day": 0.004286,
         "deaths_per_100k_7_days": 0.148911001,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-12-15",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-12-16",
         "POPULATION": 287420,
-        "DEATHS_DAILY_AVERAGE": 0.5714285714285714
+        "DEATHS_DAILY_AVERAGE": 0.42857142857142855
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-05"
+          "MAXIMUM": "2022-01-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-06",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-01-05",
             "VALUE": 0
           },
           {
             "DATE": "2022-01-04",
-            "VALUE": 0
+            "VALUE": 2
           },
           {
             "DATE": "2022-01-03",
@@ -68,7 +72,7 @@
           },
           {
             "DATE": "2021-12-25",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-12-24",
@@ -2731,9 +2735,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-05"
+          "MAXIMUM": "2022-01-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-06",
+            "VALUE": 3
+          },
           {
             "DATE": "2022-01-05",
             "VALUE": 0
@@ -5443,16 +5451,20 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-05"
+          "MAXIMUM": "2022-01-06"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-06",
+            "VALUE": 0.248416951
+          },
+          {
             "DATE": "2022-01-05",
-            "VALUE": 0.148911001
+            "VALUE": 0.248416951
           },
           {
             "DATE": "2022-01-04",
-            "VALUE": 0.148911001
+            "VALUE": 0.248416951
           },
           {
             "DATE": "2022-01-03",
@@ -5468,31 +5480,31 @@
           },
           {
             "DATE": "2021-12-31",
-            "VALUE": 0.148911001
-          },
-          {
-            "DATE": "2021-12-30",
-            "VALUE": 0.148911001
-          },
-          {
-            "DATE": "2021-12-29",
-            "VALUE": 0.148911001
-          },
-          {
-            "DATE": "2021-12-28",
-            "VALUE": 0.248416951
-          },
-          {
-            "DATE": "2021-12-27",
             "VALUE": 0.198663976
           },
           {
-            "DATE": "2021-12-26",
+            "DATE": "2021-12-30",
+            "VALUE": 0.198663976
+          },
+          {
+            "DATE": "2021-12-29",
+            "VALUE": 0.198663976
+          },
+          {
+            "DATE": "2021-12-28",
+            "VALUE": 0.298169926
+          },
+          {
+            "DATE": "2021-12-27",
             "VALUE": 0.248416951
           },
           {
-            "DATE": "2021-12-25",
+            "DATE": "2021-12-26",
             "VALUE": 0.298169926
+          },
+          {
+            "DATE": "2021-12-25",
+            "VALUE": 0.3479229
           },
           {
             "DATE": "2021-12-24",
@@ -8155,9 +8167,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-05"
+          "MAXIMUM": "2022-01-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-06",
+            "VALUE": 0.447080927
+          },
           {
             "DATE": "2022-01-05",
             "VALUE": 0.3479229
