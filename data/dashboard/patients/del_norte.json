@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-07",
+    "PUBLISHED_DATE": "2022-01-10",
     "coverage": "Del Norte"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 1,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.5,
         "POPULATION": 27558
       },
       "ICU_PATIENTS": {
@@ -22,9 +22,21 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-06"
+          "MAXIMUM": "2022-01-09"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-09",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-01-08",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2022-01-07",
+            "VALUE": 2
+          },
           {
             "DATE": "2022-01-06",
             "VALUE": 1
@@ -2622,9 +2634,21 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-06"
+          "MAXIMUM": "2022-01-09"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-09",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-08",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-07",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-01-06",
             "VALUE": 0
@@ -5222,9 +5246,21 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-06"
+          "MAXIMUM": "2022-01-09"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-09",
+            "VALUE": 0.785
+          },
+          {
+            "DATE": "2022-01-08",
+            "VALUE": 0.714
+          },
+          {
+            "DATE": "2022-01-07",
+            "VALUE": 0.571
+          },
           {
             "DATE": "2022-01-06",
             "VALUE": 0.428
@@ -7822,9 +7858,21 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-06"
+          "MAXIMUM": "2022-01-09"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-09",
+            "VALUE": 0.285
+          },
+          {
+            "DATE": "2022-01-08",
+            "VALUE": 0.285
+          },
+          {
+            "DATE": "2022-01-07",
+            "VALUE": 0.285
+          },
           {
             "DATE": "2022-01-06",
             "VALUE": 0.285

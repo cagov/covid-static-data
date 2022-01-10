@@ -1,15 +1,15 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-07",
+    "PUBLISHED_DATE": "2022-01-10",
     "coverage": "Trinity"
   },
   "data": {
     "latest": {
       "TOTAL_TESTS": {
-        "total_tests_performed": 12433,
-        "new_tests_reported": 14,
-        "new_tests_reported_delta_1_day": 0.001127304936,
-        "TESTING_UNCERTAINTY_PERIOD": "2021-12-29",
+        "total_tests_performed": 12515,
+        "new_tests_reported": 82,
+        "new_tests_reported_delta_1_day": 0.006595351082,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-01-01",
         "POPULATION": 13354
       }
     },
@@ -17,20 +17,32 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-05"
+          "MAXIMUM": "2022-01-08"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-08",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-07",
+            "VALUE": 4
+          },
+          {
+            "DATE": "2022-01-06",
+            "VALUE": 21
+          },
+          {
             "DATE": "2022-01-05",
-            "VALUE": 3
+            "VALUE": 30
           },
           {
             "DATE": "2022-01-04",
-            "VALUE": 3
+            "VALUE": 21
           },
           {
             "DATE": "2022-01-03",
-            "VALUE": 14
+            "VALUE": 25
           },
           {
             "DATE": "2022-01-02",
@@ -42,7 +54,7 @@
           },
           {
             "DATE": "2021-12-31",
-            "VALUE": 9
+            "VALUE": 10
           },
           {
             "DATE": "2021-12-30",
@@ -2729,9 +2741,21 @@
       "REPORTED_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-05-05",
-          "MAXIMUM": "2022-01-06"
+          "MAXIMUM": "2022-01-09"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-09",
+            "VALUE": 82
+          },
+          {
+            "DATE": "2022-01-08",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-07",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-01-06",
             "VALUE": 14
@@ -5185,32 +5209,44 @@
       "AVG_TEST_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-05"
+          "MAXIMUM": "2022-01-08"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-08",
+            "VALUE": 113.389246668
+          },
+          {
+            "DATE": "2022-01-07",
+            "VALUE": 117.672607458
+          },
+          {
+            "DATE": "2022-01-06",
+            "VALUE": 124.090160252
+          },
+          {
             "DATE": "2022-01-05",
-            "VALUE": 54.552942938
+            "VALUE": 115.530927063
           },
           {
             "DATE": "2022-01-04",
-            "VALUE": 80.230642504
+            "VALUE": 112.325894863
           },
           {
             "DATE": "2022-01-03",
-            "VALUE": 90.924067695
+            "VALUE": 103.766661674
           },
           {
             "DATE": "2022-01-02",
-            "VALUE": 97.349108881
+            "VALUE": 98.412460686
           },
           {
             "DATE": "2022-01-01",
-            "VALUE": 99.483300884
+            "VALUE": 100.554141081
           },
           {
             "DATE": "2021-12-31",
-            "VALUE": 102.695821477
+            "VALUE": 103.766661674
           },
           {
             "DATE": "2021-12-30",
@@ -7897,9 +7933,21 @@
       "AVG_TEST_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-05-05",
-          "MAXIMUM": "2022-01-06"
+          "MAXIMUM": "2022-01-09"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-09",
+            "VALUE": 248.614647297
+          },
+          {
+            "DATE": "2022-01-08",
+            "VALUE": 157.256252808
+          },
+          {
+            "DATE": "2022-01-07",
+            "VALUE": 157.256252808
+          },
           {
             "DATE": "2022-01-06",
             "VALUE": 157.256252808
