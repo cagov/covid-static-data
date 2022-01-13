@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-12",
+    "PUBLISHED_DATE": "2022-01-13",
     "coverage": "San Joaquin"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 218,
-        "CHANGE": 22,
-        "CHANGE_FACTOR": 0.112245,
+        "TOTAL": 217,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.004587,
         "POPULATION": 782545
       },
       "ICU_PATIENTS": {
-        "TOTAL": 46,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.022222,
+        "TOTAL": 44,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.043478,
         "POPULATION": 782545
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-11"
+          "MAXIMUM": "2022-01-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-12",
+            "VALUE": 217
+          },
           {
             "DATE": "2022-01-11",
             "VALUE": 218
@@ -2642,9 +2646,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-11"
+          "MAXIMUM": "2022-01-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-12",
+            "VALUE": 44
+          },
           {
             "DATE": "2022-01-11",
             "VALUE": 46
@@ -5262,9 +5270,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-11"
+          "MAXIMUM": "2022-01-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-12",
+            "VALUE": 138.571
+          },
           {
             "DATE": "2022-01-11",
             "VALUE": 130
@@ -7882,9 +7894,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-11"
+          "MAXIMUM": "2022-01-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-12",
+            "VALUE": 32.142
+          },
           {
             "DATE": "2022-01-11",
             "VALUE": 30.785
