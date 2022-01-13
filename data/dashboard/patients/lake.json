@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-12",
+    "PUBLISHED_DATE": "2022-01-13",
     "coverage": "Lake"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 2,
+        "TOTAL": 3,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 1,
+        "CHANGE_FACTOR": 0.5,
         "POPULATION": 64871
       },
       "ICU_PATIENTS": {
-        "TOTAL": 1,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 2,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 1,
         "POPULATION": 64871
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-11"
+          "MAXIMUM": "2022-01-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-12",
+            "VALUE": 3
+          },
           {
             "DATE": "2022-01-11",
             "VALUE": 2
@@ -2642,9 +2646,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-11"
+          "MAXIMUM": "2022-01-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-12",
+            "VALUE": 2
+          },
           {
             "DATE": "2022-01-11",
             "VALUE": 1
@@ -5262,9 +5270,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-11"
+          "MAXIMUM": "2022-01-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-12",
+            "VALUE": 2.071
+          },
           {
             "DATE": "2022-01-11",
             "VALUE": 1.857
@@ -7882,9 +7894,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-11"
+          "MAXIMUM": "2022-01-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-12",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-01-11",
             "VALUE": 0.857

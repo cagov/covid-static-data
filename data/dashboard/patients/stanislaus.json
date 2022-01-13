@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-12",
+    "PUBLISHED_DATE": "2022-01-13",
     "coverage": "Stanislaus"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 192,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 202,
+        "CHANGE": 10,
+        "CHANGE_FACTOR": 0.052083,
         "POPULATION": 562303
       },
       "ICU_PATIENTS": {
-        "TOTAL": 23,
-        "CHANGE": 4,
-        "CHANGE_FACTOR": 0.210526,
+        "TOTAL": 30,
+        "CHANGE": 7,
+        "CHANGE_FACTOR": 0.304348,
         "POPULATION": 562303
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-11"
+          "MAXIMUM": "2022-01-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-12",
+            "VALUE": 202
+          },
           {
             "DATE": "2022-01-11",
             "VALUE": 192
@@ -2642,9 +2646,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-11"
+          "MAXIMUM": "2022-01-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-12",
+            "VALUE": 30
+          },
           {
             "DATE": "2022-01-11",
             "VALUE": 23
@@ -5262,9 +5270,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-11"
+          "MAXIMUM": "2022-01-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-12",
+            "VALUE": 155.428
+          },
           {
             "DATE": "2022-01-11",
             "VALUE": 148.857
@@ -7882,9 +7894,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-11"
+          "MAXIMUM": "2022-01-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-12",
+            "VALUE": 20
+          },
           {
             "DATE": "2022-01-11",
             "VALUE": 19.142
