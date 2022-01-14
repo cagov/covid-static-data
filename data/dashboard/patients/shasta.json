@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-13",
+    "PUBLISHED_DATE": "2022-01-14",
     "coverage": "Shasta"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 60,
-        "CHANGE": 9,
-        "CHANGE_FACTOR": 0.176471,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 177925
       },
       "ICU_PATIENTS": {
         "TOTAL": 11,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.083333,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 177925
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-12"
+          "MAXIMUM": "2022-01-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-13",
+            "VALUE": 60
+          },
           {
             "DATE": "2022-01-12",
             "VALUE": 60
@@ -2646,9 +2650,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-12"
+          "MAXIMUM": "2022-01-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-13",
+            "VALUE": 11
+          },
           {
             "DATE": "2022-01-12",
             "VALUE": 11
@@ -5270,9 +5278,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-12"
+          "MAXIMUM": "2022-01-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-13",
+            "VALUE": 46.571
+          },
           {
             "DATE": "2022-01-12",
             "VALUE": 45.428
@@ -7894,9 +7906,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-12"
+          "MAXIMUM": "2022-01-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-13",
+            "VALUE": 11.714
+          },
           {
             "DATE": "2022-01-12",
             "VALUE": 11.857
