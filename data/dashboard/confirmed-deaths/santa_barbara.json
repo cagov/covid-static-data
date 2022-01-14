@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-13",
+    "PUBLISHED_DATE": "2022-01-14",
     "coverage": "Santa Barbara"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 578,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
-        "deaths_per_100k_7_days": 0.125116955,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-12-22",
+        "total_confirmed_deaths": 579,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.00173,
+        "deaths_per_100k_7_days": 0.031114899,
+        "DEATH_UNCERTAINTY_PERIOD": "2021-12-23",
         "POPULATION": 456373,
-        "DEATHS_DAILY_AVERAGE": 0.7142857142857143
+        "DEATHS_DAILY_AVERAGE": 0.5714285714285714
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-12"
+          "MAXIMUM": "2022-01-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-13",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-01-12",
             "VALUE": 0
@@ -40,7 +44,7 @@
           },
           {
             "DATE": "2022-01-08",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-01-07",
@@ -2759,9 +2763,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-12"
+          "MAXIMUM": "2022-01-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-13",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-01-12",
             "VALUE": 0
@@ -5499,28 +5507,32 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-12"
+          "MAXIMUM": "2022-01-13"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-13",
+            "VALUE": 0.031114899
+          },
+          {
             "DATE": "2022-01-12",
-            "VALUE": 0
+            "VALUE": 0.031114899
           },
           {
             "DATE": "2022-01-11",
-            "VALUE": 0
+            "VALUE": 0.031114899
           },
           {
             "DATE": "2022-01-10",
-            "VALUE": 0
+            "VALUE": 0.031114899
           },
           {
             "DATE": "2022-01-09",
-            "VALUE": 0
+            "VALUE": 0.031114899
           },
           {
             "DATE": "2022-01-08",
-            "VALUE": 0.031114899
+            "VALUE": 0.062448918
           },
           {
             "DATE": "2022-01-07",
@@ -8239,9 +8251,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-12"
+          "MAXIMUM": "2022-01-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-13",
+            "VALUE": 0.125116955
+          },
           {
             "DATE": "2022-01-12",
             "VALUE": 0.25023391
