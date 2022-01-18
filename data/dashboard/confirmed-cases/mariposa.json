@@ -1,30 +1,34 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-17",
+    "PUBLISHED_DATE": "2022-01-18",
     "coverage": "Mariposa"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 1851,
-        "new_cases": 89,
-        "new_cases_delta_1_day": 0.050511,
-        "cases_per_100k_7_days": 131.654959258,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-01-09",
+        "total_confirmed_cases": 1862,
+        "new_cases": 11,
+        "new_cases_delta_1_day": 0.005943,
+        "cases_per_100k_7_days": 140.488901377,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-01-10",
         "POPULATION": 17795,
-        "CASES_DAILY_AVERAGE": 24.285714285714285
+        "CASES_DAILY_AVERAGE": 23.428571428571427
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-16"
+          "MAXIMUM": "2022-01-17"
         },
         "VALUES": [
           {
-            "DATE": "2022-01-16",
+            "DATE": "2022-01-17",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-16",
+            "VALUE": 1
           },
           {
             "DATE": "2022-01-15",
@@ -36,19 +40,19 @@
           },
           {
             "DATE": "2022-01-13",
-            "VALUE": 4
-          },
-          {
-            "DATE": "2022-01-12",
             "VALUE": 5
           },
           {
+            "DATE": "2022-01-12",
+            "VALUE": 13
+          },
+          {
             "DATE": "2022-01-11",
-            "VALUE": 45
+            "VALUE": 47
           },
           {
             "DATE": "2022-01-10",
-            "VALUE": 37
+            "VALUE": 36
           },
           {
             "DATE": "2022-01-09",
@@ -2775,9 +2779,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-16"
+          "MAXIMUM": "2022-01-17"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-17",
+            "VALUE": 11
+          },
           {
             "DATE": "2022-01-16",
             "VALUE": 89
@@ -5531,36 +5539,40 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-16"
+          "MAXIMUM": "2022-01-17"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-17",
+            "VALUE": 52.981174487
+          },
+          {
             "DATE": "2022-01-16",
-            "VALUE": 73.054228716
+            "VALUE": 81.882551278
           },
           {
             "DATE": "2022-01-15",
-            "VALUE": 77.066591739
+            "VALUE": 85.091317786
           },
           {
             "DATE": "2022-01-14",
-            "VALUE": 89.912896881
+            "VALUE": 97.937622928
           },
           {
             "DATE": "2022-01-13",
-            "VALUE": 106.771565046
+            "VALUE": 114.796291093
           },
           {
             "DATE": "2022-01-12",
-            "VALUE": 126.035403203
+            "VALUE": 133.26215229
           },
           {
             "DATE": "2022-01-11",
-            "VALUE": 147.710030908
+            "VALUE": 148.513627423
           },
           {
             "DATE": "2022-01-10",
-            "VALUE": 141.286878337
+            "VALUE": 140.488901377
           },
           {
             "DATE": "2022-01-09",
@@ -8287,9 +8299,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-16"
+          "MAXIMUM": "2022-01-17"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-17",
+            "VALUE": 142.894071368
+          },
           {
             "DATE": "2022-01-16",
             "VALUE": 153.329586963
