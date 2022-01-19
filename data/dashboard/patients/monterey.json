@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-18",
+    "PUBLISHED_DATE": "2022-01-19",
     "coverage": "Monterey"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 81,
-        "CHANGE": 10,
-        "CHANGE_FACTOR": 0.140845,
+        "TOTAL": 103,
+        "CHANGE": 20,
+        "CHANGE_FACTOR": 0.240964,
         "POPULATION": 448732
       },
       "ICU_PATIENTS": {
         "TOTAL": 14,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.076923,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 448732
       }
     },
@@ -22,12 +22,16 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-17"
+          "MAXIMUM": "2022-01-18"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-18",
+            "VALUE": 103
+          },
+          {
             "DATE": "2022-01-17",
-            "VALUE": 81
+            "VALUE": 83
           },
           {
             "DATE": "2022-01-16",
@@ -2666,9 +2670,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-17"
+          "MAXIMUM": "2022-01-18"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-18",
+            "VALUE": 14
+          },
           {
             "DATE": "2022-01-17",
             "VALUE": 14
@@ -5310,12 +5318,16 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-17"
+          "MAXIMUM": "2022-01-18"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-18",
+            "VALUE": 66.5
+          },
+          {
             "DATE": "2022-01-17",
-            "VALUE": 62.571
+            "VALUE": 62.714
           },
           {
             "DATE": "2022-01-16",
@@ -7954,9 +7966,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-17"
+          "MAXIMUM": "2022-01-18"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-18",
+            "VALUE": 12.214
+          },
           {
             "DATE": "2022-01-17",
             "VALUE": 11.928
