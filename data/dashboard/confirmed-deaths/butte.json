@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-20",
+    "PUBLISHED_DATE": "2022-01-21",
     "coverage": "Butte"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 351,
-        "new_deaths": 4,
-        "new_deaths_delta_1_day": 0.011527,
+        "total_confirmed_deaths": 350,
+        "new_deaths": -1,
+        "new_deaths_delta_1_day": -0.002849,
         "deaths_per_100k_7_days": 0.06520671,
-        "DEATH_UNCERTAINTY_PERIOD": "2021-12-29",
+        "DEATH_UNCERTAINTY_PERIOD": "2021-12-30",
         "POPULATION": 217769,
         "DEATHS_DAILY_AVERAGE": 0.14285714285714285
       }
@@ -19,9 +19,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-19"
+          "MAXIMUM": "2022-01-20"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-20",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-01-19",
             "VALUE": 0
@@ -2787,9 +2791,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-19"
+          "MAXIMUM": "2022-01-20"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-20",
+            "VALUE": -1
+          },
           {
             "DATE": "2022-01-19",
             "VALUE": 4
@@ -5555,9 +5563,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-19"
+          "MAXIMUM": "2022-01-20"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-20",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-01-19",
             "VALUE": 0
@@ -8323,9 +8335,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-19"
+          "MAXIMUM": "2022-01-20"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-20",
+            "VALUE": 0.130872622
+          },
           {
             "DATE": "2022-01-19",
             "VALUE": 0.196538534
