@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-20",
+    "PUBLISHED_DATE": "2022-01-21",
     "coverage": "Kern"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 314,
-        "CHANGE": 9,
-        "CHANGE_FACTOR": 0.029508,
+        "TOTAL": 313,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.003185,
         "POPULATION": 927251
       },
       "ICU_PATIENTS": {
         "TOTAL": 55,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.018519,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 927251
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-19"
+          "MAXIMUM": "2022-01-20"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-20",
+            "VALUE": 313
+          },
           {
             "DATE": "2022-01-19",
             "VALUE": 314
@@ -2674,9 +2678,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-19"
+          "MAXIMUM": "2022-01-20"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-20",
+            "VALUE": 55
+          },
           {
             "DATE": "2022-01-19",
             "VALUE": 55
@@ -5326,9 +5334,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-19"
+          "MAXIMUM": "2022-01-20"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-20",
+            "VALUE": 251
+          },
           {
             "DATE": "2022-01-19",
             "VALUE": 240.571
@@ -7978,9 +7990,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-19"
+          "MAXIMUM": "2022-01-20"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-20",
+            "VALUE": 40.285
+          },
           {
             "DATE": "2022-01-19",
             "VALUE": 38.571
