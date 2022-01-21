@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-20",
+    "PUBLISHED_DATE": "2022-01-21",
     "coverage": "Santa Clara"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 44,
-        "CHANGE": -22,
-        "CHANGE_FACTOR": -0.333333,
+        "TOTAL": 42,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.045455,
         "POPULATION": 1967585
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-19"
+          "MAXIMUM": "2022-01-20"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-20",
+            "VALUE": 42
+          },
           {
             "DATE": "2022-01-19",
             "VALUE": 44

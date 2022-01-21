@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-20",
+    "PUBLISHED_DATE": "2022-01-21",
     "coverage": "Tulare"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 134,
-        "CHANGE": 18,
-        "CHANGE_FACTOR": 0.155172,
+        "TOTAL": 131,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.022388,
         "POPULATION": 484423
       },
       "ICU_PATIENTS": {
-        "TOTAL": 15,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.153846,
+        "TOTAL": 12,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.2,
         "POPULATION": 484423
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-19"
+          "MAXIMUM": "2022-01-20"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-20",
+            "VALUE": 131
+          },
           {
             "DATE": "2022-01-19",
             "VALUE": 134
@@ -2674,9 +2678,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-19"
+          "MAXIMUM": "2022-01-20"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-20",
+            "VALUE": 12
+          },
           {
             "DATE": "2022-01-19",
             "VALUE": 15
@@ -5326,9 +5334,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-19"
+          "MAXIMUM": "2022-01-20"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-20",
+            "VALUE": 93.357
+          },
           {
             "DATE": "2022-01-19",
             "VALUE": 88.571
@@ -7978,9 +7990,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-19"
+          "MAXIMUM": "2022-01-20"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-20",
+            "VALUE": 11.428
+          },
           {
             "DATE": "2022-01-19",
             "VALUE": 11.142
