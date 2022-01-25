@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-24",
+    "PUBLISHED_DATE": "2022-01-25",
     "coverage": "Los Angeles"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 28231,
-        "new_deaths": 193,
-        "new_deaths_delta_1_day": 0.006884,
-        "deaths_per_100k_7_days": 0.160155093,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-01-02",
+        "total_confirmed_deaths": 28230,
+        "new_deaths": -1,
+        "new_deaths_delta_1_day": -0.000035,
+        "deaths_per_100k_7_days": 0.168509909,
+        "DEATH_UNCERTAINTY_PERIOD": "2022-01-03",
         "POPULATION": 10257557,
-        "DEATHS_DAILY_AVERAGE": 16.142857142857142
+        "DEATHS_DAILY_AVERAGE": 16.428571428571427
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-23"
+          "MAXIMUM": "2022-01-24"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-24",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-01-23",
             "VALUE": 0
@@ -2803,9 +2807,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-23"
+          "MAXIMUM": "2022-01-24"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-24",
+            "VALUE": -1
+          },
           {
             "DATE": "2022-01-23",
             "VALUE": 193
@@ -5587,9 +5595,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-23"
+          "MAXIMUM": "2022-01-24"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-24",
+            "VALUE": 0.201938922
+          },
           {
             "DATE": "2022-01-23",
             "VALUE": 0.26322057
@@ -8371,9 +8383,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-23"
+          "MAXIMUM": "2022-01-24"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-24",
+            "VALUE": 0.554293776
+          },
           {
             "DATE": "2022-01-23",
             "VALUE": 0.593289416
