@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-26",
+    "PUBLISHED_DATE": "2022-01-27",
     "coverage": "Sierra"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.27907,
-        "test_positivity_7_days_delta_7_days": -0.017226,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-01-17",
+        "test_positivity_7_days": 0.222222,
+        "test_positivity_7_days_delta_7_days": 0,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-01-18",
         "POPULATION": 3115
       }
     },
@@ -16,24 +16,28 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-24"
+          "MAXIMUM": "2022-01-25"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-25",
+            "VALUE": 0.222222
+          },
+          {
             "DATE": "2022-01-24",
-            "VALUE": 0.27907
+            "VALUE": 0.266667
           },
           {
             "DATE": "2022-01-23",
-            "VALUE": 0.283019
+            "VALUE": 0.277778
           },
           {
             "DATE": "2022-01-22",
-            "VALUE": 0.285714
+            "VALUE": 0.280702
           },
           {
             "DATE": "2022-01-21",
-            "VALUE": 0.290909
+            "VALUE": 0.285714
           },
           {
             "DATE": "2022-01-20",
@@ -2804,9 +2808,13 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-24"
+          "MAXIMUM": "2022-01-25"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-25",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-01-24",
             "VALUE": 0
@@ -5592,12 +5600,16 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-24"
+          "MAXIMUM": "2022-01-25"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-25",
+            "VALUE": 1
+          },
+          {
             "DATE": "2022-01-24",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-01-23",
@@ -5609,7 +5621,7 @@
           },
           {
             "DATE": "2022-01-21",
-            "VALUE": 4
+            "VALUE": 5
           },
           {
             "DATE": "2022-01-20",
