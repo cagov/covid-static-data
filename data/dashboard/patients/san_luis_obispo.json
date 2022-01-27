@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-26",
+    "PUBLISHED_DATE": "2022-01-27",
     "coverage": "San Luis Obispo"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 55,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.018519,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 278862
       },
       "ICU_PATIENTS": {
-        "TOTAL": 12,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 11,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.083333,
         "POPULATION": 278862
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-25"
+          "MAXIMUM": "2022-01-26"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-26",
+            "VALUE": 55
+          },
           {
             "DATE": "2022-01-25",
             "VALUE": 55
@@ -2698,9 +2702,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-25"
+          "MAXIMUM": "2022-01-26"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-26",
+            "VALUE": 11
+          },
           {
             "DATE": "2022-01-25",
             "VALUE": 12
@@ -5374,9 +5382,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-25"
+          "MAXIMUM": "2022-01-26"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-26",
+            "VALUE": 51.285
+          },
           {
             "DATE": "2022-01-25",
             "VALUE": 50.571
@@ -8050,9 +8062,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-25"
+          "MAXIMUM": "2022-01-26"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-26",
+            "VALUE": 10.142
+          },
           {
             "DATE": "2022-01-25",
             "VALUE": 9.928
