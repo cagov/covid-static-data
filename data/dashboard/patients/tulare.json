@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-27",
+    "PUBLISHED_DATE": "2022-01-28",
     "coverage": "Tulare"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 158,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 159,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.006329,
         "POPULATION": 484423
       },
       "ICU_PATIENTS": {
-        "TOTAL": 12,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.076923,
+        "TOTAL": 18,
+        "CHANGE": 6,
+        "CHANGE_FACTOR": 0.5,
         "POPULATION": 484423
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 159
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 158
@@ -2702,9 +2706,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 18
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 12
@@ -5382,9 +5390,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 129.785
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 124.928
@@ -8062,9 +8074,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 13.357
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 12.785
