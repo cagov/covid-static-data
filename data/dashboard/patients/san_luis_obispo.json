@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-27",
+    "PUBLISHED_DATE": "2022-01-28",
     "coverage": "San Luis Obispo"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 55,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 57,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.036364,
         "POPULATION": 278862
       },
       "ICU_PATIENTS": {
-        "TOTAL": 11,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.083333,
+        "TOTAL": 9,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.181818,
         "POPULATION": 278862
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 57
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 55
@@ -2702,9 +2706,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 9
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 11
@@ -5382,9 +5390,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 52.214
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 51.285
@@ -8062,9 +8074,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 10.214
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 10.142

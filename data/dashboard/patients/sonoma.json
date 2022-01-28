@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-27",
+    "PUBLISHED_DATE": "2022-01-28",
     "coverage": "Sonoma"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 109,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.018692,
+        "TOTAL": 102,
+        "CHANGE": -7,
+        "CHANGE_FACTOR": -0.06422,
         "POPULATION": 496668
       },
       "ICU_PATIENTS": {
-        "TOTAL": 17,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.15,
+        "TOTAL": 15,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.117647,
         "POPULATION": 496668
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 102
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 109
@@ -2702,9 +2706,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 15
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 17
@@ -5382,9 +5390,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 101.857
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 100.642
@@ -8062,9 +8074,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 16.5
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 16.214
