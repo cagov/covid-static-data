@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-27",
+    "PUBLISHED_DATE": "2022-01-28",
     "coverage": "Santa Barbara"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 600,
-        "new_deaths": 6,
-        "new_deaths_delta_1_day": 0.010101,
-        "deaths_per_100k_7_days": 0.062448918,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-01-05",
+        "total_confirmed_deaths": 604,
+        "new_deaths": 4,
+        "new_deaths_delta_1_day": 0.006667,
+        "deaths_per_100k_7_days": 0.156450973,
+        "DEATH_UNCERTAINTY_PERIOD": "2022-01-06",
         "POPULATION": 456373,
-        "DEATHS_DAILY_AVERAGE": 0.42857142857142855
+        "DEATHS_DAILY_AVERAGE": 0.2857142857142857
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 0
@@ -36,7 +40,7 @@
           },
           {
             "DATE": "2022-01-23",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-01-22",
@@ -44,15 +48,15 @@
           },
           {
             "DATE": "2022-01-21",
-            "VALUE": 1
-          },
-          {
-            "DATE": "2022-01-20",
             "VALUE": 2
           },
           {
+            "DATE": "2022-01-20",
+            "VALUE": 3
+          },
+          {
             "DATE": "2022-01-19",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2022-01-18",
@@ -2815,9 +2819,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 4
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 6
@@ -5611,40 +5619,44 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
           {
-            "DATE": "2022-01-26",
+            "DATE": "2022-01-27",
             "VALUE": 0.125116955
           },
           {
+            "DATE": "2022-01-26",
+            "VALUE": 0.21911901
+          },
+          {
             "DATE": "2022-01-25",
-            "VALUE": 0.156450973
+            "VALUE": 0.281567928
           },
           {
             "DATE": "2022-01-24",
-            "VALUE": 0.156450973
+            "VALUE": 0.281567928
           },
           {
             "DATE": "2022-01-23",
-            "VALUE": 0.25023391
+            "VALUE": 0.375569983
           },
           {
             "DATE": "2022-01-22",
-            "VALUE": 0.25023391
+            "VALUE": 0.344235965
           },
           {
             "DATE": "2022-01-21",
-            "VALUE": 0.312901946
+            "VALUE": 0.406904002
           },
           {
             "DATE": "2022-01-20",
-            "VALUE": 0.312901946
+            "VALUE": 0.375569983
           },
           {
             "DATE": "2022-01-19",
-            "VALUE": 0.281567928
+            "VALUE": 0.312901946
           },
           {
             "DATE": "2022-01-18",
@@ -8407,9 +8419,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 0.46935292
+          },
           {
             "DATE": "2022-01-26",
             "VALUE": 0.43823802
