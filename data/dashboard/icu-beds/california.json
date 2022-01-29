@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-28",
+    "PUBLISHED_DATE": "2022-01-29",
     "coverage": "California"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 1449,
-        "CHANGE": 22,
-        "CHANGE_FACTOR": 0.015417,
+        "TOTAL": 1423,
+        "CHANGE": -26,
+        "CHANGE_FACTOR": -0.017943,
         "POPULATION": 40124928
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-27"
+          "MAXIMUM": "2022-01-28"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-28",
+            "VALUE": 1423
+          },
           {
             "DATE": "2022-01-27",
             "VALUE": 1449
