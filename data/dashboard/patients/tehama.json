@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-29",
+    "PUBLISHED_DATE": "2022-01-30",
     "coverage": "Tehama"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 24,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.04,
+        "TOTAL": 22,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.083333,
         "POPULATION": 65885
       },
       "ICU_PATIENTS": {
         "TOTAL": 5,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.25,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 65885
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-28"
+          "MAXIMUM": "2022-01-29"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-29",
+            "VALUE": 22
+          },
           {
             "DATE": "2022-01-28",
             "VALUE": 24
@@ -2710,9 +2714,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-28"
+          "MAXIMUM": "2022-01-29"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-29",
+            "VALUE": 5
+          },
           {
             "DATE": "2022-01-28",
             "VALUE": 5
@@ -5398,9 +5406,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-28"
+          "MAXIMUM": "2022-01-29"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-29",
+            "VALUE": 20.571
+          },
           {
             "DATE": "2022-01-28",
             "VALUE": 20.071
@@ -8086,9 +8098,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-28"
+          "MAXIMUM": "2022-01-29"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-29",
+            "VALUE": 3.785
+          },
           {
             "DATE": "2022-01-28",
             "VALUE": 3.571
