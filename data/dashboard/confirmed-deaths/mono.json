@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-28",
+    "PUBLISHED_DATE": "2022-01-31",
     "coverage": "Mono"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
         "total_confirmed_deaths": 5,
-        "new_deaths": 1,
-        "new_deaths_delta_1_day": 0.25,
+        "new_deaths": 0,
+        "new_deaths_delta_1_day": 0,
         "deaths_per_100k_7_days": 1.017119118,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-01-06",
+        "DEATH_UNCERTAINTY_PERIOD": "2022-01-09",
         "POPULATION": 13961,
         "DEATHS_DAILY_AVERAGE": 0.14285714285714285
       }
@@ -19,9 +19,21 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-27"
+          "MAXIMUM": "2022-01-30"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-30",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-29",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-28",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-01-27",
             "VALUE": 0
@@ -2819,9 +2831,21 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-27"
+          "MAXIMUM": "2022-01-30"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-30",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-29",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-28",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-01-27",
             "VALUE": 1
@@ -5619,9 +5643,21 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-27"
+          "MAXIMUM": "2022-01-30"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-30",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-29",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-28",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-01-27",
             "VALUE": 0
@@ -8419,9 +8455,21 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-27"
+          "MAXIMUM": "2022-01-30"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-30",
+            "VALUE": 1.017119118
+          },
+          {
+            "DATE": "2022-01-29",
+            "VALUE": 1.017119118
+          },
+          {
+            "DATE": "2022-01-28",
+            "VALUE": 1.017119118
+          },
           {
             "DATE": "2022-01-27",
             "VALUE": 1.017119118
