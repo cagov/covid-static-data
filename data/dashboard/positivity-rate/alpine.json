@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-28",
+    "PUBLISHED_DATE": "2022-01-31",
     "coverage": "Alpine"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.235294,
-        "test_positivity_7_days_delta_7_days": 0.119909,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-01-19",
+        "test_positivity_7_days": 0.090909,
+        "test_positivity_7_days_delta_7_days": -0.159091,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-01-22",
         "POPULATION": 1117
       }
     },
@@ -16,20 +16,32 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-29"
         },
         "VALUES": [
           {
+            "DATE": "2022-01-29",
+            "VALUE": 0.090909
+          },
+          {
+            "DATE": "2022-01-28",
+            "VALUE": 0.090909
+          },
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 0.125
+          },
+          {
             "DATE": "2022-01-26",
-            "VALUE": 0.235294
+            "VALUE": 0.227273
           },
           {
             "DATE": "2022-01-25",
-            "VALUE": 0.173913
+            "VALUE": 0.16
           },
           {
             "DATE": "2022-01-24",
-            "VALUE": 0.178571
+            "VALUE": 0.172414
           },
           {
             "DATE": "2022-01-23",
@@ -2812,12 +2824,24 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-29"
         },
         "VALUES": [
           {
-            "DATE": "2022-01-26",
+            "DATE": "2022-01-29",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-28",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-27",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-26",
+            "VALUE": 0.333333
           },
           {
             "DATE": "2022-01-25",
@@ -5608,20 +5632,32 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-26"
+          "MAXIMUM": "2022-01-29"
         },
         "VALUES": [
           {
-            "DATE": "2022-01-26",
+            "DATE": "2022-01-29",
             "VALUE": 0
           },
           {
-            "DATE": "2022-01-25",
+            "DATE": "2022-01-28",
             "VALUE": 1
           },
           {
+            "DATE": "2022-01-27",
+            "VALUE": 5
+          },
+          {
+            "DATE": "2022-01-26",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2022-01-25",
+            "VALUE": 2
+          },
+          {
             "DATE": "2022-01-24",
-            "VALUE": 9
+            "VALUE": 10
           },
           {
             "DATE": "2022-01-23",
