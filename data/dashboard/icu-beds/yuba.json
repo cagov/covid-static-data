@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-30",
+    "PUBLISHED_DATE": "2022-01-31",
     "coverage": "Yuba"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 2,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 4,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 1,
         "POPULATION": 79290
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-29"
+          "MAXIMUM": "2022-01-30"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-30",
+            "VALUE": 4
+          },
           {
             "DATE": "2022-01-29",
             "VALUE": 2

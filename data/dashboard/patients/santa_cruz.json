@@ -1,19 +1,19 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-30",
+    "PUBLISHED_DATE": "2022-01-31",
     "coverage": "Santa Cruz"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 45,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 43,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.044444,
         "POPULATION": 273999
       },
       "ICU_PATIENTS": {
-        "TOTAL": 0,
-        "CHANGE": 0,
+        "TOTAL": 5,
+        "CHANGE": 5,
         "CHANGE_FACTOR": 0,
         "POPULATION": 273999
       }
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-29"
+          "MAXIMUM": "2022-01-30"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-30",
+            "VALUE": 43
+          },
           {
             "DATE": "2022-01-29",
             "VALUE": 45
@@ -2714,9 +2718,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-29"
+          "MAXIMUM": "2022-01-30"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-30",
+            "VALUE": 5
+          },
           {
             "DATE": "2022-01-29",
             "VALUE": 0
@@ -5406,9 +5414,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-29"
+          "MAXIMUM": "2022-01-30"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-30",
+            "VALUE": 40.071
+          },
           {
             "DATE": "2022-01-29",
             "VALUE": 39.214
@@ -8098,9 +8110,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-29"
+          "MAXIMUM": "2022-01-30"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-30",
+            "VALUE": 2.428
+          },
           {
             "DATE": "2022-01-29",
             "VALUE": 2.285
