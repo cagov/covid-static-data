@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-01-31",
+    "PUBLISHED_DATE": "2022-02-01",
     "coverage": "Fresno"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 587,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.001706,
+        "TOTAL": 601,
+        "CHANGE": 14,
+        "CHANGE_FACTOR": 0.02385,
         "POPULATION": 1032227
       },
       "ICU_PATIENTS": {
-        "TOTAL": 105,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 98,
+        "CHANGE": -7,
+        "CHANGE_FACTOR": -0.066667,
         "POPULATION": 1032227
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-30"
+          "MAXIMUM": "2022-01-31"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-31",
+            "VALUE": 601
+          },
           {
             "DATE": "2022-01-30",
             "VALUE": 587
@@ -2718,9 +2722,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-30"
+          "MAXIMUM": "2022-01-31"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-31",
+            "VALUE": 98
+          },
           {
             "DATE": "2022-01-30",
             "VALUE": 105
@@ -5414,9 +5422,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-30"
+          "MAXIMUM": "2022-01-31"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-31",
+            "VALUE": 562.714
+          },
           {
             "DATE": "2022-01-30",
             "VALUE": 551.714
@@ -8110,9 +8122,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-30"
+          "MAXIMUM": "2022-01-31"
         },
         "VALUES": [
+          {
+            "DATE": "2022-01-31",
+            "VALUE": 86.571
+          },
           {
             "DATE": "2022-01-30",
             "VALUE": 83.928
