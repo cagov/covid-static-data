@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-01",
+    "PUBLISHED_DATE": "2022-02-02",
     "coverage": "Santa Clara"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 520,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.005736,
+        "TOTAL": 499,
+        "CHANGE": -21,
+        "CHANGE_FACTOR": -0.040385,
         "POPULATION": 1967585
       },
       "ICU_PATIENTS": {
-        "TOTAL": 93,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.010638,
+        "TOTAL": 90,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.032258,
         "POPULATION": 1967585
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-31"
+          "MAXIMUM": "2022-02-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-01",
+            "VALUE": 499
+          },
           {
             "DATE": "2022-01-31",
             "VALUE": 520
@@ -2722,9 +2726,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-31"
+          "MAXIMUM": "2022-02-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-01",
+            "VALUE": 90
+          },
           {
             "DATE": "2022-01-31",
             "VALUE": 93
@@ -5422,9 +5430,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-31"
+          "MAXIMUM": "2022-02-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-01",
+            "VALUE": 525.142
+          },
           {
             "DATE": "2022-01-31",
             "VALUE": 528.071
@@ -8122,9 +8134,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-31"
+          "MAXIMUM": "2022-02-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-01",
+            "VALUE": 91
+          },
           {
             "DATE": "2022-01-31",
             "VALUE": 90.5
