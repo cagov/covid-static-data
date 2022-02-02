@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-01",
+    "PUBLISHED_DATE": "2022-02-02",
     "coverage": "Stanislaus"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 314,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.009464,
+        "TOTAL": 312,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.006369,
         "POPULATION": 562303
       },
       "ICU_PATIENTS": {
-        "TOTAL": 53,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.039216,
+        "TOTAL": 52,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.018868,
         "POPULATION": 562303
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-31"
+          "MAXIMUM": "2022-02-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-01",
+            "VALUE": 312
+          },
           {
             "DATE": "2022-01-31",
             "VALUE": 314
@@ -2722,9 +2726,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-31"
+          "MAXIMUM": "2022-02-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-01",
+            "VALUE": 52
+          },
           {
             "DATE": "2022-01-31",
             "VALUE": 53
@@ -5422,9 +5430,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-31"
+          "MAXIMUM": "2022-02-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-01",
+            "VALUE": 312.714
+          },
           {
             "DATE": "2022-01-31",
             "VALUE": 309.928
@@ -8122,9 +8134,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-01-31"
+          "MAXIMUM": "2022-02-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-01",
+            "VALUE": 44.357
+          },
           {
             "DATE": "2022-01-31",
             "VALUE": 43.428
