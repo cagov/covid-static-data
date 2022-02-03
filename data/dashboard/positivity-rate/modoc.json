@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-02",
+    "PUBLISHED_DATE": "2022-02-03",
     "coverage": "Modoc"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
         "test_positivity_7_days": 0.142857,
-        "test_positivity_7_days_delta_7_days": -0.058978,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-01-24",
+        "test_positivity_7_days_delta_7_days": -0.041609,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-01-25",
         "POPULATION": 9475
       }
     },
@@ -16,20 +16,24 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-31"
+          "MAXIMUM": "2022-02-01"
         },
         "VALUES": [
           {
-            "DATE": "2022-01-31",
+            "DATE": "2022-02-01",
             "VALUE": 0.142857
           },
           {
+            "DATE": "2022-01-31",
+            "VALUE": 0.136364
+          },
+          {
             "DATE": "2022-01-30",
-            "VALUE": 0.134831
+            "VALUE": 0.131868
           },
           {
             "DATE": "2022-01-29",
-            "VALUE": 0.152174
+            "VALUE": 0.150538
           },
           {
             "DATE": "2022-01-28",
@@ -2832,9 +2836,13 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-31"
+          "MAXIMUM": "2022-02-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-01",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-01-31",
             "VALUE": 0
@@ -5648,20 +5656,24 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-31"
+          "MAXIMUM": "2022-02-01"
         },
         "VALUES": [
           {
-            "DATE": "2022-01-31",
+            "DATE": "2022-02-01",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-01-31",
+            "VALUE": 1
           },
           {
             "DATE": "2022-01-30",
-            "VALUE": 2
+            "VALUE": 3
           },
           {
             "DATE": "2022-01-29",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-01-28",
