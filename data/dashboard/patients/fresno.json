@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-02",
+    "PUBLISHED_DATE": "2022-02-03",
     "coverage": "Fresno"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 606,
-        "CHANGE": 5,
-        "CHANGE_FACTOR": 0.008319,
+        "TOTAL": 607,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.00165,
         "POPULATION": 1032227
       },
       "ICU_PATIENTS": {
-        "TOTAL": 100,
+        "TOTAL": 102,
         "CHANGE": 2,
-        "CHANGE_FACTOR": 0.020408,
+        "CHANGE_FACTOR": 0.02,
         "POPULATION": 1032227
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-01"
+          "MAXIMUM": "2022-02-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-02",
+            "VALUE": 607
+          },
           {
             "DATE": "2022-02-01",
             "VALUE": 606
@@ -2726,9 +2730,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-01"
+          "MAXIMUM": "2022-02-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-02",
+            "VALUE": 102
+          },
           {
             "DATE": "2022-02-01",
             "VALUE": 100
@@ -5430,9 +5438,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-01"
+          "MAXIMUM": "2022-02-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-02",
+            "VALUE": 578.571
+          },
           {
             "DATE": "2022-02-01",
             "VALUE": 571.071
@@ -8134,9 +8146,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-01"
+          "MAXIMUM": "2022-02-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-02",
+            "VALUE": 90.857
+          },
           {
             "DATE": "2022-02-01",
             "VALUE": 88.5
