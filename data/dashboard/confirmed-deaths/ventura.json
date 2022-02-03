@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-02",
+    "PUBLISHED_DATE": "2022-02-03",
     "coverage": "Ventura"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 1293,
-        "new_deaths": 7,
-        "new_deaths_delta_1_day": 0.005443,
-        "deaths_per_100k_7_days": 0.335034893,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-01-11",
+        "total_confirmed_deaths": 1292,
+        "new_deaths": -1,
+        "new_deaths_delta_1_day": -0.000773,
+        "deaths_per_100k_7_days": 0.351804228,
+        "DEATH_UNCERTAINTY_PERIOD": "2022-01-12",
         "POPULATION": 852747,
-        "DEATHS_DAILY_AVERAGE": 2.4285714285714284
+        "DEATHS_DAILY_AVERAGE": 2.857142857142857
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-01"
+          "MAXIMUM": "2022-02-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-02",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-01",
             "VALUE": 0
@@ -1636,7 +1640,7 @@
           },
           {
             "DATE": "2020-12-25",
-            "VALUE": 10
+            "VALUE": 9
           },
           {
             "DATE": "2020-12-24",
@@ -2839,9 +2843,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-01"
+          "MAXIMUM": "2022-02-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-02",
+            "VALUE": -1
+          },
           {
             "DATE": "2022-02-01",
             "VALUE": 7
@@ -5659,9 +5667,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-01"
+          "MAXIMUM": "2022-02-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-02",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-01",
             "VALUE": 0
@@ -7252,31 +7264,31 @@
           },
           {
             "DATE": "2020-12-31",
-            "VALUE": 1.122372755
+            "VALUE": 1.10560342
           },
           {
             "DATE": "2020-12-30",
-            "VALUE": 1.038643349
-          },
-          {
-            "DATE": "2020-12-29",
             "VALUE": 1.021874014
           },
           {
-            "DATE": "2020-12-28",
-            "VALUE": 1.13914209
+            "DATE": "2020-12-29",
+            "VALUE": 1.005104679
           },
           {
-            "DATE": "2020-12-27",
+            "DATE": "2020-12-28",
             "VALUE": 1.122372755
           },
           {
+            "DATE": "2020-12-27",
+            "VALUE": 1.10560342
+          },
+          {
             "DATE": "2020-12-26",
-            "VALUE": 1.055412684
+            "VALUE": 1.038643349
           },
           {
             "DATE": "2020-12-25",
-            "VALUE": 0.988335344
+            "VALUE": 0.97156601
           },
           {
             "DATE": "2020-12-24",
@@ -8479,9 +8491,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-01"
+          "MAXIMUM": "2022-02-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-02",
+            "VALUE": 0.485724371
+          },
           {
             "DATE": "2022-02-01",
             "VALUE": 0.502493706
