@@ -1,15 +1,15 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-02",
+    "PUBLISHED_DATE": "2022-02-03",
     "coverage": "Sierra"
   },
   "data": {
     "latest": {
       "TOTAL_TESTS": {
-        "total_tests_performed": 5076,
-        "new_tests_reported": 3,
-        "new_tests_reported_delta_1_day": 0.0005913660556,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-01-24",
+        "total_tests_performed": 5077,
+        "new_tests_reported": 1,
+        "new_tests_reported_delta_1_day": 0.0001970055162,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-01-25",
         "POPULATION": 3115
       }
     },
@@ -17,12 +17,16 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-31"
+          "MAXIMUM": "2022-02-01"
         },
         "VALUES": [
           {
+            "DATE": "2022-02-01",
+            "VALUE": 0
+          },
+          {
             "DATE": "2022-01-31",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2022-01-30",
@@ -2833,9 +2837,13 @@
       "REPORTED_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-05-05",
-          "MAXIMUM": "2022-02-01"
+          "MAXIMUM": "2022-02-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-02",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-02-01",
             "VALUE": 3
@@ -5393,12 +5401,16 @@
       "AVG_TEST_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-01-31"
+          "MAXIMUM": "2022-02-01"
         },
         "VALUES": [
           {
+            "DATE": "2022-02-01",
+            "VALUE": 100.866773676
+          },
+          {
             "DATE": "2022-01-31",
-            "VALUE": 119.22953451
+            "VALUE": 123.820224719
           },
           {
             "DATE": "2022-01-30",
@@ -8209,9 +8221,13 @@
       "AVG_TEST_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-05-05",
-          "MAXIMUM": "2022-02-01"
+          "MAXIMUM": "2022-02-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-02",
+            "VALUE": 218.298555377
+          },
           {
             "DATE": "2022-02-01",
             "VALUE": 231.13964687
