@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-04",
+    "PUBLISHED_DATE": "2022-02-05",
     "coverage": "San Mateo"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 147,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.006849,
+        "TOTAL": 133,
+        "CHANGE": -14,
+        "CHANGE_FACTOR": -0.095238,
         "POPULATION": 778001
       },
       "ICU_PATIENTS": {
-        "TOTAL": 18,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 17,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.055556,
         "POPULATION": 778001
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-03"
+          "MAXIMUM": "2022-02-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-04",
+            "VALUE": 133
+          },
           {
             "DATE": "2022-02-03",
             "VALUE": 147
@@ -2734,9 +2738,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-03"
+          "MAXIMUM": "2022-02-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-04",
+            "VALUE": 17
+          },
           {
             "DATE": "2022-02-03",
             "VALUE": 18
@@ -5446,9 +5454,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-03"
+          "MAXIMUM": "2022-02-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-04",
+            "VALUE": 154.142
+          },
           {
             "DATE": "2022-02-03",
             "VALUE": 154.357
@@ -8158,9 +8170,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-03"
+          "MAXIMUM": "2022-02-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-04",
+            "VALUE": 26.071
+          },
           {
             "DATE": "2022-02-03",
             "VALUE": 27.071
