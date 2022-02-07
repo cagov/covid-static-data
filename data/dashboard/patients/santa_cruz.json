@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-06",
+    "PUBLISHED_DATE": "2022-02-07",
     "coverage": "Santa Cruz"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 38,
-        "CHANGE": 8,
-        "CHANGE_FACTOR": 0.266667,
+        "TOTAL": 32,
+        "CHANGE": -6,
+        "CHANGE_FACTOR": -0.157895,
         "POPULATION": 273999
       },
       "ICU_PATIENTS": {
-        "TOTAL": 6,
+        "TOTAL": 7,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 0.2,
+        "CHANGE_FACTOR": 0.166667,
         "POPULATION": 273999
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-05"
+          "MAXIMUM": "2022-02-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-06",
+            "VALUE": 32
+          },
           {
             "DATE": "2022-02-05",
             "VALUE": 38
@@ -2742,9 +2746,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-05"
+          "MAXIMUM": "2022-02-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-06",
+            "VALUE": 7
+          },
           {
             "DATE": "2022-02-05",
             "VALUE": 6
@@ -5462,9 +5470,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-05"
+          "MAXIMUM": "2022-02-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-06",
+            "VALUE": 39.285
+          },
           {
             "DATE": "2022-02-05",
             "VALUE": 39.785
@@ -8182,9 +8194,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-05"
+          "MAXIMUM": "2022-02-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-06",
+            "VALUE": 4.142
+          },
           {
             "DATE": "2022-02-05",
             "VALUE": 3.785
