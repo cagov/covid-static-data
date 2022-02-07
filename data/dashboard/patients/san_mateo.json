@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-06",
+    "PUBLISHED_DATE": "2022-02-07",
     "coverage": "San Mateo"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 125,
+        "TOTAL": 117,
         "CHANGE": -8,
-        "CHANGE_FACTOR": -0.06015,
+        "CHANGE_FACTOR": -0.064,
         "POPULATION": 778001
       },
       "ICU_PATIENTS": {
-        "TOTAL": 17,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 18,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.058824,
         "POPULATION": 778001
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-05"
+          "MAXIMUM": "2022-02-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-06",
+            "VALUE": 117
+          },
           {
             "DATE": "2022-02-05",
             "VALUE": 125
@@ -2742,9 +2746,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-05"
+          "MAXIMUM": "2022-02-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-06",
+            "VALUE": 18
+          },
           {
             "DATE": "2022-02-05",
             "VALUE": 17
@@ -5462,9 +5470,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-05"
+          "MAXIMUM": "2022-02-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-06",
+            "VALUE": 149.5
+          },
           {
             "DATE": "2022-02-05",
             "VALUE": 152.071
@@ -8182,9 +8194,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-05"
+          "MAXIMUM": "2022-02-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-06",
+            "VALUE": 24.142
+          },
           {
             "DATE": "2022-02-05",
             "VALUE": 25.071

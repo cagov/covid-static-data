@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-06",
+    "PUBLISHED_DATE": "2022-02-07",
     "coverage": "Del Norte"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 7,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.75,
+        "TOTAL": 6,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.142857,
         "POPULATION": 27558
       },
       "ICU_PATIENTS": {
-        "TOTAL": 2,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 1,
+        "TOTAL": 0,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -1,
         "POPULATION": 27558
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-05"
+          "MAXIMUM": "2022-02-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-06",
+            "VALUE": 6
+          },
           {
             "DATE": "2022-02-05",
             "VALUE": 7
@@ -2742,9 +2746,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-05"
+          "MAXIMUM": "2022-02-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-06",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-05",
             "VALUE": 2
@@ -5462,9 +5470,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-05"
+          "MAXIMUM": "2022-02-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-06",
+            "VALUE": 6.285
+          },
           {
             "DATE": "2022-02-05",
             "VALUE": 6.214
@@ -8182,9 +8194,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-05"
+          "MAXIMUM": "2022-02-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-06",
+            "VALUE": 2
+          },
           {
             "DATE": "2022-02-05",
             "VALUE": 2.071
