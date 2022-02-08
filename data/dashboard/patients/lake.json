@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-07",
+    "PUBLISHED_DATE": "2022-02-08",
     "coverage": "Lake"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 12,
-        "CHANGE": 3,
+        "TOTAL": 16,
+        "CHANGE": 4,
         "CHANGE_FACTOR": 0.333333,
         "POPULATION": 64871
       },
       "ICU_PATIENTS": {
         "TOTAL": 5,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.25,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 64871
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-06"
+          "MAXIMUM": "2022-02-07"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-07",
+            "VALUE": 16
+          },
           {
             "DATE": "2022-02-06",
             "VALUE": 12
@@ -2746,9 +2750,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-06"
+          "MAXIMUM": "2022-02-07"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-07",
+            "VALUE": 5
+          },
           {
             "DATE": "2022-02-06",
             "VALUE": 5
@@ -5470,9 +5478,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-06"
+          "MAXIMUM": "2022-02-07"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-07",
+            "VALUE": 11.285
+          },
           {
             "DATE": "2022-02-06",
             "VALUE": 10.785
@@ -8194,9 +8206,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-06"
+          "MAXIMUM": "2022-02-07"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-07",
+            "VALUE": 4.285
+          },
           {
             "DATE": "2022-02-06",
             "VALUE": 4.142
