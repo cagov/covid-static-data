@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-08",
+    "PUBLISHED_DATE": "2022-02-09",
     "coverage": "Merced"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 65,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.015625,
+        "TOTAL": 58,
+        "CHANGE": -7,
+        "CHANGE_FACTOR": -0.107692,
         "POPULATION": 287420
       },
       "ICU_PATIENTS": {
         "TOTAL": 12,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.142857,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 287420
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-07"
+          "MAXIMUM": "2022-02-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-08",
+            "VALUE": 58
+          },
           {
             "DATE": "2022-02-07",
             "VALUE": 65
@@ -2750,9 +2754,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-07"
+          "MAXIMUM": "2022-02-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-08",
+            "VALUE": 12
+          },
           {
             "DATE": "2022-02-07",
             "VALUE": 12
@@ -5478,9 +5486,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-07"
+          "MAXIMUM": "2022-02-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-08",
+            "VALUE": 64.285
+          },
           {
             "DATE": "2022-02-07",
             "VALUE": 64.928
@@ -8206,9 +8218,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-07"
+          "MAXIMUM": "2022-02-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-08",
+            "VALUE": 12.642
+          },
           {
             "DATE": "2022-02-07",
             "VALUE": 12.5
