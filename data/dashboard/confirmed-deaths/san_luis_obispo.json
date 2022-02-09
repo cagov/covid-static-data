@@ -1,38 +1,42 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-08",
+    "PUBLISHED_DATE": "2022-02-09",
     "coverage": "San Luis Obispo"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 406,
-        "new_deaths": 1,
-        "new_deaths_delta_1_day": 0.002469,
-        "deaths_per_100k_7_days": 0.614640934,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-01-17",
+        "total_confirmed_deaths": 410,
+        "new_deaths": 4,
+        "new_deaths_delta_1_day": 0.009852,
+        "deaths_per_100k_7_days": 0.563361089,
+        "DEATH_UNCERTAINTY_PERIOD": "2022-01-18",
         "POPULATION": 278862,
-        "DEATHS_DAILY_AVERAGE": 1.5714285714285714
+        "DEATHS_DAILY_AVERAGE": 1.7142857142857142
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-07"
+          "MAXIMUM": "2022-02-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-08",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-07",
             "VALUE": 0
           },
           {
             "DATE": "2022-02-06",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-02-05",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-02-04",
@@ -48,7 +52,7 @@
           },
           {
             "DATE": "2022-02-01",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-01-31",
@@ -60,7 +64,7 @@
           },
           {
             "DATE": "2022-01-29",
-            "VALUE": 4
+            "VALUE": 5
           },
           {
             "DATE": "2022-01-28",
@@ -2863,9 +2867,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-07"
+          "MAXIMUM": "2022-02-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-08",
+            "VALUE": 4
+          },
           {
             "DATE": "2022-02-07",
             "VALUE": 1
@@ -5707,48 +5715,52 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-07"
+          "MAXIMUM": "2022-02-08"
         },
         "VALUES": [
           {
+            "DATE": "2022-02-08",
+            "VALUE": 0.102201089
+          },
+          {
             "DATE": "2022-02-07",
-            "VALUE": 0
+            "VALUE": 0.153480933
           },
           {
             "DATE": "2022-02-06",
-            "VALUE": 0.050921244
-          },
-          {
-            "DATE": "2022-02-05",
             "VALUE": 0.204760778
           },
           {
+            "DATE": "2022-02-05",
+            "VALUE": 0.307320467
+          },
+          {
             "DATE": "2022-02-04",
-            "VALUE": 0.409521555
+            "VALUE": 0.512081244
           },
           {
             "DATE": "2022-02-03",
-            "VALUE": 0.409521555
+            "VALUE": 0.512081244
           },
           {
             "DATE": "2022-02-02",
-            "VALUE": 0.409521555
+            "VALUE": 0.512081244
           },
           {
             "DATE": "2022-02-01",
-            "VALUE": 0.4608014
+            "VALUE": 0.563361089
           },
           {
             "DATE": "2022-01-31",
-            "VALUE": 0.4608014
+            "VALUE": 0.512081244
           },
           {
             "DATE": "2022-01-30",
-            "VALUE": 0.409521555
+            "VALUE": 0.4608014
           },
           {
             "DATE": "2022-01-29",
-            "VALUE": 0.358600311
+            "VALUE": 0.409521555
           },
           {
             "DATE": "2022-01-28",
@@ -8551,9 +8563,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-07"
+          "MAXIMUM": "2022-02-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-08",
+            "VALUE": 0.358600311
+          },
           {
             "DATE": "2022-02-07",
             "VALUE": 0.563361089
