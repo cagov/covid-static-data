@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-10",
+    "PUBLISHED_DATE": "2022-02-11",
     "coverage": "Humboldt"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 131,
+        "total_confirmed_deaths": 132,
         "new_deaths": 1,
-        "new_deaths_delta_1_day": 0.007692,
+        "new_deaths_delta_1_day": 0.007634,
         "deaths_per_100k_7_days": 0.212531134,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-01-19",
+        "DEATH_UNCERTAINTY_PERIOD": "2022-01-20",
         "POPULATION": 134098,
-        "DEATHS_DAILY_AVERAGE": 0.14285714285714285
+        "DEATHS_DAILY_AVERAGE": 0.2857142857142857
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-09"
+          "MAXIMUM": "2022-02-10"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-10",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-09",
             "VALUE": 0
@@ -72,7 +76,7 @@
           },
           {
             "DATE": "2022-01-28",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2022-01-27",
@@ -2871,9 +2875,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-09"
+          "MAXIMUM": "2022-02-10"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-10",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-02-09",
             "VALUE": 1
@@ -5723,9 +5731,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-09"
+          "MAXIMUM": "2022-02-10"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-10",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-09",
             "VALUE": 0
@@ -5752,31 +5764,31 @@
           },
           {
             "DATE": "2022-02-03",
-            "VALUE": 0.212531134
-          },
-          {
-            "DATE": "2022-02-02",
-            "VALUE": 0.212531134
-          },
-          {
-            "DATE": "2022-02-01",
-            "VALUE": 0.212531134
-          },
-          {
-            "DATE": "2022-01-31",
-            "VALUE": 0.212531134
-          },
-          {
-            "DATE": "2022-01-30",
             "VALUE": 0.319169563
           },
           {
+            "DATE": "2022-02-02",
+            "VALUE": 0.319169563
+          },
+          {
+            "DATE": "2022-02-01",
+            "VALUE": 0.319169563
+          },
+          {
+            "DATE": "2022-01-31",
+            "VALUE": 0.319169563
+          },
+          {
+            "DATE": "2022-01-30",
+            "VALUE": 0.425807991
+          },
+          {
             "DATE": "2022-01-29",
-            "VALUE": 0.212531134
+            "VALUE": 0.319169563
           },
           {
             "DATE": "2022-01-28",
-            "VALUE": 0.212531134
+            "VALUE": 0.319169563
           },
           {
             "DATE": "2022-01-27",
@@ -8575,9 +8587,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-09"
+          "MAXIMUM": "2022-02-10"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-10",
+            "VALUE": 0.53244642
+          },
           {
             "DATE": "2022-02-09",
             "VALUE": 0.425807991
