@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-12",
+    "PUBLISHED_DATE": "2022-02-13",
     "coverage": "Del Norte"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 10,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.111111,
+        "TOTAL": 9,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.1,
         "POPULATION": 27558
       },
       "ICU_PATIENTS": {
-        "TOTAL": 2,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 1,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.5,
         "POPULATION": 27558
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-11"
+          "MAXIMUM": "2022-02-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-12",
+            "VALUE": 9
+          },
           {
             "DATE": "2022-02-11",
             "VALUE": 10
@@ -2766,9 +2770,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-11"
+          "MAXIMUM": "2022-02-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-12",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-02-11",
             "VALUE": 2
@@ -5510,9 +5518,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-11"
+          "MAXIMUM": "2022-02-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-12",
+            "VALUE": 6.785
+          },
           {
             "DATE": "2022-02-11",
             "VALUE": 6.785
@@ -8254,9 +8266,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-11"
+          "MAXIMUM": "2022-02-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-12",
+            "VALUE": 1.357
+          },
           {
             "DATE": "2022-02-11",
             "VALUE": 1.5
