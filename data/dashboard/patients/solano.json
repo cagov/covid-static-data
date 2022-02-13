@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-12",
+    "PUBLISHED_DATE": "2022-02-13",
     "coverage": "Solano"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 95,
-        "CHANGE": -6,
-        "CHANGE_FACTOR": -0.059406,
+        "TOTAL": 96,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.010526,
         "POPULATION": 444255
       },
       "ICU_PATIENTS": {
-        "TOTAL": 20,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.052632,
+        "TOTAL": 19,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.05,
         "POPULATION": 444255
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-11"
+          "MAXIMUM": "2022-02-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-12",
+            "VALUE": 96
+          },
           {
             "DATE": "2022-02-11",
             "VALUE": 95
@@ -2766,9 +2770,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-11"
+          "MAXIMUM": "2022-02-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-12",
+            "VALUE": 19
+          },
           {
             "DATE": "2022-02-11",
             "VALUE": 20
@@ -5510,9 +5518,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-11"
+          "MAXIMUM": "2022-02-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-12",
+            "VALUE": 122.928
+          },
           {
             "DATE": "2022-02-11",
             "VALUE": 127.857
@@ -8254,9 +8266,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-11"
+          "MAXIMUM": "2022-02-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-12",
+            "VALUE": 25.928
+          },
           {
             "DATE": "2022-02-11",
             "VALUE": 26.857
