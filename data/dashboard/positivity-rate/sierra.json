@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-11",
+    "PUBLISHED_DATE": "2022-02-14",
     "coverage": "Sierra"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
         "test_positivity_7_days": 0.166667,
-        "test_positivity_7_days_delta_7_days": -0.155914,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-02-02",
+        "test_positivity_7_days_delta_7_days": -0.154762,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-02-05",
         "POPULATION": 3115
       }
     },
@@ -16,16 +16,28 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-09"
+          "MAXIMUM": "2022-02-12"
         },
         "VALUES": [
           {
-            "DATE": "2022-02-09",
+            "DATE": "2022-02-12",
             "VALUE": 0.166667
           },
           {
+            "DATE": "2022-02-11",
+            "VALUE": 0.166667
+          },
+          {
+            "DATE": "2022-02-10",
+            "VALUE": 0.153846
+          },
+          {
+            "DATE": "2022-02-09",
+            "VALUE": 0.133333
+          },
+          {
             "DATE": "2022-02-08",
-            "VALUE": 0.428571
+            "VALUE": 0.391304
           },
           {
             "DATE": "2022-02-07",
@@ -2868,12 +2880,24 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-09"
+          "MAXIMUM": "2022-02-12"
         },
         "VALUES": [
           {
-            "DATE": "2022-02-09",
+            "DATE": "2022-02-12",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-02-11",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-02-10",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-02-09",
+            "VALUE": 0.142857
           },
           {
             "DATE": "2022-02-08",
@@ -5720,16 +5744,28 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-09"
+          "MAXIMUM": "2022-02-12"
         },
         "VALUES": [
           {
-            "DATE": "2022-02-09",
+            "DATE": "2022-02-12",
             "VALUE": 0
           },
           {
-            "DATE": "2022-02-08",
+            "DATE": "2022-02-11",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-02-10",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-02-09",
+            "VALUE": 7
+          },
+          {
+            "DATE": "2022-02-08",
+            "VALUE": 2
           },
           {
             "DATE": "2022-02-07",
