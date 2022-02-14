@@ -1,34 +1,46 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-11",
+    "PUBLISHED_DATE": "2022-02-14",
     "coverage": "Siskiyou"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 68,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
-        "deaths_per_100k_7_days": 0.323050323,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-01-20",
+        "total_confirmed_deaths": 69,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.014706,
+        "deaths_per_100k_7_days": 0.973700974,
+        "DEATH_UNCERTAINTY_PERIOD": "2022-01-23",
         "POPULATION": 43956,
-        "DEATHS_DAILY_AVERAGE": 0
+        "DEATHS_DAILY_AVERAGE": 0.42857142857142855
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-10"
+          "MAXIMUM": "2022-02-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-13",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-02-12",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-02-11",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-10",
             "VALUE": 0
           },
           {
             "DATE": "2022-02-09",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-02-08",
@@ -2875,9 +2887,21 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-10"
+          "MAXIMUM": "2022-02-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-13",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-02-12",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-02-11",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-10",
             "VALUE": 0
@@ -5731,16 +5755,28 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-10"
+          "MAXIMUM": "2022-02-13"
         },
         "VALUES": [
           {
+            "DATE": "2022-02-13",
+            "VALUE": 0.323050323
+          },
+          {
+            "DATE": "2022-02-12",
+            "VALUE": 0.323050323
+          },
+          {
+            "DATE": "2022-02-11",
+            "VALUE": 0.323050323
+          },
+          {
             "DATE": "2022-02-10",
-            "VALUE": 0
+            "VALUE": 0.323050323
           },
           {
             "DATE": "2022-02-09",
-            "VALUE": 0
+            "VALUE": 0.323050323
           },
           {
             "DATE": "2022-02-08",
@@ -8587,9 +8623,21 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-10"
+          "MAXIMUM": "2022-02-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-13",
+            "VALUE": 0.323050323
+          },
+          {
+            "DATE": "2022-02-12",
+            "VALUE": 0.323050323
+          },
+          {
+            "DATE": "2022-02-11",
+            "VALUE": 0.323050323
+          },
           {
             "DATE": "2022-02-10",
             "VALUE": 0.323050323
