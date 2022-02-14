@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-13",
+    "PUBLISHED_DATE": "2022-02-14",
     "coverage": "Calaveras"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 6,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.333333,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 44289
       },
       "ICU_PATIENTS": {
-        "TOTAL": 1,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 2,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 1,
         "POPULATION": 44289
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-12"
+          "MAXIMUM": "2022-02-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-13",
+            "VALUE": 6
+          },
           {
             "DATE": "2022-02-12",
             "VALUE": 6
@@ -2770,9 +2774,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-12"
+          "MAXIMUM": "2022-02-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-13",
+            "VALUE": 2
+          },
           {
             "DATE": "2022-02-12",
             "VALUE": 1
@@ -5518,9 +5526,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-12"
+          "MAXIMUM": "2022-02-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-13",
+            "VALUE": 4.714
+          },
           {
             "DATE": "2022-02-12",
             "VALUE": 4.5
@@ -8266,9 +8278,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-12"
+          "MAXIMUM": "2022-02-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-13",
+            "VALUE": 1.571
+          },
           {
             "DATE": "2022-02-12",
             "VALUE": 1.571
