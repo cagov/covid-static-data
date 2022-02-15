@@ -1,15 +1,15 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-14",
+    "PUBLISHED_DATE": "2022-02-15",
     "coverage": "Alpine"
   },
   "data": {
     "latest": {
       "TOTAL_TESTS": {
-        "total_tests_performed": 2873,
-        "new_tests_reported": 7,
-        "new_tests_reported_delta_1_day": 0.002442428472,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-02-05",
+        "total_tests_performed": 2875,
+        "new_tests_reported": 2,
+        "new_tests_reported_delta_1_day": 0.0006961364427,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-02-06",
         "POPULATION": 1117
       }
     },
@@ -17,20 +17,24 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-12"
+          "MAXIMUM": "2022-02-13"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-13",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-12",
             "VALUE": 0
           },
           {
             "DATE": "2022-02-11",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-02-10",
-            "VALUE": 2
+            "VALUE": 3
           },
           {
             "DATE": "2022-02-09",
@@ -2881,9 +2885,13 @@
       "REPORTED_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-05-05",
-          "MAXIMUM": "2022-02-13"
+          "MAXIMUM": "2022-02-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-14",
+            "VALUE": 2
+          },
           {
             "DATE": "2022-02-13",
             "VALUE": 7
@@ -5489,20 +5497,24 @@
       "AVG_TEST_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-12"
+          "MAXIMUM": "2022-02-13"
         },
         "VALUES": [
           {
+            "DATE": "2022-02-13",
+            "VALUE": 204.565801253
+          },
+          {
             "DATE": "2022-02-12",
-            "VALUE": 179.051029543
+            "VALUE": 204.565801253
           },
           {
             "DATE": "2022-02-11",
-            "VALUE": 179.051029543
+            "VALUE": 204.565801253
           },
           {
             "DATE": "2022-02-10",
-            "VALUE": 191.763652641
+            "VALUE": 204.565801253
           },
           {
             "DATE": "2022-02-09",
@@ -8353,9 +8365,13 @@
       "AVG_TEST_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-05-05",
-          "MAXIMUM": "2022-02-13"
+          "MAXIMUM": "2022-02-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-14",
+            "VALUE": 304.386750224
+          },
           {
             "DATE": "2022-02-13",
             "VALUE": 286.481647269
