@@ -1,42 +1,46 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-17",
+    "PUBLISHED_DATE": "2022-02-18",
     "coverage": "Lassen"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 8618,
-        "new_cases": 31,
-        "new_cases_delta_1_day": 0.00361,
-        "cases_per_100k_7_days": 63.196407783,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-02-09",
+        "total_confirmed_cases": 8640,
+        "new_cases": 22,
+        "new_cases_delta_1_day": 0.002553,
+        "cases_per_100k_7_days": 68.421752869,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-02-10",
         "POPULATION": 30065,
-        "CASES_DAILY_AVERAGE": 20.857142857142858
+        "CASES_DAILY_AVERAGE": 19
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-16"
+          "MAXIMUM": "2022-02-17"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-17",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-16",
             "VALUE": 0
           },
           {
             "DATE": "2022-02-15",
-            "VALUE": 5
+            "VALUE": 8
           },
           {
             "DATE": "2022-02-14",
-            "VALUE": 14
+            "VALUE": 22
           },
           {
             "DATE": "2022-02-13",
-            "VALUE": 15
+            "VALUE": 25
           },
           {
             "DATE": "2022-02-12",
@@ -84,7 +88,7 @@
           },
           {
             "DATE": "2022-02-01",
-            "VALUE": 26
+            "VALUE": 27
           },
           {
             "DATE": "2022-01-31",
@@ -2899,9 +2903,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-16"
+          "MAXIMUM": "2022-02-17"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-17",
+            "VALUE": 22
+          },
           {
             "DATE": "2022-02-16",
             "VALUE": 31
@@ -5779,24 +5787,28 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-16"
+          "MAXIMUM": "2022-02-17"
         },
         "VALUES": [
           {
+            "DATE": "2022-02-17",
+            "VALUE": 50.839846998
+          },
+          {
             "DATE": "2022-02-16",
-            "VALUE": 54.641609845
+            "VALUE": 64.619990022
           },
           {
             "DATE": "2022-02-15",
-            "VALUE": 58.443372692
+            "VALUE": 68.421752869
           },
           {
             "DATE": "2022-02-14",
-            "VALUE": 66.994844504
+            "VALUE": 75.549642441
           },
           {
             "DATE": "2022-02-13",
-            "VALUE": 71.272243472
+            "VALUE": 76.025278563
           },
           {
             "DATE": "2022-02-12",
@@ -5820,31 +5832,31 @@
           },
           {
             "DATE": "2022-02-07",
-            "VALUE": 70.796607351
+            "VALUE": 71.272243472
           },
           {
             "DATE": "2022-02-06",
-            "VALUE": 73.647097954
+            "VALUE": 74.122734076
           },
           {
             "DATE": "2022-02-05",
-            "VALUE": 77.448860802
+            "VALUE": 77.924496923
           },
           {
             "DATE": "2022-02-04",
-            "VALUE": 97.405621154
+            "VALUE": 97.881257276
           },
           {
             "DATE": "2022-02-03",
-            "VALUE": 103.109928488
+            "VALUE": 103.582238483
           },
           {
             "DATE": "2022-02-02",
-            "VALUE": 111.661400299
+            "VALUE": 112.137036421
           },
           {
             "DATE": "2022-02-01",
-            "VALUE": 115.463163147
+            "VALUE": 115.938799268
           },
           {
             "DATE": "2022-01-31",
@@ -8659,9 +8671,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-16"
+          "MAXIMUM": "2022-02-17"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-17",
+            "VALUE": 77.448860802
+          },
           {
             "DATE": "2022-02-16",
             "VALUE": 75.549642441
