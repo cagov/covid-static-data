@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-22",
+    "PUBLISHED_DATE": "2022-02-23",
     "coverage": "Trinity"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.137405,
-        "test_positivity_7_days_delta_7_days": -0.018845,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-02-13",
+        "test_positivity_7_days": 0.122951,
+        "test_positivity_7_days_delta_7_days": -0.025487,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-02-14",
         "POPULATION": 13354
       }
     },
@@ -16,24 +16,28 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-20"
+          "MAXIMUM": "2022-02-21"
         },
         "VALUES": [
           {
+            "DATE": "2022-02-21",
+            "VALUE": 0.122951
+          },
+          {
             "DATE": "2022-02-20",
-            "VALUE": 0.137405
+            "VALUE": 0.125
           },
           {
             "DATE": "2022-02-19",
-            "VALUE": 0.134752
+            "VALUE": 0.123377
           },
           {
             "DATE": "2022-02-18",
-            "VALUE": 0.154839
+            "VALUE": 0.143713
           },
           {
             "DATE": "2022-02-17",
-            "VALUE": 0.148148
+            "VALUE": 0.147239
           },
           {
             "DATE": "2022-02-16",
@@ -2912,9 +2916,13 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-20"
+          "MAXIMUM": "2022-02-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-21",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-20",
             "VALUE": 0.333333
@@ -2925,7 +2933,7 @@
           },
           {
             "DATE": "2022-02-18",
-            "VALUE": 0.055556
+            "VALUE": 0.034483
           },
           {
             "DATE": "2022-02-17",
@@ -5808,24 +5816,28 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-20"
+          "MAXIMUM": "2022-02-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-21",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-02-20",
             "VALUE": 3
           },
           {
             "DATE": "2022-02-19",
-            "VALUE": 2
+            "VALUE": 3
           },
           {
             "DATE": "2022-02-18",
-            "VALUE": 18
+            "VALUE": 29
           },
           {
             "DATE": "2022-02-17",
-            "VALUE": 28
+            "VALUE": 29
           },
           {
             "DATE": "2022-02-16",
