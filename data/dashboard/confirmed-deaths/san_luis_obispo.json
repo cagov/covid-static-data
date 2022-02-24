@@ -1,34 +1,38 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-23",
+    "PUBLISHED_DATE": "2022-02-24",
     "coverage": "San Luis Obispo"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 431,
-        "new_deaths": 2,
-        "new_deaths_delta_1_day": 0.004662,
-        "deaths_per_100k_7_days": 0.768121867,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-02-01",
+        "total_confirmed_deaths": 434,
+        "new_deaths": 3,
+        "new_deaths_delta_1_day": 0.006961,
+        "deaths_per_100k_7_days": 0.717200623,
+        "DEATH_UNCERTAINTY_PERIOD": "2022-02-02",
         "POPULATION": 278862,
-        "DEATHS_DAILY_AVERAGE": 1.7142857142857142
+        "DEATHS_DAILY_AVERAGE": 2.142857142857143
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-22"
+          "MAXIMUM": "2022-02-23"
         },
         "VALUES": [
           {
-            "DATE": "2022-02-22",
+            "DATE": "2022-02-23",
             "VALUE": 0
           },
           {
+            "DATE": "2022-02-22",
+            "VALUE": 2
+          },
+          {
             "DATE": "2022-02-21",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-02-20",
@@ -2923,9 +2927,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-22"
+          "MAXIMUM": "2022-02-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-23",
+            "VALUE": 3
+          },
           {
             "DATE": "2022-02-22",
             "VALUE": 2
@@ -5827,16 +5835,20 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-22"
+          "MAXIMUM": "2022-02-23"
         },
         "VALUES": [
           {
+            "DATE": "2022-02-23",
+            "VALUE": 0.358600311
+          },
+          {
             "DATE": "2022-02-22",
-            "VALUE": 0.204760778
+            "VALUE": 0.358600311
           },
           {
             "DATE": "2022-02-21",
-            "VALUE": 0.256040622
+            "VALUE": 0.307320467
           },
           {
             "DATE": "2022-02-20",
@@ -8731,9 +8743,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-22"
+          "MAXIMUM": "2022-02-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-23",
+            "VALUE": 0.4608014
+          },
           {
             "DATE": "2022-02-22",
             "VALUE": 0.614640934
