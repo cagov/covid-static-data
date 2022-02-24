@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-23",
+    "PUBLISHED_DATE": "2022-02-24",
     "coverage": "Mendocino"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 110,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
+        "total_confirmed_deaths": 111,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.009091,
         "deaths_per_100k_7_days": 0.322256018,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-02-01",
+        "DEATH_UNCERTAINTY_PERIOD": "2022-02-02",
         "POPULATION": 88439,
         "DEATHS_DAILY_AVERAGE": 0.2857142857142857
       }
@@ -19,9 +19,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-22"
+          "MAXIMUM": "2022-02-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-23",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-22",
             "VALUE": 0
@@ -40,7 +44,7 @@
           },
           {
             "DATE": "2022-02-18",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-02-17",
@@ -2923,9 +2927,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-22"
+          "MAXIMUM": "2022-02-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-23",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-02-22",
             "VALUE": 0
@@ -5827,28 +5835,32 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-22"
+          "MAXIMUM": "2022-02-23"
         },
         "VALUES": [
           {
-            "DATE": "2022-02-22",
+            "DATE": "2022-02-23",
             "VALUE": 0.160562648
+          },
+          {
+            "DATE": "2022-02-22",
+            "VALUE": 0.322256018
           },
           {
             "DATE": "2022-02-21",
-            "VALUE": 0.160562648
+            "VALUE": 0.322256018
           },
           {
             "DATE": "2022-02-20",
-            "VALUE": 0.160562648
+            "VALUE": 0.322256018
           },
           {
             "DATE": "2022-02-19",
-            "VALUE": 0.160562648
+            "VALUE": 0.322256018
           },
           {
             "DATE": "2022-02-18",
-            "VALUE": 0.322256018
+            "VALUE": 0.483949389
           },
           {
             "DATE": "2022-02-17",
@@ -8731,9 +8743,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-22"
+          "MAXIMUM": "2022-02-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-23",
+            "VALUE": 0.483949389
+          },
           {
             "DATE": "2022-02-22",
             "VALUE": 0.322256018
