@@ -1,30 +1,34 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-24",
+    "PUBLISHED_DATE": "2022-02-25",
     "coverage": "Mariposa"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 2325,
-        "new_cases": 3,
-        "new_cases_delta_1_day": 0.001292,
-        "cases_per_100k_7_days": 20.067434673,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-02-16",
+        "total_confirmed_cases": 2332,
+        "new_cases": 7,
+        "new_cases_delta_1_day": 0.003011,
+        "cases_per_100k_7_days": 19.263838157,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-02-17",
         "POPULATION": 17795,
-        "CASES_DAILY_AVERAGE": 3.7142857142857144
+        "CASES_DAILY_AVERAGE": 3.5714285714285716
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-23"
+          "MAXIMUM": "2022-02-24"
         },
         "VALUES": [
           {
-            "DATE": "2022-02-23",
+            "DATE": "2022-02-24",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-02-23",
+            "VALUE": 2
           },
           {
             "DATE": "2022-02-22",
@@ -32,7 +36,7 @@
           },
           {
             "DATE": "2022-02-21",
-            "VALUE": 0
+            "VALUE": 4
           },
           {
             "DATE": "2022-02-20",
@@ -892,7 +896,7 @@
           },
           {
             "DATE": "2021-07-21",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2021-07-20",
@@ -2927,9 +2931,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-23"
+          "MAXIMUM": "2022-02-24"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-24",
+            "VALUE": 7
+          },
           {
             "DATE": "2022-02-23",
             "VALUE": 3
@@ -5835,20 +5843,24 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-23"
+          "MAXIMUM": "2022-02-24"
         },
         "VALUES": [
           {
+            "DATE": "2022-02-24",
+            "VALUE": 10.435515594
+          },
+          {
             "DATE": "2022-02-23",
-            "VALUE": 7.221129531
+            "VALUE": 12.03708907
           },
           {
             "DATE": "2022-02-22",
-            "VALUE": 8.024726047
+            "VALUE": 11.23911211
           },
           {
             "DATE": "2022-02-21",
-            "VALUE": 11.23911211
+            "VALUE": 14.447878618
           },
           {
             "DATE": "2022-02-20",
@@ -6684,31 +6696,31 @@
           },
           {
             "DATE": "2021-07-27",
-            "VALUE": 15.251475133
+            "VALUE": 16.055071649
           },
           {
             "DATE": "2021-07-26",
-            "VALUE": 19.263838157
+            "VALUE": 20.067434673
           },
           {
             "DATE": "2021-07-25",
-            "VALUE": 17.656645125
+            "VALUE": 18.460241641
           },
           {
             "DATE": "2021-07-24",
-            "VALUE": 17.656645125
+            "VALUE": 18.460241641
           },
           {
             "DATE": "2021-07-23",
-            "VALUE": 15.251475133
+            "VALUE": 16.055071649
           },
           {
             "DATE": "2021-07-22",
-            "VALUE": 9.631919078
+            "VALUE": 10.435515594
           },
           {
             "DATE": "2021-07-21",
-            "VALUE": 8.024726047
+            "VALUE": 8.828322563
           },
           {
             "DATE": "2021-07-20",
@@ -8743,9 +8755,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-23"
+          "MAXIMUM": "2022-02-24"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-24",
+            "VALUE": 17.656645125
+          },
           {
             "DATE": "2022-02-23",
             "VALUE": 16.055071649
