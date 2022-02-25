@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-24",
+    "PUBLISHED_DATE": "2022-02-25",
     "coverage": "Tehama"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 154,
-        "new_deaths": 2,
-        "new_deaths_delta_1_day": 0.013158,
+        "total_confirmed_deaths": 158,
+        "new_deaths": 4,
+        "new_deaths_delta_1_day": 0.025974,
         "deaths_per_100k_7_days": 0.215527055,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-02-02",
+        "DEATH_UNCERTAINTY_PERIOD": "2022-02-03",
         "POPULATION": 65885,
-        "DEATHS_DAILY_AVERAGE": 0.2857142857142857
+        "DEATHS_DAILY_AVERAGE": 0.14285714285714285
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-23"
+          "MAXIMUM": "2022-02-24"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-24",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-23",
             "VALUE": 0
@@ -32,11 +36,11 @@
           },
           {
             "DATE": "2022-02-21",
-            "VALUE": 0
+            "VALUE": 2
           },
           {
             "DATE": "2022-02-20",
-            "VALUE": 0
+            "VALUE": 2
           },
           {
             "DATE": "2022-02-19",
@@ -2927,9 +2931,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-23"
+          "MAXIMUM": "2022-02-24"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-24",
+            "VALUE": 4
+          },
           {
             "DATE": "2022-02-23",
             "VALUE": 2
@@ -5835,24 +5843,28 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-23"
+          "MAXIMUM": "2022-02-24"
         },
         "VALUES": [
           {
+            "DATE": "2022-02-24",
+            "VALUE": 0.866661607
+          },
+          {
             "DATE": "2022-02-23",
-            "VALUE": 0.215527055
+            "VALUE": 1.083706458
           },
           {
             "DATE": "2022-02-22",
-            "VALUE": 0.432571906
+            "VALUE": 1.300751309
           },
           {
             "DATE": "2022-02-21",
-            "VALUE": 0.432571906
+            "VALUE": 1.300751309
           },
           {
             "DATE": "2022-02-20",
-            "VALUE": 0.432571906
+            "VALUE": 0.866661607
           },
           {
             "DATE": "2022-02-19",
@@ -8743,9 +8755,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-23"
+          "MAXIMUM": "2022-02-24"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-24",
+            "VALUE": 1.300751309
+          },
           {
             "DATE": "2022-02-23",
             "VALUE": 0.432571906
