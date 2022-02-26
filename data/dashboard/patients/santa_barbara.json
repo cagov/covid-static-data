@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-25",
+    "PUBLISHED_DATE": "2022-02-26",
     "coverage": "Santa Barbara"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 50,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.06383,
+        "TOTAL": 49,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.02,
         "POPULATION": 456373
       },
       "ICU_PATIENTS": {
-        "TOTAL": 11,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 12,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.090909,
         "POPULATION": 456373
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-24"
+          "MAXIMUM": "2022-02-25"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-25",
+            "VALUE": 49
+          },
           {
             "DATE": "2022-02-24",
             "VALUE": 50
@@ -2818,9 +2822,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-24"
+          "MAXIMUM": "2022-02-25"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-25",
+            "VALUE": 12
+          },
           {
             "DATE": "2022-02-24",
             "VALUE": 11
@@ -5614,9 +5622,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-24"
+          "MAXIMUM": "2022-02-25"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-25",
+            "VALUE": 62.142
+          },
           {
             "DATE": "2022-02-24",
             "VALUE": 64.142
@@ -8410,9 +8422,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-02-24"
+          "MAXIMUM": "2022-02-25"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-25",
+            "VALUE": 11.857
+          },
           {
             "DATE": "2022-02-24",
             "VALUE": 12.214
