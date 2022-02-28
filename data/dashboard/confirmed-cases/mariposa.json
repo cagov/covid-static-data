@@ -1,46 +1,58 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-25",
+    "PUBLISHED_DATE": "2022-02-28",
     "coverage": "Mariposa"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 2332,
-        "new_cases": 7,
-        "new_cases_delta_1_day": 0.003011,
-        "cases_per_100k_7_days": 19.263838157,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-02-17",
+        "total_confirmed_cases": 2352,
+        "new_cases": 20,
+        "new_cases_delta_1_day": 0.008576,
+        "cases_per_100k_7_days": 18.460241641,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-02-20",
         "POPULATION": 17795,
-        "CASES_DAILY_AVERAGE": 3.5714285714285716
+        "CASES_DAILY_AVERAGE": 2.857142857142857
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-24"
+          "MAXIMUM": "2022-02-27"
         },
         "VALUES": [
           {
-            "DATE": "2022-02-24",
+            "DATE": "2022-02-27",
             "VALUE": 0
           },
           {
-            "DATE": "2022-02-23",
-            "VALUE": 2
+            "DATE": "2022-02-26",
+            "VALUE": 0
           },
           {
-            "DATE": "2022-02-22",
-            "VALUE": 2
+            "DATE": "2022-02-25",
+            "VALUE": 6
           },
           {
-            "DATE": "2022-02-21",
+            "DATE": "2022-02-24",
             "VALUE": 4
           },
           {
+            "DATE": "2022-02-23",
+            "VALUE": 6
+          },
+          {
+            "DATE": "2022-02-22",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2022-02-21",
+            "VALUE": 5
+          },
+          {
             "DATE": "2022-02-20",
-            "VALUE": 1
+            "VALUE": 3
           },
           {
             "DATE": "2022-02-19",
@@ -48,7 +60,7 @@
           },
           {
             "DATE": "2022-02-18",
-            "VALUE": 2
+            "VALUE": 3
           },
           {
             "DATE": "2022-02-17",
@@ -140,7 +152,7 @@
           },
           {
             "DATE": "2022-01-26",
-            "VALUE": 11
+            "VALUE": 12
           },
           {
             "DATE": "2022-01-25",
@@ -2931,9 +2943,21 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-24"
+          "MAXIMUM": "2022-02-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-27",
+            "VALUE": 20
+          },
+          {
+            "DATE": "2022-02-26",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-02-25",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-24",
             "VALUE": 7
@@ -5843,36 +5867,48 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-24"
+          "MAXIMUM": "2022-02-27"
         },
         "VALUES": [
           {
+            "DATE": "2022-02-27",
+            "VALUE": 19.263838157
+          },
+          {
+            "DATE": "2022-02-26",
+            "VALUE": 21.674627704
+          },
+          {
+            "DATE": "2022-02-25",
+            "VALUE": 23.27620118
+          },
+          {
             "DATE": "2022-02-24",
-            "VALUE": 10.435515594
+            "VALUE": 20.871031189
           },
           {
             "DATE": "2022-02-23",
-            "VALUE": 12.03708907
+            "VALUE": 19.263838157
           },
           {
             "DATE": "2022-02-22",
-            "VALUE": 11.23911211
-          },
-          {
-            "DATE": "2022-02-21",
-            "VALUE": 14.447878618
-          },
-          {
-            "DATE": "2022-02-20",
-            "VALUE": 16.055071649
-          },
-          {
-            "DATE": "2022-02-19",
             "VALUE": 15.251475133
           },
           {
-            "DATE": "2022-02-18",
+            "DATE": "2022-02-21",
             "VALUE": 17.656645125
+          },
+          {
+            "DATE": "2022-02-20",
+            "VALUE": 18.460241641
+          },
+          {
+            "DATE": "2022-02-19",
+            "VALUE": 16.055071649
+          },
+          {
+            "DATE": "2022-02-18",
+            "VALUE": 18.460241641
           },
           {
             "DATE": "2022-02-17",
@@ -5940,31 +5976,31 @@
           },
           {
             "DATE": "2022-02-01",
-            "VALUE": 68.232649621
+            "VALUE": 69.036246137
           },
           {
             "DATE": "2022-01-31",
-            "VALUE": 80.275358247
+            "VALUE": 81.078954763
           },
           {
             "DATE": "2022-01-30",
-            "VALUE": 82.686147794
+            "VALUE": 83.48974431
           },
           {
             "DATE": "2022-01-29",
-            "VALUE": 84.293340826
+            "VALUE": 85.091317786
           },
           {
             "DATE": "2022-01-28",
-            "VALUE": 85.894914302
+            "VALUE": 86.698510818
           },
           {
             "DATE": "2022-01-27",
-            "VALUE": 89.912896881
+            "VALUE": 90.710873841
           },
           {
             "DATE": "2022-01-26",
-            "VALUE": 97.134026412
+            "VALUE": 97.937622928
           },
           {
             "DATE": "2022-01-25",
@@ -8755,9 +8791,21 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-24"
+          "MAXIMUM": "2022-02-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-27",
+            "VALUE": 33.71733633
+          },
+          {
+            "DATE": "2022-02-26",
+            "VALUE": 17.656645125
+          },
+          {
+            "DATE": "2022-02-25",
+            "VALUE": 17.656645125
+          },
           {
             "DATE": "2022-02-24",
             "VALUE": 17.656645125
