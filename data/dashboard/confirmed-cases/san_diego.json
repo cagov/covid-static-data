@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-02-28",
+    "PUBLISHED_DATE": "2022-03-01",
     "coverage": "San Diego"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
         "total_confirmed_cases": 737760,
-        "new_cases": 1711,
-        "new_cases_delta_1_day": 0.002325,
-        "cases_per_100k_7_days": 20.946956728,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-02-20",
+        "new_cases": 0,
+        "new_cases_delta_1_day": 0,
+        "cases_per_100k_7_days": 18.2215381,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-02-21",
         "POPULATION": 3370418,
-        "CASES_DAILY_AVERAGE": 732.5714285714286
+        "CASES_DAILY_AVERAGE": 706
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-27"
+          "MAXIMUM": "2022-02-28"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-28",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-27",
             "VALUE": 0
@@ -268,11 +272,11 @@
           },
           {
             "DATE": "2021-12-28",
-            "VALUE": 9844
+            "VALUE": 9843
           },
           {
             "DATE": "2021-12-27",
-            "VALUE": 8810
+            "VALUE": 8811
           },
           {
             "DATE": "2021-12-26",
@@ -2943,9 +2947,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-27"
+          "MAXIMUM": "2022-02-28"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-28",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-27",
             "VALUE": 1711
@@ -5867,9 +5875,13 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-27"
+          "MAXIMUM": "2022-02-28"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-28",
+            "VALUE": 4.306350132
+          },
           {
             "DATE": "2022-02-27",
             "VALUE": 6.357816746
@@ -6092,7 +6104,7 @@
           },
           {
             "DATE": "2022-01-03",
-            "VALUE": 253.673490944
+            "VALUE": 253.669248147
           },
           {
             "DATE": "2022-01-02",
@@ -6120,7 +6132,7 @@
           },
           {
             "DATE": "2021-12-27",
-            "VALUE": 113.673882587
+            "VALUE": 113.678125384
           },
           {
             "DATE": "2021-12-26",
@@ -8791,9 +8803,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-27"
+          "MAXIMUM": "2022-02-28"
         },
         "VALUES": [
+          {
+            "DATE": "2022-02-28",
+            "VALUE": 23.15098602
+          },
           {
             "DATE": "2022-02-27",
             "VALUE": 34.802804875
