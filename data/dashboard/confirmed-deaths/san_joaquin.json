@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-01",
+    "PUBLISHED_DATE": "2022-03-02",
     "coverage": "San Joaquin"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 2060,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
-        "deaths_per_100k_7_days": 0.291995987,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-02-07",
+        "total_confirmed_deaths": 2062,
+        "new_deaths": 2,
+        "new_deaths_delta_1_day": 0.000971,
+        "deaths_per_100k_7_days": 0.273722278,
+        "DEATH_UNCERTAINTY_PERIOD": "2022-02-08",
         "POPULATION": 782545,
-        "DEATHS_DAILY_AVERAGE": 2.4285714285714284
+        "DEATHS_DAILY_AVERAGE": 2.5714285714285716
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-28"
+          "MAXIMUM": "2022-03-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-01",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-28",
             "VALUE": 0
@@ -128,7 +132,7 @@
           },
           {
             "DATE": "2022-02-02",
-            "VALUE": 1
+            "VALUE": 3
           },
           {
             "DATE": "2022-02-01",
@@ -2947,9 +2951,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-28"
+          "MAXIMUM": "2022-03-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-01",
+            "VALUE": 2
+          },
           {
             "DATE": "2022-02-28",
             "VALUE": 0
@@ -5875,9 +5883,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-28"
+          "MAXIMUM": "2022-03-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-01",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-28",
             "VALUE": 0
@@ -5960,31 +5972,31 @@
           },
           {
             "DATE": "2022-02-08",
-            "VALUE": 0.237302647
+            "VALUE": 0.273722278
           },
           {
             "DATE": "2022-02-07",
-            "VALUE": 0.291995987
+            "VALUE": 0.328543406
           },
           {
             "DATE": "2022-02-06",
-            "VALUE": 0.310269697
+            "VALUE": 0.346817116
           },
           {
             "DATE": "2022-02-05",
-            "VALUE": 0.310269697
+            "VALUE": 0.346817116
           },
           {
             "DATE": "2022-02-04",
-            "VALUE": 0.383364535
+            "VALUE": 0.419784166
           },
           {
             "DATE": "2022-02-03",
-            "VALUE": 0.383364535
+            "VALUE": 0.419784166
           },
           {
             "DATE": "2022-02-02",
-            "VALUE": 0.346817116
+            "VALUE": 0.383364535
           },
           {
             "DATE": "2022-02-01",
@@ -8803,9 +8815,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-28"
+          "MAXIMUM": "2022-03-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-01",
+            "VALUE": 0.401510456
+          },
           {
             "DATE": "2022-02-28",
             "VALUE": 0.365090825

@@ -1,16 +1,16 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-01",
+    "PUBLISHED_DATE": "2022-03-02",
     "coverage": "Sierra"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 4,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
+        "total_confirmed_deaths": 5,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.25,
         "deaths_per_100k_7_days": 0,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-02-07",
+        "DEATH_UNCERTAINTY_PERIOD": "2022-02-08",
         "POPULATION": 3115,
         "DEATHS_DAILY_AVERAGE": 0
       }
@@ -19,9 +19,13 @@
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-28"
+          "MAXIMUM": "2022-03-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-01",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-28",
             "VALUE": 0
@@ -552,7 +556,7 @@
           },
           {
             "DATE": "2021-10-19",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2021-10-18",
@@ -2947,9 +2951,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-28"
+          "MAXIMUM": "2022-03-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-01",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-02-28",
             "VALUE": 0
@@ -5875,9 +5883,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-28"
+          "MAXIMUM": "2022-03-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-01",
+            "VALUE": 4.55858748
+          },
           {
             "DATE": "2022-02-28",
             "VALUE": 4.55858748
@@ -6384,31 +6396,31 @@
           },
           {
             "DATE": "2021-10-25",
-            "VALUE": 0
+            "VALUE": 4.55858748
           },
           {
             "DATE": "2021-10-24",
-            "VALUE": 0
+            "VALUE": 4.55858748
           },
           {
             "DATE": "2021-10-23",
-            "VALUE": 0
+            "VALUE": 4.55858748
           },
           {
             "DATE": "2021-10-22",
-            "VALUE": 0
+            "VALUE": 4.55858748
           },
           {
             "DATE": "2021-10-21",
-            "VALUE": 0
+            "VALUE": 4.55858748
           },
           {
             "DATE": "2021-10-20",
-            "VALUE": 0
+            "VALUE": 4.55858748
           },
           {
             "DATE": "2021-10-19",
-            "VALUE": 0
+            "VALUE": 4.55858748
           },
           {
             "DATE": "2021-10-18",
@@ -8803,9 +8815,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-28"
+          "MAXIMUM": "2022-03-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-01",
+            "VALUE": 22.921348315
+          },
           {
             "DATE": "2022-02-28",
             "VALUE": 18.330658106
