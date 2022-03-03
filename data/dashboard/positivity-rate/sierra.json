@@ -1,6 +1,6 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-02",
+    "PUBLISHED_DATE": "2022-03-03",
     "coverage": "Sierra"
   },
   "data": {
@@ -8,7 +8,7 @@
       "POSITIVITY_RATE": {
         "test_positivity_7_days": 0,
         "test_positivity_7_days_delta_7_days": -0.095238,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-02-21",
+        "TESTING_UNCERTAINTY_PERIOD": "2022-02-22",
         "POPULATION": 3115
       }
     },
@@ -16,9 +16,13 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-28"
+          "MAXIMUM": "2022-03-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-01",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-28",
             "VALUE": 0
@@ -2944,9 +2948,13 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-28"
+          "MAXIMUM": "2022-03-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-01",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-02-28",
             "VALUE": 0
@@ -5872,16 +5880,20 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-02-28"
+          "MAXIMUM": "2022-03-01"
         },
         "VALUES": [
           {
-            "DATE": "2022-02-28",
+            "DATE": "2022-03-01",
             "VALUE": 0
           },
           {
+            "DATE": "2022-02-28",
+            "VALUE": 2
+          },
+          {
             "DATE": "2022-02-27",
-            "VALUE": 3
+            "VALUE": 4
           },
           {
             "DATE": "2022-02-26",
@@ -5889,7 +5901,7 @@
           },
           {
             "DATE": "2022-02-25",
-            "VALUE": 4
+            "VALUE": 5
           },
           {
             "DATE": "2022-02-24",
