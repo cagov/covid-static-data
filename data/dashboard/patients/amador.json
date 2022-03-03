@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-02",
+    "PUBLISHED_DATE": "2022-03-03",
     "coverage": "Amador"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 9,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 7,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.222222,
         "POPULATION": 38531
       },
       "ICU_PATIENTS": {
         "TOTAL": 1,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.5,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 38531
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-01"
+          "MAXIMUM": "2022-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-02",
+            "VALUE": 7
+          },
           {
             "DATE": "2022-03-01",
             "VALUE": 9
@@ -2838,9 +2842,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-01"
+          "MAXIMUM": "2022-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-02",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-03-01",
             "VALUE": 1
@@ -5654,9 +5662,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-01"
+          "MAXIMUM": "2022-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-02",
+            "VALUE": 9.142
+          },
           {
             "DATE": "2022-03-01",
             "VALUE": 9.285
@@ -8470,9 +8482,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-01"
+          "MAXIMUM": "2022-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-02",
+            "VALUE": 2.214
+          },
           {
             "DATE": "2022-03-01",
             "VALUE": 2.357
