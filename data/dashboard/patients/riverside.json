@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-02",
+    "PUBLISHED_DATE": "2022-03-03",
     "coverage": "Riverside"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 209,
-        "CHANGE": -11,
-        "CHANGE_FACTOR": -0.05,
+        "TOTAL": 194,
+        "CHANGE": -17,
+        "CHANGE_FACTOR": -0.080569,
         "POPULATION": 2468145
       },
       "ICU_PATIENTS": {
-        "TOTAL": 33,
+        "TOTAL": 31,
         "CHANGE": -2,
-        "CHANGE_FACTOR": -0.057143,
+        "CHANGE_FACTOR": -0.060606,
         "POPULATION": 2468145
       }
     },
@@ -22,12 +22,16 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-01"
+          "MAXIMUM": "2022-03-02"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-02",
+            "VALUE": 194
+          },
+          {
             "DATE": "2022-03-01",
-            "VALUE": 209
+            "VALUE": 211
           },
           {
             "DATE": "2022-02-28",
@@ -2838,9 +2842,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-01"
+          "MAXIMUM": "2022-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-02",
+            "VALUE": 31
+          },
           {
             "DATE": "2022-03-01",
             "VALUE": 33
@@ -5654,12 +5662,16 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-01"
+          "MAXIMUM": "2022-03-02"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-02",
+            "VALUE": 292.571
+          },
+          {
             "DATE": "2022-03-01",
-            "VALUE": 309.428
+            "VALUE": 309.571
           },
           {
             "DATE": "2022-02-28",
@@ -8470,9 +8482,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-01"
+          "MAXIMUM": "2022-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-02",
+            "VALUE": 54.285
+          },
           {
             "DATE": "2022-03-01",
             "VALUE": 58.642
