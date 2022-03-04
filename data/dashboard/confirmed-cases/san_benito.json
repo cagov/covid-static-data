@@ -1,38 +1,42 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-03",
+    "PUBLISHED_DATE": "2022-03-04",
     "coverage": "San Benito"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 12814,
-        "new_cases": 8,
-        "new_cases_delta_1_day": 0.000625,
-        "cases_per_100k_7_days": 18.965355659,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-02-23",
+        "total_confirmed_cases": 12820,
+        "new_cases": 6,
+        "new_cases_delta_1_day": 0.000468,
+        "cases_per_100k_7_days": 14.726187873,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-02-24",
         "POPULATION": 64022,
-        "CASES_DAILY_AVERAGE": 13.285714285714286
+        "CASES_DAILY_AVERAGE": 12.142857142857142
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-02"
+          "MAXIMUM": "2022-03-03"
         },
         "VALUES": [
           {
-            "DATE": "2022-03-02",
+            "DATE": "2022-03-03",
             "VALUE": 0
           },
           {
+            "DATE": "2022-03-02",
+            "VALUE": 2
+          },
+          {
             "DATE": "2022-03-01",
-            "VALUE": 1
+            "VALUE": 3
           },
           {
             "DATE": "2022-02-28",
-            "VALUE": 6
+            "VALUE": 7
           },
           {
             "DATE": "2022-02-27",
@@ -256,7 +260,7 @@
           },
           {
             "DATE": "2022-01-03",
-            "VALUE": 181
+            "VALUE": 182
           },
           {
             "DATE": "2022-01-02",
@@ -2955,9 +2959,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-02"
+          "MAXIMUM": "2022-03-03"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-03",
+            "VALUE": 6
+          },
           {
             "DATE": "2022-03-02",
             "VALUE": 8
@@ -5891,20 +5899,24 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-02"
+          "MAXIMUM": "2022-03-03"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-03",
+            "VALUE": 6.469651057
+          },
+          {
             "DATE": "2022-03-02",
-            "VALUE": 6.916372497
+            "VALUE": 8.031614133
           },
           {
             "DATE": "2022-03-01",
-            "VALUE": 9.371778451
+            "VALUE": 10.040298647
           },
           {
             "DATE": "2022-02-28",
-            "VALUE": 12.048983162
+            "VALUE": 12.272343882
           },
           {
             "DATE": "2022-02-27",
@@ -6104,31 +6116,31 @@
           },
           {
             "DATE": "2022-01-09",
-            "VALUE": 231.839055325
+            "VALUE": 232.062416044
           },
           {
             "DATE": "2022-01-08",
-            "VALUE": 216.442785293
+            "VALUE": 216.666146012
           },
           {
             "DATE": "2022-01-07",
-            "VALUE": 209.303052076
+            "VALUE": 209.524850833
           },
           {
             "DATE": "2022-01-06",
-            "VALUE": 196.583986755
+            "VALUE": 196.807347474
           },
           {
             "DATE": "2022-01-05",
-            "VALUE": 185.650245228
+            "VALUE": 185.873605948
           },
           {
             "DATE": "2022-01-04",
-            "VALUE": 174.939864422
+            "VALUE": 175.161663178
           },
           {
             "DATE": "2022-01-03",
-            "VALUE": 165.121364531
+            "VALUE": 165.344725251
           },
           {
             "DATE": "2022-01-02",
@@ -8827,9 +8839,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-02"
+          "MAXIMUM": "2022-03-03"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-03",
+            "VALUE": 11.155540283
+          },
           {
             "DATE": "2022-03-02",
             "VALUE": 12.940864078
