@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-03",
+    "PUBLISHED_DATE": "2022-03-04",
     "coverage": "Plumas"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.082143,
-        "test_positivity_7_days_delta_7_days": 0.01889,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-02-22",
+        "test_positivity_7_days": 0.055944,
+        "test_positivity_7_days_delta_7_days": -0.023324,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-02-23",
         "POPULATION": 18997
       }
     },
@@ -16,20 +16,24 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-01"
+          "MAXIMUM": "2022-03-02"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-02",
+            "VALUE": 0.055944
+          },
+          {
             "DATE": "2022-03-01",
-            "VALUE": 0.082143
+            "VALUE": 0.07571
           },
           {
             "DATE": "2022-02-28",
-            "VALUE": 0.086957
+            "VALUE": 0.08046
           },
           {
             "DATE": "2022-02-27",
-            "VALUE": 0.071429
+            "VALUE": 0.071207
           },
           {
             "DATE": "2022-02-26",
@@ -2948,16 +2952,20 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-01"
+          "MAXIMUM": "2022-03-02"
         },
         "VALUES": [
           {
-            "DATE": "2022-03-01",
+            "DATE": "2022-03-02",
             "VALUE": 0
           },
           {
+            "DATE": "2022-03-01",
+            "VALUE": 0.023256
+          },
+          {
             "DATE": "2022-02-28",
-            "VALUE": 0.132075
+            "VALUE": 0.089744
           },
           {
             "DATE": "2022-02-27",
@@ -5880,20 +5888,24 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-01"
+          "MAXIMUM": "2022-03-02"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-02",
+            "VALUE": 23
+          },
+          {
             "DATE": "2022-03-01",
-            "VALUE": 32
+            "VALUE": 43
           },
           {
             "DATE": "2022-02-28",
-            "VALUE": 53
+            "VALUE": 78
           },
           {
             "DATE": "2022-02-27",
-            "VALUE": 9
+            "VALUE": 10
           },
           {
             "DATE": "2022-02-26",
