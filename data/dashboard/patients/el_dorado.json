@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-05",
+    "PUBLISHED_DATE": "2022-03-06",
     "coverage": "El Dorado"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 6,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.25,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 193098
       },
       "ICU_PATIENTS": {
-        "TOTAL": 3,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.4,
+        "TOTAL": 2,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.333333,
         "POPULATION": 193098
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-04"
+          "MAXIMUM": "2022-03-05"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-05",
+            "VALUE": 6
+          },
           {
             "DATE": "2022-03-04",
             "VALUE": 6
@@ -2850,9 +2854,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-04"
+          "MAXIMUM": "2022-03-05"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-05",
+            "VALUE": 2
+          },
           {
             "DATE": "2022-03-04",
             "VALUE": 3
@@ -5678,9 +5686,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-04"
+          "MAXIMUM": "2022-03-05"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-05",
+            "VALUE": 9.142
+          },
           {
             "DATE": "2022-03-04",
             "VALUE": 9.428
@@ -8506,9 +8518,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-04"
+          "MAXIMUM": "2022-03-05"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-05",
+            "VALUE": 4.571
+          },
           {
             "DATE": "2022-03-04",
             "VALUE": 4.642
