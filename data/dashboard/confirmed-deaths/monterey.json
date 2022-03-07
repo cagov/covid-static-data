@@ -1,27 +1,39 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-04",
+    "PUBLISHED_DATE": "2022-03-07",
     "coverage": "Monterey"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 704,
-        "new_deaths": 1,
-        "new_deaths_delta_1_day": 0.001422,
+        "total_confirmed_deaths": 706,
+        "new_deaths": 2,
+        "new_deaths_delta_1_day": 0.002841,
         "deaths_per_100k_7_days": 0.413832755,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-02-10",
+        "DEATH_UNCERTAINTY_PERIOD": "2022-02-13",
         "POPULATION": 448732,
-        "DEATHS_DAILY_AVERAGE": 1.4285714285714286
+        "DEATHS_DAILY_AVERAGE": 1.5714285714285714
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-03"
+          "MAXIMUM": "2022-03-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-06",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-03-05",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-03-04",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-03",
             "VALUE": 0
@@ -36,11 +48,11 @@
           },
           {
             "DATE": "2022-02-28",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-02-27",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-02-26",
@@ -2959,9 +2971,21 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-03"
+          "MAXIMUM": "2022-03-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-06",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2022-03-05",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-03-04",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-03",
             "VALUE": 1
@@ -5899,28 +5923,40 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-03"
+          "MAXIMUM": "2022-03-06"
         },
         "VALUES": [
           {
-            "DATE": "2022-03-03",
+            "DATE": "2022-03-06",
+            "VALUE": 0.031644723
+          },
+          {
+            "DATE": "2022-03-05",
             "VALUE": 0.063512297
+          },
+          {
+            "DATE": "2022-03-04",
+            "VALUE": 0.063512297
+          },
+          {
+            "DATE": "2022-03-03",
+            "VALUE": 0.127247444
           },
           {
             "DATE": "2022-03-02",
-            "VALUE": 0.063512297
+            "VALUE": 0.127247444
           },
           {
             "DATE": "2022-03-01",
-            "VALUE": 0.09537987
+            "VALUE": 0.159115017
           },
           {
             "DATE": "2022-02-28",
-            "VALUE": 0.127247444
+            "VALUE": 0.190982591
           },
           {
             "DATE": "2022-02-27",
-            "VALUE": 0.127247444
+            "VALUE": 0.159115017
           },
           {
             "DATE": "2022-02-26",
@@ -8839,9 +8875,21 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-03"
+          "MAXIMUM": "2022-03-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-06",
+            "VALUE": 0.413832755
+          },
+          {
+            "DATE": "2022-03-05",
+            "VALUE": 0.381965182
+          },
+          {
+            "DATE": "2022-03-04",
+            "VALUE": 0.381965182
+          },
           {
             "DATE": "2022-03-03",
             "VALUE": 0.381965182
