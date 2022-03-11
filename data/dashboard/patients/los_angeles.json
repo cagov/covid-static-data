@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-10",
+    "PUBLISHED_DATE": "2022-03-11",
     "coverage": "Los Angeles"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 632,
-        "CHANGE": -34,
-        "CHANGE_FACTOR": -0.051051,
+        "TOTAL": 588,
+        "CHANGE": -45,
+        "CHANGE_FACTOR": -0.07109,
         "POPULATION": 10257557
       },
       "ICU_PATIENTS": {
-        "TOTAL": 113,
-        "CHANGE": -9,
-        "CHANGE_FACTOR": -0.07377,
+        "TOTAL": 108,
+        "CHANGE": -5,
+        "CHANGE_FACTOR": -0.044248,
         "POPULATION": 10257557
       }
     },
@@ -22,12 +22,16 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-09"
+          "MAXIMUM": "2022-03-10"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-10",
+            "VALUE": 588
+          },
+          {
             "DATE": "2022-03-09",
-            "VALUE": 632
+            "VALUE": 633
           },
           {
             "DATE": "2022-03-08",
@@ -2870,9 +2874,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-09"
+          "MAXIMUM": "2022-03-10"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-10",
+            "VALUE": 108
+          },
           {
             "DATE": "2022-03-09",
             "VALUE": 113
@@ -5718,12 +5726,16 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-09"
+          "MAXIMUM": "2022-03-10"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-10",
+            "VALUE": 809.714
+          },
+          {
             "DATE": "2022-03-09",
-            "VALUE": 846.571
+            "VALUE": 846.642
           },
           {
             "DATE": "2022-03-08",
@@ -8566,9 +8578,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-09"
+          "MAXIMUM": "2022-03-10"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-10",
+            "VALUE": 147.428
+          },
           {
             "DATE": "2022-03-09",
             "VALUE": 156.142
