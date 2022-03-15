@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-14",
+    "PUBLISHED_DATE": "2022-03-15",
     "coverage": "Kern"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 56,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.056604,
+        "TOTAL": 54,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.035714,
         "POPULATION": 927251
       },
       "ICU_PATIENTS": {
-        "TOTAL": 13,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 12,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.076923,
         "POPULATION": 927251
       }
     },
@@ -22,16 +22,20 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-13"
+          "MAXIMUM": "2022-03-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-14",
+            "VALUE": 54
+          },
           {
             "DATE": "2022-03-13",
             "VALUE": 56
           },
           {
             "DATE": "2022-03-12",
-            "VALUE": 53
+            "VALUE": 60
           },
           {
             "DATE": "2022-03-11",
@@ -2886,9 +2890,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-13"
+          "MAXIMUM": "2022-03-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-14",
+            "VALUE": 12
+          },
           {
             "DATE": "2022-03-13",
             "VALUE": 13
@@ -5750,16 +5758,20 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-13"
+          "MAXIMUM": "2022-03-14"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-14",
+            "VALUE": 74.428
+          },
+          {
             "DATE": "2022-03-13",
-            "VALUE": 76.714
+            "VALUE": 77.214
           },
           {
             "DATE": "2022-03-12",
-            "VALUE": 79.785
+            "VALUE": 80.285
           },
           {
             "DATE": "2022-03-11",
@@ -8614,9 +8626,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-13"
+          "MAXIMUM": "2022-03-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-14",
+            "VALUE": 14.5
+          },
           {
             "DATE": "2022-03-13",
             "VALUE": 14.785
