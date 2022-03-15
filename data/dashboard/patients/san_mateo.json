@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-14",
+    "PUBLISHED_DATE": "2022-03-15",
     "coverage": "San Mateo"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 29,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 30,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.034483,
         "POPULATION": 778001
       },
       "ICU_PATIENTS": {
         "TOTAL": 3,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.5,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 778001
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-13"
+          "MAXIMUM": "2022-03-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-14",
+            "VALUE": 30
+          },
           {
             "DATE": "2022-03-13",
             "VALUE": 29
@@ -2886,16 +2890,20 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-13"
+          "MAXIMUM": "2022-03-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-14",
+            "VALUE": 3
+          },
           {
             "DATE": "2022-03-13",
             "VALUE": 3
           },
           {
             "DATE": "2022-03-12",
-            "VALUE": 6
+            "VALUE": 4
           },
           {
             "DATE": "2022-03-11",
@@ -5750,9 +5758,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-13"
+          "MAXIMUM": "2022-03-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-14",
+            "VALUE": 35.928
+          },
           {
             "DATE": "2022-03-13",
             "VALUE": 36.642
@@ -8614,16 +8626,20 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-13"
+          "MAXIMUM": "2022-03-14"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-14",
+            "VALUE": 4.214
+          },
+          {
             "DATE": "2022-03-13",
-            "VALUE": 4.642
+            "VALUE": 4.5
           },
           {
             "DATE": "2022-03-12",
-            "VALUE": 5
+            "VALUE": 4.857
           },
           {
             "DATE": "2022-03-11",

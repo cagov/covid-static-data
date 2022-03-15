@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-14",
+    "PUBLISHED_DATE": "2022-03-15",
     "coverage": "Calaveras"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 3,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 4,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.333333,
         "POPULATION": 44289
       }
     },
@@ -16,16 +16,20 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-13"
+          "MAXIMUM": "2022-03-14"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-14",
+            "VALUE": 4
+          },
+          {
             "DATE": "2022-03-13",
-            "VALUE": 3
+            "VALUE": 6
           },
           {
             "DATE": "2022-03-12",
-            "VALUE": 3
+            "VALUE": 6
           },
           {
             "DATE": "2022-03-11",
