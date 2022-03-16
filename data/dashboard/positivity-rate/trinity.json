@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-15",
+    "PUBLISHED_DATE": "2022-03-16",
     "coverage": "Trinity"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.013699,
-        "test_positivity_7_days_delta_7_days": -0.059028,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-03-06",
+        "test_positivity_7_days": 0.031746,
+        "test_positivity_7_days_delta_7_days": -0.03189,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-03-07",
         "POPULATION": 13354
       }
     },
@@ -16,20 +16,24 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-13"
+          "MAXIMUM": "2022-03-14"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-14",
+            "VALUE": 0.031746
+          },
+          {
             "DATE": "2022-03-13",
-            "VALUE": 0.013699
+            "VALUE": 0.025974
           },
           {
             "DATE": "2022-03-12",
-            "VALUE": 0.013158
+            "VALUE": 0.012821
           },
           {
             "DATE": "2022-03-11",
-            "VALUE": 0.0125
+            "VALUE": 0.012195
           },
           {
             "DATE": "2022-03-10",
@@ -2996,12 +3000,16 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-13"
+          "MAXIMUM": "2022-03-14"
         },
         "VALUES": [
           {
-            "DATE": "2022-03-13",
+            "DATE": "2022-03-14",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-03-13",
+            "VALUE": 0.25
           },
           {
             "DATE": "2022-03-12",
@@ -5976,12 +5984,16 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-13"
+          "MAXIMUM": "2022-03-14"
         },
         "VALUES": [
           {
-            "DATE": "2022-03-13",
+            "DATE": "2022-03-14",
             "VALUE": 2
+          },
+          {
+            "DATE": "2022-03-13",
+            "VALUE": 4
           },
           {
             "DATE": "2022-03-12",
@@ -5989,7 +6001,7 @@
           },
           {
             "DATE": "2022-03-11",
-            "VALUE": 7
+            "VALUE": 9
           },
           {
             "DATE": "2022-03-10",
