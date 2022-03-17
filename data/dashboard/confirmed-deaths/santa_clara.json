@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-16",
+    "PUBLISHED_DATE": "2022-03-17",
     "coverage": "Santa Clara"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
         "total_confirmed_deaths": 2224,
-        "new_deaths": 1,
-        "new_deaths_delta_1_day": 0.00045,
-        "deaths_per_100k_7_days": 0.116132213,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-02-22",
+        "new_deaths": 0,
+        "new_deaths_delta_1_day": 0,
+        "deaths_per_100k_7_days": 0.145203384,
+        "DEATH_UNCERTAINTY_PERIOD": "2022-02-23",
         "POPULATION": 1967585,
-        "DEATHS_DAILY_AVERAGE": 2.4285714285714284
+        "DEATHS_DAILY_AVERAGE": 2.2857142857142856
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-15"
+          "MAXIMUM": "2022-03-16"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-16",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-15",
             "VALUE": 0
@@ -36,7 +40,7 @@
           },
           {
             "DATE": "2022-03-12",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-03-11",
@@ -3007,9 +3011,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-15"
+          "MAXIMUM": "2022-03-16"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-16",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-15",
             "VALUE": 1
@@ -5995,24 +6003,28 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-15"
+          "MAXIMUM": "2022-03-16"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-16",
+            "VALUE": 0.014484762
+          },
+          {
             "DATE": "2022-03-15",
-            "VALUE": 0.007216969
+            "VALUE": 0.014484762
           },
           {
             "DATE": "2022-03-14",
-            "VALUE": 0.014484762
+            "VALUE": 0.021752555
           },
           {
             "DATE": "2022-03-13",
-            "VALUE": 0.014484762
+            "VALUE": 0.021752555
           },
           {
             "DATE": "2022-03-12",
-            "VALUE": 0.021752555
+            "VALUE": 0.029020347
           },
           {
             "DATE": "2022-03-11",
@@ -8983,9 +8995,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-15"
+          "MAXIMUM": "2022-03-16"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-16",
+            "VALUE": 0.130667798
+          },
           {
             "DATE": "2022-03-15",
             "VALUE": 0.130667798

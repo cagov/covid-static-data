@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-16",
+    "PUBLISHED_DATE": "2022-03-17",
     "coverage": "Trinity"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
         "total_confirmed_cases": 1173,
-        "new_cases": 1,
-        "new_cases_delta_1_day": 0.000853,
-        "cases_per_100k_7_days": 5.346712595,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-03-08",
+        "new_cases": 0,
+        "new_cases_delta_1_day": 0,
+        "cases_per_100k_7_days": 4.275872398,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-03-09",
         "POPULATION": 13354,
-        "CASES_DAILY_AVERAGE": 0.5714285714285714
+        "CASES_DAILY_AVERAGE": 0.7142857142857143
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-15"
+          "MAXIMUM": "2022-03-16"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-16",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-15",
             "VALUE": 0
@@ -3007,9 +3011,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-15"
+          "MAXIMUM": "2022-03-16"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-16",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-15",
             "VALUE": 1
@@ -5995,9 +6003,13 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-15"
+          "MAXIMUM": "2022-03-16"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-16",
+            "VALUE": 1.063351805
+          },
           {
             "DATE": "2022-03-15",
             "VALUE": 1.063351805
@@ -8983,9 +8995,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-15"
+          "MAXIMUM": "2022-03-16"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-16",
+            "VALUE": -1.063351805
+          },
           {
             "DATE": "2022-03-15",
             "VALUE": -1.063351805
