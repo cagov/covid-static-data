@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-19",
+    "PUBLISHED_DATE": "2022-03-20",
     "coverage": "Santa Cruz"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 10,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.090909,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 273999
       },
       "ICU_PATIENTS": {
-        "TOTAL": 2,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 3,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.5,
         "POPULATION": 273999
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-18"
+          "MAXIMUM": "2022-03-19"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-19",
+            "VALUE": 10
+          },
           {
             "DATE": "2022-03-18",
             "VALUE": 10
@@ -2906,9 +2910,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-18"
+          "MAXIMUM": "2022-03-19"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-19",
+            "VALUE": 3
+          },
           {
             "DATE": "2022-03-18",
             "VALUE": 2
@@ -5790,9 +5798,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-18"
+          "MAXIMUM": "2022-03-19"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-19",
+            "VALUE": 13.714
+          },
           {
             "DATE": "2022-03-18",
             "VALUE": 14.214
@@ -8674,9 +8686,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-18"
+          "MAXIMUM": "2022-03-19"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-19",
+            "VALUE": 3.642
+          },
           {
             "DATE": "2022-03-18",
             "VALUE": 3.857
