@@ -1,38 +1,42 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-21",
+    "PUBLISHED_DATE": "2022-03-22",
     "coverage": "El Dorado"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 26608,
-        "new_cases": -10,
-        "new_cases_delta_1_day": -0.000376,
-        "cases_per_100k_7_days": 3.698640069,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-03-13",
+        "total_confirmed_cases": 26610,
+        "new_cases": 2,
+        "new_cases_delta_1_day": 0.000075,
+        "cases_per_100k_7_days": 3.402935297,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-03-14",
         "POPULATION": 193098,
-        "CASES_DAILY_AVERAGE": 7.571428571428571
+        "CASES_DAILY_AVERAGE": 7.142857142857143
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-21",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-20",
             "VALUE": 0
           },
           {
             "DATE": "2022-03-19",
-            "VALUE": 0
+            "VALUE": 2
           },
           {
             "DATE": "2022-03-18",
-            "VALUE": 5
+            "VALUE": 6
           },
           {
             "DATE": "2022-03-17",
@@ -296,7 +300,7 @@
           },
           {
             "DATE": "2022-01-11",
-            "VALUE": 568
+            "VALUE": 567
           },
           {
             "DATE": "2022-01-10",
@@ -3027,9 +3031,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-21",
+            "VALUE": 2
+          },
           {
             "DATE": "2022-03-20",
             "VALUE": -10
@@ -6035,20 +6043,24 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-21",
+            "VALUE": 1.553615263
+          },
+          {
             "DATE": "2022-03-20",
-            "VALUE": 1.701208713
+            "VALUE": 1.923375695
           },
           {
             "DATE": "2022-03-19",
-            "VALUE": 1.997431356
+            "VALUE": 2.219080467
           },
           {
             "DATE": "2022-03-18",
-            "VALUE": 2.293136128
+            "VALUE": 2.367191789
           },
           {
             "DATE": "2022-03-17",
@@ -6288,31 +6300,31 @@
           },
           {
             "DATE": "2022-01-17",
-            "VALUE": 148.555137806
+            "VALUE": 148.481082145
           },
           {
             "DATE": "2022-01-16",
-            "VALUE": 154.695543196
+            "VALUE": 154.621487535
           },
           {
             "DATE": "2022-01-15",
-            "VALUE": 160.687837264
+            "VALUE": 160.613781603
           },
           {
             "DATE": "2022-01-14",
-            "VALUE": 161.131653357
+            "VALUE": 161.058115568
           },
           {
             "DATE": "2022-01-13",
-            "VALUE": 167.420170069
+            "VALUE": 167.346114408
           },
           {
             "DATE": "2022-01-12",
-            "VALUE": 172.155071518
+            "VALUE": 172.081015857
           },
           {
             "DATE": "2022-01-11",
-            "VALUE": 173.264870687
+            "VALUE": 173.190815027
           },
           {
             "DATE": "2022-01-10",
@@ -9043,9 +9055,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-21",
+            "VALUE": 2.959119204
+          },
           {
             "DATE": "2022-03-20",
             "VALUE": 3.328879636
