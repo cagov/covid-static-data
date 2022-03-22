@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-21",
+    "PUBLISHED_DATE": "2022-03-22",
     "coverage": "Solano"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 24,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.090909,
+        "TOTAL": 22,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.083333,
         "POPULATION": 444255
       },
       "ICU_PATIENTS": {
-        "TOTAL": 4,
+        "TOTAL": 5,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 0.333333,
+        "CHANGE_FACTOR": 0.25,
         "POPULATION": 444255
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-21",
+            "VALUE": 22
+          },
           {
             "DATE": "2022-03-20",
             "VALUE": 24
@@ -2914,9 +2918,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-21",
+            "VALUE": 5
+          },
           {
             "DATE": "2022-03-20",
             "VALUE": 4
@@ -5806,9 +5814,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-21",
+            "VALUE": 37.642
+          },
           {
             "DATE": "2022-03-20",
             "VALUE": 40.071
@@ -8698,9 +8710,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-21",
+            "VALUE": 6.571
+          },
           {
             "DATE": "2022-03-20",
             "VALUE": 6.928
