@@ -1,34 +1,38 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-21",
+    "PUBLISHED_DATE": "2022-03-22",
     "coverage": "Lassen"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 8938,
-        "new_cases": 13,
-        "new_cases_delta_1_day": 0.001457,
-        "cases_per_100k_7_days": 8.075835689,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-03-13",
+        "total_confirmed_cases": 8939,
+        "new_cases": 1,
+        "new_cases_delta_1_day": 0.000112,
+        "cases_per_100k_7_days": 2.374854482,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-03-14",
         "POPULATION": 30065,
-        "CASES_DAILY_AVERAGE": 3.5714285714285716
+        "CASES_DAILY_AVERAGE": 2.4285714285714284
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-21",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-20",
             "VALUE": 0
           },
           {
             "DATE": "2022-03-19",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-03-18",
@@ -3027,9 +3031,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-21",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-03-20",
             "VALUE": 13
@@ -6035,16 +6043,20 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
           {
-            "DATE": "2022-03-20",
+            "DATE": "2022-03-21",
             "VALUE": 2.850490604
           },
           {
-            "DATE": "2022-03-19",
+            "DATE": "2022-03-20",
             "VALUE": 3.326126725
+          },
+          {
+            "DATE": "2022-03-19",
+            "VALUE": 3.79843672
           },
           {
             "DATE": "2022-03-18",
@@ -9043,9 +9055,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-21",
+            "VALUE": 5.700981207
+          },
           {
             "DATE": "2022-03-20",
             "VALUE": 4.274072842
