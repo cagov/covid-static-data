@@ -1,38 +1,42 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-21",
+    "PUBLISHED_DATE": "2022-03-22",
     "coverage": "Monterey"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 78566,
-        "new_cases": 83,
-        "new_cases_delta_1_day": 0.001058,
-        "cases_per_100k_7_days": 5.18906608,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-03-13",
+        "total_confirmed_cases": 78572,
+        "new_cases": 6,
+        "new_cases_delta_1_day": 0.000076,
+        "cases_per_100k_7_days": 4.64798588,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-03-14",
         "POPULATION": 448732,
-        "CASES_DAILY_AVERAGE": 24.571428571428573
+        "CASES_DAILY_AVERAGE": 23.285714285714285
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
           {
-            "DATE": "2022-03-20",
+            "DATE": "2022-03-21",
             "VALUE": 0
           },
           {
+            "DATE": "2022-03-20",
+            "VALUE": 4
+          },
+          {
             "DATE": "2022-03-19",
-            "VALUE": 2
+            "VALUE": 3
           },
           {
             "DATE": "2022-03-18",
-            "VALUE": 10
+            "VALUE": 11
           },
           {
             "DATE": "2022-03-17",
@@ -3027,9 +3031,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-21",
+            "VALUE": 6
+          },
           {
             "DATE": "2022-03-20",
             "VALUE": 83
@@ -6035,20 +6043,24 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-21",
+            "VALUE": 2.323881515
+          },
+          {
             "DATE": "2022-03-20",
-            "VALUE": 2.960564435
+            "VALUE": 3.151547026
           },
           {
             "DATE": "2022-03-19",
-            "VALUE": 3.183414599
+            "VALUE": 3.247149746
           },
           {
             "DATE": "2022-03-18",
-            "VALUE": 3.533735058
+            "VALUE": 3.565602631
           },
           {
             "DATE": "2022-03-17",
@@ -9043,9 +9055,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-20"
+          "MAXIMUM": "2022-03-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-21",
+            "VALUE": 6.239804605
+          },
           {
             "DATE": "2022-03-20",
             "VALUE": 6.367052049
