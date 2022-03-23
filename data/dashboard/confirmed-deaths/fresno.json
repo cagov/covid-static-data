@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-22",
+    "PUBLISHED_DATE": "2022-03-23",
     "coverage": "Fresno"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 2707,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
-        "deaths_per_100k_7_days": 0.359804578,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-02-28",
+        "total_confirmed_deaths": 2708,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.000369,
+        "deaths_per_100k_7_days": 0.345951036,
+        "DEATH_UNCERTAINTY_PERIOD": "2022-03-01",
         "POPULATION": 1032227,
-        "DEATHS_DAILY_AVERAGE": 3.4285714285714284
+        "DEATHS_DAILY_AVERAGE": 3.7142857142857144
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-21"
+          "MAXIMUM": "2022-03-22"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-22",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-21",
             "VALUE": 0
@@ -36,7 +40,7 @@
           },
           {
             "DATE": "2022-03-18",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-03-17",
@@ -3031,9 +3035,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-21"
+          "MAXIMUM": "2022-03-22"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-22",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-03-21",
             "VALUE": 0
@@ -6043,24 +6051,28 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-21"
+          "MAXIMUM": "2022-03-22"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-22",
+            "VALUE": 0.013756664
+          },
+          {
             "DATE": "2022-03-21",
-            "VALUE": 0
+            "VALUE": 0.013756664
           },
           {
             "DATE": "2022-03-20",
-            "VALUE": 0
+            "VALUE": 0.013756664
           },
           {
             "DATE": "2022-03-19",
-            "VALUE": 0.013756664
+            "VALUE": 0.027610206
           },
           {
             "DATE": "2022-03-18",
-            "VALUE": 0.013756664
+            "VALUE": 0.027610206
           },
           {
             "DATE": "2022-03-17",
@@ -9055,9 +9067,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-21"
+          "MAXIMUM": "2022-03-22"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-22",
+            "VALUE": 0.262926662
+          },
           {
             "DATE": "2022-03-21",
             "VALUE": 0.345951036
