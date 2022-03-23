@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-22",
+    "PUBLISHED_DATE": "2022-03-23",
     "coverage": "San Francisco"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 835,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
-        "deaths_per_100k_7_days": 0.192092168,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-02-28",
+        "total_confirmed_deaths": 838,
+        "new_deaths": 3,
+        "new_deaths_delta_1_day": 0.003593,
+        "deaths_per_100k_7_days": 0.208118528,
+        "DEATH_UNCERTAINTY_PERIOD": "2022-03-01",
         "POPULATION": 892280,
-        "DEATHS_DAILY_AVERAGE": 1.5714285714285714
+        "DEATHS_DAILY_AVERAGE": 2
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-21"
+          "MAXIMUM": "2022-03-22"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-22",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-21",
             "VALUE": 0
@@ -108,7 +112,7 @@
           },
           {
             "DATE": "2022-02-28",
-            "VALUE": 2
+            "VALUE": 3
           },
           {
             "DATE": "2022-02-27",
@@ -132,7 +136,7 @@
           },
           {
             "DATE": "2022-02-22",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2022-02-21",
@@ -176,7 +180,7 @@
           },
           {
             "DATE": "2022-02-11",
-            "VALUE": 5
+            "VALUE": 6
           },
           {
             "DATE": "2022-02-10",
@@ -3031,9 +3035,13 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-21"
+          "MAXIMUM": "2022-03-22"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-22",
+            "VALUE": 3
+          },
           {
             "DATE": "2022-03-21",
             "VALUE": 0
@@ -6043,9 +6051,13 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-21"
+          "MAXIMUM": "2022-03-22"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-22",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-21",
             "VALUE": 0
@@ -6108,55 +6120,55 @@
           },
           {
             "DATE": "2022-03-06",
-            "VALUE": 0.096046084
+            "VALUE": 0.112072444
           },
           {
             "DATE": "2022-03-05",
-            "VALUE": 0.096046084
+            "VALUE": 0.112072444
           },
           {
             "DATE": "2022-03-04",
-            "VALUE": 0.127986731
+            "VALUE": 0.14401309
           },
           {
             "DATE": "2022-03-03",
-            "VALUE": 0.127986731
+            "VALUE": 0.14401309
           },
           {
             "DATE": "2022-03-02",
-            "VALUE": 0.14401309
+            "VALUE": 0.16003945
           },
           {
             "DATE": "2022-03-01",
-            "VALUE": 0.192092168
-          },
-          {
-            "DATE": "2022-02-28",
-            "VALUE": 0.192092168
-          },
-          {
-            "DATE": "2022-02-27",
-            "VALUE": 0.176065809
-          },
-          {
-            "DATE": "2022-02-26",
-            "VALUE": 0.240059174
-          },
-          {
-            "DATE": "2022-02-25",
             "VALUE": 0.208118528
           },
           {
-            "DATE": "2022-02-24",
+            "DATE": "2022-02-28",
+            "VALUE": 0.224144887
+          },
+          {
+            "DATE": "2022-02-27",
             "VALUE": 0.192092168
+          },
+          {
+            "DATE": "2022-02-26",
+            "VALUE": 0.256085534
+          },
+          {
+            "DATE": "2022-02-25",
+            "VALUE": 0.224144887
+          },
+          {
+            "DATE": "2022-02-24",
+            "VALUE": 0.208118528
           },
           {
             "DATE": "2022-02-23",
-            "VALUE": 0.192092168
+            "VALUE": 0.208118528
           },
           {
             "DATE": "2022-02-22",
-            "VALUE": 0.14401309
+            "VALUE": 0.16003945
           },
           {
             "DATE": "2022-02-21",
@@ -6176,31 +6188,31 @@
           },
           {
             "DATE": "2022-02-17",
-            "VALUE": 0.304164612
+            "VALUE": 0.320190971
           },
           {
             "DATE": "2022-02-16",
-            "VALUE": 0.288138253
+            "VALUE": 0.304164612
           },
           {
             "DATE": "2022-02-15",
-            "VALUE": 0.352131618
+            "VALUE": 0.368157977
           },
           {
             "DATE": "2022-02-14",
-            "VALUE": 0.352131618
+            "VALUE": 0.368157977
           },
           {
             "DATE": "2022-02-13",
-            "VALUE": 0.384184337
+            "VALUE": 0.400210696
           },
           {
             "DATE": "2022-02-12",
-            "VALUE": 0.320190971
+            "VALUE": 0.336217331
           },
           {
             "DATE": "2022-02-11",
-            "VALUE": 0.320190971
+            "VALUE": 0.336217331
           },
           {
             "DATE": "2022-02-10",
@@ -9055,9 +9067,13 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-21"
+          "MAXIMUM": "2022-03-22"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-22",
+            "VALUE": 0.112072444
+          },
           {
             "DATE": "2022-03-21",
             "VALUE": 0.176065809
