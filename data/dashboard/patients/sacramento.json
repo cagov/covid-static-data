@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-23",
+    "PUBLISHED_DATE": "2022-03-24",
     "coverage": "Sacramento"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 102,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 97,
+        "CHANGE": -5,
+        "CHANGE_FACTOR": -0.04902,
         "POPULATION": 1567975
       },
       "ICU_PATIENTS": {
-        "TOTAL": 12,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.076923,
+        "TOTAL": 13,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.083333,
         "POPULATION": 1567975
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-22"
+          "MAXIMUM": "2022-03-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-23",
+            "VALUE": 97
+          },
           {
             "DATE": "2022-03-22",
             "VALUE": 102
@@ -2922,9 +2926,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-22"
+          "MAXIMUM": "2022-03-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-23",
+            "VALUE": 13
+          },
           {
             "DATE": "2022-03-22",
             "VALUE": 12
@@ -5822,9 +5830,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-22"
+          "MAXIMUM": "2022-03-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-23",
+            "VALUE": 122.5
+          },
           {
             "DATE": "2022-03-22",
             "VALUE": 126.285
@@ -8722,9 +8734,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-22"
+          "MAXIMUM": "2022-03-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-23",
+            "VALUE": 16.214
+          },
           {
             "DATE": "2022-03-22",
             "VALUE": 16.928
