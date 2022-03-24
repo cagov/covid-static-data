@@ -1,27 +1,31 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-23",
+    "PUBLISHED_DATE": "2022-03-24",
     "coverage": "Amador"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 8462,
-        "new_cases": 1,
-        "new_cases_delta_1_day": 0.000118,
-        "cases_per_100k_7_days": 12.234304845,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-03-15",
+        "total_confirmed_cases": 8475,
+        "new_cases": 13,
+        "new_cases_delta_1_day": 0.001536,
+        "cases_per_100k_7_days": 8.525602761,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-03-16",
         "POPULATION": 38531,
-        "CASES_DAILY_AVERAGE": 4.428571428571429
+        "CASES_DAILY_AVERAGE": 4.857142857142857
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-22"
+          "MAXIMUM": "2022-03-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-23",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-22",
             "VALUE": 0
@@ -36,15 +40,15 @@
           },
           {
             "DATE": "2022-03-19",
-            "VALUE": 1
+            "VALUE": 0
           },
           {
             "DATE": "2022-03-18",
-            "VALUE": 0
+            "VALUE": 7
           },
           {
             "DATE": "2022-03-17",
-            "VALUE": 0
+            "VALUE": 8
           },
           {
             "DATE": "2022-03-16",
@@ -56,7 +60,7 @@
           },
           {
             "DATE": "2022-03-14",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2022-03-13",
@@ -3035,9 +3039,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-22"
+          "MAXIMUM": "2022-03-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-23",
+            "VALUE": 13
+          },
           {
             "DATE": "2022-03-22",
             "VALUE": 1
@@ -6051,44 +6059,48 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-22"
+          "MAXIMUM": "2022-03-23"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-23",
+            "VALUE": 6.301419636
+          },
+          {
             "DATE": "2022-03-22",
-            "VALUE": 2.224183125
+            "VALUE": 7.414808855
           },
           {
             "DATE": "2022-03-21",
-            "VALUE": 4.077236511
+            "VALUE": 9.267862241
           },
           {
             "DATE": "2022-03-20",
-            "VALUE": 4.448366251
+            "VALUE": 10.01012172
           },
           {
             "DATE": "2022-03-19",
-            "VALUE": 5.19062573
+            "VALUE": 10.749785887
           },
           {
             "DATE": "2022-03-18",
-            "VALUE": 5.559160157
+            "VALUE": 11.492045366
           },
           {
             "DATE": "2022-03-17",
-            "VALUE": 5.930289896
+            "VALUE": 9.267862241
           },
           {
             "DATE": "2022-03-16",
-            "VALUE": 8.154473022
+            "VALUE": 8.525602761
           },
           {
             "DATE": "2022-03-15",
-            "VALUE": 12.234304845
+            "VALUE": 12.605434585
           },
           {
             "DATE": "2022-03-14",
-            "VALUE": 11.492045366
+            "VALUE": 11.863175106
           },
           {
             "DATE": "2022-03-13",
@@ -9067,9 +9079,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-22"
+          "MAXIMUM": "2022-03-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-23",
+            "VALUE": 9.63899198
+          },
           {
             "DATE": "2022-03-22",
             "VALUE": 5.19062573
