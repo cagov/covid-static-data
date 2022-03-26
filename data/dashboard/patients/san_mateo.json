@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-25",
+    "PUBLISHED_DATE": "2022-03-26",
     "coverage": "San Mateo"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 26,
-        "CHANGE": -4,
-        "CHANGE_FACTOR": -0.133333,
+        "TOTAL": 29,
+        "CHANGE": 3,
+        "CHANGE_FACTOR": 0.115385,
         "POPULATION": 778001
       },
       "ICU_PATIENTS": {
-        "TOTAL": 4,
+        "TOTAL": 5,
         "CHANGE": 1,
-        "CHANGE_FACTOR": 0.333333,
+        "CHANGE_FACTOR": 0.25,
         "POPULATION": 778001
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-24"
+          "MAXIMUM": "2022-03-25"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-25",
+            "VALUE": 29
+          },
           {
             "DATE": "2022-03-24",
             "VALUE": 26
@@ -2930,9 +2934,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-24"
+          "MAXIMUM": "2022-03-25"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-25",
+            "VALUE": 5
+          },
           {
             "DATE": "2022-03-24",
             "VALUE": 4
@@ -5838,9 +5846,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-24"
+          "MAXIMUM": "2022-03-25"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-25",
+            "VALUE": 29.714
+          },
           {
             "DATE": "2022-03-24",
             "VALUE": 29.642
@@ -8746,9 +8758,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-24"
+          "MAXIMUM": "2022-03-25"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-25",
+            "VALUE": 2.571
+          },
           {
             "DATE": "2022-03-24",
             "VALUE": 2.428
