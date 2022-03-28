@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-25",
+    "PUBLISHED_DATE": "2022-03-28",
     "coverage": "Glenn"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.003676,
-        "test_positivity_7_days_delta_7_days": -0.027672,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-03-16",
+        "test_positivity_7_days": 0.018587,
+        "test_positivity_7_days_delta_7_days": 0.00375,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-03-19",
         "POPULATION": 29348
       }
     },
@@ -16,60 +16,72 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-23"
+          "MAXIMUM": "2022-03-26"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-26",
+            "VALUE": 0.018587
+          },
+          {
+            "DATE": "2022-03-25",
+            "VALUE": 0.017544
+          },
+          {
+            "DATE": "2022-03-24",
+            "VALUE": 0.012658
+          },
+          {
             "DATE": "2022-03-23",
-            "VALUE": 0.003676
+            "VALUE": 0.009259
           },
           {
             "DATE": "2022-03-22",
-            "VALUE": 0.00974
+            "VALUE": 0.011905
           },
           {
             "DATE": "2022-03-21",
-            "VALUE": 0.009174
+            "VALUE": 0.008929
           },
           {
             "DATE": "2022-03-20",
-            "VALUE": 0.014749
+            "VALUE": 0.014706
           },
           {
             "DATE": "2022-03-19",
-            "VALUE": 0.014881
-          },
-          {
-            "DATE": "2022-03-18",
             "VALUE": 0.014837
           },
           {
+            "DATE": "2022-03-18",
+            "VALUE": 0.014793
+          },
+          {
             "DATE": "2022-03-17",
-            "VALUE": 0.022082
+            "VALUE": 0.022013
           },
           {
             "DATE": "2022-03-16",
-            "VALUE": 0.031348
+            "VALUE": 0.03125
           },
           {
             "DATE": "2022-03-15",
-            "VALUE": 0.025478
+            "VALUE": 0.025397
           },
           {
             "DATE": "2022-03-14",
-            "VALUE": 0.038585
+            "VALUE": 0.038462
           },
           {
             "DATE": "2022-03-13",
-            "VALUE": 0.047619
+            "VALUE": 0.047468
           },
           {
             "DATE": "2022-03-12",
-            "VALUE": 0.050314
+            "VALUE": 0.050157
           },
           {
             "DATE": "2022-03-11",
-            "VALUE": 0.053292
+            "VALUE": 0.053125
           },
           {
             "DATE": "2022-03-10",
@@ -3036,16 +3048,28 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-23"
+          "MAXIMUM": "2022-03-26"
         },
         "VALUES": [
           {
-            "DATE": "2022-03-23",
+            "DATE": "2022-03-26",
             "VALUE": 0
           },
           {
-            "DATE": "2022-03-22",
+            "DATE": "2022-03-25",
+            "VALUE": 0.0625
+          },
+          {
+            "DATE": "2022-03-24",
+            "VALUE": 0.034483
+          },
+          {
+            "DATE": "2022-03-23",
             "VALUE": 0.033333
+          },
+          {
+            "DATE": "2022-03-22",
+            "VALUE": 0.040816
           },
           {
             "DATE": "2022-03-21",
@@ -3089,7 +3113,7 @@
           },
           {
             "DATE": "2022-03-11",
-            "VALUE": 0.076923
+            "VALUE": 0.074074
           },
           {
             "DATE": "2022-03-10",
@@ -6056,20 +6080,32 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-23"
+          "MAXIMUM": "2022-03-26"
         },
         "VALUES": [
           {
-            "DATE": "2022-03-23",
-            "VALUE": 6
+            "DATE": "2022-03-26",
+            "VALUE": 1
           },
           {
-            "DATE": "2022-03-22",
+            "DATE": "2022-03-25",
+            "VALUE": 16
+          },
+          {
+            "DATE": "2022-03-24",
+            "VALUE": 29
+          },
+          {
+            "DATE": "2022-03-23",
             "VALUE": 30
           },
           {
+            "DATE": "2022-03-22",
+            "VALUE": 49
+          },
+          {
             "DATE": "2022-03-21",
-            "VALUE": 123
+            "VALUE": 131
           },
           {
             "DATE": "2022-03-20",
@@ -6081,7 +6117,7 @@
           },
           {
             "DATE": "2022-03-18",
-            "VALUE": 46
+            "VALUE": 47
           },
           {
             "DATE": "2022-03-17",
@@ -6109,7 +6145,7 @@
           },
           {
             "DATE": "2022-03-11",
-            "VALUE": 26
+            "VALUE": 27
           },
           {
             "DATE": "2022-03-10",
