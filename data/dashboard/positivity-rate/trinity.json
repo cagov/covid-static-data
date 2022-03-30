@@ -1,6 +1,6 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-29",
+    "PUBLISHED_DATE": "2022-03-30",
     "coverage": "Trinity"
   },
   "data": {
@@ -8,7 +8,7 @@
       "POSITIVITY_RATE": {
         "test_positivity_7_days": 0,
         "test_positivity_7_days_delta_7_days": 0,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-03-20",
+        "TESTING_UNCERTAINTY_PERIOD": "2022-03-21",
         "POPULATION": 13354
       }
     },
@@ -16,9 +16,13 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-27"
+          "MAXIMUM": "2022-03-28"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-28",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-27",
             "VALUE": 0
@@ -3052,9 +3056,13 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-27"
+          "MAXIMUM": "2022-03-28"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-28",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-27",
             "VALUE": 0
@@ -6088,12 +6096,16 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-27"
+          "MAXIMUM": "2022-03-28"
         },
         "VALUES": [
           {
+            "DATE": "2022-03-28",
+            "VALUE": 2
+          },
+          {
             "DATE": "2022-03-27",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-03-26",
@@ -6109,11 +6121,11 @@
           },
           {
             "DATE": "2022-03-23",
-            "VALUE": 14
+            "VALUE": 15
           },
           {
             "DATE": "2022-03-22",
-            "VALUE": 15
+            "VALUE": 16
           },
           {
             "DATE": "2022-03-21",
