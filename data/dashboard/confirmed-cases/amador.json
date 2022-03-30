@@ -1,34 +1,38 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-29",
+    "PUBLISHED_DATE": "2022-03-30",
     "coverage": "Amador"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 8480,
-        "new_cases": 0,
-        "new_cases_delta_1_day": 0,
-        "cases_per_100k_7_days": 10.38125146,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-03-21",
+        "total_confirmed_cases": 8483,
+        "new_cases": 3,
+        "new_cases_delta_1_day": 0.000354,
+        "cases_per_100k_7_days": 9.267862241,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-03-22",
         "POPULATION": 38531,
-        "CASES_DAILY_AVERAGE": 3.857142857142857
+        "CASES_DAILY_AVERAGE": 4
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-28"
+          "MAXIMUM": "2022-03-29"
         },
         "VALUES": [
           {
-            "DATE": "2022-03-28",
+            "DATE": "2022-03-29",
             "VALUE": 0
           },
           {
+            "DATE": "2022-03-28",
+            "VALUE": 1
+          },
+          {
             "DATE": "2022-03-27",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-03-26",
@@ -344,7 +348,7 @@
           },
           {
             "DATE": "2022-01-07",
-            "VALUE": 51
+            "VALUE": 52
           },
           {
             "DATE": "2022-01-06",
@@ -3059,9 +3063,13 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-28"
+          "MAXIMUM": "2022-03-29"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-29",
+            "VALUE": 3
+          },
           {
             "DATE": "2022-03-28",
             "VALUE": 0
@@ -6099,16 +6107,20 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-28"
+          "MAXIMUM": "2022-03-29"
         },
         "VALUES": [
           {
-            "DATE": "2022-03-28",
+            "DATE": "2022-03-29",
             "VALUE": 1.481923646
           },
           {
+            "DATE": "2022-03-28",
+            "VALUE": 2.224183125
+          },
+          {
             "DATE": "2022-03-27",
-            "VALUE": 2.595312865
+            "VALUE": 2.963847292
           },
           {
             "DATE": "2022-03-26",
@@ -6400,31 +6412,31 @@
           },
           {
             "DATE": "2022-01-13",
-            "VALUE": 169.06387065
+            "VALUE": 169.435000389
           },
           {
             "DATE": "2022-01-12",
-            "VALUE": 167.581947004
+            "VALUE": 167.953076743
           },
           {
             "DATE": "2022-01-11",
-            "VALUE": 161.277932055
+            "VALUE": 161.649061794
           },
           {
             "DATE": "2022-01-10",
-            "VALUE": 144.595260959
+            "VALUE": 144.966390698
           },
           {
             "DATE": "2022-01-09",
-            "VALUE": 136.809322364
+            "VALUE": 137.180452104
           },
           {
             "DATE": "2022-01-08",
-            "VALUE": 137.551581843
+            "VALUE": 137.92011627
           },
           {
             "DATE": "2022-01-07",
-            "VALUE": 127.90999455
+            "VALUE": 128.28112429
           },
           {
             "DATE": "2022-01-06",
@@ -9139,9 +9151,13 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-03-28"
+          "MAXIMUM": "2022-03-29"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-29",
+            "VALUE": 7.785938595
+          },
           {
             "DATE": "2022-03-28",
             "VALUE": 7.043679116
