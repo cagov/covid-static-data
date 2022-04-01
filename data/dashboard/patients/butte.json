@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-03-31",
+    "PUBLISHED_DATE": "2022-04-01",
     "coverage": "Butte"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 10,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 12,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.2,
         "POPULATION": 217769
       },
       "ICU_PATIENTS": {
-        "TOTAL": 2,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 1,
+        "TOTAL": 1,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.5,
         "POPULATION": 217769
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-30"
+          "MAXIMUM": "2022-03-31"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-31",
+            "VALUE": 12
+          },
           {
             "DATE": "2022-03-30",
             "VALUE": 10
@@ -2954,9 +2958,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-30"
+          "MAXIMUM": "2022-03-31"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-31",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-03-30",
             "VALUE": 2
@@ -5886,9 +5894,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-30"
+          "MAXIMUM": "2022-03-31"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-31",
+            "VALUE": 15.285
+          },
           {
             "DATE": "2022-03-30",
             "VALUE": 15.642
@@ -8818,9 +8830,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-30"
+          "MAXIMUM": "2022-03-31"
         },
         "VALUES": [
+          {
+            "DATE": "2022-03-31",
+            "VALUE": 1.214
+          },
           {
             "DATE": "2022-03-30",
             "VALUE": 1.142
