@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-04-01",
+    "PUBLISHED_DATE": "2022-04-02",
     "coverage": "Shasta"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 7,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.222222,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 177925
       },
       "ICU_PATIENTS": {
-        "TOTAL": 5,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 4,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.2,
         "POPULATION": 177925
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-31"
+          "MAXIMUM": "2022-04-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-01",
+            "VALUE": 7
+          },
           {
             "DATE": "2022-03-31",
             "VALUE": 7
@@ -2958,9 +2962,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-31"
+          "MAXIMUM": "2022-04-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-01",
+            "VALUE": 4
+          },
           {
             "DATE": "2022-03-31",
             "VALUE": 5
@@ -5894,9 +5902,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-31"
+          "MAXIMUM": "2022-04-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-01",
+            "VALUE": 8.5
+          },
           {
             "DATE": "2022-03-31",
             "VALUE": 9.214
@@ -8830,9 +8842,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-31"
+          "MAXIMUM": "2022-04-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-01",
+            "VALUE": 2.785
+          },
           {
             "DATE": "2022-03-31",
             "VALUE": 2.571

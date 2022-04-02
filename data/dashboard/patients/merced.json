@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-04-01",
+    "PUBLISHED_DATE": "2022-04-02",
     "coverage": "Merced"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 6,
-        "CHANGE": -3,
+        "TOTAL": 4,
+        "CHANGE": -2,
         "CHANGE_FACTOR": -0.333333,
         "POPULATION": 287420
       },
       "ICU_PATIENTS": {
         "TOTAL": 0,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -1,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 287420
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-31"
+          "MAXIMUM": "2022-04-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-01",
+            "VALUE": 4
+          },
           {
             "DATE": "2022-03-31",
             "VALUE": 6
@@ -2958,9 +2962,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-31"
+          "MAXIMUM": "2022-04-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-01",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-03-31",
             "VALUE": 0
@@ -5894,9 +5902,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-31"
+          "MAXIMUM": "2022-04-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-01",
+            "VALUE": 11.285
+          },
           {
             "DATE": "2022-03-31",
             "VALUE": 12.571
@@ -8830,9 +8842,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-03-31"
+          "MAXIMUM": "2022-04-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-01",
+            "VALUE": 1.785
+          },
           {
             "DATE": "2022-03-31",
             "VALUE": 2.214
