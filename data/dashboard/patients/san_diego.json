@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-04-02",
+    "PUBLISHED_DATE": "2022-04-03",
     "coverage": "San Diego"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 132,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.015385,
+        "TOTAL": 133,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.007576,
         "POPULATION": 3370418
       },
       "ICU_PATIENTS": {
         "TOTAL": 33,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.064516,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 3370418
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-01"
+          "MAXIMUM": "2022-04-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-02",
+            "VALUE": 133
+          },
           {
             "DATE": "2022-04-01",
             "VALUE": 132
@@ -2962,9 +2966,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-01"
+          "MAXIMUM": "2022-04-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-02",
+            "VALUE": 33
+          },
           {
             "DATE": "2022-04-01",
             "VALUE": 33
@@ -5902,9 +5910,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-01"
+          "MAXIMUM": "2022-04-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-02",
+            "VALUE": 152.785
+          },
           {
             "DATE": "2022-04-01",
             "VALUE": 157.785
@@ -8842,9 +8854,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-01"
+          "MAXIMUM": "2022-04-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-02",
+            "VALUE": 32.857
+          },
           {
             "DATE": "2022-04-01",
             "VALUE": 33
