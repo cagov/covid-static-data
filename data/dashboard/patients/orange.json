@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-04-02",
+    "PUBLISHED_DATE": "2022-04-03",
     "coverage": "Orange"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 77,
-        "CHANGE": -19,
-        "CHANGE_FACTOR": -0.197917,
+        "TOTAL": 72,
+        "CHANGE": -5,
+        "CHANGE_FACTOR": -0.064935,
         "POPULATION": 3228519
       },
       "ICU_PATIENTS": {
-        "TOTAL": 14,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 13,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.071429,
         "POPULATION": 3228519
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-01"
+          "MAXIMUM": "2022-04-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-02",
+            "VALUE": 72
+          },
           {
             "DATE": "2022-04-01",
             "VALUE": 77
@@ -2962,9 +2966,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-01"
+          "MAXIMUM": "2022-04-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-02",
+            "VALUE": 13
+          },
           {
             "DATE": "2022-04-01",
             "VALUE": 14
@@ -5902,9 +5910,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-01"
+          "MAXIMUM": "2022-04-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-02",
+            "VALUE": 105.142
+          },
           {
             "DATE": "2022-04-01",
             "VALUE": 109.428
@@ -8842,9 +8854,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-01"
+          "MAXIMUM": "2022-04-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-02",
+            "VALUE": 19.5
+          },
           {
             "DATE": "2022-04-01",
             "VALUE": 20.357

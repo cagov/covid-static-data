@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-04-02",
+    "PUBLISHED_DATE": "2022-04-03",
     "coverage": "San Mateo"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 16,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.157895,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 778001
       },
       "ICU_PATIENTS": {
-        "TOTAL": 7,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 1,
+        "CHANGE": -6,
+        "CHANGE_FACTOR": -0.857143,
         "POPULATION": 778001
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-01"
+          "MAXIMUM": "2022-04-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-02",
+            "VALUE": 16
+          },
           {
             "DATE": "2022-04-01",
             "VALUE": 16
@@ -2962,9 +2966,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-01"
+          "MAXIMUM": "2022-04-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-02",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-04-01",
             "VALUE": 7
@@ -5902,9 +5910,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-01"
+          "MAXIMUM": "2022-04-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-02",
+            "VALUE": 26.642
+          },
           {
             "DATE": "2022-04-01",
             "VALUE": 27.5
@@ -8842,9 +8854,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-01"
+          "MAXIMUM": "2022-04-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-02",
+            "VALUE": 4
+          },
           {
             "DATE": "2022-04-01",
             "VALUE": 4
