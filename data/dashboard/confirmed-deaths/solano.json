@@ -1,27 +1,35 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-04-13",
+    "PUBLISHED_DATE": "2022-04-15",
     "coverage": "Solano"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 448,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
+        "total_confirmed_deaths": 447,
+        "new_deaths": -1,
+        "new_deaths_delta_1_day": -0.002232,
         "deaths_per_100k_7_days": 0.031963624,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-03-22",
+        "DEATH_UNCERTAINTY_PERIOD": "2022-03-24",
         "POPULATION": 444255,
-        "DEATHS_DAILY_AVERAGE": 0.2857142857142857
+        "DEATHS_DAILY_AVERAGE": 0.14285714285714285
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-04-12"
+          "MAXIMUM": "2022-04-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-14",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-04-13",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-04-12",
             "VALUE": 0
@@ -32,7 +40,7 @@
           },
           {
             "DATE": "2022-04-10",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-04-09",
@@ -136,7 +144,7 @@
           },
           {
             "DATE": "2022-03-15",
-            "VALUE": 1
+            "VALUE": 0
           },
           {
             "DATE": "2022-03-14",
@@ -264,7 +272,7 @@
           },
           {
             "DATE": "2022-02-11",
-            "VALUE": 1
+            "VALUE": 0
           },
           {
             "DATE": "2022-02-10",
@@ -3119,9 +3127,17 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-04-12"
+          "MAXIMUM": "2022-04-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-14",
+            "VALUE": -1
+          },
+          {
+            "DATE": "2022-04-13",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-04-12",
             "VALUE": 0
@@ -6219,20 +6235,28 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-04-12"
+          "MAXIMUM": "2022-04-14"
         },
         "VALUES": [
           {
+            "DATE": "2022-04-14",
+            "VALUE": 0.031963624
+          },
+          {
+            "DATE": "2022-04-13",
+            "VALUE": 0.031963624
+          },
+          {
             "DATE": "2022-04-12",
-            "VALUE": 0
+            "VALUE": 0.031963624
           },
           {
             "DATE": "2022-04-11",
-            "VALUE": 0
+            "VALUE": 0.031963624
           },
           {
             "DATE": "2022-04-10",
-            "VALUE": 0
+            "VALUE": 0.031963624
           },
           {
             "DATE": "2022-04-09",
@@ -6312,31 +6336,31 @@
           },
           {
             "DATE": "2022-03-21",
-            "VALUE": 0.064152345
+            "VALUE": 0.031963624
           },
           {
             "DATE": "2022-03-20",
-            "VALUE": 0.064152345
+            "VALUE": 0.031963624
           },
           {
             "DATE": "2022-03-19",
-            "VALUE": 0.031963624
+            "VALUE": 0
           },
           {
             "DATE": "2022-03-18",
-            "VALUE": 0.031963624
+            "VALUE": 0
           },
           {
             "DATE": "2022-03-17",
-            "VALUE": 0.064152345
+            "VALUE": 0.031963624
           },
           {
             "DATE": "2022-03-16",
-            "VALUE": 0.064152345
+            "VALUE": 0.031963624
           },
           {
             "DATE": "2022-03-15",
-            "VALUE": 0.064152345
+            "VALUE": 0.031963624
           },
           {
             "DATE": "2022-03-14",
@@ -6440,31 +6464,31 @@
           },
           {
             "DATE": "2022-02-17",
-            "VALUE": 0.096341065
+            "VALUE": 0.064152345
           },
           {
             "DATE": "2022-02-16",
-            "VALUE": 0.096341065
+            "VALUE": 0.064152345
           },
           {
             "DATE": "2022-02-15",
-            "VALUE": 0.064152345
+            "VALUE": 0.031963624
           },
           {
             "DATE": "2022-02-14",
-            "VALUE": 0.064152345
+            "VALUE": 0.031963624
           },
           {
             "DATE": "2022-02-13",
-            "VALUE": 0.031963624
+            "VALUE": 0
           },
           {
             "DATE": "2022-02-12",
-            "VALUE": 0.031963624
+            "VALUE": 0
           },
           {
             "DATE": "2022-02-11",
-            "VALUE": 0.064152345
+            "VALUE": 0.031963624
           },
           {
             "DATE": "2022-02-10",
@@ -9319,9 +9343,17 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-04-12"
+          "MAXIMUM": "2022-04-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-14",
+            "VALUE": -0.031963624
+          },
+          {
+            "DATE": "2022-04-13",
+            "VALUE": 0.031963624
+          },
           {
             "DATE": "2022-04-12",
             "VALUE": 0.031963624
