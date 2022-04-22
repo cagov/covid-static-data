@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-04-19",
+    "PUBLISHED_DATE": "2022-04-22",
     "coverage": "Solano"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 7,
-        "CHANGE": -4,
-        "CHANGE_FACTOR": -0.363636,
+        "TOTAL": 9,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.125,
         "POPULATION": 444255
       },
       "ICU_PATIENTS": {
         "TOTAL": 1,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.5,
         "POPULATION": 444255
       }
     },
@@ -22,9 +22,21 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-18"
+          "MAXIMUM": "2022-04-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-21",
+            "VALUE": 9
+          },
+          {
+            "DATE": "2022-04-20",
+            "VALUE": 8
+          },
+          {
+            "DATE": "2022-04-19",
+            "VALUE": 8
+          },
           {
             "DATE": "2022-04-18",
             "VALUE": 7
@@ -3030,9 +3042,21 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-18"
+          "MAXIMUM": "2022-04-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-21",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-04-20",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2022-04-19",
+            "VALUE": 2
+          },
           {
             "DATE": "2022-04-18",
             "VALUE": 1
@@ -6038,9 +6062,21 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-18"
+          "MAXIMUM": "2022-04-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-21",
+            "VALUE": 12.285
+          },
+          {
+            "DATE": "2022-04-20",
+            "VALUE": 13.285
+          },
+          {
+            "DATE": "2022-04-19",
+            "VALUE": 14.214
+          },
           {
             "DATE": "2022-04-18",
             "VALUE": 15.285
@@ -9046,9 +9082,21 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-04-18"
+          "MAXIMUM": "2022-04-21"
         },
         "VALUES": [
+          {
+            "DATE": "2022-04-21",
+            "VALUE": 1.5
+          },
+          {
+            "DATE": "2022-04-20",
+            "VALUE": 1.785
+          },
+          {
+            "DATE": "2022-04-19",
+            "VALUE": 1.928
+          },
           {
             "DATE": "2022-04-18",
             "VALUE": 2.071
