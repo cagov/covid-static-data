@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-04-29",
+    "PUBLISHED_DATE": "2022-05-03",
     "coverage": "Glenn"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.004762,
-        "test_positivity_7_days_delta_7_days": 0.000578,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-04-20",
+        "test_positivity_7_days": 0.004525,
+        "test_positivity_7_days_delta_7_days": 0.000649,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-04-24",
         "POPULATION": 29348
       }
     },
@@ -16,28 +16,44 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-04-27"
+          "MAXIMUM": "2022-05-01"
         },
         "VALUES": [
           {
+            "DATE": "2022-05-01",
+            "VALUE": 0.004525
+          },
+          {
+            "DATE": "2022-04-30",
+            "VALUE": 0.004405
+          },
+          {
+            "DATE": "2022-04-29",
+            "VALUE": 0.008811
+          },
+          {
+            "DATE": "2022-04-28",
+            "VALUE": 0.004202
+          },
+          {
             "DATE": "2022-04-27",
-            "VALUE": 0.004762
+            "VALUE": 0.004065
           },
           {
             "DATE": "2022-04-26",
-            "VALUE": 0.004292
+            "VALUE": 0.003937
           },
           {
             "DATE": "2022-04-25",
-            "VALUE": 0.004
+            "VALUE": 0.003846
           },
           {
             "DATE": "2022-04-24",
-            "VALUE": 0.003891
+            "VALUE": 0.003876
           },
           {
             "DATE": "2022-04-23",
-            "VALUE": 0.003953
+            "VALUE": 0.003937
           },
           {
             "DATE": "2022-04-22",
@@ -49,7 +65,7 @@
           },
           {
             "DATE": "2022-04-20",
-            "VALUE": 0.004184
+            "VALUE": 0.004167
           },
           {
             "DATE": "2022-04-19",
@@ -3176,9 +3192,25 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-04-27"
+          "MAXIMUM": "2022-05-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-05-01",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-04-30",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-04-29",
+            "VALUE": 0.0625
+          },
+          {
+            "DATE": "2022-04-28",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-04-27",
             "VALUE": 0
@@ -6336,20 +6368,36 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-04-27"
+          "MAXIMUM": "2022-05-01"
         },
         "VALUES": [
           {
+            "DATE": "2022-05-01",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2022-04-30",
+            "VALUE": 10
+          },
+          {
+            "DATE": "2022-04-29",
+            "VALUE": 16
+          },
+          {
+            "DATE": "2022-04-28",
+            "VALUE": 16
+          },
+          {
             "DATE": "2022-04-27",
-            "VALUE": 8
+            "VALUE": 24
           },
           {
             "DATE": "2022-04-26",
-            "VALUE": 17
+            "VALUE": 28
           },
           {
             "DATE": "2022-04-25",
-            "VALUE": 116
+            "VALUE": 125
           },
           {
             "DATE": "2022-04-24",
@@ -6369,7 +6417,7 @@
           },
           {
             "DATE": "2022-04-20",
-            "VALUE": 31
+            "VALUE": 32
           },
           {
             "DATE": "2022-04-19",
