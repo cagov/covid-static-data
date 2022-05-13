@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-05-10",
+    "PUBLISHED_DATE": "2022-05-13",
     "coverage": "Alameda"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 101,
-        "CHANGE": 8,
-        "CHANGE_FACTOR": 0.086022,
+        "TOTAL": 100,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.029126,
         "POPULATION": 1685886
       }
     },
@@ -16,9 +16,21 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-05-09"
+          "MAXIMUM": "2022-05-12"
         },
         "VALUES": [
+          {
+            "DATE": "2022-05-12",
+            "VALUE": 100
+          },
+          {
+            "DATE": "2022-05-11",
+            "VALUE": 103
+          },
+          {
+            "DATE": "2022-05-10",
+            "VALUE": 104
+          },
           {
             "DATE": "2022-05-09",
             "VALUE": 101
