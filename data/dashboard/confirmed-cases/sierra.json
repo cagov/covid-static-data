@@ -1,27 +1,43 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-05-20",
+    "PUBLISHED_DATE": "2022-05-24",
     "coverage": "Sierra"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 276,
+        "total_confirmed_cases": 277,
         "new_cases": 1,
-        "new_cases_delta_1_day": 0.003636,
-        "cases_per_100k_7_days": 0,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-05-12",
+        "new_cases_delta_1_day": 0.003623,
+        "cases_per_100k_7_days": 4.55858748,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-05-16",
         "POPULATION": 3115,
-        "CASES_DAILY_AVERAGE": 0
+        "CASES_DAILY_AVERAGE": 0.14285714285714285
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-05-19"
+          "MAXIMUM": "2022-05-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-05-23",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-05-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-05-21",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-05-20",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-05-19",
             "VALUE": 0
@@ -3267,9 +3283,25 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-05-19"
+          "MAXIMUM": "2022-05-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-05-23",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-05-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-05-21",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-05-20",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-05-19",
             "VALUE": 1
@@ -6515,9 +6547,25 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-05-19"
+          "MAXIMUM": "2022-05-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-05-23",
+            "VALUE": 4.55858748
+          },
+          {
+            "DATE": "2022-05-22",
+            "VALUE": 4.55858748
+          },
+          {
+            "DATE": "2022-05-21",
+            "VALUE": 4.55858748
+          },
+          {
+            "DATE": "2022-05-20",
+            "VALUE": 9.149277689
+          },
           {
             "DATE": "2022-05-19",
             "VALUE": 4.55858748
@@ -9763,9 +9811,25 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-05-19"
+          "MAXIMUM": "2022-05-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-05-23",
+            "VALUE": 9.149277689
+          },
+          {
+            "DATE": "2022-05-22",
+            "VALUE": 4.55858748
+          },
+          {
+            "DATE": "2022-05-21",
+            "VALUE": 4.55858748
+          },
+          {
+            "DATE": "2022-05-20",
+            "VALUE": 4.55858748
+          },
           {
             "DATE": "2022-05-19",
             "VALUE": 4.55858748
