@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-05-20",
+    "PUBLISHED_DATE": "2022-05-24",
     "coverage": "Alpine"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.1,
-        "test_positivity_7_days_delta_7_days": 0.1,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-05-11",
+        "test_positivity_7_days": 0,
+        "test_positivity_7_days_delta_7_days": -0.083333,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-05-15",
         "POPULATION": 1117
       }
     },
@@ -16,9 +16,25 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-05-18"
+          "MAXIMUM": "2022-05-22"
         },
         "VALUES": [
+          {
+            "DATE": "2022-05-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-05-21",
+            "VALUE": 0.1
+          },
+          {
+            "DATE": "2022-05-20",
+            "VALUE": 0.1
+          },
+          {
+            "DATE": "2022-05-19",
+            "VALUE": 0.111111
+          },
           {
             "DATE": "2022-05-18",
             "VALUE": 0.1
@@ -3260,9 +3276,25 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-05-18"
+          "MAXIMUM": "2022-05-22"
         },
         "VALUES": [
+          {
+            "DATE": "2022-05-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-05-21",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-05-20",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-05-19",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-05-18",
             "VALUE": 0
@@ -6504,9 +6536,25 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-05-18"
+          "MAXIMUM": "2022-05-22"
         },
         "VALUES": [
+          {
+            "DATE": "2022-05-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-05-21",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-05-20",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2022-05-19",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-05-18",
             "VALUE": 0
