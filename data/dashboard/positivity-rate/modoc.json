@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-05-31",
+    "PUBLISHED_DATE": "2022-06-03",
     "coverage": "Modoc"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.066667,
-        "test_positivity_7_days_delta_7_days": 0.011111,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-05-23",
+        "test_positivity_7_days": 0.166667,
+        "test_positivity_7_days_delta_7_days": 0.0969,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-05-25",
         "POPULATION": 9475
       }
     },
@@ -16,12 +16,20 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-05-30"
+          "MAXIMUM": "2022-06-01"
         },
         "VALUES": [
           {
+            "DATE": "2022-06-01",
+            "VALUE": 0.166667
+          },
+          {
+            "DATE": "2022-05-31",
+            "VALUE": 0.135135
+          },
+          {
             "DATE": "2022-05-30",
-            "VALUE": 0.066667
+            "VALUE": 0.060606
           },
           {
             "DATE": "2022-05-29",
@@ -3308,9 +3316,17 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-05-30"
+          "MAXIMUM": "2022-06-01"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-01",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-05-31",
+            "VALUE": 0.3
+          },
           {
             "DATE": "2022-05-30",
             "VALUE": 0
@@ -6600,12 +6616,20 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-05-30"
+          "MAXIMUM": "2022-06-01"
         },
         "VALUES": [
           {
-            "DATE": "2022-05-30",
+            "DATE": "2022-06-01",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-05-31",
+            "VALUE": 10
+          },
+          {
+            "DATE": "2022-05-30",
+            "VALUE": 3
           },
           {
             "DATE": "2022-05-29",
