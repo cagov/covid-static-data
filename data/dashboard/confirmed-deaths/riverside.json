@@ -1,27 +1,43 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-06-03",
+    "PUBLISHED_DATE": "2022-06-07",
     "coverage": "Riverside"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 6481,
-        "new_deaths": 1,
-        "new_deaths_delta_1_day": 0.000154,
-        "deaths_per_100k_7_days": 0.017340958,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-05-12",
+        "total_confirmed_deaths": 6480,
+        "new_deaths": -1,
+        "new_deaths_delta_1_day": -0.000154,
+        "deaths_per_100k_7_days": 0,
+        "DEATH_UNCERTAINTY_PERIOD": "2022-05-16",
         "POPULATION": 2468145,
-        "DEATHS_DAILY_AVERAGE": 0.42857142857142855
+        "DEATHS_DAILY_AVERAGE": 0
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-02"
+          "MAXIMUM": "2022-06-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-06",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-05",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-04",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-03",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-06-02",
             "VALUE": 0
@@ -40,7 +56,7 @@
           },
           {
             "DATE": "2022-05-29",
-            "VALUE": 1
+            "VALUE": 0
           },
           {
             "DATE": "2022-05-28",
@@ -3323,9 +3339,25 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-02"
+          "MAXIMUM": "2022-06-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-06",
+            "VALUE": -1
+          },
+          {
+            "DATE": "2022-06-05",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-04",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-03",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-06-02",
             "VALUE": 1
@@ -6627,28 +6659,44 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-02"
+          "MAXIMUM": "2022-06-06"
         },
         "VALUES": [
           {
+            "DATE": "2022-06-06",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-05",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-04",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-03",
+            "VALUE": 0
+          },
+          {
             "DATE": "2022-06-02",
-            "VALUE": 0.005753309
+            "VALUE": 0
           },
           {
             "DATE": "2022-06-01",
-            "VALUE": 0.005753309
+            "VALUE": 0
           },
           {
             "DATE": "2022-05-31",
-            "VALUE": 0.005753309
+            "VALUE": 0
           },
           {
             "DATE": "2022-05-30",
-            "VALUE": 0.005753309
+            "VALUE": 0
           },
           {
             "DATE": "2022-05-29",
-            "VALUE": 0.005753309
+            "VALUE": 0
           },
           {
             "DATE": "2022-05-28",
@@ -9931,9 +9979,25 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-02"
+          "MAXIMUM": "2022-06-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-06",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-05",
+            "VALUE": 0.005753309
+          },
+          {
+            "DATE": "2022-06-04",
+            "VALUE": 0.005753309
+          },
+          {
+            "DATE": "2022-06-03",
+            "VALUE": 0.005753309
+          },
           {
             "DATE": "2022-06-02",
             "VALUE": 0.005753309
