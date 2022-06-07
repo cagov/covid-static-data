@@ -1,38 +1,54 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-06-03",
+    "PUBLISHED_DATE": "2022-06-07",
     "coverage": "Glenn"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 5063,
-        "new_cases": 4,
-        "new_cases_delta_1_day": 0.000791,
-        "cases_per_100k_7_days": 12.655036118,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-05-26",
+        "total_confirmed_cases": 5095,
+        "new_cases": 32,
+        "new_cases_delta_1_day": 0.00632,
+        "cases_per_100k_7_days": 8.760392531,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-05-30",
         "POPULATION": 29348,
-        "CASES_DAILY_AVERAGE": 3.7142857142857144
+        "CASES_DAILY_AVERAGE": 2.5714285714285716
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-02"
+          "MAXIMUM": "2022-06-06"
         },
         "VALUES": [
           {
-            "DATE": "2022-06-02",
+            "DATE": "2022-06-06",
             "VALUE": 0
           },
           {
-            "DATE": "2022-06-01",
+            "DATE": "2022-06-05",
             "VALUE": 1
           },
           {
+            "DATE": "2022-06-04",
+            "VALUE": 7
+          },
+          {
+            "DATE": "2022-06-03",
+            "VALUE": 9
+          },
+          {
+            "DATE": "2022-06-02",
+            "VALUE": 5
+          },
+          {
+            "DATE": "2022-06-01",
+            "VALUE": 4
+          },
+          {
             "DATE": "2022-05-31",
-            "VALUE": 0
+            "VALUE": 6
           },
           {
             "DATE": "2022-05-30",
@@ -40,7 +56,7 @@
           },
           {
             "DATE": "2022-05-29",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2022-05-28",
@@ -64,11 +80,11 @@
           },
           {
             "DATE": "2022-05-23",
-            "VALUE": 9
+            "VALUE": 11
           },
           {
             "DATE": "2022-05-22",
-            "VALUE": 4
+            "VALUE": 3
           },
           {
             "DATE": "2022-05-21",
@@ -3323,9 +3339,25 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-02"
+          "MAXIMUM": "2022-06-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-06",
+            "VALUE": 32
+          },
+          {
+            "DATE": "2022-06-05",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-04",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-03",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-06-02",
             "VALUE": 4
@@ -6627,56 +6659,72 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-02"
+          "MAXIMUM": "2022-06-06"
         },
         "VALUES": [
           {
-            "DATE": "2022-06-02",
-            "VALUE": 4.378492572
+            "DATE": "2022-06-06",
+            "VALUE": 15.575166962
           },
           {
-            "DATE": "2022-06-01",
-            "VALUE": 5.840261687
+            "DATE": "2022-06-05",
+            "VALUE": 16.062423334
           },
           {
-            "DATE": "2022-05-31",
-            "VALUE": 6.327518059
+            "DATE": "2022-06-04",
+            "VALUE": 16.549679706
           },
           {
-            "DATE": "2022-05-30",
-            "VALUE": 8.273136159
-          },
-          {
-            "DATE": "2022-05-29",
-            "VALUE": 12.167779746
-          },
-          {
-            "DATE": "2022-05-28",
-            "VALUE": 13.629548862
-          },
-          {
-            "DATE": "2022-05-27",
+            "DATE": "2022-06-03",
             "VALUE": 14.113397847
           },
           {
-            "DATE": "2022-05-26",
-            "VALUE": 12.655036118
-          },
-          {
-            "DATE": "2022-05-25",
+            "DATE": "2022-06-02",
             "VALUE": 11.680523375
           },
           {
-            "DATE": "2022-05-24",
+            "DATE": "2022-06-01",
+            "VALUE": 10.706010631
+          },
+          {
+            "DATE": "2022-05-31",
+            "VALUE": 9.734905275
+          },
+          {
+            "DATE": "2022-05-30",
+            "VALUE": 8.760392531
+          },
+          {
+            "DATE": "2022-05-29",
+            "VALUE": 13.629548862
+          },
+          {
+            "DATE": "2022-05-28",
+            "VALUE": 14.113397847
+          },
+          {
+            "DATE": "2022-05-27",
+            "VALUE": 14.600654218
+          },
+          {
+            "DATE": "2022-05-26",
+            "VALUE": 13.14229249
+          },
+          {
+            "DATE": "2022-05-25",
             "VALUE": 12.167779746
+          },
+          {
+            "DATE": "2022-05-24",
+            "VALUE": 12.655036118
           },
           {
             "DATE": "2022-05-23",
-            "VALUE": 12.167779746
+            "VALUE": 12.655036118
           },
           {
             "DATE": "2022-05-22",
-            "VALUE": 9.734905275
+            "VALUE": 9.247648903
           },
           {
             "DATE": "2022-05-21",
@@ -9931,9 +9979,25 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-02"
+          "MAXIMUM": "2022-06-06"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-06",
+            "VALUE": 17.520785062
+          },
+          {
+            "DATE": "2022-06-05",
+            "VALUE": 7.298623416
+          },
+          {
+            "DATE": "2022-06-04",
+            "VALUE": 7.298623416
+          },
+          {
+            "DATE": "2022-06-03",
+            "VALUE": 7.298623416
+          },
           {
             "DATE": "2022-06-02",
             "VALUE": 7.298623416
