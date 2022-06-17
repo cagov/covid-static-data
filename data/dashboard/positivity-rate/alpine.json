@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-06-14",
+    "PUBLISHED_DATE": "2022-06-17",
     "coverage": "Alpine"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.142857,
-        "test_positivity_7_days_delta_7_days": 0.142857,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-06-05",
+        "test_positivity_7_days": 0,
+        "test_positivity_7_days_delta_7_days": -0.166667,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-06-08",
         "POPULATION": 1117
       }
     },
@@ -16,9 +16,21 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-12"
+          "MAXIMUM": "2022-06-15"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-15",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-14",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-13",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-06-12",
             "VALUE": 0.142857
@@ -3360,9 +3372,21 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-12"
+          "MAXIMUM": "2022-06-15"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-15",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-14",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-13",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-06-12",
             "VALUE": 0
@@ -6704,9 +6728,21 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-12"
+          "MAXIMUM": "2022-06-15"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-15",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-14",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-06-13",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-06-12",
             "VALUE": 0
