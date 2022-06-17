@@ -1,30 +1,42 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-06-14",
+    "PUBLISHED_DATE": "2022-06-17",
     "coverage": "Colusa"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 3515,
-        "new_cases": 10,
-        "new_cases_delta_1_day": 0.002853,
-        "cases_per_100k_7_days": 12.645509671,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-06-06",
+        "total_confirmed_cases": 3519,
+        "new_cases": 4,
+        "new_cases_delta_1_day": 0.001138,
+        "cases_per_100k_7_days": 8.852299385,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-06-09",
         "POPULATION": 22593,
-        "CASES_DAILY_AVERAGE": 2.857142857142857
+        "CASES_DAILY_AVERAGE": 2
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-13"
+          "MAXIMUM": "2022-06-16"
         },
         "VALUES": [
           {
-            "DATE": "2022-06-13",
+            "DATE": "2022-06-16",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-15",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-06-14",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-13",
+            "VALUE": 2
           },
           {
             "DATE": "2022-06-12",
@@ -40,7 +52,7 @@
           },
           {
             "DATE": "2022-06-09",
-            "VALUE": 3
+            "VALUE": 1
           },
           {
             "DATE": "2022-06-08",
@@ -52,11 +64,11 @@
           },
           {
             "DATE": "2022-06-06",
-            "VALUE": 4
+            "VALUE": 6
           },
           {
             "DATE": "2022-06-05",
-            "VALUE": 2
+            "VALUE": 3
           },
           {
             "DATE": "2022-06-04",
@@ -3367,9 +3379,21 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-13"
+          "MAXIMUM": "2022-06-16"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-16",
+            "VALUE": 4
+          },
+          {
+            "DATE": "2022-06-15",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-14",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-06-13",
             "VALUE": 10
@@ -6715,9 +6739,21 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-13"
+          "MAXIMUM": "2022-06-16"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-16",
+            "VALUE": 3.793210286
+          },
+          {
+            "DATE": "2022-06-15",
+            "VALUE": 4.426149692
+          },
+          {
+            "DATE": "2022-06-14",
+            "VALUE": 4.426149692
+          },
           {
             "DATE": "2022-06-13",
             "VALUE": 5.054662949
@@ -6728,31 +6764,31 @@
           },
           {
             "DATE": "2022-06-11",
-            "VALUE": 7.586420573
+            "VALUE": 8.219359979
           },
           {
             "DATE": "2022-06-10",
-            "VALUE": 7.586420573
+            "VALUE": 8.219359979
           },
           {
             "DATE": "2022-06-09",
-            "VALUE": 8.219359979
+            "VALUE": 8.852299385
           },
           {
             "DATE": "2022-06-08",
-            "VALUE": 8.219359979
+            "VALUE": 10.113752047
           },
           {
             "DATE": "2022-06-07",
-            "VALUE": 10.746691453
-          },
-          {
-            "DATE": "2022-06-06",
             "VALUE": 12.645509671
           },
           {
+            "DATE": "2022-06-06",
+            "VALUE": 14.539901739
+          },
+          {
             "DATE": "2022-06-05",
-            "VALUE": 10.746691453
+            "VALUE": 11.379630859
           },
           {
             "DATE": "2022-06-04",
@@ -10063,9 +10099,21 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-13"
+          "MAXIMUM": "2022-06-16"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-16",
+            "VALUE": 8.852299385
+          },
+          {
+            "DATE": "2022-06-15",
+            "VALUE": 12.645509671
+          },
+          {
+            "DATE": "2022-06-14",
+            "VALUE": 12.645509671
+          },
           {
             "DATE": "2022-06-13",
             "VALUE": 12.645509671
