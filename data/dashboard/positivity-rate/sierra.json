@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-06-21",
+    "PUBLISHED_DATE": "2022-06-24",
     "coverage": "Sierra"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.230769,
-        "test_positivity_7_days_delta_7_days": 0.105769,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-06-12",
+        "test_positivity_7_days": 0.333333,
+        "test_positivity_7_days_delta_7_days": 0.208333,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-06-15",
         "POPULATION": 3115
       }
     },
@@ -16,12 +16,24 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-19"
+          "MAXIMUM": "2022-06-22"
         },
         "VALUES": [
           {
+            "DATE": "2022-06-22",
+            "VALUE": 0.333333
+          },
+          {
+            "DATE": "2022-06-21",
+            "VALUE": 0.3
+          },
+          {
+            "DATE": "2022-06-20",
+            "VALUE": 0.25
+          },
+          {
             "DATE": "2022-06-19",
-            "VALUE": 0.230769
+            "VALUE": 0.214286
           },
           {
             "DATE": "2022-06-18",
@@ -3388,9 +3400,21 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-19"
+          "MAXIMUM": "2022-06-22"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-21",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-20",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-06-19",
             "VALUE": 0
@@ -6760,12 +6784,24 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-19"
+          "MAXIMUM": "2022-06-22"
         },
         "VALUES": [
           {
-            "DATE": "2022-06-19",
+            "DATE": "2022-06-22",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-21",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-20",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-06-19",
+            "VALUE": 1
           },
           {
             "DATE": "2022-06-18",
