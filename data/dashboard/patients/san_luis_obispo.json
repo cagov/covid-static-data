@@ -1,19 +1,19 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-06-21",
+    "PUBLISHED_DATE": "2022-06-24",
     "coverage": "San Luis Obispo"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 27,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.1,
+        "TOTAL": 25,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 278862
       },
       "ICU_PATIENTS": {
-        "TOTAL": 0,
-        "CHANGE": 0,
+        "TOTAL": 1,
+        "CHANGE": 1,
         "CHANGE_FACTOR": 0,
         "POPULATION": 278862
       }
@@ -22,9 +22,21 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-06-20"
+          "MAXIMUM": "2022-06-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-23",
+            "VALUE": 25
+          },
+          {
+            "DATE": "2022-06-22",
+            "VALUE": 25
+          },
+          {
+            "DATE": "2022-06-21",
+            "VALUE": 26
+          },
           {
             "DATE": "2022-06-20",
             "VALUE": 27
@@ -3282,9 +3294,21 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-06-20"
+          "MAXIMUM": "2022-06-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-23",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-06-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-21",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-06-20",
             "VALUE": 0
@@ -6542,9 +6566,21 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-06-20"
+          "MAXIMUM": "2022-06-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-23",
+            "VALUE": 24.785
+          },
+          {
+            "DATE": "2022-06-22",
+            "VALUE": 23.928
+          },
+          {
+            "DATE": "2022-06-21",
+            "VALUE": 23.357
+          },
           {
             "DATE": "2022-06-20",
             "VALUE": 22.857
@@ -9802,9 +9838,21 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-06-20"
+          "MAXIMUM": "2022-06-23"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-23",
+            "VALUE": 0.142
+          },
+          {
+            "DATE": "2022-06-22",
+            "VALUE": 0.071
+          },
+          {
+            "DATE": "2022-06-21",
+            "VALUE": 0.142
+          },
           {
             "DATE": "2022-06-20",
             "VALUE": 0.214
