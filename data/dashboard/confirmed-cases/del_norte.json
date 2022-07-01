@@ -1,54 +1,66 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-06-28",
+    "PUBLISHED_DATE": "2022-07-01",
     "coverage": "Del Norte"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 6484,
-        "new_cases": 86,
-        "new_cases_delta_1_day": 0.013442,
-        "cases_per_100k_7_days": 39.396908339,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-06-20",
+        "total_confirmed_cases": 6543,
+        "new_cases": 59,
+        "new_cases_delta_1_day": 0.009099,
+        "cases_per_100k_7_days": 53.392844183,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-06-23",
         "POPULATION": 27558,
-        "CASES_DAILY_AVERAGE": 10.857142857142858
+        "CASES_DAILY_AVERAGE": 14.714285714285714
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-27"
+          "MAXIMUM": "2022-06-30"
         },
         "VALUES": [
           {
-            "DATE": "2022-06-27",
+            "DATE": "2022-06-30",
             "VALUE": 0
           },
           {
-            "DATE": "2022-06-26",
-            "VALUE": 4
+            "DATE": "2022-06-29",
+            "VALUE": 9
           },
           {
-            "DATE": "2022-06-25",
-            "VALUE": 2
+            "DATE": "2022-06-28",
+            "VALUE": 11
           },
           {
-            "DATE": "2022-06-24",
-            "VALUE": 23
-          },
-          {
-            "DATE": "2022-06-23",
+            "DATE": "2022-06-27",
             "VALUE": 16
           },
           {
+            "DATE": "2022-06-26",
+            "VALUE": 12
+          },
+          {
+            "DATE": "2022-06-25",
+            "VALUE": 8
+          },
+          {
+            "DATE": "2022-06-24",
+            "VALUE": 30
+          },
+          {
+            "DATE": "2022-06-23",
+            "VALUE": 15
+          },
+          {
             "DATE": "2022-06-22",
-            "VALUE": 28
+            "VALUE": 29
           },
           {
             "DATE": "2022-06-21",
-            "VALUE": 12
+            "VALUE": 13
           },
           {
             "DATE": "2022-06-20",
@@ -80,7 +92,7 @@
           },
           {
             "DATE": "2022-06-13",
-            "VALUE": 13
+            "VALUE": 14
           },
           {
             "DATE": "2022-06-12",
@@ -3423,9 +3435,21 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-27"
+          "MAXIMUM": "2022-06-30"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-30",
+            "VALUE": 59
+          },
+          {
+            "DATE": "2022-06-29",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-28",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-06-27",
             "VALUE": 86
@@ -6827,36 +6851,48 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-27"
+          "MAXIMUM": "2022-06-30"
         },
         "VALUES": [
           {
-            "DATE": "2022-06-27",
-            "VALUE": 44.059801147
+            "DATE": "2022-06-30",
+            "VALUE": 44.578706728
           },
           {
-            "DATE": "2022-06-26",
+            "DATE": "2022-06-29",
             "VALUE": 52.355033021
           },
           {
+            "DATE": "2022-06-28",
+            "VALUE": 62.722258509
+          },
+          {
+            "DATE": "2022-06-27",
+            "VALUE": 63.760069671
+          },
+          {
+            "DATE": "2022-06-26",
+            "VALUE": 63.760069671
+          },
+          {
             "DATE": "2022-06-25",
-            "VALUE": 52.873938602
+            "VALUE": 60.131359315
           },
           {
             "DATE": "2022-06-24",
-            "VALUE": 58.574642572
+            "VALUE": 62.722258509
           },
           {
             "DATE": "2022-06-23",
-            "VALUE": 52.873938602
+            "VALUE": 53.392844183
           },
           {
             "DATE": "2022-06-22",
-            "VALUE": 49.764133827
+            "VALUE": 50.801944989
           },
           {
             "DATE": "2022-06-21",
-            "VALUE": 39.396908339
+            "VALUE": 39.91581392
           },
           {
             "DATE": "2022-06-20",
@@ -6864,31 +6900,31 @@
           },
           {
             "DATE": "2022-06-19",
-            "VALUE": 37.840191596
+            "VALUE": 38.359097177
           },
           {
             "DATE": "2022-06-18",
-            "VALUE": 39.396908339
+            "VALUE": 39.91581392
           },
           {
             "DATE": "2022-06-17",
-            "VALUE": 35.768197982
+            "VALUE": 36.287103563
           },
           {
             "DATE": "2022-06-16",
-            "VALUE": 34.730386821
+            "VALUE": 35.249292401
           },
           {
             "DATE": "2022-06-15",
-            "VALUE": 40.43109079
+            "VALUE": 40.949996371
           },
           {
             "DATE": "2022-06-14",
-            "VALUE": 39.396908339
+            "VALUE": 39.91581392
           },
           {
             "DATE": "2022-06-13",
-            "VALUE": 37.321286015
+            "VALUE": 37.840191596
           },
           {
             "DATE": "2022-06-12",
@@ -10231,9 +10267,21 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-27"
+          "MAXIMUM": "2022-06-30"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-30",
+            "VALUE": 75.165106321
+          },
+          {
+            "DATE": "2022-06-29",
+            "VALUE": 60.650264896
+          },
+          {
+            "DATE": "2022-06-28",
+            "VALUE": 60.650264896
+          },
           {
             "DATE": "2022-06-27",
             "VALUE": 60.650264896
