@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-06-28",
+    "PUBLISHED_DATE": "2022-07-01",
     "coverage": "Sierra"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0,
-        "test_positivity_7_days_delta_7_days": -0.214286,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-06-19",
+        "test_positivity_7_days": 0.125,
+        "test_positivity_7_days_delta_7_days": -0.075,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-06-22",
         "POPULATION": 3115
       }
     },
@@ -16,28 +16,40 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-26"
+          "MAXIMUM": "2022-06-29"
         },
         "VALUES": [
           {
+            "DATE": "2022-06-29",
+            "VALUE": 0.125
+          },
+          {
+            "DATE": "2022-06-28",
+            "VALUE": 0.133333
+          },
+          {
+            "DATE": "2022-06-27",
+            "VALUE": 0.117647
+          },
+          {
             "DATE": "2022-06-26",
-            "VALUE": 0
+            "VALUE": 0.0625
           },
           {
             "DATE": "2022-06-25",
-            "VALUE": 0
+            "VALUE": 0.058824
           },
           {
             "DATE": "2022-06-24",
-            "VALUE": 0
+            "VALUE": 0.058824
           },
           {
             "DATE": "2022-06-23",
-            "VALUE": 0
+            "VALUE": 0.0625
           },
           {
             "DATE": "2022-06-22",
-            "VALUE": 0.142857
+            "VALUE": 0.2
           },
           {
             "DATE": "2022-06-21",
@@ -3416,9 +3428,21 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-26"
+          "MAXIMUM": "2022-06-29"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-29",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-28",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-27",
+            "VALUE": 0.5
+          },
           {
             "DATE": "2022-06-26",
             "VALUE": 0
@@ -3437,7 +3461,7 @@
           },
           {
             "DATE": "2022-06-22",
-            "VALUE": 0
+            "VALUE": 0.142857
           },
           {
             "DATE": "2022-06-21",
@@ -6816,9 +6840,21 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-26"
+          "MAXIMUM": "2022-06-29"
         },
         "VALUES": [
+          {
+            "DATE": "2022-06-29",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-28",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-06-27",
+            "VALUE": 2
+          },
           {
             "DATE": "2022-06-26",
             "VALUE": 0
@@ -6829,15 +6865,15 @@
           },
           {
             "DATE": "2022-06-24",
-            "VALUE": 1
+            "VALUE": 2
           },
           {
             "DATE": "2022-06-23",
-            "VALUE": 3
+            "VALUE": 4
           },
           {
             "DATE": "2022-06-22",
-            "VALUE": 6
+            "VALUE": 7
           },
           {
             "DATE": "2022-06-21",
