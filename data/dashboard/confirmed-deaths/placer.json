@@ -1,27 +1,43 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-07-01",
+    "PUBLISHED_DATE": "2022-07-05",
     "coverage": "Placer"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 631,
-        "new_deaths": 2,
-        "new_deaths_delta_1_day": 0.00318,
-        "deaths_per_100k_7_days": 0,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-06-09",
+        "total_confirmed_deaths": 632,
+        "new_deaths": 1,
+        "new_deaths_delta_1_day": 0.001585,
+        "deaths_per_100k_7_days": 0.035461524,
+        "DEATH_UNCERTAINTY_PERIOD": "2022-06-13",
         "POPULATION": 400434,
-        "DEATHS_DAILY_AVERAGE": 0
+        "DEATHS_DAILY_AVERAGE": 0.14285714285714285
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-30"
+          "MAXIMUM": "2022-07-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-07-04",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-07-03",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-07-02",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-07-01",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-06-30",
             "VALUE": 0
@@ -80,7 +96,7 @@
           },
           {
             "DATE": "2022-06-16",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-06-15",
@@ -124,7 +140,7 @@
           },
           {
             "DATE": "2022-06-05",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-06-04",
@@ -184,7 +200,7 @@
           },
           {
             "DATE": "2022-05-21",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-05-20",
@@ -3435,9 +3451,25 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-30"
+          "MAXIMUM": "2022-07-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-07-04",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-07-03",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-07-02",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-07-01",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-06-30",
             "VALUE": 2
@@ -6851,9 +6883,25 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-30"
+          "MAXIMUM": "2022-07-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-07-04",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-07-03",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-07-02",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-07-01",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-06-30",
             "VALUE": 0
@@ -6888,31 +6936,31 @@
           },
           {
             "DATE": "2022-06-22",
-            "VALUE": 0
+            "VALUE": 0.035461524
           },
           {
             "DATE": "2022-06-21",
-            "VALUE": 0
+            "VALUE": 0.035461524
           },
           {
             "DATE": "2022-06-20",
-            "VALUE": 0
+            "VALUE": 0.035461524
           },
           {
             "DATE": "2022-06-19",
-            "VALUE": 0
+            "VALUE": 0.035461524
           },
           {
             "DATE": "2022-06-18",
-            "VALUE": 0
+            "VALUE": 0.035461524
           },
           {
             "DATE": "2022-06-17",
-            "VALUE": 0
+            "VALUE": 0.035461524
           },
           {
             "DATE": "2022-06-16",
-            "VALUE": 0.035461524
+            "VALUE": 0.071172778
           },
           {
             "DATE": "2022-06-15",
@@ -6932,31 +6980,31 @@
           },
           {
             "DATE": "2022-06-11",
-            "VALUE": 0.035461524
+            "VALUE": 0.071172778
           },
           {
             "DATE": "2022-06-10",
-            "VALUE": 0.035461524
+            "VALUE": 0.071172778
           },
           {
             "DATE": "2022-06-09",
-            "VALUE": 0
+            "VALUE": 0.035461524
           },
           {
             "DATE": "2022-06-08",
-            "VALUE": 0
+            "VALUE": 0.035461524
           },
           {
             "DATE": "2022-06-07",
-            "VALUE": 0
+            "VALUE": 0.035461524
           },
           {
             "DATE": "2022-06-06",
-            "VALUE": 0
+            "VALUE": 0.035461524
           },
           {
             "DATE": "2022-06-05",
-            "VALUE": 0
+            "VALUE": 0.035461524
           },
           {
             "DATE": "2022-06-04",
@@ -6992,31 +7040,31 @@
           },
           {
             "DATE": "2022-05-27",
-            "VALUE": 0
-          },
-          {
-            "DATE": "2022-05-26",
             "VALUE": 0.035461524
           },
           {
-            "DATE": "2022-05-25",
+            "DATE": "2022-05-26",
             "VALUE": 0.071172778
+          },
+          {
+            "DATE": "2022-05-25",
+            "VALUE": 0.106884031
           },
           {
             "DATE": "2022-05-24",
-            "VALUE": 0.071172778
+            "VALUE": 0.106884031
           },
           {
             "DATE": "2022-05-23",
-            "VALUE": 0.071172778
+            "VALUE": 0.106884031
           },
           {
             "DATE": "2022-05-22",
-            "VALUE": 0.071172778
+            "VALUE": 0.106884031
           },
           {
             "DATE": "2022-05-21",
-            "VALUE": 0.071172778
+            "VALUE": 0.106884031
           },
           {
             "DATE": "2022-05-20",
@@ -10267,9 +10315,25 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-06-30"
+          "MAXIMUM": "2022-07-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-07-04",
+            "VALUE": 0.106884031
+          },
+          {
+            "DATE": "2022-07-03",
+            "VALUE": 0.106884031
+          },
+          {
+            "DATE": "2022-07-02",
+            "VALUE": 0.106884031
+          },
+          {
+            "DATE": "2022-07-01",
+            "VALUE": 0.106884031
+          },
           {
             "DATE": "2022-06-30",
             "VALUE": 0.106884031
