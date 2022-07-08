@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-07-05",
+    "PUBLISHED_DATE": "2022-07-08",
     "coverage": "Kern"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 77,
+        "TOTAL": 91,
         "CHANGE": 5,
-        "CHANGE_FACTOR": 0.069444,
+        "CHANGE_FACTOR": 0.05814,
         "POPULATION": 927251
       },
       "ICU_PATIENTS": {
-        "TOTAL": 11,
+        "TOTAL": 14,
         "CHANGE": 2,
-        "CHANGE_FACTOR": 0.222222,
+        "CHANGE_FACTOR": 0.166667,
         "POPULATION": 927251
       }
     },
@@ -22,9 +22,17 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-07-05"
+          "MAXIMUM": "2022-07-07"
         },
         "VALUES": [
+          {
+            "DATE": "2022-07-07",
+            "VALUE": 91
+          },
+          {
+            "DATE": "2022-07-06",
+            "VALUE": 86
+          },
           {
             "DATE": "2022-07-05",
             "VALUE": 77
@@ -3342,9 +3350,17 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-07-05"
+          "MAXIMUM": "2022-07-07"
         },
         "VALUES": [
+          {
+            "DATE": "2022-07-07",
+            "VALUE": 14
+          },
+          {
+            "DATE": "2022-07-06",
+            "VALUE": 12
+          },
           {
             "DATE": "2022-07-05",
             "VALUE": 11
@@ -6662,9 +6678,17 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-07-05"
+          "MAXIMUM": "2022-07-07"
         },
         "VALUES": [
+          {
+            "DATE": "2022-07-07",
+            "VALUE": 66.714
+          },
+          {
+            "DATE": "2022-07-06",
+            "VALUE": 64.785
+          },
           {
             "DATE": "2022-07-05",
             "VALUE": 62.571
@@ -9982,9 +10006,17 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-07-05"
+          "MAXIMUM": "2022-07-07"
         },
         "VALUES": [
+          {
+            "DATE": "2022-07-07",
+            "VALUE": 9.142
+          },
+          {
+            "DATE": "2022-07-06",
+            "VALUE": 8.928
+          },
           {
             "DATE": "2022-07-05",
             "VALUE": 8.785
