@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-07-26",
+    "PUBLISHED_DATE": "2022-07-29",
     "coverage": "Tulare"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 35,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.09375,
+        "TOTAL": 24,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.111111,
         "POPULATION": 484423
       }
     },
@@ -16,9 +16,21 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-07-25"
+          "MAXIMUM": "2022-07-28"
         },
         "VALUES": [
+          {
+            "DATE": "2022-07-28",
+            "VALUE": 24
+          },
+          {
+            "DATE": "2022-07-27",
+            "VALUE": 27
+          },
+          {
+            "DATE": "2022-07-26",
+            "VALUE": 29
+          },
           {
             "DATE": "2022-07-25",
             "VALUE": 35
