@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-07-26",
+    "PUBLISHED_DATE": "2022-07-29",
     "coverage": "Sonoma"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 52,
-        "CHANGE": 3,
-        "CHANGE_FACTOR": 0.061224,
+        "CHANGE": -3,
+        "CHANGE_FACTOR": -0.054545,
         "POPULATION": 496668
       },
       "ICU_PATIENTS": {
         "TOTAL": 4,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.333333,
         "POPULATION": 496668
       }
     },
@@ -22,9 +22,21 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-07-25"
+          "MAXIMUM": "2022-07-28"
         },
         "VALUES": [
+          {
+            "DATE": "2022-07-28",
+            "VALUE": 52
+          },
+          {
+            "DATE": "2022-07-27",
+            "VALUE": 55
+          },
+          {
+            "DATE": "2022-07-26",
+            "VALUE": 57
+          },
           {
             "DATE": "2022-07-25",
             "VALUE": 52
@@ -3422,9 +3434,21 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-07-25"
+          "MAXIMUM": "2022-07-28"
         },
         "VALUES": [
+          {
+            "DATE": "2022-07-28",
+            "VALUE": 4
+          },
+          {
+            "DATE": "2022-07-27",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2022-07-26",
+            "VALUE": 4
+          },
           {
             "DATE": "2022-07-25",
             "VALUE": 4
@@ -6822,9 +6846,21 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-07-25"
+          "MAXIMUM": "2022-07-28"
         },
         "VALUES": [
+          {
+            "DATE": "2022-07-28",
+            "VALUE": 46.857
+          },
+          {
+            "DATE": "2022-07-27",
+            "VALUE": 46.142
+          },
+          {
+            "DATE": "2022-07-26",
+            "VALUE": 45.428
+          },
           {
             "DATE": "2022-07-25",
             "VALUE": 44.571
@@ -10222,9 +10258,21 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-07-25"
+          "MAXIMUM": "2022-07-28"
         },
         "VALUES": [
+          {
+            "DATE": "2022-07-28",
+            "VALUE": 3.785
+          },
+          {
+            "DATE": "2022-07-27",
+            "VALUE": 3.857
+          },
+          {
+            "DATE": "2022-07-26",
+            "VALUE": 4.071
+          },
           {
             "DATE": "2022-07-25",
             "VALUE": 4.214
