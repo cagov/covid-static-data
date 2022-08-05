@@ -1,27 +1,39 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-08-02",
+    "PUBLISHED_DATE": "2022-08-05",
     "coverage": "Monterey"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 754,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
-        "deaths_per_100k_7_days": 0.063512297,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-07-11",
+        "total_confirmed_deaths": 757,
+        "new_deaths": 3,
+        "new_deaths_delta_1_day": 0.003979,
+        "deaths_per_100k_7_days": 0.159115017,
+        "DEATH_UNCERTAINTY_PERIOD": "2022-07-14",
         "POPULATION": 448732,
-        "DEATHS_DAILY_AVERAGE": 0.2857142857142857
+        "DEATHS_DAILY_AVERAGE": 0.7142857142857143
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-08-01"
+          "MAXIMUM": "2022-08-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-08-04",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-08-03",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-08-02",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-08-01",
             "VALUE": 0
@@ -40,7 +52,7 @@
           },
           {
             "DATE": "2022-07-28",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-07-27",
@@ -76,7 +88,7 @@
           },
           {
             "DATE": "2022-07-19",
-            "VALUE": 2
+            "VALUE": 1
           },
           {
             "DATE": "2022-07-18",
@@ -84,7 +96,7 @@
           },
           {
             "DATE": "2022-07-17",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-07-16",
@@ -96,7 +108,7 @@
           },
           {
             "DATE": "2022-07-14",
-            "VALUE": 1
+            "VALUE": 3
           },
           {
             "DATE": "2022-07-13",
@@ -104,11 +116,11 @@
           },
           {
             "DATE": "2022-07-12",
-            "VALUE": 2
+            "VALUE": 1
           },
           {
             "DATE": "2022-07-11",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-07-10",
@@ -3563,9 +3575,21 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-08-01"
+          "MAXIMUM": "2022-08-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-08-04",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2022-08-03",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-08-02",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-08-01",
             "VALUE": 0
@@ -7107,28 +7131,40 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-08-01"
+          "MAXIMUM": "2022-08-04"
         },
         "VALUES": [
           {
-            "DATE": "2022-08-01",
+            "DATE": "2022-08-04",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-08-03",
+            "VALUE": 0.031644723
+          },
+          {
+            "DATE": "2022-08-02",
+            "VALUE": 0.031644723
+          },
+          {
+            "DATE": "2022-08-01",
+            "VALUE": 0.031644723
           },
           {
             "DATE": "2022-07-31",
-            "VALUE": 0
+            "VALUE": 0.031644723
           },
           {
             "DATE": "2022-07-30",
-            "VALUE": 0
+            "VALUE": 0.031644723
           },
           {
             "DATE": "2022-07-29",
-            "VALUE": 0
+            "VALUE": 0.031644723
           },
           {
             "DATE": "2022-07-28",
-            "VALUE": 0
+            "VALUE": 0.031644723
           },
           {
             "DATE": "2022-07-27",
@@ -7140,11 +7176,11 @@
           },
           {
             "DATE": "2022-07-25",
-            "VALUE": 0.063512297
+            "VALUE": 0.031644723
           },
           {
             "DATE": "2022-07-24",
-            "VALUE": 0.063512297
+            "VALUE": 0.031644723
           },
           {
             "DATE": "2022-07-23",
@@ -7160,31 +7196,31 @@
           },
           {
             "DATE": "2022-07-20",
-            "VALUE": 0.127247444
+            "VALUE": 0.190982591
           },
           {
             "DATE": "2022-07-19",
-            "VALUE": 0.127247444
+            "VALUE": 0.190982591
           },
           {
             "DATE": "2022-07-18",
-            "VALUE": 0.127247444
+            "VALUE": 0.190982591
           },
           {
             "DATE": "2022-07-17",
-            "VALUE": 0.127247444
+            "VALUE": 0.222850164
           },
           {
             "DATE": "2022-07-16",
-            "VALUE": 0.127247444
+            "VALUE": 0.190982591
           },
           {
             "DATE": "2022-07-15",
-            "VALUE": 0.09537987
+            "VALUE": 0.159115017
           },
           {
             "DATE": "2022-07-14",
-            "VALUE": 0.09537987
+            "VALUE": 0.159115017
           },
           {
             "DATE": "2022-07-13",
@@ -7196,7 +7232,7 @@
           },
           {
             "DATE": "2022-07-11",
-            "VALUE": 0.063512297
+            "VALUE": 0.09537987
           },
           {
             "DATE": "2022-07-10",
@@ -10651,9 +10687,21 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-08-01"
+          "MAXIMUM": "2022-08-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-08-04",
+            "VALUE": 0.09537987
+          },
+          {
+            "DATE": "2022-08-03",
+            "VALUE": 0.063512297
+          },
+          {
+            "DATE": "2022-08-02",
+            "VALUE": 0.063512297
+          },
           {
             "DATE": "2022-08-01",
             "VALUE": 0.063512297
