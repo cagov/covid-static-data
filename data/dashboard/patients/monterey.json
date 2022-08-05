@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-08-02",
+    "PUBLISHED_DATE": "2022-08-05",
     "coverage": "Monterey"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 34,
-        "CHANGE": -7,
-        "CHANGE_FACTOR": -0.170732,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.0625,
         "POPULATION": 448732
       },
       "ICU_PATIENTS": {
-        "TOTAL": 1,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.5,
+        "TOTAL": 0,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 448732
       }
     },
@@ -22,9 +22,21 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-08-01"
+          "MAXIMUM": "2022-08-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-08-04",
+            "VALUE": 34
+          },
+          {
+            "DATE": "2022-08-03",
+            "VALUE": 32
+          },
+          {
+            "DATE": "2022-08-02",
+            "VALUE": 33
+          },
           {
             "DATE": "2022-08-01",
             "VALUE": 34
@@ -3450,9 +3462,21 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-08-01"
+          "MAXIMUM": "2022-08-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-08-04",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-08-03",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-08-02",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-08-01",
             "VALUE": 1
@@ -6878,9 +6902,21 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-08-01"
+          "MAXIMUM": "2022-08-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-08-04",
+            "VALUE": 39.142
+          },
+          {
+            "DATE": "2022-08-03",
+            "VALUE": 39.5
+          },
+          {
+            "DATE": "2022-08-02",
+            "VALUE": 40
+          },
           {
             "DATE": "2022-08-01",
             "VALUE": 40.928
@@ -10306,9 +10342,21 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-08-01"
+          "MAXIMUM": "2022-08-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-08-04",
+            "VALUE": 1.714
+          },
+          {
+            "DATE": "2022-08-03",
+            "VALUE": 1.785
+          },
+          {
+            "DATE": "2022-08-02",
+            "VALUE": 1.928
+          },
           {
             "DATE": "2022-08-01",
             "VALUE": 2.214
