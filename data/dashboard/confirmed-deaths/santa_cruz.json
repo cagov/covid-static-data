@@ -1,38 +1,50 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-08-09",
+    "PUBLISHED_DATE": "2022-08-12",
     "coverage": "Santa Cruz"
   },
   "data": {
     "latest": {
       "CONFIRMED_DEATHS": {
-        "total_confirmed_deaths": 269,
-        "new_deaths": 0,
-        "new_deaths_delta_1_day": 0,
-        "deaths_per_100k_7_days": 0.051825007,
-        "DEATH_UNCERTAINTY_PERIOD": "2022-07-18",
+        "total_confirmed_deaths": 273,
+        "new_deaths": 4,
+        "new_deaths_delta_1_day": 0.01487,
+        "deaths_per_100k_7_days": 0,
+        "DEATH_UNCERTAINTY_PERIOD": "2022-07-21",
         "POPULATION": 273999,
-        "DEATHS_DAILY_AVERAGE": 0.14285714285714285
+        "DEATHS_DAILY_AVERAGE": 0
       }
     },
     "time_series": {
       "CONFIRMED_DEATHS_DEATH_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-08-08"
+          "MAXIMUM": "2022-08-11"
         },
         "VALUES": [
           {
-            "DATE": "2022-08-08",
+            "DATE": "2022-08-11",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-08-10",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-08-09",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-08-08",
+            "VALUE": 1
           },
           {
             "DATE": "2022-08-07",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-08-06",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-08-05",
@@ -3591,9 +3603,21 @@
       "CONFIRMED_DEATHS_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-08-08"
+          "MAXIMUM": "2022-08-11"
         },
         "VALUES": [
+          {
+            "DATE": "2022-08-11",
+            "VALUE": 4
+          },
+          {
+            "DATE": "2022-08-10",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-08-09",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-08-08",
             "VALUE": 0
@@ -7163,20 +7187,32 @@
       "AVG_DEATH_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-08-08"
+          "MAXIMUM": "2022-08-11"
         },
         "VALUES": [
           {
+            "DATE": "2022-08-11",
+            "VALUE": 0.208394921
+          },
+          {
+            "DATE": "2022-08-10",
+            "VALUE": 0.208394921
+          },
+          {
+            "DATE": "2022-08-09",
+            "VALUE": 0.208394921
+          },
+          {
             "DATE": "2022-08-08",
-            "VALUE": 0
+            "VALUE": 0.15620495
           },
           {
             "DATE": "2022-08-07",
-            "VALUE": 0
+            "VALUE": 0.104014978
           },
           {
             "DATE": "2022-08-06",
-            "VALUE": 0
+            "VALUE": 0.051825007
           },
           {
             "DATE": "2022-08-05",
@@ -10735,9 +10771,21 @@
       "AVG_DEATH_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-08-08"
+          "MAXIMUM": "2022-08-11"
         },
         "VALUES": [
+          {
+            "DATE": "2022-08-11",
+            "VALUE": 0.208394921
+          },
+          {
+            "DATE": "2022-08-10",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-08-09",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-08-08",
             "VALUE": 0
