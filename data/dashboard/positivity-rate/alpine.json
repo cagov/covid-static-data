@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-08-30",
+    "PUBLISHED_DATE": "2022-09-02",
     "coverage": "Alpine"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
         "test_positivity_7_days": 0.333333,
-        "test_positivity_7_days_delta_7_days": 0.133333,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-08-21",
+        "test_positivity_7_days_delta_7_days": 0,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-08-24",
         "POPULATION": 1117
       }
     },
@@ -16,9 +16,21 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-08-28"
+          "MAXIMUM": "2022-08-31"
         },
         "VALUES": [
+          {
+            "DATE": "2022-08-31",
+            "VALUE": 0.333333
+          },
+          {
+            "DATE": "2022-08-30",
+            "VALUE": 0.333333
+          },
+          {
+            "DATE": "2022-08-29",
+            "VALUE": 0.25
+          },
           {
             "DATE": "2022-08-28",
             "VALUE": 0.333333
@@ -3668,9 +3680,21 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-08-28"
+          "MAXIMUM": "2022-08-31"
         },
         "VALUES": [
+          {
+            "DATE": "2022-08-31",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-08-30",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-08-29",
+            "VALUE": 0.5
+          },
           {
             "DATE": "2022-08-28",
             "VALUE": 0
@@ -7320,9 +7344,21 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-08-28"
+          "MAXIMUM": "2022-08-31"
         },
         "VALUES": [
+          {
+            "DATE": "2022-08-31",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-08-30",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-08-29",
+            "VALUE": 2
+          },
           {
             "DATE": "2022-08-28",
             "VALUE": 0
