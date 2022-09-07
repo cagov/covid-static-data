@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-09-02",
+    "PUBLISHED_DATE": "2022-09-06",
     "coverage": "Sierra"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.166667,
-        "test_positivity_7_days_delta_7_days": 0.166667,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-08-24",
+        "test_positivity_7_days": 0.076923,
+        "test_positivity_7_days_delta_7_days": 0,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-08-28",
         "POPULATION": 3115
       }
     },
@@ -16,16 +16,32 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-08-31"
+          "MAXIMUM": "2022-09-04"
         },
         "VALUES": [
           {
+            "DATE": "2022-09-04",
+            "VALUE": 0.076923
+          },
+          {
+            "DATE": "2022-09-03",
+            "VALUE": 0.076923
+          },
+          {
+            "DATE": "2022-09-02",
+            "VALUE": 0.076923
+          },
+          {
+            "DATE": "2022-09-01",
+            "VALUE": 0.076923
+          },
+          {
             "DATE": "2022-08-31",
-            "VALUE": 0.166667
+            "VALUE": 0.142857
           },
           {
             "DATE": "2022-08-30",
-            "VALUE": 0.142857
+            "VALUE": 0.125
           },
           {
             "DATE": "2022-08-29",
@@ -3680,9 +3696,25 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-08-31"
+          "MAXIMUM": "2022-09-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-09-04",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-09-03",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-09-02",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-09-01",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-08-31",
             "VALUE": 0
@@ -7344,16 +7376,32 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-08-31"
+          "MAXIMUM": "2022-09-04"
         },
         "VALUES": [
+          {
+            "DATE": "2022-09-04",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-09-03",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-09-02",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2022-09-01",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-08-31",
             "VALUE": 0
           },
           {
             "DATE": "2022-08-30",
-            "VALUE": 4
+            "VALUE": 6
           },
           {
             "DATE": "2022-08-29",
