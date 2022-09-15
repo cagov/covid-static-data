@@ -27,10 +27,8 @@ This folder includes the majority of our static JSON data files for [https://cov
 |`data/dashboard/hospitalized-patients` | |
 |`data/dashboard/icu-beds` | |
 |`data/dashboard/icu-patients` | |
-|`data/dashboard/confirmed-cases-episode-date` | |
-|`data/dashboard/confirmed-cases-reported-date` | |
-|`data/dashboard/confirmed-deaths-death-date` | |
-|`data/dashboard/confirmed-deaths-reported-date` | |
+|`data/dashboard/combined-cases` | |
+|`data/dashboard/confirmed-deaths` | |
 |`data/dashboard/positivity-rate` | |
 |`data/dashboard/total-tests-reported-date` | |
 |`data/dashboard/total-tests-testing-date` | |
