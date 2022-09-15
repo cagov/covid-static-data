@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-09-09",
+    "PUBLISHED_DATE": "2022-09-15",
     "coverage": "Kern"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 58,
-        "CHANGE": 2,
-        "CHANGE_FACTOR": 0.035714,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.033333,
         "POPULATION": 927251
       },
       "ICU_PATIENTS": {
-        "TOTAL": 12,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.076923,
+        "TOTAL": 7,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.222222,
         "POPULATION": 927251
       }
     },
@@ -22,9 +22,33 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-09-08"
+          "MAXIMUM": "2022-09-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-09-14",
+            "VALUE": 58
+          },
+          {
+            "DATE": "2022-09-13",
+            "VALUE": 60
+          },
+          {
+            "DATE": "2022-09-12",
+            "VALUE": 58
+          },
+          {
+            "DATE": "2022-09-11",
+            "VALUE": 54
+          },
+          {
+            "DATE": "2022-09-10",
+            "VALUE": 55
+          },
+          {
+            "DATE": "2022-09-09",
+            "VALUE": 62
+          },
           {
             "DATE": "2022-09-08",
             "VALUE": 58
@@ -3602,9 +3626,33 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-09-08"
+          "MAXIMUM": "2022-09-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-09-14",
+            "VALUE": 7
+          },
+          {
+            "DATE": "2022-09-13",
+            "VALUE": 9
+          },
+          {
+            "DATE": "2022-09-12",
+            "VALUE": 13
+          },
+          {
+            "DATE": "2022-09-11",
+            "VALUE": 10
+          },
+          {
+            "DATE": "2022-09-10",
+            "VALUE": 11
+          },
+          {
+            "DATE": "2022-09-09",
+            "VALUE": 10
+          },
           {
             "DATE": "2022-09-08",
             "VALUE": 12
@@ -7182,9 +7230,33 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-09-08"
+          "MAXIMUM": "2022-09-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-09-14",
+            "VALUE": 56.214
+          },
+          {
+            "DATE": "2022-09-13",
+            "VALUE": 57.071
+          },
+          {
+            "DATE": "2022-09-12",
+            "VALUE": 57.285
+          },
+          {
+            "DATE": "2022-09-11",
+            "VALUE": 57.285
+          },
+          {
+            "DATE": "2022-09-10",
+            "VALUE": 58.142
+          },
+          {
+            "DATE": "2022-09-09",
+            "VALUE": 58.5
+          },
           {
             "DATE": "2022-09-08",
             "VALUE": 58.785
@@ -10762,9 +10834,33 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-09-08"
+          "MAXIMUM": "2022-09-14"
         },
         "VALUES": [
+          {
+            "DATE": "2022-09-14",
+            "VALUE": 9.357
+          },
+          {
+            "DATE": "2022-09-13",
+            "VALUE": 9.285
+          },
+          {
+            "DATE": "2022-09-12",
+            "VALUE": 9.071
+          },
+          {
+            "DATE": "2022-09-11",
+            "VALUE": 8.714
+          },
+          {
+            "DATE": "2022-09-10",
+            "VALUE": 8.642
+          },
+          {
+            "DATE": "2022-09-09",
+            "VALUE": 8.357
+          },
           {
             "DATE": "2022-09-08",
             "VALUE": 8.142
