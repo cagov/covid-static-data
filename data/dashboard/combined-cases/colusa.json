@@ -1,51 +1,79 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-10-20",
+    "PUBLISHED_DATE": "2022-10-27",
     "coverage": "Colusa"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 3807,
-        "new_cases": 2,
-        "new_cases_delta_1_day": 0.000526,
-        "cases_per_100k_7_days": 1.894392068,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-10-11",
+        "total_confirmed_cases": 3813,
+        "new_cases": 6,
+        "new_cases_delta_1_day": 0.001576,
+        "cases_per_100k_7_days": 1.261452662,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-10-18",
         "POPULATION": 22593,
-        "CASES_DAILY_AVERAGE": 0.42857142857142855
+        "CASES_DAILY_AVERAGE": 0.2857142857142857
       },
       "CASES": {
-        "total_confirmed_cases": 3807,
-        "total_probable_cases": 1290,
-        "total_combined_cases": 5097,
-        "new_cases": 2,
-        "new_cases_delta_1_day": 0.000526,
-        "confirmed_cases_per_100k_7_days": 1.894392068,
+        "total_confirmed_cases": 3813,
+        "total_probable_cases": 1295,
+        "total_combined_cases": 5108,
+        "new_cases": 6,
+        "new_cases_delta_1_day": 0.001576,
+        "confirmed_cases_per_100k_7_days": 1.261452662,
         "probable_cases_per_100k_7_days": 0.628513256,
-        "combined_cases_per_100k_7_days": 2.527331474,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-10-11",
-        "PROBABLE_UNCERTAINTY_PERIOD": "2022-10-11",
-        "COMBINED_UNCERTAINTY_PERIOD": "2022-10-11",
+        "combined_cases_per_100k_7_days": 1.894392068,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-10-18",
+        "PROBABLE_UNCERTAINTY_PERIOD": "2022-10-18",
+        "COMBINED_UNCERTAINTY_PERIOD": "2022-10-18",
         "POPULATION": 22593,
-        "CONFIRMED_CASES_DAILY_AVERAGE": 0.42857142857142855,
+        "CONFIRMED_CASES_DAILY_AVERAGE": 0.2857142857142857,
         "PROBABLE_CASES_DAILY_AVERAGE": 0.14285714285714285,
-        "COMBINED_CASES_DAILY_AVERAGE": 0.5714285714285714
+        "COMBINED_CASES_DAILY_AVERAGE": 0.42857142857142855
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-10-18"
+          "MAXIMUM": "2022-10-25"
         },
         "VALUES": [
+          {
+            "DATE": "2022-10-25",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-24",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-10-23",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-22",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-10-21",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-20",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-10-19",
+            "VALUE": 1
+          },
           {
             "DATE": "2022-10-18",
             "VALUE": 0
           },
           {
             "DATE": "2022-10-17",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-10-16",
@@ -1665,7 +1693,7 @@
           },
           {
             "DATE": "2021-09-07",
-            "VALUE": 7
+            "VALUE": 8
           },
           {
             "DATE": "2021-09-06",
@@ -3892,9 +3920,37 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-10-18"
+          "MAXIMUM": "2022-10-25"
         },
         "VALUES": [
+          {
+            "DATE": "2022-10-25",
+            "VALUE": 6
+          },
+          {
+            "DATE": "2022-10-24",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-23",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-21",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-20",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-19",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-10-18",
             "VALUE": 2
@@ -7748,12 +7804,40 @@
       "PROBABLE_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-10-18"
+          "MAXIMUM": "2022-10-25"
         },
         "VALUES": [
           {
-            "DATE": "2022-10-18",
+            "DATE": "2022-10-25",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-24",
+            "VALUE": 4
+          },
+          {
+            "DATE": "2022-10-23",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-21",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-20",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-19",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-18",
+            "VALUE": 1
           },
           {
             "DATE": "2022-10-17",
@@ -11604,16 +11688,44 @@
       "COMBINED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-10-18"
+          "MAXIMUM": "2022-10-25"
         },
         "VALUES": [
           {
-            "DATE": "2022-10-18",
+            "DATE": "2022-10-25",
             "VALUE": 0
           },
           {
-            "DATE": "2022-10-17",
+            "DATE": "2022-10-24",
+            "VALUE": 5
+          },
+          {
+            "DATE": "2022-10-23",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-22",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-10-21",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-20",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-10-19",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-10-18",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-10-17",
+            "VALUE": 1
           },
           {
             "DATE": "2022-10-16",
@@ -13233,7 +13345,7 @@
           },
           {
             "DATE": "2021-09-07",
-            "VALUE": 11
+            "VALUE": 12
           },
           {
             "DATE": "2021-09-06",
@@ -15460,16 +15572,44 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-10-18"
+          "MAXIMUM": "2022-10-25"
         },
         "VALUES": [
           {
+            "DATE": "2022-10-25",
+            "VALUE": 2.527331474
+          },
+          {
+            "DATE": "2022-10-24",
+            "VALUE": 2.527331474
+          },
+          {
+            "DATE": "2022-10-23",
+            "VALUE": 2.527331474
+          },
+          {
+            "DATE": "2022-10-22",
+            "VALUE": 2.527331474
+          },
+          {
+            "DATE": "2022-10-21",
+            "VALUE": 1.894392068
+          },
+          {
+            "DATE": "2022-10-20",
+            "VALUE": 1.894392068
+          },
+          {
+            "DATE": "2022-10-19",
+            "VALUE": 1.261452662
+          },
+          {
             "DATE": "2022-10-18",
-            "VALUE": 0.628513256
+            "VALUE": 1.261452662
           },
           {
             "DATE": "2022-10-17",
-            "VALUE": 1.261452662
+            "VALUE": 1.894392068
           },
           {
             "DATE": "2022-10-16",
@@ -17065,31 +17205,31 @@
           },
           {
             "DATE": "2021-09-13",
-            "VALUE": 21.497809056
+            "VALUE": 22.130748462
           },
           {
             "DATE": "2021-09-12",
-            "VALUE": 24.658079936
-          },
-          {
-            "DATE": "2021-09-11",
             "VALUE": 25.291019342
           },
           {
-            "DATE": "2021-09-10",
+            "DATE": "2021-09-11",
             "VALUE": 25.923958748
+          },
+          {
+            "DATE": "2021-09-10",
+            "VALUE": 26.556898154
           },
           {
             "DATE": "2021-09-09",
-            "VALUE": 24.02514053
+            "VALUE": 24.658079936
           },
           {
             "DATE": "2021-09-08",
-            "VALUE": 25.923958748
+            "VALUE": 26.556898154
           },
           {
             "DATE": "2021-09-07",
-            "VALUE": 20.86486965
+            "VALUE": 21.497809056
           },
           {
             "DATE": "2021-09-06",
@@ -19316,9 +19456,37 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-10-18"
+          "MAXIMUM": "2022-10-25"
         },
         "VALUES": [
+          {
+            "DATE": "2022-10-25",
+            "VALUE": 3.793210286
+          },
+          {
+            "DATE": "2022-10-24",
+            "VALUE": 1.261452662
+          },
+          {
+            "DATE": "2022-10-23",
+            "VALUE": 1.261452662
+          },
+          {
+            "DATE": "2022-10-22",
+            "VALUE": 1.261452662
+          },
+          {
+            "DATE": "2022-10-21",
+            "VALUE": 1.261452662
+          },
+          {
+            "DATE": "2022-10-20",
+            "VALUE": 1.261452662
+          },
+          {
+            "DATE": "2022-10-19",
+            "VALUE": 1.261452662
+          },
           {
             "DATE": "2022-10-18",
             "VALUE": 1.261452662
@@ -23172,12 +23340,40 @@
       "AVG_PROBABLE_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-10-18"
+          "MAXIMUM": "2022-10-25"
         },
         "VALUES": [
           {
+            "DATE": "2022-10-25",
+            "VALUE": 2.527331474
+          },
+          {
+            "DATE": "2022-10-24",
+            "VALUE": 3.16027088
+          },
+          {
+            "DATE": "2022-10-23",
+            "VALUE": 0.628513256
+          },
+          {
+            "DATE": "2022-10-22",
+            "VALUE": 0.628513256
+          },
+          {
+            "DATE": "2022-10-21",
+            "VALUE": 0.628513256
+          },
+          {
+            "DATE": "2022-10-20",
+            "VALUE": 0.628513256
+          },
+          {
+            "DATE": "2022-10-19",
+            "VALUE": 0.628513256
+          },
+          {
             "DATE": "2022-10-18",
-            "VALUE": 0
+            "VALUE": 0.628513256
           },
           {
             "DATE": "2022-10-17",
@@ -27028,16 +27224,44 @@
       "AVG_COMBINED_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-10-18"
+          "MAXIMUM": "2022-10-25"
         },
         "VALUES": [
           {
+            "DATE": "2022-10-25",
+            "VALUE": 5.054662949
+          },
+          {
+            "DATE": "2022-10-24",
+            "VALUE": 5.687602355
+          },
+          {
+            "DATE": "2022-10-23",
+            "VALUE": 3.16027088
+          },
+          {
+            "DATE": "2022-10-22",
+            "VALUE": 3.16027088
+          },
+          {
+            "DATE": "2022-10-21",
+            "VALUE": 2.527331474
+          },
+          {
+            "DATE": "2022-10-20",
+            "VALUE": 2.527331474
+          },
+          {
+            "DATE": "2022-10-19",
+            "VALUE": 1.894392068
+          },
+          {
             "DATE": "2022-10-18",
-            "VALUE": 0.628513256
+            "VALUE": 1.894392068
           },
           {
             "DATE": "2022-10-17",
-            "VALUE": 1.261452662
+            "VALUE": 1.894392068
           },
           {
             "DATE": "2022-10-16",
@@ -28633,31 +28857,31 @@
           },
           {
             "DATE": "2021-09-13",
-            "VALUE": 30.350108441
+            "VALUE": 30.983047847
           },
           {
             "DATE": "2021-09-12",
-            "VALUE": 34.143318727
+            "VALUE": 34.776258133
           },
           {
             "DATE": "2021-09-11",
-            "VALUE": 32.877439915
+            "VALUE": 33.510379321
           },
           {
             "DATE": "2021-09-10",
-            "VALUE": 32.244500509
+            "VALUE": 32.877439915
           },
           {
             "DATE": "2021-09-09",
-            "VALUE": 29.717169035
+            "VALUE": 30.350108441
           },
           {
             "DATE": "2021-09-08",
-            "VALUE": 32.244500509
+            "VALUE": 32.877439915
           },
           {
             "DATE": "2021-09-07",
-            "VALUE": 27.185411411
+            "VALUE": 27.818350817
           },
           {
             "DATE": "2021-09-06",
