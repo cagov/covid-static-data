@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-10-27",
+    "PUBLISHED_DATE": "2022-11-03",
     "coverage": "Mendocino"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 3,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 4,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.333333,
         "POPULATION": 88439
       },
       "ICU_PATIENTS": {
         "TOTAL": 0,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -1,
         "POPULATION": 88439
       }
     },
@@ -22,9 +22,37 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-10-26"
+          "MAXIMUM": "2022-11-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-11-02",
+            "VALUE": 4
+          },
+          {
+            "DATE": "2022-11-01",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2022-10-31",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2022-10-30",
+            "VALUE": 4
+          },
+          {
+            "DATE": "2022-10-29",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2022-10-28",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2022-10-27",
+            "VALUE": 2
+          },
           {
             "DATE": "2022-10-26",
             "VALUE": 3
@@ -3794,9 +3822,37 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-10-26"
+          "MAXIMUM": "2022-11-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-11-02",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-11-01",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2022-10-31",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2022-10-30",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-10-29",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-28",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-10-27",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-10-26",
             "VALUE": 0
@@ -7566,9 +7622,37 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-10-26"
+          "MAXIMUM": "2022-11-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-11-02",
+            "VALUE": 3.071
+          },
+          {
+            "DATE": "2022-11-01",
+            "VALUE": 2.857
+          },
+          {
+            "DATE": "2022-10-31",
+            "VALUE": 2.642
+          },
+          {
+            "DATE": "2022-10-30",
+            "VALUE": 2.571
+          },
+          {
+            "DATE": "2022-10-29",
+            "VALUE": 2.5
+          },
+          {
+            "DATE": "2022-10-28",
+            "VALUE": 2.5
+          },
+          {
+            "DATE": "2022-10-27",
+            "VALUE": 2.642
+          },
           {
             "DATE": "2022-10-26",
             "VALUE": 2.928
@@ -11338,9 +11422,37 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-10-26"
+          "MAXIMUM": "2022-11-02"
         },
         "VALUES": [
+          {
+            "DATE": "2022-11-02",
+            "VALUE": 0.642
+          },
+          {
+            "DATE": "2022-11-01",
+            "VALUE": 0.642
+          },
+          {
+            "DATE": "2022-10-31",
+            "VALUE": 0.5
+          },
+          {
+            "DATE": "2022-10-30",
+            "VALUE": 0.357
+          },
+          {
+            "DATE": "2022-10-29",
+            "VALUE": 0.357
+          },
+          {
+            "DATE": "2022-10-28",
+            "VALUE": 0.428
+          },
+          {
+            "DATE": "2022-10-27",
+            "VALUE": 0.571
+          },
           {
             "DATE": "2022-10-26",
             "VALUE": 0.714
