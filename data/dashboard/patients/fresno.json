@@ -6,15 +6,15 @@
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 184,
-        "CHANGE": 7,
-        "CHANGE_FACTOR": 0.039548,
+        "TOTAL": 185,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.005435,
         "POPULATION": 1032227
       },
       "ICU_PATIENTS": {
         "TOTAL": 14,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -0.125,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 1032227
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-12-07"
+          "MAXIMUM": "2022-12-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-12-08",
+            "VALUE": 185
+          },
           {
             "DATE": "2022-12-07",
             "VALUE": 184
@@ -3962,9 +3966,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-12-07"
+          "MAXIMUM": "2022-12-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-12-08",
+            "VALUE": 14
+          },
           {
             "DATE": "2022-12-07",
             "VALUE": 14
@@ -7902,9 +7910,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-12-07"
+          "MAXIMUM": "2022-12-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-12-08",
+            "VALUE": 173.142
+          },
           {
             "DATE": "2022-12-07",
             "VALUE": 169.857
@@ -11842,9 +11854,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-12-07"
+          "MAXIMUM": "2022-12-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-12-08",
+            "VALUE": 16.928
+          },
           {
             "DATE": "2022-12-07",
             "VALUE": 16.785

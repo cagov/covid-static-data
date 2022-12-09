@@ -6,15 +6,15 @@
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 4387,
-        "CHANGE": 66,
-        "CHANGE_FACTOR": 0.015274,
+        "TOTAL": 4306,
+        "CHANGE": -81,
+        "CHANGE_FACTOR": -0.018464,
         "POPULATION": 40124928
       },
       "ICU_PATIENTS": {
-        "TOTAL": 487,
-        "CHANGE": 24,
-        "CHANGE_FACTOR": 0.051836,
+        "TOTAL": 498,
+        "CHANGE": 11,
+        "CHANGE_FACTOR": 0.022587,
         "POPULATION": 40124928
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-12-07"
+          "MAXIMUM": "2022-12-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-12-08",
+            "VALUE": 4306
+          },
           {
             "DATE": "2022-12-07",
             "VALUE": 4387
@@ -3962,9 +3966,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-12-07"
+          "MAXIMUM": "2022-12-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-12-08",
+            "VALUE": 498
+          },
           {
             "DATE": "2022-12-07",
             "VALUE": 487
@@ -7902,9 +7910,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-12-07"
+          "MAXIMUM": "2022-12-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-12-08",
+            "VALUE": 3831.428
+          },
           {
             "DATE": "2022-12-07",
             "VALUE": 3729.785
@@ -11842,9 +11854,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2022-12-07"
+          "MAXIMUM": "2022-12-08"
         },
         "VALUES": [
+          {
+            "DATE": "2022-12-08",
+            "VALUE": 429.428
+          },
           {
             "DATE": "2022-12-07",
             "VALUE": 417.214
