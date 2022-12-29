@@ -1,47 +1,75 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-12-22",
+    "PUBLISHED_DATE": "2022-12-29",
     "coverage": "Plumas"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 3778,
+        "total_confirmed_cases": 3787,
         "new_cases": 9,
-        "new_cases_delta_1_day": 0.002388,
-        "cases_per_100k_7_days": 4.511238617,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-12-13",
+        "new_cases_delta_1_day": 0.002382,
+        "cases_per_100k_7_days": 6.76422593,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-12-20",
         "POPULATION": 18997,
-        "CASES_DAILY_AVERAGE": 0.8571428571428571
+        "CASES_DAILY_AVERAGE": 1.2857142857142858
       },
       "CASES": {
-        "total_confirmed_cases": 3778,
-        "total_probable_cases": 452,
-        "total_combined_cases": 4230,
+        "total_confirmed_cases": 3787,
+        "total_probable_cases": 453,
+        "total_combined_cases": 4240,
         "new_cases": 9,
-        "new_cases_delta_1_day": 0.002388,
-        "confirmed_cases_per_100k_7_days": 4.511238617,
-        "probable_cases_per_100k_7_days": 0,
-        "combined_cases_per_100k_7_days": 4.511238617,
-        "EPISODE_UNCERTAINTY_PERIOD": "2022-12-13",
-        "PROBABLE_UNCERTAINTY_PERIOD": "2022-12-13",
-        "COMBINED_UNCERTAINTY_PERIOD": "2022-12-13",
+        "new_cases_delta_1_day": 0.002382,
+        "confirmed_cases_per_100k_7_days": 6.76422593,
+        "probable_cases_per_100k_7_days": 0.747486445,
+        "combined_cases_per_100k_7_days": 7.516976365,
+        "EPISODE_UNCERTAINTY_PERIOD": "2022-12-20",
+        "PROBABLE_UNCERTAINTY_PERIOD": "2022-12-20",
+        "COMBINED_UNCERTAINTY_PERIOD": "2022-12-20",
         "POPULATION": 18997,
-        "CONFIRMED_CASES_DAILY_AVERAGE": 0.8571428571428571,
-        "PROBABLE_CASES_DAILY_AVERAGE": 0,
-        "COMBINED_CASES_DAILY_AVERAGE": 0.8571428571428571
+        "CONFIRMED_CASES_DAILY_AVERAGE": 1.2857142857142858,
+        "PROBABLE_CASES_DAILY_AVERAGE": 0.14285714285714285,
+        "COMBINED_CASES_DAILY_AVERAGE": 1.4285714285714286
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-20"
+          "MAXIMUM": "2022-12-27"
         },
         "VALUES": [
           {
-            "DATE": "2022-12-20",
+            "DATE": "2022-12-27",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-26",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-25",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-12-24",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-12-23",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2022-12-22",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2022-12-21",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-12-20",
+            "VALUE": 2
           },
           {
             "DATE": "2022-12-19",
@@ -4144,9 +4172,37 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-20"
+          "MAXIMUM": "2022-12-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-12-27",
+            "VALUE": 9
+          },
+          {
+            "DATE": "2022-12-26",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-25",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-24",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-23",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-21",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-12-20",
             "VALUE": 9
@@ -8252,9 +8308,37 @@
       "PROBABLE_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-20"
+          "MAXIMUM": "2022-12-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-12-27",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-26",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-25",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-24",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-23",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-21",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-12-20",
             "VALUE": 0
@@ -8277,7 +8361,7 @@
           },
           {
             "DATE": "2022-12-15",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-12-14",
@@ -12360,12 +12444,40 @@
       "COMBINED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-20"
+          "MAXIMUM": "2022-12-27"
         },
         "VALUES": [
           {
-            "DATE": "2022-12-20",
+            "DATE": "2022-12-27",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-26",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-25",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-12-24",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-12-23",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2022-12-22",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2022-12-21",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-12-20",
+            "VALUE": 2
           },
           {
             "DATE": "2022-12-19",
@@ -12385,7 +12497,7 @@
           },
           {
             "DATE": "2022-12-15",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-12-14",
@@ -16468,12 +16580,40 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-20"
+          "MAXIMUM": "2022-12-27"
         },
         "VALUES": [
           {
-            "DATE": "2022-12-20",
+            "DATE": "2022-12-27",
             "VALUE": 5.263989051
+          },
+          {
+            "DATE": "2022-12-26",
+            "VALUE": 6.76422593
+          },
+          {
+            "DATE": "2022-12-25",
+            "VALUE": 8.269726799
+          },
+          {
+            "DATE": "2022-12-24",
+            "VALUE": 7.516976365
+          },
+          {
+            "DATE": "2022-12-23",
+            "VALUE": 7.516976365
+          },
+          {
+            "DATE": "2022-12-22",
+            "VALUE": 6.76422593
+          },
+          {
+            "DATE": "2022-12-21",
+            "VALUE": 5.263989051
+          },
+          {
+            "DATE": "2022-12-20",
+            "VALUE": 6.76422593
           },
           {
             "DATE": "2022-12-19",
@@ -20576,9 +20716,37 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-20"
+          "MAXIMUM": "2022-12-27"
         },
         "VALUES": [
+          {
+            "DATE": "2022-12-27",
+            "VALUE": 6.76422593
+          },
+          {
+            "DATE": "2022-12-26",
+            "VALUE": 6.76422593
+          },
+          {
+            "DATE": "2022-12-25",
+            "VALUE": 6.76422593
+          },
+          {
+            "DATE": "2022-12-24",
+            "VALUE": 6.76422593
+          },
+          {
+            "DATE": "2022-12-23",
+            "VALUE": 6.76422593
+          },
+          {
+            "DATE": "2022-12-22",
+            "VALUE": 6.76422593
+          },
+          {
+            "DATE": "2022-12-21",
+            "VALUE": 6.76422593
+          },
           {
             "DATE": "2022-12-20",
             "VALUE": 6.76422593
@@ -24684,32 +24852,60 @@
       "AVG_PROBABLE_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-20"
+          "MAXIMUM": "2022-12-27"
         },
         "VALUES": [
           {
-            "DATE": "2022-12-20",
+            "DATE": "2022-12-27",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-26",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-25",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-24",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-23",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-21",
+            "VALUE": 0.747486445
+          },
+          {
+            "DATE": "2022-12-20",
+            "VALUE": 0.747486445
           },
           {
             "DATE": "2022-12-19",
-            "VALUE": 0
+            "VALUE": 0.747486445
           },
           {
             "DATE": "2022-12-18",
-            "VALUE": 0
+            "VALUE": 0.747486445
           },
           {
             "DATE": "2022-12-17",
-            "VALUE": 0
+            "VALUE": 0.747486445
           },
           {
             "DATE": "2022-12-16",
-            "VALUE": 0
+            "VALUE": 0.747486445
           },
           {
             "DATE": "2022-12-15",
-            "VALUE": 0
+            "VALUE": 0.747486445
           },
           {
             "DATE": "2022-12-14",
@@ -28792,32 +28988,60 @@
       "AVG_COMBINED_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-20"
+          "MAXIMUM": "2022-12-27"
         },
         "VALUES": [
           {
-            "DATE": "2022-12-20",
+            "DATE": "2022-12-27",
             "VALUE": 5.263989051
+          },
+          {
+            "DATE": "2022-12-26",
+            "VALUE": 6.76422593
+          },
+          {
+            "DATE": "2022-12-25",
+            "VALUE": 8.269726799
+          },
+          {
+            "DATE": "2022-12-24",
+            "VALUE": 7.516976365
+          },
+          {
+            "DATE": "2022-12-23",
+            "VALUE": 7.516976365
+          },
+          {
+            "DATE": "2022-12-22",
+            "VALUE": 6.76422593
+          },
+          {
+            "DATE": "2022-12-21",
+            "VALUE": 6.011475496
+          },
+          {
+            "DATE": "2022-12-20",
+            "VALUE": 7.516976365
           },
           {
             "DATE": "2022-12-19",
-            "VALUE": 5.263989051
+            "VALUE": 6.011475496
           },
           {
             "DATE": "2022-12-18",
-            "VALUE": 5.263989051
+            "VALUE": 6.011475496
           },
           {
             "DATE": "2022-12-17",
-            "VALUE": 6.76422593
+            "VALUE": 7.516976365
           },
           {
             "DATE": "2022-12-16",
-            "VALUE": 6.76422593
+            "VALUE": 7.516976365
           },
           {
             "DATE": "2022-12-15",
-            "VALUE": 6.011475496
+            "VALUE": 6.76422593
           },
           {
             "DATE": "2022-12-14",
