@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2022-12-22",
+    "PUBLISHED_DATE": "2022-12-29",
     "coverage": "Modoc"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.5,
-        "test_positivity_7_days_delta_7_days": 0.4,
-        "TESTING_UNCERTAINTY_PERIOD": "2022-12-12",
+        "test_positivity_7_days": 0.444444,
+        "test_positivity_7_days_delta_7_days": 0.111111,
+        "TESTING_UNCERTAINTY_PERIOD": "2022-12-19",
         "POPULATION": 9475
       }
     },
@@ -16,20 +16,48 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-19"
+          "MAXIMUM": "2022-12-26"
         },
         "VALUES": [
           {
+            "DATE": "2022-12-26",
+            "VALUE": 0.444444
+          },
+          {
+            "DATE": "2022-12-25",
+            "VALUE": 0.230769
+          },
+          {
+            "DATE": "2022-12-24",
+            "VALUE": 0.230769
+          },
+          {
+            "DATE": "2022-12-23",
+            "VALUE": 0.214286
+          },
+          {
+            "DATE": "2022-12-22",
+            "VALUE": 0.090909
+          },
+          {
+            "DATE": "2022-12-21",
+            "VALUE": 0.125
+          },
+          {
+            "DATE": "2022-12-20",
+            "VALUE": 0.176471
+          },
+          {
             "DATE": "2022-12-19",
-            "VALUE": 0.5
+            "VALUE": 0.333333
           },
           {
             "DATE": "2022-12-18",
-            "VALUE": 0.368421
+            "VALUE": 0.333333
           },
           {
             "DATE": "2022-12-17",
-            "VALUE": 0.333333
+            "VALUE": 0.318182
           },
           {
             "DATE": "2022-12-16",
@@ -4120,9 +4148,37 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-19"
+          "MAXIMUM": "2022-12-26"
         },
         "VALUES": [
+          {
+            "DATE": "2022-12-26",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-12-25",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-24",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-23",
+            "VALUE": 0.666667
+          },
+          {
+            "DATE": "2022-12-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-21",
+            "VALUE": 0.5
+          },
+          {
+            "DATE": "2022-12-20",
+            "VALUE": 0
+          },
           {
             "DATE": "2022-12-19",
             "VALUE": 0
@@ -8224,20 +8280,48 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-19"
+          "MAXIMUM": "2022-12-26"
         },
         "VALUES": [
           {
-            "DATE": "2022-12-19",
+            "DATE": "2022-12-26",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-12-25",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2022-12-24",
             "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-23",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2022-12-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2022-12-21",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2022-12-20",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2022-12-19",
+            "VALUE": 5
           },
           {
             "DATE": "2022-12-18",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-12-17",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2022-12-16",
