@@ -17,19 +17,21 @@
       "CASES": {
         "total_confirmed_cases": 3274,
         "total_probable_cases": 292,
-        "total_combined_cases": 3566,
+        "total_combined_cases": 3556,
+        "common_total_confirmed_cases": 3264,
+        "common_total_probable_cases": 292,
         "new_cases": 10,
         "new_cases_delta_1_day": 0.003064,
         "confirmed_cases_per_100k_7_days": 13.301339446,
-        "probable_cases_per_100k_7_days": 6.138528759,
-        "combined_cases_per_100k_7_days": 19.439868204,
+        "probable_cases_per_100k_7_days": 3.065682974,
+        "combined_cases_per_100k_7_days": 15.342740491,
         "EPISODE_UNCERTAINTY_PERIOD": "2022-12-20",
-        "PROBABLE_UNCERTAINTY_PERIOD": "2022-12-20",
-        "COMBINED_UNCERTAINTY_PERIOD": "2022-12-20",
+        "PROBABLE_UNCERTAINTY_PERIOD": "2022-12-19",
+        "COMBINED_UNCERTAINTY_PERIOD": "2022-12-19",
         "POPULATION": 13961,
         "CONFIRMED_CASES_DAILY_AVERAGE": 1.8571428571428572,
-        "PROBABLE_CASES_DAILY_AVERAGE": 0.8571428571428571,
-        "COMBINED_CASES_DAILY_AVERAGE": 2.7142857142857144
+        "PROBABLE_CASES_DAILY_AVERAGE": 0.42857142857142855,
+        "COMBINED_CASES_DAILY_AVERAGE": 2.142857142857143
       }
     },
     "time_series": {
@@ -8308,13 +8310,9 @@
       "PROBABLE_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-27"
+          "MAXIMUM": "2022-12-26"
         },
         "VALUES": [
-          {
-            "DATE": "2022-12-27",
-            "VALUE": 0
-          },
           {
             "DATE": "2022-12-26",
             "VALUE": 0
@@ -12444,13 +12442,9 @@
       "COMBINED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-27"
+          "MAXIMUM": "2022-12-26"
         },
         "VALUES": [
-          {
-            "DATE": "2022-12-27",
-            "VALUE": 0
-          },
           {
             "DATE": "2022-12-26",
             "VALUE": 5
@@ -24852,13 +24846,9 @@
       "AVG_PROBABLE_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-27"
+          "MAXIMUM": "2022-12-26"
         },
         "VALUES": [
-          {
-            "DATE": "2022-12-27",
-            "VALUE": 3.065682974
-          },
           {
             "DATE": "2022-12-26",
             "VALUE": 6.138528759
@@ -28988,13 +28978,9 @@
       "AVG_COMBINED_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2022-12-27"
+          "MAXIMUM": "2022-12-26"
         },
         "VALUES": [
-          {
-            "DATE": "2022-12-27",
-            "VALUE": 11.252775589
-          },
           {
             "DATE": "2022-12-26",
             "VALUE": 15.342740491
