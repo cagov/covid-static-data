@@ -25,4 +25,4 @@ jobs:
 
       # doc on invalidation paths: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html#invalidation-specifying-objects-paths
       - name: Invalidate Cloudfront
-        run: aws cloudfront create-invalidation --distribution-id EHNPIZWYYWA31 --paths "/data*"
+        run: AWS_MAX_ATTEMPTS=10 aws cloudfront create-invalidation --distribution-id EHNPIZWYYWA31 --paths "/data*"
