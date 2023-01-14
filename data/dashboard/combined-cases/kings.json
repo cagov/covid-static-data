@@ -1,6 +1,6 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-01-12",
+    "PUBLISHED_DATE": "2023-01-13",
     "coverage": "Kings"
   },
   "data": {
@@ -17,21 +17,21 @@
       "CASES": {
         "total_confirmed_cases": 62044,
         "total_probable_cases": 4367,
-        "total_combined_cases": 66253,
-        "common_total_confirmed_cases": 61886,
+        "total_combined_cases": 66411,
+        "common_total_confirmed_cases": 62044,
         "common_total_probable_cases": 4367,
         "new_cases": 158,
         "new_cases_delta_1_day": 0.002553,
         "confirmed_cases_per_100k_7_days": 16.984352228,
-        "probable_cases_per_100k_7_days": 0.547799852,
-        "combined_cases_per_100k_7_days": 17.167165248,
+        "probable_cases_per_100k_7_days": 0.364986832,
+        "combined_cases_per_100k_7_days": 17.349339061,
         "EPISODE_UNCERTAINTY_PERIOD": "2023-01-03",
-        "PROBABLE_UNCERTAINTY_PERIOD": "2023-01-02",
-        "COMBINED_UNCERTAINTY_PERIOD": "2023-01-02",
+        "PROBABLE_UNCERTAINTY_PERIOD": "2023-01-03",
+        "COMBINED_UNCERTAINTY_PERIOD": "2023-01-03",
         "POPULATION": 156444,
         "CONFIRMED_CASES_DAILY_AVERAGE": 26.571428571428573,
-        "PROBABLE_CASES_DAILY_AVERAGE": 0.8571428571428571,
-        "COMBINED_CASES_DAILY_AVERAGE": 26.857142857142858
+        "PROBABLE_CASES_DAILY_AVERAGE": 0.5714285714285714,
+        "COMBINED_CASES_DAILY_AVERAGE": 27.142857142857142
       }
     },
     "time_series": {
@@ -8422,9 +8422,13 @@
       "PROBABLE_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-01-09"
+          "MAXIMUM": "2023-01-10"
         },
         "VALUES": [
+          {
+            "DATE": "2023-01-10",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-01-09",
             "VALUE": 0
@@ -12610,9 +12614,13 @@
       "COMBINED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-01-09"
+          "MAXIMUM": "2023-01-10"
         },
         "VALUES": [
+          {
+            "DATE": "2023-01-10",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-01-09",
             "VALUE": 8
@@ -25182,9 +25190,13 @@
       "AVG_PROBABLE_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-01-09"
+          "MAXIMUM": "2023-01-10"
         },
         "VALUES": [
+          {
+            "DATE": "2023-01-10",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-01-09",
             "VALUE": 0.090767303
@@ -29370,9 +29382,13 @@
       "AVG_COMBINED_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-01-09"
+          "MAXIMUM": "2023-01-10"
         },
         "VALUES": [
+          {
+            "DATE": "2023-01-10",
+            "VALUE": 10.044488763
+          },
           {
             "DATE": "2023-01-09",
             "VALUE": 13.696913912

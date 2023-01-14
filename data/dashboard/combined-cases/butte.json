@@ -1,6 +1,6 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-01-12",
+    "PUBLISHED_DATE": "2023-01-13",
     "coverage": "Butte"
   },
   "data": {
@@ -17,21 +17,21 @@
       "CASES": {
         "total_confirmed_cases": 41228,
         "total_probable_cases": 9970,
-        "total_combined_cases": 51072,
-        "common_total_confirmed_cases": 41102,
+        "total_combined_cases": 51198,
+        "common_total_confirmed_cases": 41228,
         "common_total_probable_cases": 9970,
         "new_cases": 126,
         "new_cases_delta_1_day": 0.003066,
         "confirmed_cases_per_100k_7_days": 5.313428449,
-        "probable_cases_per_100k_7_days": 4.001487815,
-        "combined_cases_per_100k_7_days": 9.708452535,
+        "probable_cases_per_100k_7_days": 2.426883533,
+        "combined_cases_per_100k_7_days": 7.740771184,
         "EPISODE_UNCERTAINTY_PERIOD": "2023-01-03",
-        "PROBABLE_UNCERTAINTY_PERIOD": "2023-01-02",
-        "COMBINED_UNCERTAINTY_PERIOD": "2023-01-02",
+        "PROBABLE_UNCERTAINTY_PERIOD": "2023-01-03",
+        "COMBINED_UNCERTAINTY_PERIOD": "2023-01-03",
         "POPULATION": 217769,
         "CONFIRMED_CASES_DAILY_AVERAGE": 11.571428571428571,
-        "PROBABLE_CASES_DAILY_AVERAGE": 8.714285714285714,
-        "COMBINED_CASES_DAILY_AVERAGE": 21.142857142857142
+        "PROBABLE_CASES_DAILY_AVERAGE": 5.285714285714286,
+        "COMBINED_CASES_DAILY_AVERAGE": 16.857142857142858
       }
     },
     "time_series": {
@@ -8422,9 +8422,13 @@
       "PROBABLE_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-01-09"
+          "MAXIMUM": "2023-01-10"
         },
         "VALUES": [
+          {
+            "DATE": "2023-01-10",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-01-09",
             "VALUE": 1
@@ -12610,9 +12614,13 @@
       "COMBINED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-01-09"
+          "MAXIMUM": "2023-01-10"
         },
         "VALUES": [
+          {
+            "DATE": "2023-01-10",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-01-09",
             "VALUE": 2
@@ -25182,9 +25190,13 @@
       "AVG_PROBABLE_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-01-09"
+          "MAXIMUM": "2023-01-10"
         },
         "VALUES": [
+          {
+            "DATE": "2023-01-10",
+            "VALUE": 0.590074804
+          },
           {
             "DATE": "2023-01-09",
             "VALUE": 0.655740716
@@ -29370,9 +29382,13 @@
       "AVG_COMBINED_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-01-09"
+          "MAXIMUM": "2023-01-10"
         },
         "VALUES": [
+          {
+            "DATE": "2023-01-10",
+            "VALUE": 3.476619721
+          },
           {
             "DATE": "2023-01-09",
             "VALUE": 4.788560355
