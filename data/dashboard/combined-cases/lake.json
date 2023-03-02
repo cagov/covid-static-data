@@ -1,47 +1,75 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-02-23",
+    "PUBLISHED_DATE": "2023-03-02",
     "coverage": "Lake"
   },
   "data": {
     "latest": {
       "CONFIRMED_CASES": {
-        "total_confirmed_cases": 13620,
-        "new_cases": 25,
-        "new_cases_delta_1_day": 0.001839,
-        "cases_per_100k_7_days": 4.40412511,
-        "EPISODE_UNCERTAINTY_PERIOD": "2023-02-14",
+        "total_confirmed_cases": 13639,
+        "new_cases": 19,
+        "new_cases_delta_1_day": 0.001395,
+        "cases_per_100k_7_days": 3.742812659,
+        "EPISODE_UNCERTAINTY_PERIOD": "2023-02-21",
         "POPULATION": 64871,
-        "CASES_DAILY_AVERAGE": 2.857142857142857
+        "CASES_DAILY_AVERAGE": 2.4285714285714284
       },
       "CASES": {
-        "total_confirmed_cases": 13620,
+        "total_confirmed_cases": 13639,
         "total_probable_cases": 1280,
-        "total_combined_cases": 14900,
-        "new_cases": 25,
-        "new_cases_delta_1_day": 0.001839,
-        "confirmed_cases_per_100k_7_days": 4.40412511,
-        "probable_cases_per_100k_7_days": 0.218895963,
-        "combined_cases_per_100k_7_days": 4.624562593,
-        "EPISODE_UNCERTAINTY_PERIOD": "2023-02-14",
-        "PROBABLE_UNCERTAINTY_PERIOD": "2023-02-14",
-        "COMBINED_UNCERTAINTY_PERIOD": "2023-02-14",
+        "total_combined_cases": 14919,
+        "new_cases": 19,
+        "new_cases_delta_1_day": 0.001395,
+        "confirmed_cases_per_100k_7_days": 3.742812659,
+        "probable_cases_per_100k_7_days": 0,
+        "combined_cases_per_100k_7_days": 3.742812659,
+        "EPISODE_UNCERTAINTY_PERIOD": "2023-02-21",
+        "PROBABLE_UNCERTAINTY_PERIOD": "2023-02-21",
+        "COMBINED_UNCERTAINTY_PERIOD": "2023-02-21",
         "POPULATION": 64871,
-        "CONFIRMED_CASES_DAILY_AVERAGE": 2.857142857142857,
-        "PROBABLE_CASES_DAILY_AVERAGE": 0.14285714285714285,
-        "COMBINED_CASES_DAILY_AVERAGE": 3
+        "CONFIRMED_CASES_DAILY_AVERAGE": 2.4285714285714284,
+        "PROBABLE_CASES_DAILY_AVERAGE": 0,
+        "COMBINED_CASES_DAILY_AVERAGE": 2.4285714285714284
       }
     },
     "time_series": {
       "CONFIRMED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-02-21"
+          "MAXIMUM": "2023-02-28"
         },
         "VALUES": [
           {
-            "DATE": "2023-02-21",
+            "DATE": "2023-02-28",
             "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-27",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-02-26",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-25",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2023-02-24",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-23",
+            "VALUE": 6
+          },
+          {
+            "DATE": "2023-02-22",
+            "VALUE": 5
+          },
+          {
+            "DATE": "2023-02-21",
+            "VALUE": 4
           },
           {
             "DATE": "2023-02-20",
@@ -4396,9 +4424,37 @@
       "CONFIRMED_CASES_REPORTED_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-02-21"
+          "MAXIMUM": "2023-02-28"
         },
         "VALUES": [
+          {
+            "DATE": "2023-02-28",
+            "VALUE": 19
+          },
+          {
+            "DATE": "2023-02-27",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-26",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-25",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-24",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-23",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-22",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-02-21",
             "VALUE": 25
@@ -8756,9 +8812,37 @@
       "PROBABLE_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-02-21"
+          "MAXIMUM": "2023-02-28"
         },
         "VALUES": [
+          {
+            "DATE": "2023-02-28",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-27",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-26",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-25",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-24",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-23",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-22",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-02-21",
             "VALUE": 0
@@ -13116,12 +13200,40 @@
       "COMBINED_CASES_EPISODE_DATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-02-21"
+          "MAXIMUM": "2023-02-28"
         },
         "VALUES": [
           {
-            "DATE": "2023-02-21",
+            "DATE": "2023-02-28",
             "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-27",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-02-26",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-25",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2023-02-24",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-23",
+            "VALUE": 6
+          },
+          {
+            "DATE": "2023-02-22",
+            "VALUE": 5
+          },
+          {
+            "DATE": "2023-02-21",
+            "VALUE": 4
           },
           {
             "DATE": "2023-02-20",
@@ -17476,12 +17588,40 @@
       "AVG_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-02-21"
+          "MAXIMUM": "2023-02-28"
         },
         "VALUES": [
           {
+            "DATE": "2023-02-28",
+            "VALUE": 3.301937692
+          },
+          {
+            "DATE": "2023-02-27",
+            "VALUE": 4.183687626
+          },
+          {
+            "DATE": "2023-02-26",
+            "VALUE": 4.624562593
+          },
+          {
+            "DATE": "2023-02-25",
+            "VALUE": 4.624562593
+          },
+          {
+            "DATE": "2023-02-24",
+            "VALUE": 4.624562593
+          },
+          {
+            "DATE": "2023-02-23",
+            "VALUE": 4.843458556
+          },
+          {
+            "DATE": "2023-02-22",
+            "VALUE": 4.624562593
+          },
+          {
             "DATE": "2023-02-21",
-            "VALUE": 2.862604245
+            "VALUE": 3.742812659
           },
           {
             "DATE": "2023-02-20",
@@ -21836,9 +21976,37 @@
       "AVG_CASE_REPORT_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-02-21"
+          "MAXIMUM": "2023-02-28"
         },
         "VALUES": [
+          {
+            "DATE": "2023-02-28",
+            "VALUE": 4.183687626
+          },
+          {
+            "DATE": "2023-02-27",
+            "VALUE": 5.504771007
+          },
+          {
+            "DATE": "2023-02-26",
+            "VALUE": 5.504771007
+          },
+          {
+            "DATE": "2023-02-25",
+            "VALUE": 5.504771007
+          },
+          {
+            "DATE": "2023-02-24",
+            "VALUE": 5.504771007
+          },
+          {
+            "DATE": "2023-02-23",
+            "VALUE": 5.504771007
+          },
+          {
+            "DATE": "2023-02-22",
+            "VALUE": 5.504771007
+          },
           {
             "DATE": "2023-02-21",
             "VALUE": 5.504771007
@@ -26196,9 +26364,37 @@
       "AVG_PROBABLE_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-02-21"
+          "MAXIMUM": "2023-02-28"
         },
         "VALUES": [
+          {
+            "DATE": "2023-02-28",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-27",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-26",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-25",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-24",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-23",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-02-22",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-02-21",
             "VALUE": 0
@@ -30556,12 +30752,40 @@
       "AVG_COMBINED_CASE_RATE_PER_100K_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-02-21"
+          "MAXIMUM": "2023-02-28"
         },
         "VALUES": [
           {
+            "DATE": "2023-02-28",
+            "VALUE": 3.301937692
+          },
+          {
+            "DATE": "2023-02-27",
+            "VALUE": 4.183687626
+          },
+          {
+            "DATE": "2023-02-26",
+            "VALUE": 4.624562593
+          },
+          {
+            "DATE": "2023-02-25",
+            "VALUE": 4.624562593
+          },
+          {
+            "DATE": "2023-02-24",
+            "VALUE": 4.624562593
+          },
+          {
+            "DATE": "2023-02-23",
+            "VALUE": 4.843458556
+          },
+          {
+            "DATE": "2023-02-22",
+            "VALUE": 4.624562593
+          },
+          {
             "DATE": "2023-02-21",
-            "VALUE": 2.862604245
+            "VALUE": 3.742812659
           },
           {
             "DATE": "2023-02-20",
