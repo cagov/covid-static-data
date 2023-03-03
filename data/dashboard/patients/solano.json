@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-03-02",
+    "PUBLISHED_DATE": "2023-03-03",
     "coverage": "Solano"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 34,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.028571,
+        "TOTAL": 43,
+        "CHANGE": 9,
+        "CHANGE_FACTOR": 0.264706,
         "POPULATION": 444255
       },
       "ICU_PATIENTS": {
-        "TOTAL": 4,
-        "CHANGE": -4,
-        "CHANGE_FACTOR": -0.5,
+        "TOTAL": 6,
+        "CHANGE": 2,
+        "CHANGE_FACTOR": 0.5,
         "POPULATION": 444255
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 43
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 34
@@ -4298,9 +4302,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 6
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 4
@@ -8574,9 +8582,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 32.571
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 32.5
@@ -12850,9 +12862,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 4
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 3.714
