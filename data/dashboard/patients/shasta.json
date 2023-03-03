@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-03-02",
+    "PUBLISHED_DATE": "2023-03-03",
     "coverage": "Shasta"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 10,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.111111,
+        "TOTAL": 9,
+        "CHANGE": -1,
+        "CHANGE_FACTOR": -0.1,
         "POPULATION": 177925
       },
       "ICU_PATIENTS": {
         "TOTAL": 2,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 1,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 177925
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 9
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 10
@@ -4298,9 +4302,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 2
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 2
@@ -8574,9 +8582,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 6
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 5.642
@@ -12850,9 +12862,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 0.642
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 0.5

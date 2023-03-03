@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-03-02",
+    "PUBLISHED_DATE": "2023-03-03",
     "coverage": "Santa Clara"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 159,
-        "CHANGE": 8,
-        "CHANGE_FACTOR": 0.05298,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 1967585
       },
       "ICU_PATIENTS": {
-        "TOTAL": 32,
-        "CHANGE": 1,
-        "CHANGE_FACTOR": 0.032258,
+        "TOTAL": 23,
+        "CHANGE": -9,
+        "CHANGE_FACTOR": -0.28125,
         "POPULATION": 1967585
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 159
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 159
@@ -4298,9 +4302,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 23
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 32
@@ -8574,9 +8582,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 143.928
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 142.928
@@ -12850,9 +12862,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 26.285
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 26.357

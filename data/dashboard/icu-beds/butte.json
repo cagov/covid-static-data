@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-03-02",
+    "PUBLISHED_DATE": "2023-03-03",
     "coverage": "Butte"
   },
   "data": {
     "latest": {
       "ICU_BEDS": {
-        "TOTAL": 12,
-        "CHANGE": -4,
-        "CHANGE_FACTOR": -0.25,
+        "TOTAL": 13,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.083333,
         "POPULATION": 217769
       }
     },
@@ -16,9 +16,13 @@
       "ICU_BEDS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 13
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 12

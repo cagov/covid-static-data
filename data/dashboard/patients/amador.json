@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-03-02",
+    "PUBLISHED_DATE": "2023-03-03",
     "coverage": "Amador"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 1,
-        "CHANGE": -1,
-        "CHANGE_FACTOR": -0.5,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 38531
       },
       "ICU_PATIENTS": {
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 1
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 1
@@ -4298,9 +4302,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 0
@@ -8574,9 +8582,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 1.571
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 1.5
@@ -12850,9 +12862,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 0.357
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 0.357

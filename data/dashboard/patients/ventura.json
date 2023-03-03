@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-03-02",
+    "PUBLISHED_DATE": "2023-03-03",
     "coverage": "Ventura"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 51,
-        "CHANGE": 6,
-        "CHANGE_FACTOR": 0.133333,
+        "TOTAL": 49,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -0.039216,
         "POPULATION": 852747
       },
       "ICU_PATIENTS": {
-        "TOTAL": 7,
+        "TOTAL": 6,
         "CHANGE": -1,
-        "CHANGE_FACTOR": -0.125,
+        "CHANGE_FACTOR": -0.142857,
         "POPULATION": 852747
       }
     },
@@ -22,9 +22,13 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 49
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 51
@@ -4298,9 +4302,13 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 6
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 7
@@ -8574,9 +8582,13 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 42.642
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 41.642
@@ -12850,9 +12862,13 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-03-01"
+          "MAXIMUM": "2023-03-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-03-02",
+            "VALUE": 5.857
+          },
           {
             "DATE": "2023-03-01",
             "VALUE": 5.571
