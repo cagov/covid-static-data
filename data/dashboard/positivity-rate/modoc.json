@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-03-23",
+    "PUBLISHED_DATE": "2023-03-30",
     "coverage": "Modoc"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.111111,
-        "test_positivity_7_days_delta_7_days": 0.027778,
-        "TESTING_UNCERTAINTY_PERIOD": "2023-03-13",
+        "test_positivity_7_days": 0,
+        "test_positivity_7_days_delta_7_days": -0.1,
+        "TESTING_UNCERTAINTY_PERIOD": "2023-03-20",
         "POPULATION": 9475
       }
     },
@@ -16,12 +16,40 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-03-20"
+          "MAXIMUM": "2023-03-27"
         },
         "VALUES": [
           {
-            "DATE": "2023-03-20",
+            "DATE": "2023-03-27",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-03-26",
+            "VALUE": 0.142857
+          },
+          {
+            "DATE": "2023-03-25",
+            "VALUE": 0.142857
+          },
+          {
+            "DATE": "2023-03-24",
             "VALUE": 0.111111
+          },
+          {
+            "DATE": "2023-03-23",
+            "VALUE": 0.111111
+          },
+          {
+            "DATE": "2023-03-22",
+            "VALUE": 0.1
+          },
+          {
+            "DATE": "2023-03-21",
+            "VALUE": 0.1
+          },
+          {
+            "DATE": "2023-03-20",
+            "VALUE": 0.1
           },
           {
             "DATE": "2023-03-19",
@@ -329,31 +357,31 @@
           },
           {
             "DATE": "2023-01-02",
-            "VALUE": 0.692308
+            "VALUE": 0.642857
           },
           {
             "DATE": "2023-01-01",
-            "VALUE": 0.666667
-          },
-          {
-            "DATE": "2022-12-31",
             "VALUE": 0.625
           },
           {
+            "DATE": "2022-12-31",
+            "VALUE": 0.588235
+          },
+          {
             "DATE": "2022-12-30",
-            "VALUE": 0.714286
-          },
-          {
-            "DATE": "2022-12-29",
-            "VALUE": 0.705882
-          },
-          {
-            "DATE": "2022-12-28",
             "VALUE": 0.666667
           },
           {
+            "DATE": "2022-12-29",
+            "VALUE": 0.666667
+          },
+          {
+            "DATE": "2022-12-28",
+            "VALUE": 0.625
+          },
+          {
             "DATE": "2022-12-27",
-            "VALUE": 0.538462
+            "VALUE": 0.5
           },
           {
             "DATE": "2022-12-26",
@@ -4484,12 +4512,40 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-03-20"
+          "MAXIMUM": "2023-03-27"
         },
         "VALUES": [
           {
+            "DATE": "2023-03-27",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-03-26",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-03-25",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-03-24",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-03-23",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-03-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-03-21",
+            "VALUE": 0
+          },
+          {
             "DATE": "2023-03-20",
-            "VALUE": 1
+            "VALUE": 0.5
           },
           {
             "DATE": "2023-03-19",
@@ -4821,7 +4877,7 @@
           },
           {
             "DATE": "2022-12-27",
-            "VALUE": 0.75
+            "VALUE": 0.6
           },
           {
             "DATE": "2022-12-26",
@@ -8952,12 +9008,40 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-03-20"
+          "MAXIMUM": "2023-03-27"
         },
         "VALUES": [
           {
-            "DATE": "2023-03-20",
+            "DATE": "2023-03-27",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-03-26",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-03-25",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-03-24",
             "VALUE": 1
+          },
+          {
+            "DATE": "2023-03-23",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2023-03-22",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-03-21",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-03-20",
+            "VALUE": 2
           },
           {
             "DATE": "2023-03-19",
@@ -9289,7 +9373,7 @@
           },
           {
             "DATE": "2022-12-27",
-            "VALUE": 4
+            "VALUE": 5
           },
           {
             "DATE": "2022-12-26",
