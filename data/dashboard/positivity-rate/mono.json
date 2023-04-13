@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-04-06",
+    "PUBLISHED_DATE": "2023-04-13",
     "coverage": "Mono"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.057143,
-        "test_positivity_7_days_delta_7_days": 0.036735,
-        "TESTING_UNCERTAINTY_PERIOD": "2023-03-27",
+        "test_positivity_7_days": 0.025,
+        "test_positivity_7_days_delta_7_days": -0.025,
+        "TESTING_UNCERTAINTY_PERIOD": "2023-04-03",
         "POPULATION": 13961
       }
     },
@@ -16,28 +16,56 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-04-03"
+          "MAXIMUM": "2023-04-10"
         },
         "VALUES": [
           {
+            "DATE": "2023-04-10",
+            "VALUE": 0.025
+          },
+          {
+            "DATE": "2023-04-09",
+            "VALUE": 0.025
+          },
+          {
+            "DATE": "2023-04-08",
+            "VALUE": 0.023256
+          },
+          {
+            "DATE": "2023-04-07",
+            "VALUE": 0.021739
+          },
+          {
+            "DATE": "2023-04-06",
+            "VALUE": 0.02381
+          },
+          {
+            "DATE": "2023-04-05",
+            "VALUE": 0.075
+          },
+          {
+            "DATE": "2023-04-04",
+            "VALUE": 0.052632
+          },
+          {
             "DATE": "2023-04-03",
-            "VALUE": 0.057143
+            "VALUE": 0.05
           },
           {
             "DATE": "2023-04-02",
-            "VALUE": 0.055556
+            "VALUE": 0.05
           },
           {
             "DATE": "2023-04-01",
-            "VALUE": 0.071429
+            "VALUE": 0.065217
           },
           {
             "DATE": "2023-03-31",
-            "VALUE": 0.069767
+            "VALUE": 0.065217
           },
           {
             "DATE": "2023-03-30",
-            "VALUE": 0.068182
+            "VALUE": 0.06383
           },
           {
             "DATE": "2023-03-29",
@@ -4540,9 +4568,37 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-04-03"
+          "MAXIMUM": "2023-04-10"
         },
         "VALUES": [
+          {
+            "DATE": "2023-04-10",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-04-09",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-04-08",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-04-07",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-04-06",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-04-05",
+            "VALUE": 0.111111
+          },
+          {
+            "DATE": "2023-04-04",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-04-03",
             "VALUE": 0
@@ -4561,7 +4617,7 @@
           },
           {
             "DATE": "2023-03-30",
-            "VALUE": 0.5
+            "VALUE": 0.285714
           },
           {
             "DATE": "2023-03-29",
@@ -9064,12 +9120,40 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-04-03"
+          "MAXIMUM": "2023-04-10"
         },
         "VALUES": [
           {
-            "DATE": "2023-04-03",
+            "DATE": "2023-04-10",
+            "VALUE": 7
+          },
+          {
+            "DATE": "2023-04-09",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-04-08",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-04-07",
+            "VALUE": 7
+          },
+          {
+            "DATE": "2023-04-06",
+            "VALUE": 9
+          },
+          {
+            "DATE": "2023-04-05",
+            "VALUE": 9
+          },
+          {
+            "DATE": "2023-04-04",
             "VALUE": 6
+          },
+          {
+            "DATE": "2023-04-03",
+            "VALUE": 7
           },
           {
             "DATE": "2023-04-02",
@@ -9077,7 +9161,7 @@
           },
           {
             "DATE": "2023-04-01",
-            "VALUE": 3
+            "VALUE": 4
           },
           {
             "DATE": "2023-03-31",
@@ -9085,7 +9169,7 @@
           },
           {
             "DATE": "2023-03-30",
-            "VALUE": 4
+            "VALUE": 7
           },
           {
             "DATE": "2023-03-29",
