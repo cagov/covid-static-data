@@ -1,20 +1,20 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-05-04",
+    "PUBLISHED_DATE": "2023-05-11",
     "coverage": "Imperial"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
         "TOTAL": 9,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.25,
+        "CHANGE": 3,
+        "CHANGE_FACTOR": 0.5,
         "POPULATION": 191649
       },
       "ICU_PATIENTS": {
-        "TOTAL": 1,
-        "CHANGE": 0,
-        "CHANGE_FACTOR": 0,
+        "TOTAL": 0,
+        "CHANGE": -2,
+        "CHANGE_FACTOR": -1,
         "POPULATION": 191649
       }
     },
@@ -22,9 +22,37 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-05-03"
+          "MAXIMUM": "2023-05-10"
         },
         "VALUES": [
+          {
+            "DATE": "2023-05-10",
+            "VALUE": 9
+          },
+          {
+            "DATE": "2023-05-09",
+            "VALUE": 6
+          },
+          {
+            "DATE": "2023-05-08",
+            "VALUE": 9
+          },
+          {
+            "DATE": "2023-05-07",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2023-05-06",
+            "VALUE": 6
+          },
+          {
+            "DATE": "2023-05-05",
+            "VALUE": 11
+          },
+          {
+            "DATE": "2023-05-04",
+            "VALUE": 9
+          },
           {
             "DATE": "2023-05-03",
             "VALUE": 9
@@ -4550,9 +4578,37 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-05-03"
+          "MAXIMUM": "2023-05-10"
         },
         "VALUES": [
+          {
+            "DATE": "2023-05-10",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-05-09",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2023-05-08",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-05-07",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-05-06",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-05-05",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-05-04",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-05-03",
             "VALUE": 1
@@ -9078,9 +9134,37 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-05-03"
+          "MAXIMUM": "2023-05-10"
         },
         "VALUES": [
+          {
+            "DATE": "2023-05-10",
+            "VALUE": 8.714
+          },
+          {
+            "DATE": "2023-05-09",
+            "VALUE": 8.5
+          },
+          {
+            "DATE": "2023-05-08",
+            "VALUE": 8.571
+          },
+          {
+            "DATE": "2023-05-07",
+            "VALUE": 8.428
+          },
+          {
+            "DATE": "2023-05-06",
+            "VALUE": 8.5
+          },
+          {
+            "DATE": "2023-05-05",
+            "VALUE": 8.5
+          },
+          {
+            "DATE": "2023-05-04",
+            "VALUE": 8.5
+          },
           {
             "DATE": "2023-05-03",
             "VALUE": 8.285
@@ -13606,9 +13690,37 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-30",
-          "MAXIMUM": "2023-05-03"
+          "MAXIMUM": "2023-05-10"
         },
         "VALUES": [
+          {
+            "DATE": "2023-05-10",
+            "VALUE": 0.928
+          },
+          {
+            "DATE": "2023-05-09",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-05-08",
+            "VALUE": 0.928
+          },
+          {
+            "DATE": "2023-05-07",
+            "VALUE": 0.857
+          },
+          {
+            "DATE": "2023-05-06",
+            "VALUE": 0.785
+          },
+          {
+            "DATE": "2023-05-05",
+            "VALUE": 0.785
+          },
+          {
+            "DATE": "2023-05-04",
+            "VALUE": 0.785
+          },
           {
             "DATE": "2023-05-03",
             "VALUE": 0.857
