@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-06-01",
+    "PUBLISHED_DATE": "2023-06-08",
     "coverage": "Mariposa"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0.086957,
-        "test_positivity_7_days_delta_7_days": 0.028133,
-        "TESTING_UNCERTAINTY_PERIOD": "2023-05-22",
+        "test_positivity_7_days": 0,
+        "test_positivity_7_days_delta_7_days": -0.071429,
+        "TESTING_UNCERTAINTY_PERIOD": "2023-05-29",
         "POPULATION": 17795
       }
     },
@@ -16,52 +16,80 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-05-29"
+          "MAXIMUM": "2023-06-05"
         },
         "VALUES": [
           {
+            "DATE": "2023-06-05",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-06-04",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-06-03",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-06-02",
+            "VALUE": 0.041667
+          },
+          {
+            "DATE": "2023-06-01",
+            "VALUE": 0.074074
+          },
+          {
+            "DATE": "2023-05-31",
+            "VALUE": 0.066667
+          },
+          {
+            "DATE": "2023-05-30",
+            "VALUE": 0.076923
+          },
+          {
             "DATE": "2023-05-29",
-            "VALUE": 0.086957
+            "VALUE": 0.071429
           },
           {
             "DATE": "2023-05-28",
-            "VALUE": 0.083333
+            "VALUE": 0.076923
           },
           {
             "DATE": "2023-05-27",
-            "VALUE": 0.111111
+            "VALUE": 0.107143
           },
           {
             "DATE": "2023-05-26",
-            "VALUE": 0.064516
+            "VALUE": 0.0625
           },
           {
             "DATE": "2023-05-25",
-            "VALUE": 0.030303
+            "VALUE": 0.057143
           },
           {
             "DATE": "2023-05-24",
-            "VALUE": 0.037037
+            "VALUE": 0.068966
           },
           {
             "DATE": "2023-05-23",
-            "VALUE": 0.060606
+            "VALUE": 0.085714
           },
           {
             "DATE": "2023-05-22",
-            "VALUE": 0.058824
+            "VALUE": 0.085714
           },
           {
             "DATE": "2023-05-21",
-            "VALUE": 0.078947
+            "VALUE": 0.102564
           },
           {
             "DATE": "2023-05-20",
-            "VALUE": 0.081081
+            "VALUE": 0.105263
           },
           {
             "DATE": "2023-05-19",
-            "VALUE": 0.090909
+            "VALUE": 0.117647
           },
           {
             "DATE": "2023-05-18",
@@ -4764,9 +4792,37 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-05-29"
+          "MAXIMUM": "2023-06-05"
         },
         "VALUES": [
+          {
+            "DATE": "2023-06-05",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-06-04",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-06-03",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-06-02",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-06-01",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-05-31",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-05-30",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-05-29",
             "VALUE": 0
@@ -4809,7 +4865,7 @@
           },
           {
             "DATE": "2023-05-19",
-            "VALUE": 0
+            "VALUE": 0.125
           },
           {
             "DATE": "2023-05-18",
@@ -9512,16 +9568,44 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-05-29"
+          "MAXIMUM": "2023-06-05"
         },
         "VALUES": [
           {
-            "DATE": "2023-05-29",
+            "DATE": "2023-06-05",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-06-04",
             "VALUE": 2
           },
           {
-            "DATE": "2023-05-28",
+            "DATE": "2023-06-03",
             "VALUE": 1
+          },
+          {
+            "DATE": "2023-06-02",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2023-06-01",
+            "VALUE": 4
+          },
+          {
+            "DATE": "2023-05-31",
+            "VALUE": 5
+          },
+          {
+            "DATE": "2023-05-30",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2023-05-29",
+            "VALUE": 5
+          },
+          {
+            "DATE": "2023-05-28",
+            "VALUE": 2
           },
           {
             "DATE": "2023-05-27",
@@ -9541,7 +9625,7 @@
           },
           {
             "DATE": "2023-05-23",
-            "VALUE": 4
+            "VALUE": 5
           },
           {
             "DATE": "2023-05-22",
@@ -9557,7 +9641,7 @@
           },
           {
             "DATE": "2023-05-19",
-            "VALUE": 7
+            "VALUE": 8
           },
           {
             "DATE": "2023-05-18",
