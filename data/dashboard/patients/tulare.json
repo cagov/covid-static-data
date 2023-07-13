@@ -1,19 +1,19 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-07-06",
+    "PUBLISHED_DATE": "2023-07-13",
     "coverage": "Tulare"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 0,
-        "CHANGE": -5,
-        "CHANGE_FACTOR": -1,
+        "TOTAL": 5,
+        "CHANGE": 1,
+        "CHANGE_FACTOR": 0.25,
         "POPULATION": 484423
       },
       "ICU_PATIENTS": {
-        "TOTAL": 0,
-        "CHANGE": 0,
+        "TOTAL": 1,
+        "CHANGE": 1,
         "CHANGE_FACTOR": 0,
         "POPULATION": 484423
       }
@@ -22,16 +22,44 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-07-29",
-          "MAXIMUM": "2023-07-01"
+          "MAXIMUM": "2023-07-08"
         },
         "VALUES": [
           {
+            "DATE": "2023-07-08",
+            "VALUE": 5
+          },
+          {
+            "DATE": "2023-07-07",
+            "VALUE": 4
+          },
+          {
+            "DATE": "2023-07-06",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2023-07-05",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2023-07-04",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-07-03",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-07-02",
+            "VALUE": 1
+          },
+          {
             "DATE": "2023-07-01",
-            "VALUE": 0
+            "VALUE": 1
           },
           {
             "DATE": "2023-06-30",
-            "VALUE": 5
+            "VALUE": 6
           },
           {
             "DATE": "2023-06-29",
@@ -4302,9 +4330,37 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-07-29",
-          "MAXIMUM": "2023-07-01"
+          "MAXIMUM": "2023-07-08"
         },
         "VALUES": [
+          {
+            "DATE": "2023-07-08",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-07-07",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-07-06",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-07-05",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-07-04",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-07-03",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-07-02",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-07-01",
             "VALUE": 0
@@ -8582,16 +8638,44 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-07-29",
-          "MAXIMUM": "2023-07-01"
+          "MAXIMUM": "2023-07-08"
         },
         "VALUES": [
           {
-            "DATE": "2023-07-01",
+            "DATE": "2023-07-08",
+            "VALUE": 4
+          },
+          {
+            "DATE": "2023-07-07",
+            "VALUE": 3.714
+          },
+          {
+            "DATE": "2023-07-06",
+            "VALUE": 3.785
+          },
+          {
+            "DATE": "2023-07-05",
+            "VALUE": 3.928
+          },
+          {
+            "DATE": "2023-07-04",
+            "VALUE": 4.071
+          },
+          {
+            "DATE": "2023-07-03",
+            "VALUE": 4.428
+          },
+          {
+            "DATE": "2023-07-02",
             "VALUE": 4.571
           },
           {
+            "DATE": "2023-07-01",
+            "VALUE": 4.714
+          },
+          {
             "DATE": "2023-06-30",
-            "VALUE": 4.785
+            "VALUE": 4.857
           },
           {
             "DATE": "2023-06-29",
@@ -12862,9 +12946,37 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-07-29",
-          "MAXIMUM": "2023-07-01"
+          "MAXIMUM": "2023-07-08"
         },
         "VALUES": [
+          {
+            "DATE": "2023-07-08",
+            "VALUE": 0.071
+          },
+          {
+            "DATE": "2023-07-07",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-07-06",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-07-05",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-07-04",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-07-03",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-07-02",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-07-01",
             "VALUE": 0
