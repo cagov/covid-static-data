@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - CovidStateDashboardTables_Staging
     paths:
       - 'data/daily-stats-v2.json'
       - 'data/reviewed/equitydash/equitytopboxdatav2.json'
@@ -121,8 +122,8 @@ jobs:
       - name: update all changed timestamps to git
         run: |
           git commit -m "freshened update status times"
-          git pull origin main
-          git push origin main
+          git pull origin ${GITHUB_REF_NAME}
+          git push origin ${GITHUB_REF_NAME}
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
