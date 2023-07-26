@@ -131,15 +131,12 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-west-1
-        if: ${GITHUB_REF_NAME} == "main"
 
       # Push built site files to S3 production bucket    
       - name: Deploy to S3 (data/status)
         run: aws s3 sync --follow-symlinks --delete ./data/status s3://data.covid19.ca.gov/data/status
-        if: ${GITHUB_REF_NAME} == "main"
 
       #
       # Invalidate Cloudfront production distribution
       - name: invalidate Cloudfront
         run: aws cloudfront create-invalidation --distribution-id EHNPIZWYYWA31 --paths "/data/status*"
-        if: ${GITHUB_REF_NAME} == "main"
