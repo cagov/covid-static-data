@@ -1,0 +1,142 @@
+name: Track data updates
+on:
+  push:
+    branches:
+      - main
+      - CovidStateDashboardTables_Staging
+    paths:
+      - 'data/daily-stats-v2.json'
+      - 'data/reviewed/equitydash/equitytopboxdatav2.json'
+      - 'data/dashboard/vaccines/sparkline.json'
+      - 'data/dashboard/combined-cases/california.json'
+      - 'data/dashboard/confirmed-deaths/california.json'
+      - 'data/dashboard/positivity-rate/california.json'
+      - 'data/dashboard/total-tests/california.json'
+      - 'data/dashboard/patients/california.json'
+      - 'data/dashboard/icu-beds/california.json'
+      - 'data/dashboard/postvax/california.json'
+      - 'data/variants/california.json'
+
+# Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # wait for initial s3 upload to finish
+      - name: sleep 60
+        run: sleep 60
+
+      - uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "UTC"
+
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2  # OR "2" -> To retrieve the preceding commit.
+
+      - name: Verify Changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v2.0.0
+
+      # - name: debugging
+      #   run: |
+      #     echo "FILES CHANGED"
+      #     for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+      #       echo "$file was changed"
+      #     done
+
+      - name: git config
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git config pull.rebase true
+
+      - name: Update time stamp (cases)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/combined-cases/california.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_cases_update.json
+          git add data/status/last_cases_update.json
+
+      - name: Update time stamp (dashboard)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/daily-stats-v2.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_dashboard_update.json
+          git add data/status/last_dashboard_update.json
+
+      - name: Update time stamp (equity)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/reviewed/equitydash/equitytopboxdatav2.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_equity_update.json
+          git add data/status/last_equity_update.json
+
+      - name: Update time stamp (vax)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/vaccines/sparkline.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_vax_update.json
+          git add data/status/last_vax_update.json
+
+      - name: Update time stamp (deaths)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/confirmed-deaths/california.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_deaths_update.json
+          git add data/status/last_deaths_update.json
+
+      - name: Update time stamp (totaltests)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/total-tests/california.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_totaltests_update.json
+          git add data/status/last_totaltests_update.json
+
+      - name: Update time stamp (posrate)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/positivity-rate/california.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_posrate_update.json
+          git add data/status/last_posrate_update.json
+
+      - name: Update time stamp (patients)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/patients/california.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_patients_update.json
+          git add data/status/last_patients_update.json
+
+      - name: Update time stamp (icu-beds)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/icu-beds/california.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_icubeds_update.json
+          git add data/status/last_icubeds_update.json
+
+      - name: Update time stamp (postvax)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/dashboard/postvax/california.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_postvax_update.json
+          git add data/status/last_postvax_update.json
+
+      - name: Update time stamp (variants)
+        if: contains(steps.changed-files.outputs.all_changed_files, 'data/variants/california.json')
+        run: |
+          node src/logUpdateTime.js ./data/status/last_variants_update.json
+          git add data/status/last_variants_update.json
+
+      - name: update all changed timestamps to git
+        run: |
+          git commit -m "freshened update status times"
+          git pull origin ${GITHUB_REF_NAME}
+          git push origin ${GITHUB_REF_NAME}
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-west-1
+
+      # Push built site files to S3 production bucket    
+      - name: Deploy to S3 (data/status)
+        run: aws s3 sync --follow-symlinks --delete ./data/status s3://data.covid19.ca.gov/data/status
+
+      #
+      # Invalidate Cloudfront production distribution
+      - name: invalidate Cloudfront
+        run: aws cloudfront create-invalidation --distribution-id EHNPIZWYYWA31 --paths "/data/status*"
