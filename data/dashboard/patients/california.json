@@ -1,57 +1,85 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-07-27",
+    "PUBLISHED_DATE": "2023-08-03",
     "coverage": "California"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 834,
-        "CHANGE": -15,
-        "CHANGE_FACTOR": -0.017668,
-        "POPULATION": 39916979
+        "TOTAL": 906,
+        "CHANGE": -28,
+        "CHANGE_FACTOR": -0.029979,
+        "POPULATION": 39947044
       },
       "ICU_PATIENTS": {
-        "TOTAL": 95,
-        "CHANGE": -8,
-        "CHANGE_FACTOR": -0.07767,
-        "POPULATION": 39916979
+        "TOTAL": 87,
+        "CHANGE": -15,
+        "CHANGE_FACTOR": -0.147059,
+        "POPULATION": 39947044
       }
     },
     "time_series": {
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-07-29",
-          "MAXIMUM": "2023-07-22"
+          "MAXIMUM": "2023-07-29"
         },
         "VALUES": [
           {
-            "DATE": "2023-07-22",
-            "VALUE": 834
+            "DATE": "2023-07-29",
+            "VALUE": 906
           },
           {
-            "DATE": "2023-07-21",
-            "VALUE": 849
+            "DATE": "2023-07-28",
+            "VALUE": 934
           },
           {
-            "DATE": "2023-07-20",
-            "VALUE": 841
+            "DATE": "2023-07-27",
+            "VALUE": 895
           },
           {
-            "DATE": "2023-07-19",
-            "VALUE": 853
+            "DATE": "2023-07-26",
+            "VALUE": 824
           },
           {
-            "DATE": "2023-07-18",
-            "VALUE": 889
+            "DATE": "2023-07-25",
+            "VALUE": 911
           },
           {
-            "DATE": "2023-07-17",
+            "DATE": "2023-07-24",
             "VALUE": 870
           },
           {
+            "DATE": "2023-07-23",
+            "VALUE": 891
+          },
+          {
+            "DATE": "2023-07-22",
+            "VALUE": 863
+          },
+          {
+            "DATE": "2023-07-21",
+            "VALUE": 869
+          },
+          {
+            "DATE": "2023-07-20",
+            "VALUE": 858
+          },
+          {
+            "DATE": "2023-07-19",
+            "VALUE": 872
+          },
+          {
+            "DATE": "2023-07-18",
+            "VALUE": 900
+          },
+          {
+            "DATE": "2023-07-17",
+            "VALUE": 880
+          },
+          {
             "DATE": "2023-07-16",
-            "VALUE": 873
+            "VALUE": 883
           },
           {
             "DATE": "2023-07-15",
@@ -4386,9 +4414,37 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-07-29",
-          "MAXIMUM": "2023-07-22"
+          "MAXIMUM": "2023-07-29"
         },
         "VALUES": [
+          {
+            "DATE": "2023-07-29",
+            "VALUE": 87
+          },
+          {
+            "DATE": "2023-07-28",
+            "VALUE": 102
+          },
+          {
+            "DATE": "2023-07-27",
+            "VALUE": 96
+          },
+          {
+            "DATE": "2023-07-26",
+            "VALUE": 83
+          },
+          {
+            "DATE": "2023-07-25",
+            "VALUE": 99
+          },
+          {
+            "DATE": "2023-07-24",
+            "VALUE": 94
+          },
+          {
+            "DATE": "2023-07-23",
+            "VALUE": 88
+          },
           {
             "DATE": "2023-07-22",
             "VALUE": 95
@@ -4399,11 +4455,11 @@
           },
           {
             "DATE": "2023-07-20",
-            "VALUE": 114
+            "VALUE": 115
           },
           {
             "DATE": "2023-07-19",
-            "VALUE": 119
+            "VALUE": 120
           },
           {
             "DATE": "2023-07-18",
@@ -8750,36 +8806,64 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-07-29",
-          "MAXIMUM": "2023-07-22"
+          "MAXIMUM": "2023-07-29"
         },
         "VALUES": [
           {
+            "DATE": "2023-07-29",
+            "VALUE": 882.571
+          },
+          {
+            "DATE": "2023-07-28",
+            "VALUE": 878.714
+          },
+          {
+            "DATE": "2023-07-27",
+            "VALUE": 873.214
+          },
+          {
+            "DATE": "2023-07-26",
+            "VALUE": 868.214
+          },
+          {
+            "DATE": "2023-07-25",
+            "VALUE": 874.857
+          },
+          {
+            "DATE": "2023-07-24",
+            "VALUE": 875
+          },
+          {
+            "DATE": "2023-07-23",
+            "VALUE": 873.5
+          },
+          {
             "DATE": "2023-07-22",
-            "VALUE": 862.285
+            "VALUE": 870.571
           },
           {
             "DATE": "2023-07-21",
-            "VALUE": 860.571
+            "VALUE": 866.785
           },
           {
             "DATE": "2023-07-20",
-            "VALUE": 858.214
+            "VALUE": 863
           },
           {
             "DATE": "2023-07-19",
-            "VALUE": 856.285
+            "VALUE": 859.857
           },
           {
             "DATE": "2023-07-18",
-            "VALUE": 855.071
+            "VALUE": 857.285
           },
           {
             "DATE": "2023-07-17",
-            "VALUE": 840.214
+            "VALUE": 841.642
           },
           {
             "DATE": "2023-07-16",
-            "VALUE": 824.285
+            "VALUE": 825
           },
           {
             "DATE": "2023-07-15",
@@ -13114,24 +13198,52 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-07-29",
-          "MAXIMUM": "2023-07-22"
+          "MAXIMUM": "2023-07-29"
         },
         "VALUES": [
           {
+            "DATE": "2023-07-29",
+            "VALUE": 99.5
+          },
+          {
+            "DATE": "2023-07-28",
+            "VALUE": 98.928
+          },
+          {
+            "DATE": "2023-07-27",
+            "VALUE": 97.642
+          },
+          {
+            "DATE": "2023-07-26",
+            "VALUE": 97.142
+          },
+          {
+            "DATE": "2023-07-25",
+            "VALUE": 98.142
+          },
+          {
+            "DATE": "2023-07-24",
+            "VALUE": 98.428
+          },
+          {
+            "DATE": "2023-07-23",
+            "VALUE": 98.142
+          },
+          {
             "DATE": "2023-07-22",
-            "VALUE": 98.714
+            "VALUE": 98.857
           },
           {
             "DATE": "2023-07-21",
-            "VALUE": 98.642
+            "VALUE": 98.785
           },
           {
             "DATE": "2023-07-20",
-            "VALUE": 97.785
+            "VALUE": 97.928
           },
           {
             "DATE": "2023-07-19",
-            "VALUE": 96.142
+            "VALUE": 96.214
           },
           {
             "DATE": "2023-07-18",
