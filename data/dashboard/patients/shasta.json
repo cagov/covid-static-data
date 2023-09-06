@@ -1,26 +1,26 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-09-01",
+    "PUBLISHED_DATE": "2023-09-06",
     "coverage": "Shasta"
   },
   "data": {
     "latest": {
       "HOSPITALIZED_PATIENTS": {
-        "TOTAL": 1,
-        "CHANGE": -3,
-        "CHANGE_FACTOR": -0.75,
+        "TOTAL": 7,
+        "CHANGE": 6,
+        "CHANGE_FACTOR": 6,
         "POPULATION": 177925
       },
       "ADMITTED_PATIENTS": {
-        "TOTAL": 6,
-        "CHANGE": -9,
-        "CHANGE_FACTOR": -0.6,
+        "TOTAL": 10,
+        "CHANGE": 4,
+        "CHANGE_FACTOR": 0.666667,
         "POPULATION": 177925
       },
       "ICU_PATIENTS": {
         "TOTAL": 0,
-        "CHANGE": -2,
-        "CHANGE_FACTOR": -1,
+        "CHANGE": 0,
+        "CHANGE_FACTOR": 0,
         "POPULATION": 177925
       }
     },
@@ -28,9 +28,37 @@
       "HOSPITALIZED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-07-29",
-          "MAXIMUM": "2023-08-26"
+          "MAXIMUM": "2023-09-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-09-02",
+            "VALUE": 7
+          },
+          {
+            "DATE": "2023-09-01",
+            "VALUE": 6
+          },
+          {
+            "DATE": "2023-08-31",
+            "VALUE": 4
+          },
+          {
+            "DATE": "2023-08-30",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2023-08-29",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2023-08-28",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2023-08-27",
+            "VALUE": 3
+          },
           {
             "DATE": "2023-08-26",
             "VALUE": 1
@@ -4532,9 +4560,37 @@
       "ADMITTED_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-08-13",
-          "MAXIMUM": "2023-08-26"
+          "MAXIMUM": "2023-09-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-09-02",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2023-09-01",
+            "VALUE": 2
+          },
+          {
+            "DATE": "2023-08-31",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-08-30",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-08-29",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-08-28",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-08-27",
+            "VALUE": 2
+          },
           {
             "DATE": "2023-08-26",
             "VALUE": 0
@@ -8976,9 +9032,37 @@
       "ICU_PATIENTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-07-29",
-          "MAXIMUM": "2023-08-26"
+          "MAXIMUM": "2023-09-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-09-02",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-09-01",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-08-31",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-08-30",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-08-29",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-08-28",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-08-27",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-08-26",
             "VALUE": 0
@@ -13480,9 +13564,37 @@
       "HOSPITALIZED_PATIENTS_7_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-07-29",
-          "MAXIMUM": "2023-08-26"
+          "MAXIMUM": "2023-09-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-09-02",
+            "VALUE": 3.714
+          },
+          {
+            "DATE": "2023-09-01",
+            "VALUE": 2.857
+          },
+          {
+            "DATE": "2023-08-31",
+            "VALUE": 2.428
+          },
+          {
+            "DATE": "2023-08-30",
+            "VALUE": 2.285
+          },
+          {
+            "DATE": "2023-08-29",
+            "VALUE": 2.571
+          },
+          {
+            "DATE": "2023-08-28",
+            "VALUE": 2.714
+          },
+          {
+            "DATE": "2023-08-27",
+            "VALUE": 2.857
+          },
           {
             "DATE": "2023-08-26",
             "VALUE": 2.714
@@ -17984,9 +18096,37 @@
       "HOSPITALIZED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-07-29",
-          "MAXIMUM": "2023-08-26"
+          "MAXIMUM": "2023-09-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-09-02",
+            "VALUE": 3.214
+          },
+          {
+            "DATE": "2023-09-01",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2023-08-31",
+            "VALUE": 3
+          },
+          {
+            "DATE": "2023-08-30",
+            "VALUE": 3.285
+          },
+          {
+            "DATE": "2023-08-29",
+            "VALUE": 3.714
+          },
+          {
+            "DATE": "2023-08-28",
+            "VALUE": 3.857
+          },
+          {
+            "DATE": "2023-08-27",
+            "VALUE": 4.142
+          },
           {
             "DATE": "2023-08-26",
             "VALUE": 4.214
@@ -22488,9 +22628,37 @@
       "ADMITTED_PATIENTS_7_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-08-13",
-          "MAXIMUM": "2023-08-26"
+          "MAXIMUM": "2023-09-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-09-02",
+            "VALUE": 1.428
+          },
+          {
+            "DATE": "2023-09-01",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-08-31",
+            "VALUE": 0.714
+          },
+          {
+            "DATE": "2023-08-30",
+            "VALUE": 0.714
+          },
+          {
+            "DATE": "2023-08-29",
+            "VALUE": 0.857
+          },
+          {
+            "DATE": "2023-08-28",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-08-27",
+            "VALUE": 1
+          },
           {
             "DATE": "2023-08-26",
             "VALUE": 0.857
@@ -26932,9 +27100,37 @@
       "ADMITTED_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-08-13",
-          "MAXIMUM": "2023-08-26"
+          "MAXIMUM": "2023-09-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-09-02",
+            "VALUE": 1.142
+          },
+          {
+            "DATE": "2023-09-01",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-08-31",
+            "VALUE": 1.071
+          },
+          {
+            "DATE": "2023-08-30",
+            "VALUE": 1.142
+          },
+          {
+            "DATE": "2023-08-29",
+            "VALUE": 1.5
+          },
+          {
+            "DATE": "2023-08-28",
+            "VALUE": 1.571
+          },
+          {
+            "DATE": "2023-08-27",
+            "VALUE": 1.571
+          },
           {
             "DATE": "2023-08-26",
             "VALUE": 1.5
@@ -31376,9 +31572,37 @@
       "ICU_PATIENTS_7_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-07-29",
-          "MAXIMUM": "2023-08-26"
+          "MAXIMUM": "2023-09-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-09-02",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-09-01",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-08-31",
+            "VALUE": 0.142
+          },
+          {
+            "DATE": "2023-08-30",
+            "VALUE": 0.285
+          },
+          {
+            "DATE": "2023-08-29",
+            "VALUE": 0.428
+          },
+          {
+            "DATE": "2023-08-28",
+            "VALUE": 0.571
+          },
+          {
+            "DATE": "2023-08-27",
+            "VALUE": 0.714
+          },
           {
             "DATE": "2023-08-26",
             "VALUE": 0.857
@@ -35880,9 +36104,37 @@
       "ICU_PATIENTS_14_DAY_AVG": {
         "DATE_RANGE": {
           "MINIMUM": "2020-07-29",
-          "MAXIMUM": "2023-08-26"
+          "MAXIMUM": "2023-09-02"
         },
         "VALUES": [
+          {
+            "DATE": "2023-09-02",
+            "VALUE": 0.428
+          },
+          {
+            "DATE": "2023-09-01",
+            "VALUE": 0.571
+          },
+          {
+            "DATE": "2023-08-31",
+            "VALUE": 0.642
+          },
+          {
+            "DATE": "2023-08-30",
+            "VALUE": 0.714
+          },
+          {
+            "DATE": "2023-08-29",
+            "VALUE": 0.857
+          },
+          {
+            "DATE": "2023-08-28",
+            "VALUE": 0.928
+          },
+          {
+            "DATE": "2023-08-27",
+            "VALUE": 1.142
+          },
           {
             "DATE": "2023-08-26",
             "VALUE": 1.357
