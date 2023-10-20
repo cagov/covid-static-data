@@ -1,14 +1,14 @@
 {
   "meta": {
-    "PUBLISHED_DATE": "2023-10-13",
+    "PUBLISHED_DATE": "2023-10-20",
     "coverage": "Modoc"
   },
   "data": {
     "latest": {
       "POSITIVITY_RATE": {
-        "test_positivity_7_days": 0,
-        "test_positivity_7_days_delta_7_days": -0.333333,
-        "TESTING_UNCERTAINTY_PERIOD": "2023-10-02",
+        "test_positivity_7_days": 0.5,
+        "test_positivity_7_days_delta_7_days": 0.5,
+        "TESTING_UNCERTAINTY_PERIOD": "2023-10-09",
         "POPULATION": 9475
       }
     },
@@ -16,9 +16,37 @@
       "TEST_POSITIVITY_RATE_7_DAYS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-10-09"
+          "MAXIMUM": "2023-10-16"
         },
         "VALUES": [
+          {
+            "DATE": "2023-10-16",
+            "VALUE": 0.5
+          },
+          {
+            "DATE": "2023-10-15",
+            "VALUE": 0.333333
+          },
+          {
+            "DATE": "2023-10-14",
+            "VALUE": 0.25
+          },
+          {
+            "DATE": "2023-10-13",
+            "VALUE": 0.25
+          },
+          {
+            "DATE": "2023-10-12",
+            "VALUE": 0.25
+          },
+          {
+            "DATE": "2023-10-11",
+            "VALUE": 0.25
+          },
+          {
+            "DATE": "2023-10-10",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-10-09",
             "VALUE": 0
@@ -5296,9 +5324,37 @@
       "DAILY_TEST_POSITIVITY_RATE": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-10-09"
+          "MAXIMUM": "2023-10-16"
         },
         "VALUES": [
+          {
+            "DATE": "2023-10-16",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-10-15",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-10-14",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-10-13",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-10-12",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-10-11",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-10-10",
+            "VALUE": 0
+          },
           {
             "DATE": "2023-10-09",
             "VALUE": 0
@@ -10576,12 +10632,40 @@
       "TOTAL_TESTS": {
         "DATE_RANGE": {
           "MINIMUM": "2020-03-01",
-          "MAXIMUM": "2023-10-09"
+          "MAXIMUM": "2023-10-16"
         },
         "VALUES": [
           {
-            "DATE": "2023-10-09",
+            "DATE": "2023-10-16",
             "VALUE": 0
+          },
+          {
+            "DATE": "2023-10-15",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-10-14",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-10-13",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-10-12",
+            "VALUE": 0
+          },
+          {
+            "DATE": "2023-10-11",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-10-10",
+            "VALUE": 1
+          },
+          {
+            "DATE": "2023-10-09",
+            "VALUE": 1
           },
           {
             "DATE": "2023-10-08",
