@@ -4,11 +4,6 @@ name: invalidate-cloudfront
 # runs once every morning and can be run manually
 
 on:
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '25 17 * * *'
-
-# Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
