@@ -1,5 +1,7 @@
 # Data sources for covid19.ca.gov
 
+## NOTE: As of 5-28-2024 This project is not actively maintained by ODI and this repo is being converted to Archive (read-only) status.
+
 This folder includes the majority of our static JSON data files for [https://covid19.ca.gov](https://covid19.ca.gov)
 
 * These files are mostly generated from Snowflake datasets, using our [Cron](https://github.com/cagov/Cron) suite of data tools.
